@@ -1,0 +1,11 @@
+html, :root {
+	box-sizing: border-box;
+	font: 100%/1.75 "Open Sans", sans-serif;
+	color: $gray-dark;
+}
+
+body {
+	padding: 2rem;
+	background: linear-gradient(45deg, #448AFF 0%, #3F51B5 30%, #673AB7 100%) no-repeat;
+	min-height: 100vh;
+}

@@ -1,0 +1,26 @@
+# Site Config
+name: "Matthew C. Paul"
+description: Product Designer at IBM
+baseurl: "/mcp"
+url: https://matthewcpaul.github.io/mcp
+
+# Build Settings
+markdown: kramdown
+highlighter: true
+permalink: pretty
+
+# In/ Excludes
+include: [".htaccess"]
+exclude: ["node_modules", "gulpfile.js", "Gemfile", "Gemfile.lock", ".jekyll-metadata", "commit-hook.sh", "package.json", "local_config.yml", "README.md"]
+
+# Plugins
+assets:
+  digest: true
+  cache: false
+  sources:
+    - "_site/assets"
+
+# Read and Output Collections
+collections:
+  commands:
+    output: false

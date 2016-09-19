@@ -1,0 +1,21 @@
+// Global namespace for main object
+$main-namespace: "o-main" !default;
+
+.#{$main-namespace} {
+    display: flex;
+    margin-bottom: 0.5rem;
+
+    &__portrait {
+        width: 50%;
+        background-image: url(/images/Matthew-Paul_Sept-2016_full.png);
+        background-size: cover;
+        background-position: center;
+        min-height: calc(100vh - 4rem);
+    }
+
+    &__content {
+        width: 50%;
+        background-color: $white;
+        padding: 4rem 2rem;
+    }
+}
