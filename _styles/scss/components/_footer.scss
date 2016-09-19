@@ -6,4 +6,8 @@ $footer-namespace: "c-footer" !default;
 	padding-bottom: 1.5rem;
 	color: $white;
 	text-align: center;
+
+	& ul {
+		margin-bottom: 0.5rem;
+	}
 }

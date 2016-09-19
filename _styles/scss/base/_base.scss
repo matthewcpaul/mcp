@@ -5,7 +5,10 @@ html, :root {
 }
 
 body {
-	padding: 2rem;
 	background: linear-gradient(45deg, #448AFF 0%, #3F51B5 30%, #673AB7 100%) no-repeat;
 	min-height: 100vh;
+
+	@media (min-width: $bp-sm) {
+		padding: 2rem;
+	}
 }

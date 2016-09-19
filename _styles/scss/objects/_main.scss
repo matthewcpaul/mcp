@@ -3,19 +3,40 @@ $main-namespace: "o-main" !default;
 
 .#{$main-namespace} {
     display: flex;
+    flex-direction: column;
     margin-bottom: 0.5rem;
 
+    @media (min-width: $bp-lg) {
+        flex-direction: row;
+    }
+
     &__portrait {
-        width: 50%;
+        width: 100%;
         background-image: url(/images/Matthew-Paul_Sept-2016_full.png);
         background-size: cover;
         background-position: center;
-        min-height: calc(100vh - 4rem);
+        min-height: 20rem;
+
+        @media (min-width: $bp-sm) {
+            min-height: 30rem;
+        }
+
+        @media (min-width: $bp-md) {
+            min-height: 40rem;
+        }
+
+        @media (min-width: $bp-lg) {
+            min-height: 46rem;
+        }
     }
 
     &__content {
-        width: 50%;
+        width: 100%;
         background-color: $white;
-        padding: 4rem 2rem;
+        padding: 2rem 0;
+
+        @media (min-width: $bp-sm) {
+    		padding: 4rem 2rem;
+    	}
     }
 }

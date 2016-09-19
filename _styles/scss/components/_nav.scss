@@ -7,10 +7,18 @@ $nav-namespace: "c-nav" !default;
 	list-style-type: none;
 
 	&__item {
-		display: inline-block;
+		display: block;
 
 		+.#{$nav-namespace}__item {
-			margin-left: 1.5rem;
+			margin-left: 0;
+
+			@media (min-width: $bp-sm) {
+				margin-left: 1.5rem;
+			}
+		}
+
+		@media (min-width: $bp-sm) {
+			display: inline-block;
 		}
 	}
 
