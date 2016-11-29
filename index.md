@@ -12,15 +12,7 @@ order: 0
 
 I’m Matthew—a designer with a focus on software products, design systems, prototyping, and interaction design. I work with researchers, engineers, and product owners to create digital experiences that are delightful for users and appropriate for business goals.
 
-I’m currently working at [IBM](http://www.ibm.com/us-en/), in Austin, on a product that helps teams achieve mastery of modern practices, better product delivery, and team success. I also operate as one half of the [IBM Make Lab](https://www.instagram.com/ibmmakelab/), screen printing posters, teaching others the art of printmaking, and fostering a better maker culture at our studio.  
-
-<!-- #### Competencies  
-
-- Digital product design  
-- Responsive web design  
-- Web development  
-- Design thinking workshops/sprints  
-- Digital illustration   -->
+I’m currently working at [IBM](http://www.ibm.com/us-en/), in Austin, on a product that helps teams achieve mastery of modern practices, better product delivery, and team success. I also operate as one half of the [IBM Make Lab](https://www.instagram.com/ibmmakelab/), screen printing posters, teaching others the art of printmaking, and fostering a better maker culture at our studio.
 
 #### Dependencies  
 
