@@ -4,20 +4,16 @@ title:
 order: 0
 ---
 
-<h1 class="u-m-trim">Matthew C. Paul</h1>  
+<h1 class="u-m-trim">Matthew Paul</h1>  
 
-### Product Designer and Engineer
+### Software Product Designer
 
 #### Description  
 
-I’m Matthew—a designer with a focus on software products, design systems, interaction design, and prototyping. I work with researchers, engineers, and product managers to lead product strategy and create accessible software that captivates users while exceeding business goals.
+I’m Matthew—a Product Designer with a focus on interaction design, prototyping, and design systems. I work with researchers, engineers, and product managers to lead product strategy and create accessible software that captivates users while exceeding business goals.
 
-I’m currently working at [IBM](http://www.ibm.com/us-en/), in Austin, on the enterprise software support experience. I’m also growing the [IBM Make Lab](https://www.instagram.com/make.lab/), managing our quarterly budget, teaching others the art of printmaking, and fostering better craft at our different IBM Studios worldwide.
+I’m currently building tools at [InVision](http://www.invisionapp.com), in Brooklyn, on the Collaboration Platform team. Previously, I was a designer at [IBM](https://www.ibm.com), working on enterprise products and growing the IBM Make Lab.
 
-#### Dependencies  
+#### Dependencies
 
-[Espresso](http://www.thebrewandbrew.com/), [Spotify](https://www.spotify.com/), [MacBook Pro](http://www.apple.com/macbook-pro/), [Sketch](https://www.sketchapp.com/), [Atom](https://atom.io/), [Hyper™](https://hyper.is/), [Slack](https://slack.com/), [GitHub](https://github.com/), [Invision](https://www.invisionapp.com/), [Adobe Illustrator](http://www.adobe.com/products/illustrator.html)
-
-#### Favorite Emojis  
-
-<span class="emojis">👏🏻😆🦖</span>  
+MacBook Pro, Spotify, Hyper™, Atom, GitHub, InVision Studio, Sketch, Illustrator, Slack

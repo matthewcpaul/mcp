@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600';
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600');
 *, ::after, ::before {
   position: relative;
   margin: 0;
@@ -42,7 +42,7 @@ img {
 
 html, :root {
   box-sizing: border-box;
-  font: 100%/1.75 "Open Sans", sans-serif;
+  font: 100%/1.75 "IBM Plex Sans", sans-serif;
   color: #37474F; }
 
 body {

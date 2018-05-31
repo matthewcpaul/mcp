@@ -1,14 +1,42 @@
 html, :root {
 	box-sizing: border-box;
-	font: 100%/1.75 "Open Sans", sans-serif;
+	font: 100%/1.75 "IBM Plex Sans", sans-serif;
 	color: $gray-dark;
+
+	@media (min-width: $bp-sm) {
+		font-size: 112%;
+	}
+
+	@media (min-width: $bp-lg) {
+		font-size: 116%;
+	}
+
+	@media (min-width: $bp-xl) {
+		font-size: 125%;
+	}
+
+	@media (min-width: $bp-xxl) {
+		font-size: 140%;
+	}
 }
 
 body {
-	background: linear-gradient(45deg, #448AFF 0%, #3F51B5 30%, #673AB7 100%) no-repeat;
+	background-color: $white;
 	min-height: 100vh;
 
 	@media (min-width: $bp-sm) {
+		background-color: $background;
+	}
+
+	@media (min-width: $bp-sm) {
 		padding: 2rem;
+	}
+
+	@media (min-width: $bp-md) {
+		padding: 3rem;
+	}
+
+	@media (min-width: $bp-xl) {
+		padding: 4rem;
 	}
 }

@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/matthewcpaul/mcp.git"
   },
-  "author": "Matthew C. Paul",
+  "author": "Matthew Paul",
   "license": "ISC",
   "scripts": {
     "start": "gulp"
