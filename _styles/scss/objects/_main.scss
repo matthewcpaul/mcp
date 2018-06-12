@@ -11,9 +11,9 @@ $main-namespace: "o-main" !default;
 
   &__portrait {
     width: 100%;
-    background-image: url(/images/matthew-paul_bw_1440.jpg);
+    background-image: url(/images/matthew-paul_bw_2800.jpg);
     background-blend-mode: multiply;
-    background-color: $background;
+    background-color: $background-light;
     background-size: cover;
     background-position: top center;
     min-height: 20rem;
