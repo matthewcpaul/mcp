@@ -1,19 +1,21 @@
 ---
-layout: portrait
-title:
-order: 0
+layout: default
+title: Work
+order: 1
 ---
 
-<h1 class="u-m-trim">Matthew Paul</h1>  
-
-### Software Product Designer
-
-#### Description  
-
-I’m Matthew—a Product Designer with a focus on interaction design, prototyping, and design systems. I work with researchers, engineers, and product managers to lead product strategy and create accessible software that captivates users while exceeding business goals.
-
-I’m currently building tools at [InVision](http://www.invisionapp.com), in Brooklyn, on the Collaboration Platform team. Previously, I was a designer at [IBM](https://www.ibm.com), working on enterprise products and growing the IBM Make Lab.
-
-#### Dependencies
-
-MacBook Pro, Spotify, Hyper™, Atom, GitHub, InVision Studio, Sketch, Illustrator, Slack
+<ul class="c-work">
+  {% assign work = site.work | sort:"order" %}
+  {% for work in work %}
+  <li class="c-work__item">
+    <div class="c-work__header">
+      <h2 class="c-work__title">{{ work.title }}</h2>
+      <div class="c-work__info">
+        <p class="c-work__role">{{ work.role }}</p>
+        <p class="c-work__date">{{ work.tenure }}</p>
+      </div>
+    </div>
+    <p class="c-work__description">{{ work.description }}</p>
+  </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,58 @@
+.c-work {
+  @include list-strip;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+
+    @media (min-width: $bp-sm) {
+      margin-top: 4rem;
+    }
+
+    @media (min-width: $bp-md) {
+      flex-direction: row;
+      align-items: flex-start;
+      margin-top: 5rem;
+    }
+  }
+
+  &__header {
+
+    @media (min-width: $bp-md) {
+      min-width: 40%;
+    }
+  }
+
+  &__title {
+    margin-bottom: 0;
+  }
+
+  &__info {
+    @include font-4;
+    margin-top: 0.75rem;
+  }
+
+  &__role,
+  &__date {
+    margin-bottom: 0;
+  }
+
+  &__date {
+    color: $ink-lighter;
+
+    @media (min-width: $bp-md) {
+			margin-top: 0.25rem;
+		}
+  }
+
+  &__description {
+    margin-top: 1rem;
+    margin-bottom: 0;
+
+    @media (min-width: $bp-md) {
+      margin-top: .125rem;
+      padding-left: 3rem;
+    }
+  }
+}

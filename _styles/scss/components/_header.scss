@@ -3,17 +3,23 @@ $header-namespace: "c-header" !default;
 
 .#{$header-namespace} {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding-top: 1.5rem;
-	padding-bottom: 1.5rem;
+	flex-direction: column;
+
+	@media (min-width: $bp-sm) {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
 
 	&__title {
-		text-decoration: none;
-		border-bottom: none;
+		@include font-3;
 	}
 
 	&__nav {
+		margin-top: 0.75rem;
 
+		@media (min-width: $bp-sm) {
+			margin-top: 0;
+		}
 	}
 }

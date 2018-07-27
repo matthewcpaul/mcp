@@ -2,11 +2,28 @@
 $footer-namespace: "c-footer" !default;
 
 .#{$footer-namespace} {
-	padding-top: 1.5rem;
-	padding-bottom: 1.5rem;
-	text-align: center;
+	margin-top: 3rem;
 
-	& ul {
-		margin-bottom: 0.5rem;
+	@media (min-width: $bp-sm) {
+		margin-top: 4rem;
+	}
+
+	@media (min-width: $bp-md) {
+		flex-direction: row;
+		align-items: flex-start;
+		margin-top: 5rem;
+	}
+
+	&__stamp,
+	&__date {
+		@include font-4;
+	}
+
+	&__stamp {
+		margin-top: 0.75rem;
+	}
+
+	&__date {
+		color: $ink-lighter;
 	}
 }

@@ -3,18 +3,16 @@
 
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,600');
 
 // Variables
 @import "variables/_all";
 
+// Mixins
+@import "mixins/_all";
+
 // Base styles
 @import "base/_all";
 
-// Objects
-@import "objects/_all";
-
 // Components
 @import "components/_all";
-
-// Utilities
-@import "utilities/_all";

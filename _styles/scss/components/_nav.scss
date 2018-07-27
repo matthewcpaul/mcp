@@ -2,46 +2,29 @@
 $nav-namespace: "c-nav" !default;
 
 .#{$nav-namespace} {
-	padding-left: 0;
-	margin-left: 0;
-	list-style-type: none;
+	@include list-strip;
 
 	&__item {
-		display: block;
+		@include font-4;
+		display: inline-block;
 
 		+.#{$nav-namespace}__item {
-			margin-left: 0;
+			margin-left: 1.5rem;
 
 			@media (min-width: $bp-sm) {
-				margin-left: 1.5rem;
+				margin-left: 2rem;
 			}
-		}
-
-		@media (min-width: $bp-sm) {
-			display: inline-block;
 		}
 	}
 
 	&__link {
-		text-decoration: none;
-		border-bottom: none;
-		color: $gray-light;
 
 		&:hover {
-			color: $gray-dark;
 			cursor: pointer;
 		}
 
 		&.active {
-			color: $gray-dark;
-		}
-
-		&--reverse {
-			color: $gray-lighter;
-
-			&:hover {
-				color: $gray-darker;
-			}
+			color: $ink;
 		}
 	}
 }

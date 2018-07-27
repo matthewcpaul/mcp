@@ -1,42 +1,20 @@
 html, :root {
 	box-sizing: border-box;
-	font: 100%/1.75 "IBM Plex Sans", sans-serif;
-	color: $gray-dark;
+	font-size: 100%;
 
 	@media (min-width: $bp-sm) {
-		font-size: 112%;
+		font-size: 108%;
 	}
 
-	@media (min-width: $bp-lg) {
+	@media (min-width: $bp-md) {
 		font-size: 116%;
-	}
-
-	@media (min-width: $bp-xl) {
-		font-size: 125%;
-	}
-
-	@media (min-width: $bp-xxl) {
-		font-size: 140%;
 	}
 }
 
 body {
-	background-color: $white;
+	background-color: $background;
 	min-height: 100vh;
-
-	@media (min-width: $bp-sm) {
-		background-color: $background;
-	}
-
-	@media (min-width: $bp-sm) {
-		padding: 2rem;
-	}
-
-	@media (min-width: $bp-md) {
-		padding: 3rem;
-	}
-
-	@media (min-width: $bp-xl) {
-		padding: 4rem;
-	}
+	font: 1.25em/1.6 "IBM Plex Serif", serif;
+	font-weight: 400;
+	color: $ink-lighter;
 }
