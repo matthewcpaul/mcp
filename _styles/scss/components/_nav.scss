@@ -18,9 +18,11 @@ $nav-namespace: "c-nav" !default;
 	}
 
 	&__link {
+		color: $ink-lighter;
 
 		&:hover {
 			cursor: pointer;
+			color: $ink;
 		}
 
 		&.active {
