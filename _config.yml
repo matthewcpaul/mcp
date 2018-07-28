@@ -1,7 +1,7 @@
 # Site Config
 name: "Matthew Paul"
 description: Product Designer building tools at InVision
-baseurl: "/mcp"
+baseurl: ""
 url: https://matthewcpaul.github.io/mcp
 
 # Build Settings
