@@ -15,4 +15,8 @@ $wrapper-padding: 2rem !default;
   @media (min-width: $bp-sm) {
 		padding: 3rem;
 	}
+
+  @media (min-width: $bp-md) {
+		padding: 4rem;
+	}
 }

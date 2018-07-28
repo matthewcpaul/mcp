@@ -7,7 +7,7 @@
 
 @mixin font-1 {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 2.25rem;
+  font-size: 2em;
   line-height: 1.25;
   font-weight: 400;
   color: $ink;
@@ -15,7 +15,7 @@
 
 @mixin font-2 {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 1.75rem;
+  font-size: 1.4em;
   line-height: 1.4286;
   font-weight: 400;
   color: $ink;
@@ -23,14 +23,14 @@
 
 @mixin font-3 {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 1.25rem;
+  font-size: 1em;
   font-weight: 400;
   color: $ink;
 }
 
 @mixin font-4 {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 0.8em;
+  font-size: .8em;
   line-height: 1.5;
   font-weight: 400;
   color: $ink;

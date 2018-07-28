@@ -1,14 +1,5 @@
 html, :root {
 	box-sizing: border-box;
-	font-size: 100%;
-
-	@media (min-width: $bp-sm) {
-		font-size: 108%;
-	}
-
-	@media (min-width: $bp-md) {
-		font-size: 116%;
-	}
 }
 
 body {
@@ -17,4 +8,12 @@ body {
 	font: 1.25em/1.6 "IBM Plex Serif", serif;
 	font-weight: 400;
 	color: $ink-lighter;
+
+	@media (min-width: $bp-sm) {
+		font-size: 1.35em;
+	}
+
+	@media (min-width: $bp-md) {
+		font-size: 1.45em;
+	}
 }
