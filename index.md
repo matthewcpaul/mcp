@@ -15,8 +15,8 @@ order: 1
       <div class="c-work__header">
         <h2 class="c-work__title">{{ work.title }}</h2>
         <div class="c-work__info">
-          <p class="c-work__role">{{ work.role }}</p>
-          <p class="c-work__date">{{ work.tenure }}</p>
+          <div class="c-work__role">{{ work.role }}</div>
+          <div class="c-work__date">{{ work.tenure }}</div>
         </div>
       </div>
       <p class="c-work__description">{{ work.description }}</p>
