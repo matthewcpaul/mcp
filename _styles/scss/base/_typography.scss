@@ -17,8 +17,15 @@ h4 {
 a {
   color: $ink;
   text-decoration: none;
+  border-bottom: 1px solid $ink;
 
   &:hover {
       color: $ink-primary;
+      border-bottom-color: $ink-primary;
   }
+}
+
+::selection {
+  color: $background;
+  background: $ink-primary;
 }

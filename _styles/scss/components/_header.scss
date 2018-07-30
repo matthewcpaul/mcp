@@ -13,10 +13,11 @@ $header-namespace: "c-header" !default;
 
 	&__title {
 		@include font-3;
+		border-bottom: 0;
 	}
 
 	&__nav {
-		margin-top: 0.75rem;
+		margin-top: 0.5rem;
 
 		@media (min-width: $bp-sm) {
 			margin-top: 0;

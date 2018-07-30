@@ -5,15 +5,11 @@ html, :root {
 body {
 	background-color: $background;
 	min-height: 100vh;
-	font: 1.25em/1.6 "IBM Plex Serif", serif;
+	font: 1.125em/1.6 "IBM Plex Serif", serif;
 	font-weight: 400;
-	color: $ink-lighter;
-
-	@media (min-width: $bp-sm) {
-		font-size: 1.35em;
-	}
+	color: $ink;
 
 	@media (min-width: $bp-md) {
-		font-size: 1.45em;
+		font-size: 1.25em;
 	}
 }
