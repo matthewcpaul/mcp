@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang=en{% if page.class %} class="{{ page.class }}"{% endif %}>
+<html lang=en id="appRoot">
 	<meta charset="utf-8"/>
 	<title>{{ site.name }}{% if page.title %} - {{ page.title }}{% endif %}</title>
 	<meta name="viewport" content="initial-scale=1" />
@@ -11,7 +11,6 @@
 	<meta property="og:url" content="{{ page.url }}"/>
 
 	<link rel="stylesheet" href="/assets/css/style.css">
-
 	<link rel="shortcut icon" href="{{ baseurl }}/images/matthew-paul_brooklyn_64.jpg"/>
 
 	<body>
@@ -22,5 +21,37 @@
 			</main>
 			{% include footer.html %}
 		</div>
+
+		<script type="text/javascript">
+
+			function applyTheme(theme) {
+				document.getElementById("appRoot").className = theme;
+				sessionStorage.setItem ("theme", theme);
+			}
+
+			function applyLightTheme() {
+				applyTheme("theme-light");
+			}
+
+			function applyDarkTheme() {
+				applyTheme("theme-dark");
+			}
+
+			function toggleTheme() {
+				if (sessionStorage.getItem("theme") === "theme-light")
+					applyDarkTheme();
+				else
+					applyLightTheme();
+			}
+
+			function initiateTheme() {
+				if (sessionStorage.getItem("theme") === null)
+					applyLightTheme();
+				else
+					applyTheme(sessionStorage.getItem("theme"));
+			}
+
+			initiateTheme();
+		</script>
 	</body>
 </html>

@@ -24,6 +24,8 @@ $footer-namespace: "c-footer" !default;
 	}
 
 	&__date {
-		color: $ink-lighter;
+		@include themify($themes) {
+			color: themed('textLighter');
+		}
 	}
 }

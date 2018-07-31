@@ -13,6 +13,12 @@
     }
   }
 
+  &__media {
+    @include themify($themes) {
+      background-color: themed('mediaBackground');
+    }
+  }
+
   &__image {
     display: block;
     width: 100%;
@@ -54,7 +60,9 @@
   }
 
   &__date {
-    color: $ink-lighter;
+    @include themify($themes) {
+      color: themed('textLighter');
+    }
   }
 
   &__description {

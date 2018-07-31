@@ -3,11 +3,14 @@ html, :root {
 }
 
 body {
-	background-color: $background;
+	@include themify($themes) {
+		color: themed('textColor');
+		background-color: themed('backgroundColor');
+	}
+
 	min-height: 100vh;
 	font: 1em/1.6 "IBM Plex Serif", serif;
 	font-weight: 400;
-	color: $ink;
 
 	@media (min-width: $bp-md) {
 		font-size: 1.125em;

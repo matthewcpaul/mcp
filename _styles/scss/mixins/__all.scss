@@ -1,3 +1,24 @@
+@mixin themify($themes: $themes) {
+  @each $theme, $map in $themes {
+
+    .theme-#{$theme} & {
+      $theme-map: () !global;
+      @each $key, $submap in $map {
+        $value: map-get(map-get($themes, $theme), '#{$key}');
+        $theme-map: map-merge($theme-map, ($key: $value)) !global;
+      }
+
+      @content;
+      $theme-map: null !global;
+    }
+
+  }
+}
+
+@function themed($key) {
+  @return map-get($theme-map, $key);
+}
+
 @mixin list-strip {
   padding-left: 0;
 	margin-left: 0;
@@ -9,7 +30,6 @@
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 2.25em;
   font-weight: 400;
-  color: $ink;
 }
 
 @mixin font-2 {
@@ -17,14 +37,12 @@
   font-size: 1.75em;
   line-height: 1.4286;
   font-weight: 400;
-  color: $ink;
 }
 
 @mixin font-3 {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 1.125em;
   font-weight: 400;
-  color: $ink;
 }
 
 @mixin font-4 {
@@ -32,5 +50,4 @@
   font-size: .875em;
   line-height: 1.5;
   font-weight: 400;
-  color: $ink;
 }

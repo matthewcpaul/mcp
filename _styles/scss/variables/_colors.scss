@@ -1,5 +1,20 @@
-// Global colors
-$ink: #363940 !default;
-$ink-lighter: #9599a2 !default;
-$ink-primary: #3c6df0 !default;
-$background: #ffffff !default;
+// Global color themes
+$selection: #ffffff !default;
+$selection-background: #3c6df0 !default;
+
+$themes: (
+  light: (
+    backgroundColor: #ffffff,
+    textColor: #363940,
+    textLighter: #9599a2,
+    primaryColor: #3c6df0,
+    mediaBackground: #f2f2f2,
+  ),
+  dark: (
+    backgroundColor: #1b1c1c,
+    textColor: #ebecee,
+    textLighter: #9599a2,
+    primaryColor: #3c6df0,
+    mediaBackground: #272829,
+  ),
+);

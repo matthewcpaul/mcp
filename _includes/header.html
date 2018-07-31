@@ -1,10 +1,15 @@
 <header class="c-header" role="banner">
-	<a class="c-header__title" href="{{ "/" | prepend: site.baseurl }}">{{ site.name }}</a>
-	<nav class="c-header__nav" role="navigation">
-		<ul class="c-nav">{% assign pages = site.pages | sort:"order" %}{% for p in pages %}{% if p.order >= 1 %}
-			<li class="c-nav__item">
-				<a {% if p.url == page.url %}class="c-nav__link active"{% else %}class="c-nav__link"{% endif %} href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
-			</li>{% endif %}{% endfor %}
-		</ul>
-	</nav>
+	<div class="c-header__main">
+		<a class="c-header__title" href="{{ "/" | prepend: site.baseurl }}">{{ site.name }}</a>
+		<nav class="c-header__nav" role="navigation">
+			<ul class="c-nav">{% assign pages = site.pages | sort:"order" %}{% for p in pages %}{% if p.order >= 1 %}
+				<li class="c-nav__item">
+					<a {% if p.url == page.url %}class="c-nav__link active"{% else %}class="c-nav__link"{% endif %} href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+				</li>{% endif %}{% endfor %}
+			</ul>
+		</nav>
+	</div>
+	<button class="c-header__button" onclick="toggleTheme()">
+		<svg class="c-icon__theme" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>theme-icon</title><path d="M22,12.5v-1H19a7,7,0,0,0-1.68-4.08l2.13-2.14-.7-.7L16.58,6.71A7,7,0,0,0,12.5,5V2h-1V5A7,7,0,0,0,7.42,6.71L5.28,4.58l-.7.7L6.71,7.42A7,7,0,0,0,5,11.5H2v1H5a7,7,0,0,0,1.68,4.08L4.58,18.72l.7.7,2.14-2.13A7,7,0,0,0,11.5,19v3h1V19a7,7,0,0,0,4.08-1.68l2.14,2.13.7-.7-2.13-2.14A7,7,0,0,0,19,12.5ZM12,18a6,6,0,1,1,6-6A6,6,0,0,1,12,18Z"/></svg>
+	</button>
 </header>

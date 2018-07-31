@@ -1,3 +1,12 @@
+h1,
+h2,
+h3,
+h4 {
+  @include themify($themes) {
+    color: themed('textColor');
+  }
+}
+
 h1 {
   @include font-1;
 }
@@ -19,17 +28,23 @@ p {
 }
 
 a {
-  color: $ink;
+  @include themify($themes) {
+		color: themed('textColor');
+    border-bottom-color: themed('textColor');
+	}
+
   text-decoration: none;
-  border-bottom: 1px solid $ink;
+  border-bottom: 1px solid;
 
   &:hover {
-      color: $ink-primary;
-      border-bottom-color: $ink-primary;
+    @include themify($themes) {
+  		color: themed('primaryColor');
+      border-bottom-color: themed('primaryColor');
+  	}
   }
 }
 
 ::selection {
-  color: $background;
-  background: $ink-primary;
+  color: $selection;
+  background: $selection-background;
 }

@@ -18,16 +18,24 @@ $nav-namespace: "c-nav" !default;
 	}
 
 	&__link {
-		color: $ink-lighter;
+		@include themify($themes) {
+			color: themed('textLighter');
+		}
+
 		border-bottom: 0;
 
 		&:hover {
+			@include themify($themes) {
+				color: themed('textColor');
+			}
+
 			cursor: pointer;
-			color: $ink;
 		}
 
 		&.active {
-			color: $ink;
+			@include themify($themes) {
+				color: themed('textColor');
+			}
 		}
 	}
 }

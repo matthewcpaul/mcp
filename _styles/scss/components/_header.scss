@@ -3,12 +3,19 @@ $header-namespace: "c-header" !default;
 
 .#{$header-namespace} {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	align-items: center;
 
-	@media (min-width: $bp-sm) {
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: center;
+	&__main {
+		display: flex;
+		flex-direction: column;
+		flex-grow: 2;
+
+		@media (min-width: $bp-sm) {
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+		}
 	}
 
 	&__title {
@@ -22,5 +29,25 @@ $header-namespace: "c-header" !default;
 		@media (min-width: $bp-sm) {
 			margin-top: 0;
 		}
+	}
+
+	&__button {
+    background: transparent;
+
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 0;
+
+    @media (min-width: $bp-sm) {
+      margin-left: 2rem;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:focus {
+      outline: 0;
+	  }
 	}
 }

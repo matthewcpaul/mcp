@@ -1,0 +1,16 @@
+.c-icon {
+
+  &__theme {
+
+    @include themify($themes) {
+			fill: themed('textLighter');
+		}
+
+    &:hover {
+
+      @include themify($themes) {
+  			fill: themed('textColor');
+  		}
+    }
+  }
+}
