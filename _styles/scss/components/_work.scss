@@ -2,15 +2,7 @@
   @include list-strip;
 
   &__item {
-    margin-top: 4rem;
-
-    @media (min-width: $bp-sm) {
-      margin-top: 6rem;
-    }
-
-    @media (min-width: $bp-md) {
-      margin-top: 8rem;
-    }
+    @include margin-top;
   }
 
   &__media {

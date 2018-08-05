@@ -2,6 +2,8 @@
 layout: default
 title: Work
 order: 1
+heading: Product designer and special team player
+description: Building great products is a team sport. It requires healthy collaboration, persistent communication, and diversity in people and ideas.
 ---
 
 <ul class="c-work">

@@ -1,0 +1,11 @@
+.c-main {
+  margin-top: 3rem;
+
+  @media (min-width: $bp-sm) {
+    margin-top: 5rem;
+  }
+
+  @media (min-width: $bp-md) {
+    margin-top: 7rem;
+  }
+}

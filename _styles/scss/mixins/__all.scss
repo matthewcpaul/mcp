@@ -19,6 +19,18 @@
   @return map-get($theme-map, $key);
 }
 
+@mixin margin-top {
+  margin-top: 4rem;
+
+  @media (min-width: $bp-sm) {
+    margin-top: 6rem;
+  }
+
+  @media (min-width: $bp-md) {
+    margin-top: 8rem;
+  }
+}
+
 @mixin list-strip {
   padding-left: 0;
 	margin-left: 0;
@@ -27,27 +39,37 @@
 }
 
 @mixin font-1 {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "CalibreWeb";
   font-size: 2.25em;
+  line-height: 1.1111;
   font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 @mixin font-2 {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "CalibreWeb";
   font-size: 1.75em;
-  line-height: 1.4286;
+  line-height: 1.2857;
   font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 @mixin font-3 {
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 1.125em;
+  font-family: "CalibreWeb";
+  font-size: 1.375em;
+  line-height: 1.45454;
   font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 @mixin font-4 {
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: .875em;
+  font-family: "CalibreWeb";
+  font-size: 1em;
   line-height: 1.5;
   font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }

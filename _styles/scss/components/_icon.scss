@@ -2,15 +2,28 @@
 
   &__theme {
 
-    @include themify($themes) {
-			fill: themed('textLighter');
-		}
+    & #fill {
+      @include themify($themes) {
+  			fill: themed('textLighter') !important;
+  		}
+    }
 
     &:hover {
 
-      @include themify($themes) {
-  			fill: themed('textColor');
-  		}
+      & #fill {
+        @include themify($themes) {
+    			fill: themed('textColor') !important;
+    		}
+      }
+    }
+
+    &:active {
+
+      & #fill {
+        @include themify($themes) {
+    			fill: themed('textLighter') !important;
+    		}
+      }
     }
   }
 }

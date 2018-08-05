@@ -14,6 +14,12 @@ gulp.task('local-build', shell.task(['bundle exec jekyll build --config _config.
 // Build incrementally with _config.yml for production
 gulp.task('production-build', shell.task(['bundle exec jekyll build --config _config.yml']));
 
+// Pipe fonts to _site
+gulp.task('fonts', function() {
+  return gulp.src('fonts')
+    .pipe(gulp.dest('_site/'));
+});
+
 // Compile SCSS into CSS, sourcemaps, autoprefixer, cssnano + auto-inject into browsers
 gulp.task('sass', function() {
   return gulp.src(['_styles/scss/style.scss'])
@@ -35,7 +41,7 @@ gulp.task('serve', function() {
 });
 
 // Run sass, local-build, and serve
-gulp.task('default', gulp.series('local-build', 'sass', 'serve'));
+gulp.task('default', gulp.series('local-build', 'fonts', 'sass', 'serve'));
 
 // Deploy _site to gh-pages; note: add the 'cname' task to this tasks series if you are using a custom URL
 gulp.task('deploy-gh-pages', function() {
@@ -44,4 +50,4 @@ gulp.task('deploy-gh-pages', function() {
 });
 
 // Run production-build, and deploy-gh-pages
-gulp.task('deploy', gulp.series('production-build', 'sass', 'deploy-gh-pages'));
+gulp.task('deploy', gulp.series('production-build', 'fonts', 'sass', 'deploy-gh-pages'));

@@ -9,7 +9,7 @@ $nav-namespace: "c-nav" !default;
 		display: inline-block;
 
 		+.#{$nav-namespace}__item {
-			margin-left: 1.5rem;
+			margin-left: 1.25rem;
 
 			@media (min-width: $bp-sm) {
 				margin-left: 2rem;
@@ -26,7 +26,7 @@ $nav-namespace: "c-nav" !default;
 
 		&:hover {
 			@include themify($themes) {
-				color: themed('textColor');
+				color: themed('primaryColor');
 			}
 
 			cursor: pointer;
@@ -35,7 +35,11 @@ $nav-namespace: "c-nav" !default;
 		&.active {
 			@include themify($themes) {
 				color: themed('textColor');
+				border-bottom-color: themed('primaryColor');
 			}
+
+			padding-bottom: .25rem;
+			border-bottom: 1px solid;
 		}
 	}
 }

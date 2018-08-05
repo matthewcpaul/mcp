@@ -2,8 +2,14 @@
 @charset "UTF-8";
 
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600');
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,600');
+@font-face {
+  font-family: "CalibreWeb";
+  src: url("../../fonts/CalibreWeb-Regular.eot") format("embedded-opentype");
+  src: url("../../fonts/CalibreWeb-Regular.woff2") format("woff2");
+  src: url("../../fonts/CalibreWeb-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
 
 // Variables
 @import "variables/_all";

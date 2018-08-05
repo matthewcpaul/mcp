@@ -19,8 +19,18 @@ $header-namespace: "c-header" !default;
 	}
 
 	&__title {
+		@include themify($themes) {
+	    color: themed('textColor');
+	  }
+
 		@include font-3;
 		border-bottom: 0;
+
+		&:hover {
+			@include themify($themes) {
+				color: themed('textColor');
+			}
+		}
 	}
 
 	&__nav {
