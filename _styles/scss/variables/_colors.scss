@@ -4,19 +4,21 @@ $selection-background: #3e824d !default;
 
 $themes: (
   light: (
-    backgroundColor: #ffffff,
-    textColor: #3c3c3c,
-    textLight: #5b5b5b,
-    textLighter: #5b5b5b,
+    backgroundColor: #f5f4f0,
+    textColor: rgba(0,0,0,0.8),
+    textLight: rgba(0,0,0,0.6),
+    textLighter: rgba(0,0,0,0.5),
     primaryColor: #3e824d,
-    mediaBackground: #f2f2f2,
+    mediaBackground: rgba(0,0,0,0.05),
+    borderColor: rgba(0,0,0,0.1),
   ),
   dark: (
     backgroundColor: #1b1c1c,
-    textColor: #eaeaea,
-    textLight: #b7b7b7,
-    textLighter: #b7b7b7,
+    textColor: rgba(255,255,255,0.8),
+    textLight: rgba(255,255,255,0.6),
+    textLighter: rgba(255,255,255,0.5),
     primaryColor: #3e824d,
-    mediaBackground: #272829,
+    mediaBackground: rgba(255,255,255,0.05),
+    borderColor: rgba(255,255,255,0.1),
   ),
 );

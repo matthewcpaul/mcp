@@ -2,7 +2,15 @@
   @include list-strip;
 
   &__item {
-    @include margin-top;
+    @include themify($themes) {
+      border-color: themed('borderColor');
+    }
+    padding: 2.5rem 0 2rem 0;
+    border-bottom: 1px solid;
+
+    @media (min-width: $bp-sm) {
+      padding: 3rem 0 2.5rem 0;
+    }
   }
 
   &__media {
@@ -20,23 +28,10 @@
   &__body {
     display: flex;
     flex-direction: column;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 
     @media (min-width: $bp-sm) {
-      margin-top: 2.5rem;
-    }
-
-    @media (min-width: $bp-md) {
-      flex-direction: row;
-      align-items: flex-start;
-      margin-top: 3.5rem;
-    }
-  }
-
-  &__header {
-
-    @media (min-width: $bp-md) {
-      min-width: 50%;
+      margin-top: 2rem;
     }
   }
 
@@ -48,21 +43,18 @@
 
   &__info {
     @include font-4;
-    margin-top: 0.875rem;
-  }
-
-  &__date {
     @include themify($themes) {
       color: themed('textLighter');
     }
+    margin-top: 0.25rem;
   }
 
   &__description {
-    margin-top: 1.25rem;
+    margin-top: .5rem;
     margin-bottom: 0;
 
-    @media (min-width: $bp-md) {
-      margin-top: .125rem;
+    @media (min-width: $bp-sm) {
+      margin-top: 1rem;
     }
   }
 }

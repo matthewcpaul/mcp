@@ -8,11 +8,17 @@ $nav-namespace: "c-nav" !default;
 		@include font-4;
 		display: inline-block;
 
+		@media (min-width: $bp-sm) {
+			// display: inline-block;
+		}
+
 		+.#{$nav-namespace}__item {
-			margin-left: 1.25rem;
+			// margin-top: 0.75rem;
+			margin-left: 1.5rem;
 
 			@media (min-width: $bp-sm) {
-				margin-left: 2rem;
+				// margin-top: 0;
+				// margin-left: 1.5rem;
 			}
 		}
 	}
@@ -21,15 +27,13 @@ $nav-namespace: "c-nav" !default;
 		@include themify($themes) {
 			color: themed('textLighter');
 		}
-
 		border-bottom: 0;
+		cursor: pointer;
 
 		&:hover {
 			@include themify($themes) {
 				color: themed('primaryColor');
 			}
-
-			cursor: pointer;
 		}
 
 		&.active {
@@ -37,8 +41,7 @@ $nav-namespace: "c-nav" !default;
 				color: themed('textColor');
 				border-bottom-color: themed('primaryColor');
 			}
-
-			padding-bottom: .25rem;
+			padding: .125rem 0;
 			border-bottom: 1px solid;
 		}
 	}

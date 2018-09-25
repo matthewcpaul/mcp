@@ -2,28 +2,21 @@
 $header-namespace: "c-header" !default;
 
 .#{$header-namespace} {
+	@include themify($themes) {
+		border-color: themed('borderColor');
+	}
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-
-	&__main {
-		display: flex;
-		flex-direction: column;
-		flex-grow: 2;
-
-		@media (min-width: $bp-sm) {
-			flex-direction: row;
-			justify-content: space-between;
-			align-items: center;
-		}
-	}
+	justify-content: space-between;
+	padding: 2rem 0;
+	border-bottom: 1px solid;
 
 	&__title {
+		@include font-2;
 		@include themify($themes) {
 	    color: themed('textColor');
 	  }
-
-		@include font-3;
 		border-bottom: 0;
 
 		&:hover {
@@ -33,17 +26,8 @@ $header-namespace: "c-header" !default;
 		}
 	}
 
-	&__nav {
-		margin-top: 0.5rem;
-
-		@media (min-width: $bp-sm) {
-			margin-top: 0;
-		}
-	}
-
 	&__button {
     background: transparent;
-
     width: 1.5rem;
     height: 1.5rem;
     border: 0;
@@ -59,5 +43,18 @@ $header-namespace: "c-header" !default;
     &:focus {
       outline: 0;
 	  }
+	}
+
+	&__nav {
+		// @include themify($themes) {
+		// 	border-color: themed('borderColor');
+		// }
+		// border-top: 1px solid;
+		// border-bottom: 1px solid;
+		// padding: 1rem 0;
+
+		@media (min-width: $bp-sm) {
+			// padding: 1.5rem 0;
+		}
 	}
 }

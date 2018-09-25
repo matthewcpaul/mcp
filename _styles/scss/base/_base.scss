@@ -4,18 +4,15 @@ html, :root {
 
 body {
 	@include themify($themes) {
-		color: themed('textColor');
+		color: themed('textLight');
 		background-color: themed('backgroundColor');
 	}
-
 	font-family: "Harriet Text";
   font-style: normal;
   font-weight: normal;
 	font-size: 1em;
-	line-height: 1.6;
+	line-height: 1.5;
 	text-rendering: optimizeLegibility;
-
-	@media (min-width: $bp-md) {
-		font-size: 1.125em;
-	}
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }

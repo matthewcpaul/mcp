@@ -19,18 +19,6 @@
   @return map-get($theme-map, $key);
 }
 
-@mixin margin-top {
-  margin-top: 4rem;
-
-  @media (min-width: $bp-sm) {
-    margin-top: 6rem;
-  }
-
-  @media (min-width: $bp-md) {
-    margin-top: 8rem;
-  }
-}
-
 @mixin list-strip {
   padding-left: 0;
 	margin-left: 0;
@@ -40,36 +28,43 @@
 
 @mixin font-1 {
   font-family: "CalibreWeb";
-  font-size: 2.25em;
-  line-height: 1.1111;
   font-weight: 400;
-  -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  font-size: 1.75em;
+  line-height: 1.2857;
+
+  @media (min-width: $bp-sm) {
+    font-size: 2.5em;
+    line-height: 1.2;
+  }
 }
 
 @mixin font-2 {
   font-family: "CalibreWeb";
-  font-size: 1.75em;
-  line-height: 1.2857;
   font-weight: 400;
-  -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  font-size: 1.375em;
+  line-height: 1.4545;
+
+  @media (min-width: $bp-sm) {
+    font-size: 1.75em;
+    line-height: 1.4285;
+  }
 }
 
 @mixin font-3 {
   font-family: "CalibreWeb";
-  font-size: 1.375em;
-  line-height: 1.45454;
   font-weight: 400;
-  -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  font-size: 1.125em;
+  line-height: 1.5555;
+
+  @media (min-width: $bp-sm) {
+    font-size: 1.25em;
+    line-height: 1.6;
+  }
 }
 
 @mixin font-4 {
   font-family: "CalibreWeb";
+  font-weight: 400;
   font-size: 1em;
   line-height: 1.5;
-  font-weight: 400;
-  -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 }

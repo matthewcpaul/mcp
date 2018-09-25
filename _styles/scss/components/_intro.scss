@@ -1,15 +1,7 @@
 .c-intro {
 
-  @media (min-width: $bp-md) {
-    padding-right: 6rem;
-  }
-
-  @media (min-width: $bp-lg) {
-    width: 50%;
-    padding-right: 0;
-  }
-
-  @media (min-width: $bp-xl) {
-    padding-right: 8rem;
+  &-description {
+    @include font-2;
+    margin-bottom: 0;
   }
 }

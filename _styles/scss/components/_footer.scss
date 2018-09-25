@@ -2,16 +2,15 @@
 $footer-namespace: "c-footer" !default;
 
 .#{$footer-namespace} {
-	margin-top: 3rem;
+	padding: 1.5rem 0;
 
 	@media (min-width: $bp-sm) {
-		margin-top: 4rem;
+		padding: 2.5rem 0;
 	}
 
 	@media (min-width: $bp-md) {
 		flex-direction: row;
 		align-items: flex-start;
-		margin-top: 5rem;
 	}
 
 	&__stamp,

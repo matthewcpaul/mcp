@@ -5,18 +5,10 @@ $wrap-namespace: "c-wrap" !default;
 $wrap-width: 100% !default;
 
 // Padding for wrapper object
-$wrapper-padding: 2rem !default;
+$wrapper-padding: 0 2rem !default;
 
 .#{$wrap-namespace} {
   padding: $wrapper-padding;
-  max-width: 1440px;
+  max-width: 48rem;
   margin: 0 auto;
-
-  @media (min-width: $bp-sm) {
-		padding: 3rem;
-	}
-
-  @media (min-width: $bp-md) {
-		padding: 4rem;
-	}
 }
