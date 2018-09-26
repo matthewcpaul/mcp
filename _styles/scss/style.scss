@@ -11,6 +11,15 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "CalibreWeb-Bold";
+  src: url("../../fonts/CalibreWeb-Bold.eot") format("embedded-opentype");
+  src: url("../../fonts/CalibreWeb-Bold.woff2") format("woff2");
+  src: url("../../fonts/CalibreWeb-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
 // Variables
 @import "variables/_all";
 

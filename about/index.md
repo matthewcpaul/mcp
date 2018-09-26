@@ -2,7 +2,7 @@
 layout: default
 title: About
 order: 2
-heading: Good people
+heading: Special team player
 description: I’m a product designer working on tools to help teams be better teams. I work with researchers, engineers, and product managers to lead product strategy and create accessible software.
 ---
 

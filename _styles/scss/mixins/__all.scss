@@ -27,8 +27,8 @@
 }
 
 @mixin font-1 {
-  font-family: "CalibreWeb";
-  font-weight: 400;
+  font-family: "CalibreWeb-Bold";
+  font-weight: 700;
   font-size: 1.75em;
   line-height: 1.2857;
 
@@ -39,6 +39,18 @@
 }
 
 @mixin font-2 {
+  font-family: "CalibreWeb-Bold";
+  font-weight: 700;
+  font-size: 1.375em;
+  line-height: 1.4545;
+
+  @media (min-width: $bp-sm) {
+    font-size: 1.75em;
+    line-height: 1.4285;
+  }
+}
+
+@mixin font-2-regular {
   font-family: "CalibreWeb";
   font-weight: 400;
   font-size: 1.375em;

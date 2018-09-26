@@ -5,11 +5,19 @@
     @include themify($themes) {
       border-color: themed('borderColor');
     }
-    padding: 2.5rem 0 2rem 0;
+    padding: 2.5rem 0 1rem 0;
     border-bottom: 1px solid;
 
+    &:first-child {
+      padding-top: 0;
+    }
+
     @media (min-width: $bp-sm) {
-      padding: 3rem 0 2.5rem 0;
+      padding: 3.5rem 0 2rem 0;
+
+      &:first-child {
+        padding-top: 0;
+      }
     }
   }
 
@@ -28,33 +36,10 @@
   &__body {
     display: flex;
     flex-direction: column;
-    margin-top: 1rem;
+    margin-top: 2rem;
 
     @media (min-width: $bp-sm) {
-      margin-top: 2rem;
-    }
-  }
-
-  &__title,
-  &__role,
-  &__date {
-    margin-bottom: 0;
-  }
-
-  &__info {
-    @include font-4;
-    @include themify($themes) {
-      color: themed('textLighter');
-    }
-    margin-top: 0.25rem;
-  }
-
-  &__description {
-    margin-top: .5rem;
-    margin-bottom: 0;
-
-    @media (min-width: $bp-sm) {
-      margin-top: 1rem;
+      margin-top: 2.75rem;
     }
   }
 }

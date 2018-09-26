@@ -8,18 +8,8 @@ $nav-namespace: "c-nav" !default;
 		@include font-4;
 		display: inline-block;
 
-		@media (min-width: $bp-sm) {
-			// display: inline-block;
-		}
-
 		+.#{$nav-namespace}__item {
-			// margin-top: 0.75rem;
-			margin-left: 1.5rem;
-
-			@media (min-width: $bp-sm) {
-				// margin-top: 0;
-				// margin-left: 1.5rem;
-			}
+			margin-left: 1rem;
 		}
 	}
 
@@ -27,22 +17,23 @@ $nav-namespace: "c-nav" !default;
 		@include themify($themes) {
 			color: themed('textLighter');
 		}
-		border-bottom: 0;
+		padding: .125rem .5rem .2rem .5rem;
+		border-radius: 4px;
 		cursor: pointer;
 
 		&:hover {
 			@include themify($themes) {
-				color: themed('primaryColor');
+				color: themed('textLighter');
+				background-color: themed('mediaBackground');
 			}
+			border-bottom: 0;
 		}
 
 		&.active {
 			@include themify($themes) {
-				color: themed('textColor');
-				border-bottom-color: themed('primaryColor');
+				color: themed('backgroundColor');
+				background-color: themed('primaryColor');
 			}
-			padding: .125rem 0;
-			border-bottom: 1px solid;
 		}
 	}
 }

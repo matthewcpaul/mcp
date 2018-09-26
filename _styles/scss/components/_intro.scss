@@ -1,7 +1,12 @@
 .c-intro {
+  margin-bottom: 2.5rem;
+
+  @media (min-width: $bp-sm) {
+    margin-bottom: 3rem;
+  }
 
   &-description {
-    @include font-2;
+    @include font-2-regular;
     margin-bottom: 0;
   }
 }

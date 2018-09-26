@@ -2,7 +2,7 @@
 layout: default
 title: Work
 order: 1
-heading: Product designer and special team player
+heading: Product designer
 description: Building great products is a team sport. It requires healthy collaboration, persistent communication, and diversity in people and ideas.
 ---
 
@@ -14,13 +14,7 @@ description: Building great products is a team sport. It requires healthy collab
       <img class="c-work__image" src="{{ work.image }}" alt="">
     </div>
     <div class="c-work__body">
-      <div class="c-work__header">
-        <h2 class="c-work__title">{{ work.title }}</h2>
-        <div class="c-work__info">
-          <div class="c-work__role">{{ work.role }}</div>
-          <div class="c-work__date">{{ work.tenure }}</div>
-        </div>
-      </div>
+      <h2 class="c-work__title">{{ work.title }}</h2>
       <p class="c-work__description">{{ work.description }}</p>
     </div>
   </li>
