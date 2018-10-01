@@ -1,0 +1,33 @@
+.c-blog {
+  @include list-strip;
+
+  &__item {
+    padding-bottom: 1rem;
+
+    @media (min-width: $bp-sm) {
+      padding-bottom: 2rem;
+    }
+  }
+
+  &__title {
+    @include font-2;
+    @include themify($themes) {
+      color: themed('textColor');
+    }
+    margin-bottom: 0;
+
+    &:hover {
+      @include themify($themes) {
+        color: themed('primaryColor');
+      }
+      border: 0;
+    }
+  }
+
+  &__date {
+    @include themify($themes) {
+      color: themed('textLighter');
+    }
+    margin-bottom: 0;
+  }
+}

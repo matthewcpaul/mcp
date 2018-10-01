@@ -14,18 +14,17 @@
 
 	<body>
 		<div class="c-wrap">
-			{% include header.html %}
+			{% include header-blog-post.html %}
 			<main class="c-main">
 				<div class="c-intro">
-					<h1>{{ page.heading }}</h1>
-					<p class="c-intro-description">{{ page.description }}</p>
+					<h1>{{ page.title }}</h1>
 				</div>
 				{{ content }}
 			</main>
 			{% include footer.html %}
 		</div>
 
-		<script type="text/javascript">
+    <script type="text/javascript">
 
 			function applyTheme(theme) {
 				document.getElementById("appRoot").className = theme;

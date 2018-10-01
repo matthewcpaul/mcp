@@ -10,6 +10,10 @@ $nav-namespace: "c-nav" !default;
 
 		+.#{$nav-namespace}__item {
 			margin-left: 1rem;
+
+			@media (min-width: $bp-sm) {
+		    margin-left: 1.5rem;
+		  }
 		}
 	}
 
@@ -17,22 +21,18 @@ $nav-namespace: "c-nav" !default;
 		@include themify($themes) {
 			color: themed('textLighter');
 		}
-		padding: .125rem .5rem .2rem .5rem;
-		border-radius: 4px;
 		cursor: pointer;
 
 		&:hover {
 			@include themify($themes) {
-				color: themed('textLighter');
-				background-color: themed('mediaBackground');
+				color: themed('textColor');
 			}
 			border-bottom: 0;
 		}
 
 		&.active {
 			@include themify($themes) {
-				color: themed('backgroundColor');
-				background-color: themed('primaryColor');
+				color: themed('primaryColor');
 			}
 		}
 	}

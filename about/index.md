@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About
-order: 2
+order: 3
 heading: Special team player
 description: Building great products is a team sport. It requires healthy collaboration, persistent communication, and diversity in people and ideas.
 ---
