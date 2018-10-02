@@ -18,12 +18,6 @@
     }
   }
 
-  &__media {
-    @include themify($themes) {
-      background-color: themed('mediaBackground');
-    }
-  }
-
   &__image {
     display: block;
     width: 100%;
