@@ -1,14 +1,5 @@
-// Global namespace for wrapper object
-$wrap-namespace: "c-wrap" !default;
-
-// Max width for wrapper object
-$wrap-width: 100% !default;
-
-// Padding for wrapper object
-$wrapper-padding: 0 2rem !default;
-
-.#{$wrap-namespace} {
-  padding: $wrapper-padding;
+.c-wrap {
+  padding: 0 $spacing-md;
   max-width: 48rem;
   margin: 0 auto;
 }

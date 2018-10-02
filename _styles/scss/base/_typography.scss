@@ -1,33 +1,35 @@
-h1 {
-  @include font-1;
+h1, h2, h3, h4 {
+  margin-bottom: $spacing-xs;
+}
+
+h1, h2, h3, h4 {
   @include themify($themes) {
     color: themed('textColor');
   }
+}
+
+h1 {
+  @include font-1;
 }
 
 h2 {
   @include font-2;
-  @include themify($themes) {
-    color: themed('textColor');
-  }
 }
 
 h3 {
   @include font-3;
-  @include themify($themes) {
-    color: themed('textColor');
-  }
 }
 
 h4 {
   @include font-4;
-  @include themify($themes) {
-    color: themed('textColor');
-  }
 }
 
 p {
   @include font-3;
+}
+
+p + p {
+  margin-top: $spacing-xs;
 }
 
 a {
@@ -40,11 +42,6 @@ a {
     @include themify($themes) {
   		border-color: themed('primaryColor');
   	}
-    border-bottom: 1px solid;
+    border-bottom: $spacing-border solid;
   }
-}
-
-::selection {
-  color: $selection;
-  background: $selection-background;
 }

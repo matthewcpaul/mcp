@@ -1,48 +1,20 @@
 *, ::after, ::before {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
-
-input, button, textarea, select {
-    font: inherit;
-    appearance: none;
-}
-
-input[type=checkbox] {
-    appearance: checkbox;
-}
-
-input[type=radio] {
-    appearance: radio;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 ul, ol {
-    margin-left: 1rem;
-    padding-left: 1rem;
+  margin-left: $spacing-xs;
+  padding-left: $spacing-xs;
 }
 
 ul {
-    list-style-type: disc;
-}
-
-h1, h2, h3 {
-  margin-bottom: 1rem;
-}
-
-p, table, ul {
-    margin-bottom: 1rem;
-}
-
-h4 {
-    margin-bottom: 0rem;
-}
-
-table {
-    border-collapse: collapse;
+  list-style-type: disc;
+  margin-bottom: $spacing-xs;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }

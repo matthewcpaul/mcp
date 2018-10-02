@@ -18,3 +18,8 @@ body {
   -moz-text-size-adjust: none;
   -ms-text-size-adjust: 100%;
 }
+
+::selection {
+  color: $selection;
+  background: $selection-background;
+}

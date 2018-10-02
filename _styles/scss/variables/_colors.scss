@@ -1,6 +1,6 @@
 // Global color themes
-$selection: #ffffff !default;
-$selection-background: rgb(255, 51, 102) !default;
+$selection: #ffffff;
+$selection-background: rgb(255, 51, 102);
 
 $themes: (
   light: (
@@ -14,10 +14,10 @@ $themes: (
   ),
   dark: (
     backgroundColor: #1b1c1c,
-    textColor: rgba(255,255,255,0.8),
-    textLight: rgba(255,255,255,0.6),
+    textColor: rgba(255,255,255,0.9),
+    textLight: rgba(255,255,255,0.7),
     textLighter: rgba(255,255,255,0.5),
-    primaryColor: #3e824d,
+    primaryColor: rgb(255, 51, 102),
     mediaBackground: rgba(255,255,255,0.05),
     borderColor: rgba(255,255,255,0.1),
   ),

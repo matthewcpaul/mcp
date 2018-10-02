@@ -1,12 +1,9 @@
-// Global namespace for footer component
-$footer-namespace: "c-footer" !default;
-
-.#{$footer-namespace} {
-	padding: 1.5rem 0;
+.c-footer {
+	padding: $spacing-sm 0;
 	text-align: center;
 
 	@media (min-width: $bp-sm) {
-		padding: 2.5rem 0;
+		padding: $spacing-lg 0;
 	}
 
 	&__stamp,
@@ -15,7 +12,7 @@ $footer-namespace: "c-footer" !default;
 	}
 
 	&__stamp {
-		margin-top: 0.75rem;
+		margin-top: $spacing-xxs;
 	}
 
 	&__date {

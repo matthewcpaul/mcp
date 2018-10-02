@@ -1,11 +1,11 @@
 .c-blog {
   @include list-strip;
 
-  &__item {
-    padding-bottom: 1rem;
+  &__item:not(:last-child) {
+    margin-bottom: $spacing-xs;
 
     @media (min-width: $bp-sm) {
-      padding-bottom: 2rem;
+      margin-bottom: $spacing-md;
     }
   }
 
@@ -14,7 +14,6 @@
     @include themify($themes) {
       color: themed('textColor');
     }
-    margin-bottom: 0;
 
     &:hover {
       @include themify($themes) {
@@ -28,6 +27,5 @@
     @include themify($themes) {
       color: themed('textLighter');
     }
-    margin-bottom: 0;
   }
 }

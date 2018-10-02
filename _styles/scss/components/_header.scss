@@ -1,7 +1,4 @@
-// Global namespace for header component
-$header-namespace: "c-header" !default;
-
-.#{$header-namespace} {
+.c-header {
 	@include themify($themes) {
 		border-color: themed('borderColor');
 	}
@@ -9,7 +6,7 @@ $header-namespace: "c-header" !default;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	padding: 2rem 0;
+	padding: $spacing-md 0;
 	border-bottom: 1px solid;
 
 	&__title {

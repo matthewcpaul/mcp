@@ -1,18 +1,15 @@
-// Global namespace for nav component
-$nav-namespace: "c-nav" !default;
-
-.#{$nav-namespace} {
+.c-nav {
 	@include list-strip;
 
 	&__item {
 		@include font-4;
 		display: inline-block;
 
-		+.#{$nav-namespace}__item {
-			margin-left: 1rem;
+		+.c-nav__item {
+			margin-left: $spacing-xs;
 
 			@media (min-width: $bp-sm) {
-		    margin-left: 1.5rem;
+		    margin-left: $spacing-sm;
 		  }
 		}
 	}
