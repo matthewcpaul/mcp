@@ -2,7 +2,7 @@
 layout: default
 title: Blog
 order: 2
-heading: Curious explorer
+heading: Curious scribe
 description: Writing helps make sense of the world around us. Whether it’s the start of a new project or a summary of insights, written language is the first step towards shared understanding.
 ---
 

@@ -9,7 +9,7 @@ description: Building great products is a team sport. It requires healthy collab
 <figure>
   <img src="../images/matthew-paul.jpg" alt="Matthew Paul"/>
   <figcaption>
-    Me in Brooklyn, NY
+    It me, in Brooklyn, NY.
   </figcaption>
 </figure>
 
