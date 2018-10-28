@@ -1,0 +1,31 @@
+.c-blog {
+  @include list-strip;
+
+  &__item:not(:last-child) {
+    margin-bottom: $spacing-xs;
+
+    @media (min-width: $bp-sm) {
+      margin-bottom: $spacing-md;
+    }
+  }
+
+  &__title {
+    @include font-2;
+    @include themify($themes) {
+      color: themed('textColor');
+    }
+
+    &:hover {
+      @include themify($themes) {
+        color: themed('primaryColor');
+      }
+      border: 0;
+    }
+  }
+
+  &__date {
+    @include themify($themes) {
+      color: themed('textLighter');
+    }
+  }
+}

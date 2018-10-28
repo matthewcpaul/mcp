@@ -1,0 +1,30 @@
+.c-work {
+  @include list-strip;
+
+  &__item {
+    @include themify($themes) {
+      border-color: themed('borderColor');
+    }
+    padding: $spacing-xxl 0 $spacing-xl 0;
+    border-bottom: $spacing-border solid;
+
+    &:first-child {
+      padding-top: $spacing-xxs;
+    }
+
+    &:last-child {
+      padding-bottom: 0;
+      border-bottom: 0;
+    }
+  }
+
+  &__image {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  &__body {
+    margin-top: $spacing-lg;
+  }
+}

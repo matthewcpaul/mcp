@@ -1,0 +1,59 @@
+h1, h2, h3, h4, figure {
+  margin-bottom: $spacing-xs;
+}
+
+h1, h2, h3, h4 {
+  @include themify($themes) {
+    color: themed('textColor');
+  }
+}
+
+h1 {
+  @include font-1;
+}
+
+h2 {
+  @include font-2;
+}
+
+h3 {
+  @include font-3;
+}
+
+h4 {
+  @include font-4;
+}
+
+p {
+  @include font-3;
+}
+
+p + p {
+  margin-top: $spacing-xs;
+}
+
+a {
+  @include themify($themes) {
+    color: themed('primaryColor');
+	}
+  text-decoration: none;
+
+  &:hover {
+    @include themify($themes) {
+  		border-color: themed('primaryColor');
+  	}
+    border-bottom: $spacing-border solid;
+  }
+}
+
+figure {
+  padding: $spacing-xxs 0;
+}
+
+figcaption {
+  @include themify($themes) {
+    color: themed('textLighter');
+	}
+  @include font-4;
+  text-align: center;
+}

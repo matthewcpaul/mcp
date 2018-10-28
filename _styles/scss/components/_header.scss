@@ -1,0 +1,57 @@
+.c-header {
+	@include themify($themes) {
+		border-color: themed('borderColor');
+	}
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: $spacing-md 0;
+	border-bottom: 1px solid;
+
+	&__title {
+		@include font-3;
+		@include themify($themes) {
+	    color: themed('textColor');
+	  }
+
+		&:hover {
+			@include themify($themes) {
+				color: themed('textColor');
+			}
+			border-bottom: 0;
+		}
+	}
+
+	// &__button {
+  //   background: transparent;
+  //   width: 1.5rem;
+  //   height: 1.5rem;
+  //   border: 0;
+	//
+  //   @media (min-width: $bp-sm) {
+  //     margin-left: 2rem;
+  //   }
+	//
+  //   &:hover {
+  //     cursor: pointer;
+  //   }
+	//
+  //   &:focus {
+  //     outline: 0;
+	//   }
+	// }
+	//
+	// &__nav {
+	// 	@include themify($themes) {
+	// 		border-color: themed('borderColor');
+	// 	}
+	// 	border-top: 1px solid;
+	// 	border-bottom: 1px solid;
+	// 	padding: 1rem 0;
+	//
+	// 	@media (min-width: $bp-sm) {
+	// 		padding: 1.5rem 0;
+	// 	}
+	// }
+}

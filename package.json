@@ -1,0 +1,27 @@
+{
+  "name": "matthew-paul",
+  "version": "0.0.0",
+  "description": "Product Designer at IBM",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matthewcpaul/mcp.git"
+  },
+  "author": "Matthew Paul",
+  "license": "ISC",
+  "scripts": {
+    "start": "gulp"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cssnano": "^2.1.1",
+    "gulp-gh-pages": "^0.6.0-5",
+    "gulp-sass": "^2.1.1",
+    "gulp-scss-lint": "^0.7.1",
+    "gulp-shell": "^0.5.2",
+    "gulp-sourcemaps": "^1.6.0"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,11 @@
+.c-intro {
+  margin-bottom: $spacing-md;
+
+  @media (min-width: $bp-sm) {
+    margin-bottom: $spacing-md;
+  }
+
+  &-description {
+    @include font-2-regular;
+  }
+}

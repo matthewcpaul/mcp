@@ -1,0 +1,17 @@
+.c-footer {
+	padding: $spacing-sm 0;
+	text-align: center;
+
+	@media (min-width: $bp-sm) {
+		padding: $spacing-lg 0;
+	}
+
+	&__stamp,
+	&__date {
+		@include font-4;
+	}
+
+	&__stamp {
+		margin-top: $spacing-xxs;
+	}
+}

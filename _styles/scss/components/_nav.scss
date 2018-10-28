@@ -1,0 +1,36 @@
+.c-nav {
+	@include list-strip;
+
+	&__item {
+		@include font-4;
+		display: inline-block;
+
+		+.c-nav__item {
+			margin-left: $spacing-xs;
+
+			@media (min-width: $bp-sm) {
+		    margin-left: $spacing-sm;
+		  }
+		}
+	}
+
+	&__link {
+		@include themify($themes) {
+			color: themed('textLighter');
+		}
+		cursor: pointer;
+
+		&:hover {
+			@include themify($themes) {
+				color: themed('textColor');
+			}
+			border-bottom: 0;
+		}
+
+		&.active {
+			@include themify($themes) {
+				color: themed('primaryColor');
+			}
+		}
+	}
+}

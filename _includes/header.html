@@ -1,0 +1,24 @@
+<header class="c-header" role="banner">
+	<a class="c-header__title" href="{{ "/" | prepend: site.baseurl }}">{{ site.name }}</a>
+	<nav class="c-header__nav" role="navigation">
+		<ul class="c-nav">
+			{% assign pages = site.pages | sort:"order" %}
+			{% for p in pages %}
+			{% if p.order >= 1 %}
+			<li class="c-nav__item">
+				<a {% if p.url == page.url %}class="c-nav__link active"{% else %}class="c-nav__link"{% endif %} href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+			</li>
+			{% endif %}
+			{% endfor %}
+		</ul>
+	</nav>
+	<!-- <button class="c-header__button" onclick="toggleTheme()">
+		<?xml version="1.0" encoding="UTF-8"?>
+		<svg class="c-icon__theme" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		    <title>Theme Icon</title>
+		    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+		        <path d="M12,18 C8.691,18 6,15.309 6,12 C6,8.691 8.691,6 12,6 C15.309,6 18,8.691 18,12 C18,15.309 15.309,18 12,18 Z M22,12.5 L22,11.5 L18.975,11.5 C18.864,9.944 18.249,8.531 17.286,7.421 L19.425,5.282 L18.718,4.575 L16.58,6.714 C15.47,5.751 14.057,5.136 12.5,5.025 L12.5,2 L11.5,2 L11.5,5.025 C9.944,5.136 8.53,5.751 7.421,6.714 L5.282,4.575 L4.575,5.282 L6.714,7.421 C5.751,8.53 5.136,9.944 5.025,11.5 L2,11.5 L2,12.5 L5.025,12.5 C5.136,14.057 5.751,15.47 6.714,16.58 L4.575,18.718 L5.282,19.425 L7.421,17.286 C8.531,18.249 9.944,18.864 11.5,18.975 L11.5,22 L12.5,22 L12.5,18.975 C14.056,18.864 15.47,18.249 16.579,17.286 L18.718,19.425 L19.425,18.718 L17.286,16.579 C18.249,15.47 18.864,14.056 18.975,12.5 L22,12.5 Z" id="fill" fill="#000000"></path>
+		    </g>
+		</svg>
+	</button> -->
+</header>
