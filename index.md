@@ -3,7 +3,7 @@ layout: default
 title: Work
 order: 1
 heading: Product designer
-description: I make tools to help teams be better teams. I work with researchers, engineers, and product managers to lead product strategy and create accessible software.
+description: I make tools to help teams be better teams. I work with researchers, engineers, and product managers to create inclusive and accessible software.
 ---
 
 <ul class="c-work">
