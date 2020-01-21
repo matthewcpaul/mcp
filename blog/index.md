@@ -11,7 +11,8 @@ description: Writing helps make sense of the world around us. Whether it’s the
   {% for blog in blog %}
   <li class="c-blog__item">
     <a class="c-blog__title" href="{{ blog.url | prepend: site.baseurl }}">{{ blog.title }}</a>
-    <p class="c-blog__date">{{ blog.date | date: "%B %-d, %Y"}}</p>
+    <!-- <p class="c-blog__date">{{ blog.date | date: "%B %-d, %Y"}}</p> -->
+    <p class="c-blog__date">Coming soon...</p>
   </li>
   {% endfor %}
 </ul>
