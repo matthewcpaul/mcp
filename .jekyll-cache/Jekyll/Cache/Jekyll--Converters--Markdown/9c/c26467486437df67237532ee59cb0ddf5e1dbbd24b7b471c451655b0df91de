@@ -1,0 +1,23 @@
+I"<ul class="c-blog">
+  
+  
+  <li class="c-blog__item">
+    <a class="c-blog__title" href="/blog/stay-at-home-designer/">Stay At Home Designer</a>
+    <!-- <p class="c-blog__date">October 1, 2018</p> -->
+    <p class="c-blog__date">Coming soon...</p>
+  </li>
+  
+  <li class="c-blog__item">
+    <a class="c-blog__title" href="/blog/flex-your-leadership-attributes/">Flex Your Leadership Attributes</a>
+    <!-- <p class="c-blog__date">September 18, 2018</p> -->
+    <p class="c-blog__date">Coming soon...</p>
+  </li>
+  
+  <li class="c-blog__item">
+    <a class="c-blog__title" href="/blog/sensible-software-typography/">Sensible Software Typography</a>
+    <!-- <p class="c-blog__date">January 20, 2018</p> -->
+    <p class="c-blog__date">Coming soon...</p>
+  </li>
+  
+</ul>
+:ET
