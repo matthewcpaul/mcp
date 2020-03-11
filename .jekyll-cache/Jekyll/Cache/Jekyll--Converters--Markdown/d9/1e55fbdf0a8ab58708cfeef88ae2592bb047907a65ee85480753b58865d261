@@ -1,0 +1,53 @@
+I"�	<ul class="c-work">
+  
+  
+  <li class="c-work__item">
+    <div class="c-work__media">
+      <img class="c-work__image" src="../images/invision-hero.png" alt="" />
+    </div>
+    <div class="c-work__body">
+      <h2 class="c-work__title">InVision</h2>
+      <p class="c-work__description">I was most recently a product designer at <a href="https://www.invisionapp.com/">InVision</a>, building tools to help designers and engineers work better together. InVision improves the way teams at 100% of the world’s fortune 100 companies—like Lyft, Hulu, and Shopify—stay in sync as their design decisions and products evolve.</p>
+    </div>
+    <ul class="c-projects"> 
+      <li class="c-projects__item">
+        <h2 class="c-projects__title"></h2>
+        <p class="c-projects__description"></p>
+      </li>
+    </ul>
+  </li>
+  
+  <li class="c-work__item">
+    <div class="c-work__media">
+      <img class="c-work__image" src="../images/ibm-hero.png" alt="" />
+    </div>
+    <div class="c-work__body">
+      <h2 class="c-work__title">IBM</h2>
+      <p class="c-work__description"><a href="https://www.ibm.com/design/">IBM</a> made a strong investment in design at the end of 2013 to rebuild the company’s products and services across the business. I joined during the first year of this transformation, and partnered with various organizations to define product strategy, research user needs, design enterprise software, and collaborate with engineers while continuously delivering outcomes for the business.</p>
+    </div>
+    <ul class="c-projects"> 
+      <li class="c-projects__item">
+        <h2 class="c-projects__title"></h2>
+        <p class="c-projects__description"></p>
+      </li>
+    </ul>
+  </li>
+  
+  <li class="c-work__item">
+    <div class="c-work__media">
+      <img class="c-work__image" src="../images/apple-hero.png" alt="" />
+    </div>
+    <div class="c-work__body">
+      <h2 class="c-work__title">Apple</h2>
+      <p class="c-work__description">I spent a few months in Cupertino, CA working with the talented team at Apple to design one of their first <a href="https://www.apple.com/business/products-platform/">100 business apps</a>. We explored ways to extend the iOS ecosystem for people at work.</p>
+    </div>
+    <ul class="c-projects"> 
+      <li class="c-projects__item">
+        <h2 class="c-projects__title"></h2>
+        <p class="c-projects__description"></p>
+      </li>
+    </ul>
+  </li>
+  
+</ul>
+:ET

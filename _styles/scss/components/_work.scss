@@ -5,16 +5,12 @@
     @include themify($themes) {
       border-color: themed('borderColor');
     }
-    padding: $spacing-xxl 0 $spacing-xl 0;
-    border-bottom: $spacing-border solid;
-
-    &:first-child {
-      padding-top: $spacing-xxs;
-    }
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: $spacing-xl;
 
     &:last-child {
-      padding-bottom: 0;
-      border-bottom: 0;
+      margin-bottom: 0;
     }
   }
 
@@ -22,9 +18,19 @@
     display: block;
     width: 100%;
     max-width: 100%;
+    border-radius: 8px;
+
+    @media (min-width: $bp-sm) {
+      border-radius: $spacing-xxs;
+    }
   }
 
   &__body {
-    margin-top: $spacing-lg;
+    min-width: 25%;
+  }
+
+  &__media {
+    min-width: 75%;
+    padding-left: $spacing-xxl;
   }
 }

@@ -10,12 +10,13 @@ description: I make tools to help teams be better teams. I work with researchers
   {% assign work = site.work | sort:"order" %}
   {% for work in work %}
   <li class="c-work__item">
-    <div class="c-work__media">
-      <img class="c-work__image" src="{{ work.image }}" alt="">
-    </div>
     <div class="c-work__body">
       <h2 class="c-work__title">{{ work.title }}</h2>
-      <p class="c-work__description">{{ work.description }}</p>
+      <span class="c-work__description">{{ work.company }}</span>
+      <p class="c-work__description">{{ work.year }}</p>
+    </div>
+    <div class="c-work__media">
+      <img class="c-work__image" src="{{ work.image }}" alt="">
     </div>
   </li>
   {% endfor %}

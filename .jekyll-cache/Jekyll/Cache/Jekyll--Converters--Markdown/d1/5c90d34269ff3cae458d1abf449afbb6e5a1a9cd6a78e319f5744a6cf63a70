@@ -1,0 +1,38 @@
+I"<<ul class="c-work">
+  
+  
+  <li class="c-work__item">
+    <div class="c-work__body">
+      <h2 class="c-work__title">Designing InVision Motion Inspector</h2>
+      <span class="c-work__description">InVision</span>
+      <span class="c-work__description">2018</span>
+    </div>
+    <div class="c-work__media">
+      <img class="c-work__image" src="../images/invision-hero.png" alt="" />
+    </div>
+  </li>
+  
+  <li class="c-work__item">
+    <div class="c-work__body">
+      <h2 class="c-work__title">IBM</h2>
+      <span class="c-work__description"></span>
+      <span class="c-work__description"></span>
+    </div>
+    <div class="c-work__media">
+      <img class="c-work__image" src="../images/ibm-hero.png" alt="" />
+    </div>
+  </li>
+  
+  <li class="c-work__item">
+    <div class="c-work__body">
+      <h2 class="c-work__title">Apple</h2>
+      <span class="c-work__description"></span>
+      <span class="c-work__description"></span>
+    </div>
+    <div class="c-work__media">
+      <img class="c-work__image" src="../images/apple-hero.png" alt="" />
+    </div>
+  </li>
+  
+</ul>
+:ET

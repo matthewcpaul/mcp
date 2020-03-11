@@ -2,14 +2,14 @@
 	@include list-strip;
 
 	&__item {
-		@include font-4;
+		@include font-3;
 		display: inline-block;
 
 		+.c-nav__item {
-			margin-left: $spacing-xs;
+			margin-left: $spacing-sm;
 
 			@media (min-width: $bp-sm) {
-		    margin-left: $spacing-sm;
+		    margin-left: $spacing-md;
 		  }
 		}
 	}
@@ -29,7 +29,7 @@
 
 		&.active {
 			@include themify($themes) {
-				color: themed('primaryColor');
+				color: themed('textColor');
 			}
 		}
 	}

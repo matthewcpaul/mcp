@@ -1,9 +1,8 @@
 .c-footer {
-	padding: $spacing-sm 0;
-	text-align: center;
+	padding: $spacing-xxl 0;
 
 	@media (min-width: $bp-sm) {
-		padding: $spacing-lg 0;
+		padding: $spacing-jumbo 0;
 	}
 
 	&__stamp,
@@ -13,5 +12,9 @@
 
 	&__stamp {
 		margin-top: $spacing-xxs;
+
+		@media (min-width: $bp-sm) {
+			margin-top: $spacing-xs;
+		}
 	}
 }

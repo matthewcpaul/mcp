@@ -2,6 +2,5 @@
   @include themify($themes) {
     border-color: themed('borderColor');
   }
-  padding: $spacing-md 0 $spacing-xl 0;
-  border-bottom: $spacing-border solid;
+  padding: 0;
 }

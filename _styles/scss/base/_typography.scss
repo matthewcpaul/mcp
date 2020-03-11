@@ -1,7 +1,3 @@
-h1, h2, h3, h4, figure {
-  margin-bottom: $spacing-xs;
-}
-
 h1, h2, h3, h4 {
   @include themify($themes) {
     color: themed('textColor');
@@ -10,10 +6,12 @@ h1, h2, h3, h4 {
 
 h1 {
   @include font-1;
+  margin-bottom: $spacing-xs;
 }
 
 h2 {
   @include font-2;
+  margin-bottom: $spacing-xxs;
 }
 
 h3 {
@@ -24,7 +22,8 @@ h4 {
   @include font-4;
 }
 
-p {
+p,
+span {
   @include font-3;
 }
 
@@ -47,7 +46,8 @@ a {
 }
 
 figure {
-  padding: $spacing-xxs 0;
+  padding: 0 0 $spacing-xxs 0;
+  margin-bottom: $spacing-xs;
 }
 
 figcaption {

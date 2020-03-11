@@ -1,8 +1,8 @@
 ---
 layout: default
-order: 4
+order: 5
 image: ../images/ibm-hero.png
-title: A web app for Financial Analysts
+title: Designing components and systems at IBM
 company: IBM
-year: 2017
+year: 2015
 ---

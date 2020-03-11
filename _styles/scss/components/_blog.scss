@@ -25,7 +25,7 @@
 
   &__date {
     @include themify($themes) {
-      color: themed('textLighter');
+      color: themed('textLight');
     }
   }
 }

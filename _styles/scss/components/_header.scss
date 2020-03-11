@@ -6,8 +6,13 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	padding: $spacing-md 0;
-	border-bottom: 1px solid;
+	padding: $spacing-lg 0;
+	margin-top: $spacing-xxs;
+
+	@media (min-width: $bp-sm) {
+		padding: $spacing-xl 0;
+		margin-top: $spacing-xs;
+	  }
 
 	&__title {
 		@include font-3;
