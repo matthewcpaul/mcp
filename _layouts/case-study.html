@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang=en id="appRoot">
+	<meta charset="utf-8"/>
+	<title>{{ site.name }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+
+	<meta property="og:title" content="{{ site.name }} - {{ page.title }}"/>
+	<meta property="og:site_name" content="{{ site.name }}"/>
+	<meta property="og:description" content="{{ site.description | strip_html }}"/>
+	<meta property="og:url" content="{{ page.url }}"/>
+
+	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="shortcut icon" href="{{ baseurl }}/images/favicon/favicon-matthew-paul.png"/>
+
+	<body>
+		<div class="c-wrap">
+			{% include header-work.html %}
+			<main class="c-main">
+				<div class="c-intro">
+					<h1>{{ page.title }}</h1>
+					<p class="c-intro-description">{{ page.description }}</p>
+				</div>
+				{{ content }}
+			</main>
+			{% include footer.html %}
+		</div>
+
+		<script type="text/javascript">
+
+			function applyTheme(theme) {
+				document.getElementById("appRoot").className = theme;
+				sessionStorage.setItem ("theme", theme);
+			}
+
+			function applyLightTheme() {
+				applyTheme("theme-light");
+			}
+
+			function applyDarkTheme() {
+				applyTheme("theme-dark");
+			}
+
+			function toggleTheme() {
+				if (sessionStorage.getItem("theme") === "theme-light")
+					applyDarkTheme();
+				else
+					applyLightTheme();
+			}
+
+			function initiateTheme() {
+				if (sessionStorage.getItem("theme") === null)
+					applyLightTheme();
+				else
+					applyTheme(sessionStorage.getItem("theme"));
+			}
+
+			initiateTheme();
+		</script>
+	</body>
+</html>

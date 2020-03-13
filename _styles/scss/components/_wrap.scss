@@ -1,5 +1,13 @@
 .c-wrap {
-  padding: 0 $spacing-xl;
-  max-width: 70rem;
+  max-width: 80rem;
+  padding: 0 $spacing-xs;
   margin: 0 auto;
+
+  @media (min-width: $bp-sm) {
+    padding: 0 $spacing-md;
+  }
+
+  @media (min-width: $bp-md) {
+    padding: 0 $spacing-xxl;
+  }
 }

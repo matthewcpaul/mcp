@@ -6,13 +6,15 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	padding: $spacing-lg 0;
-	margin-top: $spacing-xxs;
+	padding: $spacing-md 0;
 
 	@media (min-width: $bp-sm) {
+		padding: $spacing-lg 0;
+	}
+
+	@media (min-width: $bp-md) {
 		padding: $spacing-xl 0;
-		margin-top: $spacing-xs;
-	  }
+	}  
 
 	&__title {
 		@include font-3;

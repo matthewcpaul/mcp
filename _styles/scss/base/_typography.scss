@@ -6,12 +6,20 @@ h1, h2, h3, h4 {
 
 h1 {
   @include font-1;
-  margin-bottom: $spacing-xs;
+  margin-bottom: $spacing-tiny;
+
+  @media (min-width: $bp-sm) {
+    margin-bottom: $spacing-xxs;
+  }
 }
 
 h2 {
   @include font-2;
-  margin-bottom: $spacing-xxs;
+  margin-bottom: $spacing-tiny;
+
+  @media (min-width: $bp-sm) {
+    margin-bottom: $spacing-xxs;
+  }
 }
 
 h3 {

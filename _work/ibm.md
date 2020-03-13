@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: case-study
 order: 4
 image: ../images/ibm-hero.png
 title: A web app for Financial Analysts

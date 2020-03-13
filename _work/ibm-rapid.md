@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: case-study
 order: 5
 image: ../images/ibm-hero.png
 title: Designing components and systems at IBM

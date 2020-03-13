@@ -3,7 +3,7 @@ layout: default
 title: Blog
 order: 2
 heading: Expository writer
-description: Writing helps make sense of the world around us. Whether it’s the documentation of a project or a scribble of ideas, written language is the first step towards shared understanding.
+description: Writing helps make sense of the world around us. Whether it’s documentation, or a scribble of ideas, written language is the first step towards shared understanding.
 ---
 
 <ul class="c-blog">
