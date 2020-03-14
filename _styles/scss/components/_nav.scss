@@ -6,10 +6,14 @@
 		display: inline-block;
 
 		+.c-nav__item {
-			margin-left: $spacing-sm;
+			margin-left: $spacing-xxs;
 
 			@media (min-width: $bp-sm) {
-		    margin-left: $spacing-md;
+		    margin-left: $spacing-xs;
+			}
+			
+			@media (min-width: $bp-md) {
+		    margin-left: $spacing-sm;
 		  }
 		}
 	}

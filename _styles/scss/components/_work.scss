@@ -7,7 +7,15 @@
     }
     display: flex;
     align-items: flex-start;
-    margin-bottom: $spacing-xl;
+    margin-bottom: $spacing-xs;
+
+    @media (min-width: $bp-sm) {
+      margin-bottom: $spacing-xl;
+    }
+  
+    @media (min-width: $bp-md) {
+      margin-bottom: $spacing-jumbo;
+    }
 
     &:last-child {
       margin-bottom: 0;

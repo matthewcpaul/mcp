@@ -4,10 +4,10 @@
   margin: 0 auto;
 
   @media (min-width: $bp-sm) {
-    padding: 0 $spacing-md;
+    padding: 0 $spacing-xl;
   }
 
   @media (min-width: $bp-md) {
-    padding: 0 $spacing-xxl;
+    padding: 0 $spacing-jumbo;
   }
 }

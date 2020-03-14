@@ -15,10 +15,10 @@ h1 {
 
 h2 {
   @include font-2;
-  margin-bottom: $spacing-tiny;
+  margin-bottom: $spacing-half;
 
   @media (min-width: $bp-sm) {
-    margin-bottom: $spacing-xxs;
+    margin-bottom: $spacing-tiny;
   }
 }
 
