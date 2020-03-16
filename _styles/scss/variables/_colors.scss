@@ -4,10 +4,10 @@ $selection-background: rgb(255, 51, 102);
 
 $themes: (
   light: (
-    backgroundColor: #ffffff,
+    backgroundColor: rgba(0, 100, 150, 0.02),
     textColor: rgba(0,0,0,0.9),
     textLight: rgba(0,0,0,0.6),
-    textLighter: rgba(0,0,0,0.5),
+    textLighter: rgba(0,0,0,0.45),
     primaryColor: rgb(255, 51, 102),
     mediaBackground: rgba(0,0,0,0.05),
     borderColor: rgba(0,0,0,0.1),

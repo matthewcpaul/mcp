@@ -3,7 +3,7 @@ layout: default
 title: About
 order: 3
 heading: Special team player
-description: Building great products is a team sport. It requires healthy collaboration, persistent communication, and diversity in people and ideas.
+description: Building great products and services is a team sport. It requires healthy collaboration, persistent communication, and diversity in people and ideas.
 ---
 
 <figure>

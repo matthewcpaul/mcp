@@ -1,8 +1,13 @@
 .c-intro {
-  margin-bottom: $spacing-xxl;
+  margin-bottom: $spacing-lg;
 
   @media (min-width: $bp-sm) {
+    margin-bottom: $spacing-xl;
+  }
+
+  @media (min-width: $bp-md) {
     margin-bottom: $spacing-jumbo;
+    max-width: 48rem;
   }
 
   &-description {

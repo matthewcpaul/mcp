@@ -4,7 +4,8 @@ order: 1
 image: ../images/invision-hero.png
 title: Designing a Motion Inspector
 company: InVision
-year: 2018
+year: 2019
+intro: Making it easier to share and communicate motion specs between designers and developers.
 ---
 
 ## Opportunity
