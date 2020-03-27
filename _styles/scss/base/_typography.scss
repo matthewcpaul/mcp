@@ -54,14 +54,14 @@ a {
 }
 
 figure {
-  padding: 0 0 $spacing-xxs 0;
-  margin-bottom: $spacing-xs;
+  padding: 0 0 $spacing-xs 0;
+  margin-bottom: $spacing-md;
 }
 
 figcaption {
   @include themify($themes) {
     color: themed('textLighter');
 	}
-  @include font-4;
-  text-align: center;
+  @include font-3;
+  margin-top: $spacing-tiny;
 }
