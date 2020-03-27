@@ -39,6 +39,10 @@ p + p {
   margin-top: $spacing-xs;
 }
 
+p + h2 {
+  margin-top: $spacing-lg;
+}
+
 a {
   @include themify($themes) {
     color: themed('primaryColor');
