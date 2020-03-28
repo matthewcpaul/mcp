@@ -1,4 +1,9 @@
 .img-corners {
-  border-radius: 8px;
-  margin-top: $spacing-xl;
+  border-radius: 4px;
+  margin-top: $spacing-lg;
+
+  @media (min-width: $bp-sm) {
+    border-radius: 8px;
+    margin-top: $spacing-xl;
+  }
 }
