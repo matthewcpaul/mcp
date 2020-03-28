@@ -20,6 +20,10 @@
       margin-bottom: $spacing-jumbo;
     }
 
+    &:last-child {
+      margin-bottom: 0;
+    }
+
     &:hover {
       border-bottom: none;
       box-shadow: 0px 28px 24px -12px hsla(0, 0%, 0%, 0.15);

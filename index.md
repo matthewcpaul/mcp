@@ -1,12 +1,12 @@
 ---
-layout: default
+layout: work
 title: Work
 order: 1
 heading: Product designer
 description: I make tools to help teams be better teams. For the past 6 years, I’ve worked with researchers, engineers, and product managers to create inclusive and accessible software.
 ---
 
-<ul class="c-work">
+<div class="c-work">
   {% assign work = site.work | sort:"order" %}
   {% for work in work %}
   <a href="{{ work.url | prepend: site.baseurl }}" class="c-work__link">
@@ -23,4 +23,4 @@ description: I make tools to help teams be better teams. For the past 6 years, I
     </li>
   </a>
   {% endfor %}
-</ul>
+</div>

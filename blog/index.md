@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: Blog
 order: 2
 heading: Expository writer

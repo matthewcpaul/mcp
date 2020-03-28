@@ -35,12 +35,37 @@ span {
   @include font-3;
 }
 
-p + p {
+p + ul {
+  @include font-3;
+  padding-left: $spacing-xxs;
+  margin-left: $spacing-xxs;
+  margin-top: $spacing-tiny;
+  margin-bottom: $spacing-tiny;
+
+  @media (min-width: $bp-sm) {
+    padding-left: $spacing-xxs;
+    margin-left: $spacing-sm;
+  }
+}
+
+p + p,
+ul + p {
   margin-top: $spacing-xs;
 }
 
-p + h2 {
-  margin-top: $spacing-lg;
+p + h2,
+p + figure,
+ul + h2,
+figcaption + h2 {
+  margin-top: $spacing-md;
+
+  @media (min-width: $bp-sm) {
+    margin-top: $spacing-lg;
+  }
+
+  @media (min-width: $bp-md) {
+    margin-top: $spacing-xl;
+  }
 }
 
 a {
@@ -57,9 +82,17 @@ a {
   }
 }
 
-figure {
-  padding: 0 0 $spacing-xs 0;
-  margin-bottom: $spacing-md;
+figure + p,
+figure + h2 {
+  margin-top: $spacing-md;
+
+  @media (min-width: $bp-sm) {
+    margin-top: $spacing-lg;
+  }
+
+  @media (min-width: $bp-md) {
+    margin-top: $spacing-xl;
+  }
 }
 
 figcaption {

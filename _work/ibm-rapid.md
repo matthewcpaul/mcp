@@ -1,8 +1,11 @@
 ---
 layout: case-study
-order: 5
-image: ../images/ibm-hero.png
+order: 6
+image: ../images/rapid-hero.png
 title: Designing components and systems at IBM
 company: IBM
 year: 2015
+intro: Coming soon...
 ---
+
+Coming soon...

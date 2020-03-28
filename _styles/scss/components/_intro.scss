@@ -13,4 +13,16 @@
   &-description {
     @include font-2-regular;
   }
+
+  &-text {
+    margin-bottom: $spacing-md;
+
+    @media (min-width: $bp-sm) {
+      margin-bottom: $spacing-lg;
+    }
+
+    @media (min-width: $bp-md) {
+      margin-bottom: $spacing-xxl;
+    }
+  }
 }

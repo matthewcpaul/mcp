@@ -1,0 +1,53 @@
+I"+<p>With the advent of <a href="https://www.invisionapp.com/studio">InVision Studio</a>, designers and other creatives were given the ability to create complex UI animations with granular control over every property. They can even customize duration, delay, and easing for any property as well. The result was some of the most beautiful and thoughtful animated prototypes our industry had seen—one’s that you could actually click or tap through on any device (not just watch a movie of something created in After Effects).</p>
+
+<p>Working with the Inspect team, we were challenged with creating a tool thst allowed developers to collaborate with designers on these animated prototypes; developers needed to inspect each and every motion detail so they could bring it to life in code.</p>
+
+<p><img src="/images/inspect-motion-hero.png" alt="inspect motion hero image" class="img-corners" /></p>
+<figcaption>Motion Inspector showing the timeline, React Native code, and list data.</figcaption>
+
+<h2 id="opportunity">Opportunity</h2>
+<p>Studio was built as an electron app and shipped as a desktop experience, so there wasn’t much of complimentary web experience; just a presentation mode and the ability to leave comments. At the time, I was working as the Design DRI across three squads responsible for Craft &amp; Web Protototyping, the web Studio Document Viewer, and Inspect for both Sketch and Studio. It was nice to be able to touch such a breadth of the product surface area in my first few months.</p>
+
+<p>When we hired two more designers, my sole focus turned to the Inspect developer experience for this project. Along with the other teams I worked with, particularly the Inspect team, we saw a large opportunity to build the beginnings of Studio in the Browser. We collectively decided to start with showcasing a highlight of Studio as a design tool—advanced UI animation capabilities.</p>
+
+<p>The second opporunity we idetified was that we had a chance to build a developer tool that hasn’t ever existed before. This meant we had a chance to innovate and to do all of the product strategy, generative research, prototyping and sketching ideas, user story maps, product roadmap, refining the design, customer research, build the tool along the way, and eventually release the large feature. This also meant that it was an important strategic project for the company.</p>
+
+<h2 id="product-and-system-thinking">Product and system thinking</h2>
+<p>When I joined InVision in 2018, I learned that a number of ideas, projects, and time had already been spent on bringing complex motion capabilities to the product offering. One being “Motion”, which they were attenpting to build into the web app prototyping experience; another being a pivot all togeher to build a full-blown desktop design tool with unprecidented motion capabilities and granular control. This was <a href="https://www.invisionapp.com/studio">Studio</a>.</p>
+
+<p>The Inspect team was challened with deconstructing what we had now, which was for the creator, and figure out how to best deliver all kinds of motion data to the developer—the reader. What should the product be? Where should it fit within InVision’s new v7 platform? What were the pertinent peieces of data that developers needed, and what was just fluff? Could we build it into the presentation mode’s Inspect feature? Would the user’s flow, interactions, and information architecture make sense in that model?</p>
+
+<p>It was time to do some research and making.</p>
+
+<h2 id="make-with-what-we-know">Make with what we know</h2>
+<p>We began by looking at the recent history of design tools, other animation and video editing tools, and even tools from the music industry, like Ableton and Pro Tools. Once we felt like we gathered enough information, talked with a handful of InVision customers, and shared our insights with leadership, I began designing iteration after iteration based on what we knew at that point.</p>
+
+<p>Throughout this making process, we were also beginning to program the infrastructure and UI, knowing that we could make tweaks or pivot at any time.</p>
+
+<p>We (the Inspect team) felt good about the direction, and began putting mockups and animated prototypes in front of internal software engineers who use Inspect in their daily work. We also repeated the same sharing process with the designers and leadership who have been working on Studio for the past 2.5–3 years. The prototypes and direction were well recieved, and we felt comfortable moving forward with testing it with real users.</p>
+
+<h2 id="put-it-in-front-of-customers">Put it in front of customers</h2>
+<p>Johanna, our amazing researcher helped me put together a research plan, and I set up Calendly links to send to the customers that we identified using our own internal data tools. We scheduled 6–8 customer interviews—1 hour to set context with Studio, show the new v7 platform and how you navigate to a project, and then ran through our script of scenarios and questions.</p>
+
+<p>This was a particularly neat interview because we had built an identical prototype in both Studio and <a href="https://codepen.io/matthewcpaul/pen/wbOzxj">CodePen</a>, with some “errors” in the CodePen animation—things that didn’t look right to the supposed designer (and were indeed incorrect values). The customer we were interviewing would then use our live Inspect Motion product to interact with the designer’s prototype and find the data they needed—in list form or code snippets. They would then fix the code in CodePen, thus concluding the interview.</p>
+
+<p>We asked a series of follow up questions, and then repeated this with more customers. This was generally how we went about this:</p>
+<ul>
+  <li>We recorded every session with their consent</li>
+  <li>I took diligent notes and organized them for the team to reference later</li>
+  <li>Continually shared progress and finding with the team</li>
+  <li>Invited each engineer on the Inspect team to sit it on one interview</li>
+  <li>We sythesized key findings, success points, and areas of improvement</li>
+</ul>
+
+<h2 id="making-it-real">Making it real</h2>
+<p>Now that we were gaining confidence in the Motion Inspector product we built, we quickly made some decisions between out trio—Egnineering Manager, Designer, Product Manager—to make the neccessary alterations until it felt just right given everything we now knew (or at least right enough to launch the beta).</p>
+
+<p>After we knew what to build (and had already started roughly building it), we ran a user story mapping session with the whole sqaud. The purpose of this is to two fold:</p>
+<ul>
+  <li>Start with the high-level Epics, break those down into User Stories, and sometimes break those down even further into Tasks</li>
+  <li>Make sure the whole team is aligned on what we’re building, and if we missed anything</li>
+</ul>
+
+<p>Then I worked with the Engineering Manager to roughly translate those digital post-it notes to Jira tickets, created Epics to organize the work, and wrote the User Stories in more detail while identifying the ones where we still needed more design decisions to flag them for me to pick up.</p>
+:ET
