@@ -1,0 +1,101 @@
+I"D<div class="c-work">
+  
+  
+  <a href="/work/invision-motion-inspector/" class="c-work__link">
+    <li class="c-work__item">
+      <div class="c-work__body">
+        <h2 class="c-work__title">Designing a Motion Inspector</h2>
+        <span class="c-work__description">InVision,</span>
+        <span class="c-work__description">2019</span>
+        <p class="c-work__intro">Making it easier to share and communicate motion specs between designers and developers.</p>
+        <span class="c-work__case">View case study</span>
+        <span class="c-work__case c-work__arrow">→</span>
+      </div>
+      <div class="c-work__media">
+        <img class="c-work__image" src="../images/inspect-motion-hero.png" alt="" />
+      </div>
+    </li>
+  </a>
+  
+  <a href="/work/jira-integration/" class="c-work__link">
+    <li class="c-work__item">
+      <div class="c-work__body">
+        <h2 class="c-work__title">Designing the InVision-Jira itegration</h2>
+        <span class="c-work__description">InVision / Atlassian,</span>
+        <span class="c-work__description">2019</span>
+        <p class="c-work__intro">Coming soon...</p>
+        <span class="c-work__case">View case study</span>
+        <span class="c-work__case c-work__arrow">→</span>
+      </div>
+      <div class="c-work__media">
+        <img class="c-work__image" src="../images/invision-jira-hero.png" alt="" />
+      </div>
+    </li>
+  </a>
+  
+  <a href="/work/helios/" class="c-work__link">
+    <li class="c-work__item">
+      <div class="c-work__body">
+        <h2 class="c-work__title">Evolving InVision’s Design System</h2>
+        <span class="c-work__description">InVision,</span>
+        <span class="c-work__description">2018</span>
+        <p class="c-work__intro">Coming soon...</p>
+        <span class="c-work__case">View case study</span>
+        <span class="c-work__case c-work__arrow">→</span>
+      </div>
+      <div class="c-work__media">
+        <img class="c-work__image" src="../images/helios-hero.png" alt="" />
+      </div>
+    </li>
+  </a>
+  
+  <a href="/work/ibm/" class="c-work__link">
+    <li class="c-work__item">
+      <div class="c-work__body">
+        <h2 class="c-work__title">A web app for Financial Analysts</h2>
+        <span class="c-work__description">IBM,</span>
+        <span class="c-work__description">2017</span>
+        <p class="c-work__intro">Coming soon...</p>
+        <span class="c-work__case">View case study</span>
+        <span class="c-work__case c-work__arrow">→</span>
+      </div>
+      <div class="c-work__media">
+        <img class="c-work__image" src="../images/ibm-hero.png" alt="" />
+      </div>
+    </li>
+  </a>
+  
+  <a href="/work/apple/" class="c-work__link">
+    <li class="c-work__item">
+      <div class="c-work__body">
+        <h2 class="c-work__title">Building business apps with Apple</h2>
+        <span class="c-work__description">Apple,</span>
+        <span class="c-work__description">2016</span>
+        <p class="c-work__intro">Confidential 🙅‍♀️</p>
+        <span class="c-work__case">View case study</span>
+        <span class="c-work__case c-work__arrow">→</span>
+      </div>
+      <div class="c-work__media">
+        <img class="c-work__image" src="../images/apple-hero.png" alt="" />
+      </div>
+    </li>
+  </a>
+  
+  <a href="/work/ibm-rapid/" class="c-work__link">
+    <li class="c-work__item">
+      <div class="c-work__body">
+        <h2 class="c-work__title">Designing components and systems at IBM</h2>
+        <span class="c-work__description">IBM,</span>
+        <span class="c-work__description">2015</span>
+        <p class="c-work__intro">Coming soon...</p>
+        <span class="c-work__case">View case study</span>
+        <span class="c-work__case c-work__arrow">→</span>
+      </div>
+      <div class="c-work__media">
+        <img class="c-work__image" src="../images/rapid-hero.png" alt="" />
+      </div>
+    </li>
+  </a>
+  
+</div>
+:ET
