@@ -19,3 +19,7 @@ img {
   max-width: 100%;
   display: block;
 }
+
+video {
+  object-fit: contain;
+}

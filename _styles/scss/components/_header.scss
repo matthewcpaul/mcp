@@ -14,7 +14,11 @@
 
 	@media (min-width: $bp-md) {
 		padding: $spacing-xl 0;
-	}  
+	}
+	
+	@media (min-width: $bp-row) {
+		padding: $spacing-xl $spacing-xs;
+	}
 
 	&__title {
 		@include font-3;

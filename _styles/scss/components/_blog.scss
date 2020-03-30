@@ -9,6 +9,10 @@
     }
   }
 
+  @media (min-width: $bp-row) {
+    padding: 0 $spacing-xs;
+  }
+
   &__title {
     @include font-2;
     @include themify($themes) {

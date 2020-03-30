@@ -10,6 +10,10 @@
     max-width: 48rem;
   }
 
+  @media (min-width: $bp-row) {
+		padding: 0 $spacing-xs;
+	}
+
   &-description {
     @include font-2-regular;
   }
@@ -23,6 +27,12 @@
 
     @media (min-width: $bp-md) {
       margin-bottom: $spacing-xxl;
+    }
+  }
+
+  &-casestudy {
+    @media (min-width: $bp-row) {
+      padding: 0 $spacing-xs;
     }
   }
 }

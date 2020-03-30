@@ -140,6 +140,13 @@
     }
   }
 
+  &__title,
+  &__description,
+  &__intro {
+    -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+  }
+
   &__signifier {
     margin-top: $spacing-xs;
 

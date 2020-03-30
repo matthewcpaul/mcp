@@ -3,6 +3,7 @@
 .publish
 *.log
 commit-hook.sh
+.jekyll-cache/
 
 # Build
 _site

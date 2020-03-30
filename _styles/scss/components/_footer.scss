@@ -1,8 +1,12 @@
 .c-footer {
-	padding: $spacing-xxl 0;
+	padding: $spacing-xl 0;
 
 	@media (min-width: $bp-sm) {
 		padding: $spacing-jumbo 0;
+	}
+
+	@media (min-width: $bp-row) {
+		padding: $spacing-jumbo $spacing-xs;
 	}
 
 	&__stamp,

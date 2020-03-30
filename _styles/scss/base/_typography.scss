@@ -56,7 +56,12 @@ ul + p {
 p + h2,
 p + figure,
 ul + h2,
-figcaption + h2 {
+figure + p,
+figure + h2,
+figcaption + h2,
+figcaption + p,
+p + video,
+video + p {
   margin-top: $spacing-md;
 
   @media (min-width: $bp-sm) {
@@ -73,6 +78,9 @@ a {
     color: themed('primaryColor');
 	}
   text-decoration: none;
+  font-weight: 500;
+  -webkit-font-smoothing: auto;
+	-moz-osx-font-smoothing: auto;
 
   &:hover {
     @include themify($themes) {
@@ -82,23 +90,20 @@ a {
   }
 }
 
-figure + p,
-figure + h2 {
-  margin-top: $spacing-md;
-
-  @media (min-width: $bp-sm) {
-    margin-top: $spacing-lg;
-  }
-
-  @media (min-width: $bp-md) {
-    margin-top: $spacing-xl;
-  }
-}
-
 figcaption {
   @include themify($themes) {
     color: themed('textLighter');
 	}
-  @include font-3;
+  @include font-4;
   margin-top: $spacing-tiny;
+
+  @media (min-width: $bp-row) {
+		padding: 0 $spacing-xs;
+	}
+}
+
+.content-padding {
+  @media (min-width: $bp-row) {
+		padding: 0 $spacing-xs;
+	}
 }
