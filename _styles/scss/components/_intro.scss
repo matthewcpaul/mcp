@@ -30,7 +30,8 @@
     }
   }
 
-  &-casestudy {
+  &-casestudy,
+  &-blog {
     @media (min-width: $bp-row) {
       padding: 0 $spacing-xs;
     }

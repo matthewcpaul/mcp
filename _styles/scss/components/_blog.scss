@@ -18,6 +18,8 @@
     @include themify($themes) {
       color: themed('textColor');
     }
+    -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
 
     &:hover {
       @include themify($themes) {

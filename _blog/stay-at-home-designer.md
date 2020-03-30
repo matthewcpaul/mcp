@@ -5,3 +5,4 @@ date: 2018-10-01
 ---
 
 Coming soon...
+{:class="content-padding"}
