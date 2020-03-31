@@ -21,7 +21,10 @@
     "gulp-sass": "^4.0.2",
     "gulp-scss-lint": "^1.0.0",
     "gulp-shell": "^0.8.0",
-    "gulp-sourcemaps": "^2.6.5"
+    "gulp-sourcemaps": "^2.6.5",
+    "minimist": "^1.2.5"
   },
-  "dependencies": {}
+  "dependencies": {
+    "js-yaml": "^3.13.1"
+  }
 }

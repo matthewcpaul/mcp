@@ -30,7 +30,7 @@ When we hired two more designers, my sole focus turned to the Inspect developer 
 </video>
 <figcaption>A fairly common UI interaction and animation (with some embellishments to showcase the wide range of granular control) that I made in Studio. I ended up making quite a few of these mock apps to familiarize myself with all of the available motion data points.</figcaption>
 
-The second opporunity we idetified was that we had a chance to build a developer tool that hasn’t ever existed before. This meant we had a chance to innovate and to do all of the product strategy, generative research, prototyping and sketching ideas, user story maps, product roadmap, refining the design, customer research, build the tool along the way, and eventually release the large feature. This also meant that it was an important strategic project for the company.
+The second opporunity we idetified was that we had a chance to build a developer tool that hadn’t ever existed before. This meant we had a chance to innovate and to do all of the product strategy, generative research, prototyping and sketching ideas, user story maps, product roadmap, refining the design, customer research, build the tool along the way, and eventually release the large feature. This also meant that it was an important strategic project for the company.
 {:class="content-padding"}
 
 ![motion-inspector-explorations](/images/motion-inspector-explorations.png){:class="img-corners"}
@@ -38,13 +38,18 @@ The second opporunity we idetified was that we had a chance to build a developer
 
 ## Product and system thinking
 {:class="content-padding"}
-When I joined InVision in 2018, I learned that a number of ideas, projects, and time had already been spent on bringing complex motion capabilities to the product offering. One being "Motion", which they were attenpting to build into the web app prototyping experience; another being a pivot all togeher to build a full-blown desktop design tool with unprecidented motion capabilities and granular control. This was <a href="https://www.invisionapp.com/studio">Studio</a>.
+When I joined InVision in 2018, I learned that a number of ideas, projects, and time had already been spent on bringing complex motion capabilities to the product offering. One being "Motion", which they were attempting to build into the web app prototyping experience; another being a pivot all togeher to build a full-blown desktop design tool with unprecidented motion capabilities and granular control. This was <a href="https://www.invisionapp.com/studio">Studio</a>.
 {:class="content-padding"}
 
 The Inspect team was challened with deconstructing what we had now, which was for the creator, and figure out how to best deliver all kinds of motion data to the developer—the reader. What should the product be? Where should it fit within InVision’s new v7 platform? What were the pertinent peieces of data that developers needed, and what was just fluff? Could we build it into the presentation mode’s Inspect feature? Would the user’s flow, interactions, and information architecture make sense in that model?
 {:class="content-padding"}
 
-It was time to do some research and making.
+<video playsinline="" loop="" autoplay="" preload="metadata" class="case__video">
+  <source class="case__source" src="/images/videos/motion-begin-prototyping.mp4" type="video/mp4">
+</video>
+<figcaption>Workig with my trio—EM and PM—and the engineers on our team, we began to solidify a direction for how this new Inspect Motion app could fit within InVision’s new cloud platform.</figcaption>
+
+It was time to do some research and coding.
 {:class="content-padding"}
 
 ## Make with what we know
@@ -55,7 +60,12 @@ We began by looking at the recent history of design tools, other animation and v
 Throughout this making process, we were also beginning to program the infrastructure and UI, knowing that we could make tweaks or pivot at any time.
 {:class="content-padding"}
 
-We (the Inspect team) felt good about the direction, and began putting mockups and animated prototypes in front of internal software engineers who use Inspect in their daily work. We also repeated the same sharing process with the designers and leadership who have been working on Studio for the past 2.5–3 years. The prototypes and direction were well recieved, and we felt comfortable moving forward with testing it with real users.
+<video playsinline="" loop="" autoplay="" preload="metadata" class="case__video">
+  <source class="case__source" src="/images/videos/inspect-motion-coded-beta.mp4" type="video/mp4">
+</video>
+<figcaption>A working prototype of the Inspect Motion product starting to come together; more goodness to come as we finished the project.</figcaption>
+
+We felt good about the the initial coded beta iteration, and began putting animated prototypes and the programmed feature in front of internal software engineers who use Inspect in their daily work. We also repeated the same sharing process with the designers and leadership who have been working on Studio for the past 2.5–3 years. The work and direction were well recieved, and we felt comfortable moving forward with testing it with real users.
 {:class="content-padding"}
 
 ## Put it in front of customers

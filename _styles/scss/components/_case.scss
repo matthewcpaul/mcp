@@ -3,14 +3,26 @@
     @include themify($themes) {
       background: themed('mediaBackground');
     }
-    padding: 8rem 5rem;
     width: 100%;
     height: 100%;
     border-radius: 4px;
     overflow: hidden;
+    padding: 2rem 2rem;
 
     @media (min-width: $bp-sm) {
-      border-radius: 8px;
+      padding: 3rem 2rem;
+    }
+
+    @media (min-width: $bp-double) {
+      padding: 5rem 4rem;
+    }
+
+    @media (min-width: $bp-md) {
+      padding: 6rem 4rem;
+    }
+
+    @media (min-width: $bp-row) {
+      padding: 7rem 5rem;
     }
   }
 
