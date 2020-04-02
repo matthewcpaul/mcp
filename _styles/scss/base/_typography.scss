@@ -53,15 +53,21 @@ ul + p {
   margin-top: $spacing-xs;
 }
 
-p + h2,
-p + figure,
-ul + h2,
+img + div,
+img + h2,
+img + p,
 figure + p,
 figure + h2,
 figcaption + h2,
 figcaption + p,
+figcaption + div,
+video + p,
+p + img,
+p + h2,
+p + figure,
 p + video,
-video + p {
+p + p > img,
+ul + h2 {
   margin-top: $spacing-md;
 
   @media (min-width: $bp-sm) {

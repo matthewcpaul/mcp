@@ -1,7 +1,8 @@
 ---
 layout: case-study
 order: 1
-image: ../images/inspect-motion-hero.png
+image: /images/inspect-motion-hero.png
+caption: Motion Inspector showing the timeline, React Native code, and list data.
 title: Designing a Motion Inspector
 company: InVision
 year: 2019
@@ -14,9 +15,6 @@ With the advent of <a class="c-work__case-study-invision" href="https://www.invi
 
 Working with the Inspect team, we were challenged with creating a tool that allowed developers to collaborate with designers on these animated prototypes; developers needed to inspect each and every motion detail so they could bring it to life in code.
 {:class="content-padding"}
-
-![inspect motion hero image](/images/inspect-motion-hero.png){:class="img-corners"}
-<figcaption>Motion Inspector showing the timeline, React Native code, and list data.</figcaption>
 
 ## Opportunity
 {:class="content-padding"}

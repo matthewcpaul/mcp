@@ -24,7 +24,7 @@ description: I make tools to help teams be better teams. For the past 6 years, I
         </div>
       </div>
       <div class="c-work__media">
-        <img class="c-work__image" src="{{ work.image }}" alt="">
+        <img class="c-work__image" src="..{{ work.image }}" alt="">
       </div>
     </li>
   </a>
