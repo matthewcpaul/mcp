@@ -13,11 +13,11 @@ theme: invision
 With the advent of <a class="c-work__case-study-invision" href="https://www.invisionapp.com/studio">InVision Studio</a>, designers and other creatives were given the ability to create complex UI animations with granular control over every property. They can even customize duration, delay, and easing for any property as well. The result was some of the most beautiful and thoughtful animated prototypes our industry had seen—one’s that you could actually click or tap through on any device (not just watch a movie of something created in After Effects).
 {:class="content-padding"}
 
+## Opportunity
+{:class="content-padding"}
 Working with the Inspect team, we were challenged with creating a tool that allowed developers to collaborate with designers on these animated prototypes; developers needed to inspect each and every motion detail so they could bring it to life in code.
 {:class="content-padding"}
 
-## Opportunity
-{:class="content-padding"}
 Studio was built as an electron app and shipped as a desktop experience, so there wasn’t much of complimentary web experience; just a presentation mode and the ability to leave comments. At the time, I was working as the Design DRI across three squads responsible for Craft & Web Protototyping, the web Studio Document Viewer, and Inspect for both Sketch and Studio. It was nice to be able to touch such a breadth of the product surface area in my first few months.
 {:class="content-padding"}
 
