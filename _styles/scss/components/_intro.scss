@@ -1,12 +1,12 @@
 .c-intro {
-  margin-bottom: $spacing-lg;
+  margin-bottom: $spacing-xs;
 
   @media (min-width: $bp-sm) {
     margin-bottom: $spacing-xl;
   }
 
   @media (min-width: $bp-md) {
-    margin-bottom: $spacing-jumbo;
+    margin-bottom: $spacing-xxl;
     max-width: 48rem;
   }
 

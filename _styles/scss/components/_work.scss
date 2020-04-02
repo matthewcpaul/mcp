@@ -104,7 +104,15 @@
     flex-direction: column;
     justify-content: space-between;
     padding: $spacing-xs;
-    min-height: 16rem;
+    min-height: 20rem;
+
+    @media (min-width: $bp-xxs) {
+      min-height: 18rem;
+    }
+
+    @media (min-width: $bp-xs) {
+      min-height: 16rem;
+    }
 
     @media (min-width: $bp-sm) {
       min-height: 18rem;
