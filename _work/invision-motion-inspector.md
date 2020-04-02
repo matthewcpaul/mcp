@@ -6,9 +6,10 @@ title: Designing a Motion Inspector
 company: InVision
 year: 2019
 intro: Making it easier to share and communicate motion specs between designers and developers.
+theme: invision
 ---
 
-With the advent of <a href="https://www.invisionapp.com/studio">InVision Studio</a>, designers and other creatives were given the ability to create complex UI animations with granular control over every property. They can even customize duration, delay, and easing for any property as well. The result was some of the most beautiful and thoughtful animated prototypes our industry had seen—one’s that you could actually click or tap through on any device (not just watch a movie of something created in After Effects).
+With the advent of <a class="c-work__case-study-invision" href="https://www.invisionapp.com/studio">InVision Studio</a>, designers and other creatives were given the ability to create complex UI animations with granular control over every property. They can even customize duration, delay, and easing for any property as well. The result was some of the most beautiful and thoughtful animated prototypes our industry had seen—one’s that you could actually click or tap through on any device (not just watch a movie of something created in After Effects).
 {:class="content-padding"}
 
 Working with the Inspect team, we were challenged with creating a tool that allowed developers to collaborate with designers on these animated prototypes; developers needed to inspect each and every motion detail so they could bring it to life in code.
@@ -38,7 +39,7 @@ The second opporunity we idetified was that we had a chance to build a developer
 
 ## Product and system thinking
 {:class="content-padding"}
-When I joined InVision in 2018, I learned that a number of ideas, projects, and time had already been spent on bringing complex motion capabilities to the product offering. One being "Motion", which they were attempting to build into the web app prototyping experience; another being a pivot all togeher to build a full-blown desktop design tool with unprecidented motion capabilities and granular control. This was <a href="https://www.invisionapp.com/studio">Studio</a>.
+When I joined InVision in 2018, I learned that a number of ideas, projects, and time had already been spent on bringing complex motion capabilities to the product offering. One being "Motion", which they were attempting to build into the web app prototyping experience; another being a pivot all togeher to build a full-blown desktop design tool with unprecidented motion capabilities and granular control. This was <a class="c-work__case-study-invision" href="https://www.invisionapp.com/studio">Studio</a>.
 {:class="content-padding"}
 
 The Inspect team was challened with deconstructing what we had now, which was for the creator, and figure out how to best deliver all kinds of motion data to the developer—the reader. What should the product be? Where should it fit within InVision’s new v7 platform? What were the pertinent peieces of data that developers needed, and what was just fluff? Could we build it into the presentation mode’s Inspect feature? Would the user’s flow, interactions, and information architecture make sense in that model?
@@ -73,7 +74,7 @@ We felt good about the the initial coded beta iteration, and began putting anima
 Johanna, our amazing researcher helped me put together a research plan, and I set up Calendly links to send to the customers that we identified using our own internal data tools. We scheduled 6–8 customer interviews—1 hour to set context with Studio, show the new v7 platform and how you navigate to a project, and then ran through our script of scenarios and questions.
 {:class="content-padding"}
 
-This was a particularly neat interview because we had built an identical prototype in both Studio and <a href="https://codepen.io/matthewcpaul/pen/wbOzxj">CodePen</a>, with some “errors” in the CodePen animation—things that didn’t look right to the supposed designer (and were indeed incorrect values). The customer we were interviewing would then use our live Inspect Motion product to interact with the designer’s prototype and find the data they needed—in list form or code snippets. They would then fix the code in CodePen, thus concluding the interview.
+This was a particularly neat interview because we had built an identical prototype in both Studio and <a class="c-work__case-study-invision" href="https://codepen.io/matthewcpaul/pen/wbOzxj">CodePen</a>, with some “errors” in the CodePen animation—things that didn’t look right to the supposed designer (and were indeed incorrect values). The customer we were interviewing would then use our live Inspect Motion product to interact with the designer’s prototype and find the data they needed—in list form or code snippets. They would then fix the code in CodePen, thus concluding the interview.
 {:class="content-padding"}
 
 We asked a series of follow up questions, and then repeated this with more customers. This was generally how we went about this:

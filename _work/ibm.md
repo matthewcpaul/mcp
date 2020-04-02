@@ -6,6 +6,7 @@ title: A web app for Financial Analysts
 company: IBM
 year: 2017
 intro: Coming soon...
+theme: ibm
 ---
 
 Coming soon...

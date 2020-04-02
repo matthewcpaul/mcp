@@ -83,9 +83,6 @@ a {
 	-moz-osx-font-smoothing: auto;
 
   &:hover {
-    @include themify($themes) {
-  		border-color: themed('primaryColor');
-  	}
     border-bottom: $spacing-border solid;
   }
 }
@@ -95,7 +92,11 @@ figcaption {
     color: themed('textLighter');
 	}
   @include font-4;
-  margin-top: $spacing-tiny;
+  margin-top: $spacing-half;
+
+  @media (min-width: $bp-sm) {
+		margin-top: $spacing-tiny;
+	}
 
   @media (min-width: $bp-row) {
 		padding: 0 $spacing-xs;

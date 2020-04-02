@@ -18,8 +18,8 @@ description: I make tools to help teams be better teams. For the past 6 years, I
           <span class="c-work__description">{{ work.year }}</span>
           <p class="c-work__intro">{{ work.intro }}</p>
         </div>
-        <div class="c-work__signifier">
-          <span class="c-work__case">View case study</span>
+        <div class="c-work__case-study-{{ work.theme}}">
+          <span class="c-work__view-case">View case study</span>
           <span class="c-work__arrow">&#8594;</span>
         </div>
       </div>

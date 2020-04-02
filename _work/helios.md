@@ -6,6 +6,7 @@ title: Evolving InVision’s Design System
 company: InVision
 year: 2018
 intro: Coming soon...
+theme: helios
 ---
 
 Coming soon...

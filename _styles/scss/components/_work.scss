@@ -156,19 +156,33 @@
 	  -moz-osx-font-smoothing: grayscale;
   }
 
-  &__signifier {
-    // margin-top: $spacing-xs;
-
-    @media (min-width: $bp-sm) {
-      // margin-top: $spacing-md;
+  &__case-study {
+    &-invision {
+      color: #f36 !important;
     }
 
-    @media (min-width: $bp-row) {
-      margin-top: 0;
+    &-jira {
+      color: #0052CC !important;
+    }
+
+    &-helios {
+      color: #2F3849 !important;
+    }
+
+    &-ibm {
+      color: #0064FF !important;
+    }
+
+    &-apple {
+      color: #000 !important;
+    }
+
+    &-rapid {
+      color: #5A3EC8 !important;
     }
   }
 
-  &__case {
+  &__view-case {
     display: inline-block;
     transform: translate(0, -2px);
   }

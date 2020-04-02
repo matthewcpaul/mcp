@@ -6,6 +6,7 @@ title: Designing the InVision-Jira itegration
 company: InVision / Atlassian
 year: 2019
 intro: Coming soon...
+theme: jira
 ---
 
 Coming soon...
