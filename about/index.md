@@ -8,12 +8,12 @@ description: Building great products and services is a team sport. It requires h
 
 <figure>
   <picture>
-    <source media="(min-width: 48em)" srcset="../images/about/matthew-paul-nyc-lg.jpg" />
-  	<source media="(min-width: 32em)" srcset="../images/about/matthew-paul-nyc-md.jpg" />
-  	<img class="img-corners" src="../images/about/matthew-paul-nyc-sm.jpg" alt="Matthew Paul in Brooklyn, NY." />
+    <source media="(min-width: 44em)" srcset="../images/about/matthewpaul-hangtime-lg.png" />
+  	<source media="(min-width: 30em)" srcset="../images/about/matthewpaul-hangtime-md.png" />
+  	<img class="img-corners" src="../images/about/matthewpaul-hangtime-sm.png" alt="Matthew Paul in Brooklyn, NY." />
   </picture>
   <figcaption>
-    It me, in NYC.
+    It me, on the keynote stage at Dribbble Hangtime NYC.
   </figcaption>
 </figure>
 
