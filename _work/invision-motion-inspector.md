@@ -15,7 +15,7 @@ With the advent of <a class="c-work__case-study-invision" href="https://www.invi
 
 ## Opportunity
 {:class="content-padding"}
-Working with the Inspect team, we were challenged with creating a tool that allowed developers to collaborate with designers on these animated prototypes; developers needed to inspect each and every motion detail so they could bring it to life in code.
+Working with the Inspect team, we were challenged with creating a tool that allowed developers to collaborate with designers on these animated prototypes; developers needed to inspect each and every motion detail so they could bring it to life in code. This was the beginning of <a class="c-work__case-study-invision" href="https://support.invisionapp.com/hc/en-us/articles/360025833331-Can-I-inspect-motion-transitions-in-Studio-prototypes">Inspect Motion</a>. Create a Studio prototype, and give it a try =)
 {:class="content-padding"}
 
 Studio was built as an electron app and shipped as a desktop experience, so there wasn’t much of complimentary web experience; just a presentation mode and the ability to leave comments. At the time, I was working as the Design DRI across three squads responsible for Craft & Web Protototyping, the web Studio Document Viewer, and Inspect for both Sketch and Studio. It was nice to be able to touch such a breadth of the product surface area in my first few months.
@@ -86,7 +86,7 @@ We asked a series of follow up questions, and then repeated this with more custo
 
 ## Making it real
 {:class="content-padding"}
-Now that we were gaining confidence in the Motion Inspector product we built, we quickly made some decisions between out trio—Egnineering Manager, Designer, Product Manager—to make the neccessary alterations until it felt just right given everything we now knew (or at least right enough to launch the beta).
+Now that we were gaining confidence in the Motion Inspector product we built, we quickly made some decisions between out trio—Engineering Manager, Designer, Product Manager—to make the neccessary alterations until it felt just right given everything we now knew (or at least right enough to launch the beta).
 {:class="content-padding"}
 
 After we knew what to build (and had already started roughly building it), we ran a user story mapping session with the whole sqaud. The purpose of this is to two fold:
