@@ -4,6 +4,10 @@
 	&__stamp,
 	&__colophon {
 		@include font-4;
+		
+		& a {
+			border-bottom: 0;
+		}
 	}
 
 	&__stamp {

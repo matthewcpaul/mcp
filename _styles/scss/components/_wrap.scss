@@ -3,15 +3,15 @@
   margin: 0 auto;
 
   @media (min-width: $bp-xxs) {
-    max-width: 38rem;
+    // max-width: 38rem;
   }
 
   @media (min-width: $bp-xs) {
-    max-width: 44rem;
+    // max-width: 44rem;
   }
 
   @media (min-width: $bp-sm) {
-    max-width: 60rem;
+    // max-width: 60rem;
   }
 
   @media (min-width: $bp-md) {
@@ -24,6 +24,21 @@
     @media (min-width: $bp-tiny) {
       padding-left: $spacing-xs;
       padding-right: $spacing-xs;
+    }
+
+    @media (min-width: $bp-xxs) {
+      padding-left: $spacing-md;
+      padding-right: $spacing-md;
+    }
+  
+    @media (min-width: $bp-xs) {
+      padding-left: $spacing-xl;
+      padding-right: $spacing-xl;
+    }
+  
+    @media (min-width: $bp-sm) {
+      padding-left: $spacing-jumbo;
+      padding-right: $spacing-jumbo;
     }
   }
 }

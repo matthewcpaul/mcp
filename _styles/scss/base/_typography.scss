@@ -80,8 +80,6 @@ a {
     color: themed('primaryColor');
 	}
   text-decoration: none;
-  -webkit-font-smoothing: auto;
-	-moz-osx-font-smoothing: auto;
 
   &:hover {
     border-bottom: $spacing-border solid;

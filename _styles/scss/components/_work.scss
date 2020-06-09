@@ -1,7 +1,7 @@
 .c-work {
-  @include list-strip;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(341px, 1fr));
+  margin-top: $spacing-xxl;
 
   &__image {
     max-width: 16rem;
@@ -12,30 +12,39 @@
     }
   }
 
+  &__body {
+    grid-column: span 2;
+    margin-top: 0;
+  }
+
   &__title {
     margin-top: $spacing-sm;
-    margin-bottom: $spacing-half;
 
-    @media (min-width: $bp-sm) {
+    @media (min-width: $bp-md) {
       margin-top: 0;
     }
   }
 
   &__description {
-    max-width: 40rem;
+    // max-width: 40rem;
+    margin-bottom: $spacing-sm;
+  }
+
+  &__project-list {
+    @include list-strip;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(304px, 1fr));
+    gap: $spacing-xs;
+    row-gap: $spacing-xs;
+  }
+
+  &__project {
+    display: flex;
   }
 
   &__case-study {
     &-invision {
       color: #f36 !important;
-    }
-
-    &-jira {
-      color: #0052CC !important;
-    }
-
-    &-helios {
-      color: #2F3849 !important;
     }
 
     &-ibm {
@@ -44,10 +53,6 @@
 
     &-apple {
       color: #000 !important;
-    }
-
-    &-rapid {
-      color: #5A3EC8 !important;
     }
   }
 }
