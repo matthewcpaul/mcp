@@ -1,13 +1,29 @@
 .c-wrap {
-  max-width: 80rem;
-  padding: 0 $spacing-xs;
+  width: 100%;
   margin: 0 auto;
 
+  @media (min-width: $bp-xxs) {
+    max-width: 38rem;
+  }
+
+  @media (min-width: $bp-xs) {
+    max-width: 44rem;
+  }
+
   @media (min-width: $bp-sm) {
-    padding: 0 $spacing-xl;
+    max-width: 60rem;
   }
 
   @media (min-width: $bp-md) {
-    padding: 0 $spacing-jumbo;
+    max-width: 76rem;
+  }
+
+  &__pad {
+    padding: $spacing-jumbo $spacing-tiny;
+
+    @media (min-width: $bp-tiny) {
+      padding-left: $spacing-xs;
+      padding-right: $spacing-xs;
+    }
   }
 }

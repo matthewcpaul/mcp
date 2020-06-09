@@ -22,6 +22,9 @@ assets:
 
 # Read and Output Collections
 collections:
+  org:
+    output: false
+    permalink: /org/:path/
   work:
     output: true
     permalink: /work/:path/

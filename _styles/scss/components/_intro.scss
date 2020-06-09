@@ -1,39 +1,20 @@
 .c-intro {
-  margin-bottom: $spacing-xs;
-
-  @media (min-width: $bp-sm) {
-    margin-bottom: $spacing-xl;
-  }
-
-  @media (min-width: $bp-md) {
-    margin-bottom: $spacing-xxl;
-    max-width: 48rem;
-  }
-
-  @media (min-width: $bp-row) {
-		padding: 0 $spacing-xs;
-	}
+  margin-bottom: $spacing-xxl;
 
   &-description {
     @include font-2-regular;
+    max-width: 60rem;
   }
 
-  &-text {
-    margin-bottom: $spacing-md;
+  // &-text {
+  //   margin-bottom: $spacing-md;
 
-    @media (min-width: $bp-sm) {
-      margin-bottom: $spacing-lg;
-    }
+  //   @media (min-width: $bp-sm) {
+  //     margin-bottom: $spacing-lg;
+  //   }
 
-    @media (min-width: $bp-md) {
-      margin-bottom: $spacing-xxl;
-    }
-  }
-
-  &-casestudy,
-  &-blog {
-    @media (min-width: $bp-row) {
-      padding: 0 $spacing-xs;
-    }
-  }
+  //   @media (min-width: $bp-md) {
+  //     margin-bottom: $spacing-xxl;
+  //   }
+  // }
 }

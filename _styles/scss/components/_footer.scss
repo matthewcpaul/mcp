@@ -1,24 +1,12 @@
 .c-footer {
-	padding: $spacing-xl 0;
-
-	@media (min-width: $bp-sm) {
-		padding: $spacing-jumbo 0;
-	}
-
-	@media (min-width: $bp-row) {
-		padding: $spacing-jumbo $spacing-xs;
-	}
+	margin-top: $spacing-jumbo;
 
 	&__stamp,
-	&__date {
+	&__colophon {
 		@include font-4;
 	}
 
 	&__stamp {
-		margin-top: $spacing-xxs;
-
-		@media (min-width: $bp-sm) {
-			margin-top: $spacing-xs;
-		}
+		margin-top: $spacing-xs;
 	}
 }

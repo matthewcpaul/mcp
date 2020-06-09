@@ -22,10 +22,6 @@ h2 {
   }
 }
 
-h3 {
-  @include font-3;
-}
-
 h4 {
   @include font-4;
 }
@@ -62,11 +58,11 @@ figcaption + h2,
 figcaption + p,
 figcaption + div,
 video + p,
+p + p > img,
 p + img,
 p + h2,
 p + figure,
 p + video,
-p + p > img,
 ul + h2 {
   margin-top: $spacing-md;
 
@@ -84,7 +80,6 @@ a {
     color: themed('primaryColor');
 	}
   text-decoration: none;
-  font-weight: 500;
   -webkit-font-smoothing: auto;
 	-moz-osx-font-smoothing: auto;
 
@@ -104,12 +99,6 @@ figcaption {
 		margin-top: $spacing-tiny;
 	}
 
-  @media (min-width: $bp-row) {
-		padding: 0 $spacing-xs;
-	}
-}
-
-.content-padding {
   @media (min-width: $bp-row) {
 		padding: 0 $spacing-xs;
 	}
