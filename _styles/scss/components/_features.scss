@@ -1,0 +1,22 @@
+.c-feature {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  margin-top: $spacing-xxl;
+
+  &__title {
+    margin-bottom: $spacing-xs;
+  }
+
+  &__talk-list {
+    @include list-strip;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-column: span 2;
+    gap: $spacing-xs;
+    row-gap: $spacing-xs;
+  }
+
+  &__talk {
+    display: flex;
+  }
+}

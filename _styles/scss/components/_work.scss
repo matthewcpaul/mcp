@@ -1,11 +1,18 @@
 .c-work {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(341px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   margin-top: $spacing-xxl;
 
   &__image {
-    max-width: 16rem;
+    max-width: 12rem;
     border-radius: 0.25rem;
+    margin-top: 10px;
+    margin-bottom: $spacing-xs;
+
+    @media (min-width: $bp-md) {
+      max-width: 16rem;
+      margin-bottom: 0;
+    }
 
     & img {
       border-radius: 0.25rem;
@@ -17,29 +24,34 @@
     margin-top: 0;
   }
 
-  &__title {
-    margin-top: $spacing-sm;
-
-    @media (min-width: $bp-md) {
-      margin-top: 0;
-    }
-  }
-
   &__description {
-    // max-width: 40rem;
+    max-width: 56rem;
     margin-bottom: $spacing-sm;
   }
 
   &__project-list {
     @include list-strip;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(304px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: $spacing-xs;
     row-gap: $spacing-xs;
   }
 
   &__project {
     display: flex;
+  }
+
+  &__link {
+    display: flex;
+    flex-direction: column;
+
+    & span {
+      @include font-4;
+    }
+
+    &:hover {
+      border: 0;
+    }
   }
 
   &__case-study {

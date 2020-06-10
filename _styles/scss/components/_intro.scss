@@ -3,7 +3,11 @@
 
   &-description {
     @include font-2-regular;
-    max-width: 60rem;
+    max-width: 56rem;
+
+    @media (min-width: $bp-md) {
+      max-width: 48rem;
+    }
   }
 
   // &-text {

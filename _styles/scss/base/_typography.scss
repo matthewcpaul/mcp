@@ -27,12 +27,12 @@ h4 {
 }
 
 p,
-span {
+span,
+ul {
   @include font-3;
 }
 
 p + ul {
-  @include font-3;
   padding-left: $spacing-xxs;
   margin-left: $spacing-xxs;
   margin-top: $spacing-tiny;

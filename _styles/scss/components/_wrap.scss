@@ -2,18 +2,6 @@
   width: 100%;
   margin: 0 auto;
 
-  @media (min-width: $bp-xxs) {
-    // max-width: 38rem;
-  }
-
-  @media (min-width: $bp-xs) {
-    // max-width: 44rem;
-  }
-
-  @media (min-width: $bp-sm) {
-    // max-width: 60rem;
-  }
-
   @media (min-width: $bp-md) {
     max-width: 76rem;
   }
@@ -27,13 +15,13 @@
     }
 
     @media (min-width: $bp-xxs) {
-      padding-left: $spacing-md;
-      padding-right: $spacing-md;
+      padding-left: $spacing-lg;
+      padding-right: $spacing-lg;
     }
   
     @media (min-width: $bp-xs) {
-      padding-left: $spacing-xl;
-      padding-right: $spacing-xl;
+      padding-left: $spacing-xxl;
+      padding-right: $spacing-xxl;
     }
   
     @media (min-width: $bp-sm) {
