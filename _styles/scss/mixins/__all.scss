@@ -28,35 +28,48 @@
 
 @mixin font-1 {
   font-family: "CalibreWeb";
-  font-weight: 700;
-  font-size: 2.5em;
+  font-weight: 400;
+  font-size: 2.5rem;
   line-height: 1.2;
+
+  @media (min-width: $bp-xs) {
+    font-size: 4rem;
+    line-height: 1.1;
+  }
 }
 
 @mixin font-2 {
   font-family: "CalibreWeb";
   font-weight: 700;
-  font-size: 1.75em;
+  font-size: 1.75rem;
   line-height: 1.3;
-}
 
-@mixin font-2-regular {
-  font-family: "CalibreWeb";
-  font-weight: 400;
-  font-size: 1.75em;
-  line-height: 1.3;
+  @media (min-width: $bp-xs) {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
 }
 
 @mixin font-3 {
   font-family: "CalibreWeb";
   font-weight: 400;
-  font-size: 1.25em;
-  line-height: 1.5;
+  font-size: 1.25rem;
+  line-height: 1.4;
+
+  @media (min-width: $bp-xs) {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
 }
 
 @mixin font-4 {
   font-family: "CalibreWeb";
   font-weight: 400;
-  font-size: 1em;
+  font-size: 1rem;
   line-height: 1.5;
+
+  @media (min-width: $bp-xs) {
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
 }

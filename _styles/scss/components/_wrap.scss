@@ -7,7 +7,7 @@
   }
 
   &__pad {
-    padding: $spacing-jumbo $spacing-tiny;
+    padding: $spacing-xxl $spacing-xxs $spacing-md $spacing-xxs;
 
     @media (min-width: $bp-tiny) {
       padding-left: $spacing-xs;
@@ -15,18 +15,12 @@
     }
 
     @media (min-width: $bp-xxs) {
-      padding-left: $spacing-lg;
-      padding-right: $spacing-lg;
+      padding-left: $spacing-md;
+      padding-right: $spacing-md;
     }
   
     @media (min-width: $bp-xs) {
-      padding-left: $spacing-xxl;
-      padding-right: $spacing-xxl;
-    }
-  
-    @media (min-width: $bp-sm) {
-      padding-left: $spacing-jumbo;
-      padding-right: $spacing-jumbo;
+      padding: $spacing-jumbo $spacing-xl $spacing-xxl $spacing-xl;
     }
   }
 }

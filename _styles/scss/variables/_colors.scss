@@ -4,7 +4,7 @@ $selection-background: rgb(0, 0, 0);
 
 $themes: (
   light: (
-    backgroundColor: rgba(244,240,235,0.1),
+    backgroundColor: rgba(244,235,212,0.3),
     textColor: rgba(0,0,0,0.9),
     textLight: rgba(0,0,0,0.7),
     textLighter: rgba(0,0,0,0.5),
@@ -19,6 +19,6 @@ $themes: (
     textLighter: rgba(255,255,255,0.5),
     primaryColor: rgb(0,0,0),
     mediaBackground: rgba(255,255,255,0.05),
-    borderColor: rgba(255,255,255,0.1),
+    borderColor: rgba(255,255,255,0.3),
   ),
 );

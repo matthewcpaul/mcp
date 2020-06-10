@@ -1,16 +1,19 @@
 .c-work {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  margin-top: $spacing-xxl;
+  grid-template-columns: 100%;
+
+  @media (min-width: $bp-sm) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
   &__image {
     max-width: 12rem;
     border-radius: 0.25rem;
-    margin-top: 10px;
-    margin-bottom: $spacing-xs;
+    margin-top: 12px;
+    margin-bottom: $spacing-xxs;
 
-    @media (min-width: $bp-md) {
-      max-width: 16rem;
+    @media (min-width: $bp-sm) {
+      max-width: 14rem;
       margin-bottom: 0;
     }
 
@@ -25,16 +28,35 @@
   }
 
   &__description {
-    max-width: 56rem;
+    max-width: 40rem;
     margin-bottom: $spacing-sm;
+
+    @media (min-width: $bp-xs) {
+      max-width: 48rem;
+      margin-bottom: $spacing-xl;
+    }
   }
 
   &__project-list {
     @include list-strip;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: $spacing-xs;
-    row-gap: $spacing-xs;
+    grid-template-columns: repeat(1, 1fr);
+    gap: $spacing-xxs;
+    row-gap: $spacing-xxs;
+
+    @media (min-width: $bp-xs) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: $bp-sm) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    @media (min-width: $bp-md) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: $spacing-xs;
+      row-gap: $spacing-md;
+    }
   }
 
   &__project {
@@ -42,11 +64,17 @@
   }
 
   &__link {
+    @include themify($themes) {
+      color: themed('textColor');
+    }
     display: flex;
     flex-direction: column;
 
     & span {
       @include font-4;
+      @include themify($themes) {
+        color: themed('textLighter');
+      }
     }
 
     &:hover {

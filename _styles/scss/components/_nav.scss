@@ -1,20 +1,22 @@
 .c-nav {
 	@include list-strip;
+	display: flex;
+	flex-direction: column;
+
+	@media (min-width: $bp-xs) {
+		flex-direction: row;
+	}
 
 	&__item {
 		@include font-4;
-		display: inline-block;
 
 		+.c-nav__item {
-			margin-left: $spacing-tiny;
+			margin-top: $spacing-xxs;
 
-			@media (min-width: $bp-sm) {
-		    margin-left: $spacing-xxs;
-			}
-			
-			@media (min-width: $bp-md) {
+			@media (min-width: $bp-xs) {
+				margin-top: 0;
 		    margin-left: $spacing-xs;
-		  }
+			}
 		}
 	}
 

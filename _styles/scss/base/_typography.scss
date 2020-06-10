@@ -6,30 +6,22 @@ h1, h2, h3, h4 {
 
 h1 {
   @include font-1;
-  margin-bottom: $spacing-tiny;
-
-  @media (min-width: $bp-sm) {
-    margin-bottom: $spacing-xxs;
-  }
+  margin-bottom: $spacing-xxs;
 }
 
 h2 {
   @include font-2;
-  margin-bottom: $spacing-half;
-
-  @media (min-width: $bp-sm) {
-    margin-bottom: $spacing-tiny;
-  }
-}
-
-h4 {
-  @include font-4;
+  margin-bottom: $spacing-tiny;
 }
 
 p,
 span,
 ul {
   @include font-3;
+}
+
+h4 {
+  @include font-4;
 }
 
 p + ul {
@@ -100,4 +92,18 @@ figcaption {
   @media (min-width: $bp-row) {
 		padding: 0 $spacing-xs;
 	}
+}
+
+hr {
+  @include themify($themes) {
+    border-color: themed('borderColor');
+  }
+  height: 0;
+  border: none;
+  border-bottom: 1px solid;
+  margin: $spacing-md 0;
+
+  @media (min-width: $bp-sm) {
+    margin: $spacing-xxl 0;
+  }
 }
