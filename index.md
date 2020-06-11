@@ -15,9 +15,9 @@ heading: Hi, I’m Matthew. I’m a product designer, researcher, and front-end 
     <ul class="c-work__project-list">
       {% for projects in org.projects %}
       <li class="c-work__project">
-        <p class="c-work__link">{{ projects.name }}
+        <a class="c-work__link" href="{{ projects.url }}" target="_blank">{{ projects.name }}
           <span>{{ projects.meta }}</span>
-        </p>
+        </a>
       </li>
       {% endfor %}
     </ul>

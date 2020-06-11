@@ -10,6 +10,7 @@ projects:
   - name: "Redesigning Inspect for Studio Cloud"
     meta: "Inspect, 2019"
   - name: "Integrate with Jira and back again"
+    url: "https://www.invisionapp.com/inside-design/jira-invision-studio-2019/"
     meta: "Studio, 2019"
   - name: "Specs and comments in Studio"
     meta: "Studio, 2019"

@@ -6,6 +6,7 @@ role: Product Designer &amp; Front-End Engineer
 description: <a class="c-work__case-study-ibm" href="https://www.ibm.com/">IBM</a> made a strong <a class="c-work__case-study-ibm" href="https://www.ibm.com/design/">investment in design</a> at the end of 2013 to rebuild the company’s products and services across the business. I joined during the first year of this transformation, and partnered with various organizations to define product strategy, research user needs, design enterprise software, and collaborate with engineers while continuously delivering outcomes for the business.
 projects:
   - name: "Designing a cognitive chatbot"
+    url: "https://www.ibm.com/watson/how-to-build-a-chatbot"
     meta: "IBM Watson, 2018"
   - name: "A web app to teach Agile and CI/CD"
     meta: "CIO, 2018"
