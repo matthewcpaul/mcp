@@ -85,6 +85,21 @@
     }
   }
 
+  &__item {
+    @include themify($themes) {
+      color: themed('textColor');
+    }
+    display: flex;
+    flex-direction: column;
+
+    & span {
+      @include font-4;
+      @include themify($themes) {
+        color: themed('textLighter');
+      }
+    }
+  }
+
   &__case-study {
     &-invision {
       color: #f36 !important;

@@ -15,9 +15,15 @@ heading: Hi, I’m Matthew. I’m a product designer, researcher, and front-end 
     <ul class="c-work__project-list">
       {% for projects in org.projects %}
       <li class="c-work__project">
+        {% if projects.url %}
         <a class="c-work__link" href="{{ projects.url }}" target="_blank">{{ projects.name }}
           <span>{{ projects.meta }}</span>
         </a>
+        {% else %}
+        <p class="c-work__item">{{ projects.name }}
+          <span>{{ projects.meta }}</span>
+        </p>
+        {% endif %}
       </li>
       {% endfor %}
     </ul>
