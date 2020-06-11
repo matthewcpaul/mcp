@@ -103,7 +103,7 @@ hr {
   border-bottom: 1px solid;
   margin: $spacing-md 0;
 
-  @media (min-width: $bp-sm) {
+  @media (min-width: $bp-xs) {
     margin: $spacing-xxl 0;
   }
 }

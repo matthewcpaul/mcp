@@ -55,6 +55,11 @@ heading: Hi, I’m Matthew. I’m a product designer, researcher, and front-end 
         </a>
       </li>
       <li class="c-feature__talk">
+        <a class="c-work__link" href="https://www.flickr.com/photos/aigaminnesota/15606393405/" target="_blank">AIGA Design Camp Workshop
+          <span>Minnesota, 2016</span>
+        </a>
+      </li>
+      <li class="c-feature__talk">
         <a class="c-work__link" href="https://www.instagram.com/p/BKrrhzwDiTX/" target="_blank">HOW Magazine
           <span>Austin, 2016</span>
         </a>
@@ -66,7 +71,7 @@ heading: Hi, I’m Matthew. I’m a product designer, researcher, and front-end 
       </li>
       <li class="c-feature__talk">
         <a class="c-work__link" href="https://www.flickr.com/photos/aigaminnesota/15606393405/" target="_blank">AIGA Design Camp Workshop
-          <span>Minnesota, 2014 &amp; 2016</span>
+          <span>Minnesota, 2014</span>
         </a>
       </li>
     </ul>
