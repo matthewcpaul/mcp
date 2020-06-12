@@ -17,7 +17,11 @@ heading: Hi, I’m Matthew. I’m a product designer, researcher, and front-end 
       <li class="c-work__project">
         {% if projects.url %}
         <a class="c-work__link" href="{{ projects.url }}" target="_blank">{{ projects.name }}
-          <span>{{ projects.meta }}</span>
+          <div class="c-work__meta">
+            <span>{{ projects.meta }}</span>
+            <span class="c-work__meta-middot">&middot;</span>
+            <svg class="c-work__meta-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">{{ org.icon }}</svg>
+          </div>
         </a>
         {% else %}
         <p class="c-work__item">{{ projects.name }}
@@ -36,8 +40,13 @@ heading: Hi, I’m Matthew. I’m a product designer, researcher, and front-end 
     <h2 class="c-feature__title">Talks &amp; Interviews</h2>
     <ul class="c-feature__talk-list">
       <li class="c-feature__talk">
-        <a class="c-work__link" href="https://open.spotify.com/episode/2v54M7wKIDIkkPbuJTPfcp?si=ZYvnBYLQR7-Mj0eDgJSI3g" target="_blank">Product Hunt Podcast
+        <a class="c-work__link" href="https://open.spotify.com/episode/2v54M7wKIDIkkPbuJTPfcp?si=ZYvnBYLQR7-Mj0eDgJSI3g" target="_blank">Product Hunt Radio
           <span>New York, 2020</span>
+        </a>
+      </li>
+      <li class="c-feature__talk">
+        <a class="c-work__link" href="https://www.producthunt.com/makers/1-makers/discussion/5306-i-m-matthew-product-designer-at-invision-ama" target="_blank">Product Hunt AMA
+          <span>Internet, 2020</span>
         </a>
       </li>
       <li class="c-feature__talk">
@@ -46,8 +55,13 @@ heading: Hi, I’m Matthew. I’m a product designer, researcher, and front-end 
         </a>
       </li>
       <li class="c-feature__talk">
-        <a class="c-work__link" href="https://circlesco.com/conference/2018-on-demand/" target="_blank">Circles Conf (Withdrew)
+        <a class="c-work__link" href="https://circlesco.com/conference/circles/2018/schedule/" target="_blank">Circles Conf (Withdrew)
           <span>Dallas, 2018</span>
+        </a>
+      </li>
+      <li class="c-feature__talk">
+        <a class="c-work__link" href="https://www.facebook.com/UnderbellyCreative/videos/975303462621059/" target="_blank">Underbelly Winter Drop In
+          <span>Austin, 2017</span>
         </a>
       </li>
       <li class="c-feature__talk">

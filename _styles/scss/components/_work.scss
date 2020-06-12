@@ -85,6 +85,23 @@
     }
   }
 
+  &__meta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    & span {
+      @include font-4;
+      @include themify($themes) {
+        color: themed('textLighter');
+      }
+    }
+
+    &-icon {
+      margin-left: $spacing-half;
+    }
+  }
+
   &__item {
     @include themify($themes) {
       color: themed('textColor');
@@ -112,5 +129,14 @@
     &-apple {
       color: #000 !important;
     }
+  }
+}
+
+span.c-work__meta-middot {
+  font-weight: 700;
+  margin-left: $spacing-half;
+
+  @media (min-width: $bp-xs) {
+    margin-top: -2px;
   }
 }
