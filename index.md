@@ -62,12 +62,7 @@ blog-description: Writing helps us make sense of the world. Whether it’s the b
       </li>
       <li class="c-feature__talk">
         <a class="c-work__link" href="https://www.facebook.com/UnderbellyCreative/videos/975303462621059/" target="_blank">Underbelly Winter Drop In
-          <span>Austin, 2017</span>
-        </a>
-      </li>
-      <li class="c-feature__talk">
-        <a class="c-work__link" href="https://static1.squarespace.com/static/554a91a0e4b0910eeb46155d/t/5bb43e820d92977697f26d94/1538539139382/craftcon_schedule.pdf" target="_blank">IBM Craft Con
-          <span>Austin, 2017</span>
+          <span>Salt Lake City, 2018</span>
         </a>
       </li>
       <li class="c-feature__talk">
@@ -76,8 +71,13 @@ blog-description: Writing helps us make sense of the world. Whether it’s the b
         </a>
       </li>
       <li class="c-feature__talk">
-        <a class="c-work__link" href="https://www.flickr.com/photos/aigaminnesota/15606393405/" target="_blank">AIGA Design Camp Workshop
+        <a class="c-work__link" href="https://www.flickr.com/photos/aigaminnesota/37293897615/" target="_blank">AIGA Design Camp Workshop
           <span>Minnesota, 2016</span>
+        </a>
+      </li>
+      <li class="c-feature__talk">
+        <a class="c-work__link" href="https://www.flickr.com/photos/kathrynmcelroy/28606906984/in/album-72157646296926710/" target="_blank">IBM Craft Con
+          <span>Austin, 2016</span>
         </a>
       </li>
       <li class="c-feature__talk">
@@ -120,34 +120,33 @@ blog-description: Writing helps us make sense of the world. Whether it’s the b
 <hr>
 <article class="c-feature">
   <div class="c-feature__body">
-    <h2>Skills &amp; Interests</h2>
-    <ul class="c-work__project-list">
-      <li class="c-work__project">
-        <p class="c-work__item">Skills
-          <span>Product design</span>
-          <span>Systems thinking</span>
-          <span>UI design</span>
-          <span>Interaction design</span>
-          <span>Prototyping</span>
-          <span>Motion</span>
-          <span>Design systems</span>
-          <span>UX Research</span>
-        </p>
-      </li>
-      <li class="c-work__project">
-        <p class="c-work__item">Interests
-          <span>Home decor</span>
-          <span>House plants</span>
-          <span>Cats</span>
-          <span>Printmaking</span>
-          <span>Land Cruisers</span>
-          <span>Nature</span>
-          <span>Skateboarding</span>
-          <span>Tattoos</span>
-          <span>Listening to vinyl records</span>
-        </p>
-      </li>
-    </ul>
+    <h2 class="c-feature__title">Skills &amp; Interests</h2>
+    <div class="c-about">
+      <ul class="c-about__list">
+      <p class="c-work__item">Skills</p>
+        <li class="c-about__list-item">Product design</li>
+        <li class="c-about__list-item">Systems thinking</li>
+        <li class="c-about__list-item">UI design</li>
+        <li class="c-about__list-item">Interaction design</li>
+        <li class="c-about__list-item">Prototyping</li>
+        <li class="c-about__list-item">Motion</li>
+        <li class="c-about__list-item">Design systems</li>
+        <li class="c-about__list-item">UX Research</li>
+      </ul>
+      <ul class="c-about__list">
+      <p class="c-work__item">Interests</p>
+        <li class="c-about__list-item">Home decor</li>
+        <li class="c-about__list-item">House plants</li>
+        <li class="c-about__list-item">Climbing</li>
+        <li class="c-about__list-item">Cats</li>
+        <li class="c-about__list-item">Printmaking</li>
+        <li class="c-about__list-item">Land Cruisers</li>
+        <li class="c-about__list-item">Nature</li>
+        <li class="c-about__list-item">Skateboarding</li>
+        <li class="c-about__list-item">Tattoos</li>
+        <li class="c-about__list-item">Dragon Ball</li>
+      </ul>
+    </div>
   </div>
 </article>
 <hr>

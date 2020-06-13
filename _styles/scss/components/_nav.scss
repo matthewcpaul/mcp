@@ -9,9 +9,8 @@
 
 	&__item {
 		@include font-4;
-
 		+.c-nav__item {
-			margin-top: $spacing-xxs;
+			margin-top: $spacing-tiny;
 
 			@media (min-width: 45rem) {
 				margin-top: 0;

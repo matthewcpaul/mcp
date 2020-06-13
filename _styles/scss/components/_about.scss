@@ -1,0 +1,36 @@
+.c-about {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: $spacing-xxs;
+  row-gap: $spacing-xxs;
+
+  @media (min-width: 45rem) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: $bp-md) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: $spacing-xs;
+    row-gap: $spacing-md;
+  }
+
+  &__list {
+    @include list-strip;
+    margin-top: 0;
+
+    &-item {
+      @include font-4;
+      @include themify($themes) {
+        color: themed('textLighter');
+      }
+      margin-top: $spacing-half;
+
+      @media (min-width: $bp-xs) {
+        margin-top: 0;
+        +.c-about__list-item {
+          margin-top: $spacing-half;
+        }
+      }
+    }
+  }
+}
