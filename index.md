@@ -3,6 +3,7 @@ layout: work
 title: Work
 order: 1
 heading: Hi, I’m Matthew. I’m a product designer, researcher, and front-end engineer.
+blog-description: Writing helps us make sense of the world. Whether it’s the beginning of an idea, technical documentation, or a good old fashioned story, written language is the first step towards shared understanding. I like to write about work, life, and the interesting bits in between.
 ---
 
 {% assign org = site.org | sort:"order" %}
@@ -93,6 +94,58 @@ heading: Hi, I’m Matthew. I’m a product designer, researcher, and front-end 
         <a class="c-work__link" href="https://www.flickr.com/photos/aigaminnesota/15606393405/" target="_blank">AIGA Design Camp Workshop
           <span>Minnesota, 2014</span>
         </a>
+      </li>
+    </ul>
+  </div>
+</article>
+<hr>
+<article class="c-feature">
+  <div class="c-feature__body">
+    <h2>Expository Writing</h2>
+    <p class="c-work__description">{{ page.blog-description }}</p>
+    <ul class="c-work__project-list">
+      {% assign blog = site.blog | sort:"date" | reverse %}
+      {% for blog in blog %}
+      <li class="c-work__project">
+        <!-- <a class="c-work__link" href="{{ blog.url | prepend: site.baseurl }}"> -->
+        <p class="c-work__item">{{ blog.title }}
+          <span>Coming soon...</span>
+        </p>
+        <!-- <p class="c-blog__date">{{ blog.date | date: "%B %-d, %Y"}}</p> -->
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</article>
+<hr>
+<article class="c-feature">
+  <div class="c-feature__body">
+    <h2>Skills &amp; Interests</h2>
+    <ul class="c-work__project-list">
+      <li class="c-work__project">
+        <p class="c-work__item">Skills
+          <span>Product design</span>
+          <span>Systems thinking</span>
+          <span>UI design</span>
+          <span>Interaction design</span>
+          <span>Prototyping</span>
+          <span>Motion</span>
+          <span>Design systems</span>
+          <span>UX Research</span>
+        </p>
+      </li>
+      <li class="c-work__project">
+        <p class="c-work__item">Interests
+          <span>Home decor</span>
+          <span>House plants</span>
+          <span>Cats</span>
+          <span>Printmaking</span>
+          <span>Land Cruisers</span>
+          <span>Nature</span>
+          <span>Skateboarding</span>
+          <span>Tattoos</span>
+          <span>Listening to vinyl records</span>
+        </p>
       </li>
     </ul>
   </div>
