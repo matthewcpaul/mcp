@@ -13,7 +13,6 @@ projects:
     meta: "CIO, 2018"
   - name: "IBM Rapid (S)CSS design system"
     meta: "CIO, 2017"
-    url: "https://github.com/matthewcpaul/generator-rapid"
   - name: "Financial and access control for tools"
     meta: "IBM Design, 2017"
   - name: "IBM Make Lab"

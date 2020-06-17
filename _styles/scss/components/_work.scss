@@ -106,12 +106,6 @@
     }
   }
 
-  span.c-work__meta-middot {
-    font-weight: 700;
-    margin-top: -2px;
-    margin-left: $spacing-half;
-  }
-
   &__item {
     @include themify($themes) {
       color: themed('textColor');
