@@ -4,6 +4,7 @@ title: Work
 order: 1
 heading: Hi, I’m Matthew. I’m a product designer, researcher, and front-end engineer.
 blog-description: Writing helps us make sense of the world. Whether it’s the beginning of an idea, technical documentation, or a good old fashioned story, written language is the first step towards shared understanding. I like to write about work, life, and the interesting bits in between.
+icon: <path fill-rule="evenodd" clip-rule="evenodd" d="M2 3.5V16.5V18H3.5H16.5H18V16.5V12H16.5V16.5H3.5V3.5H8V2H3.5H2V3.5ZM16.5 2H12V3.5H15.4394L7.46973 11.4697L8.53039 12.5303L16.5 4.56072V8H18V3.5V2H16.5Z" fill="black" fill-opacity="0.5"/>
 ---
 
 {% assign org = site.org | sort:"order" %}
@@ -21,7 +22,7 @@ blog-description: Writing helps us make sense of the world. Whether it’s the b
           <div class="c-work__meta">
             <span>{{ projects.meta }}</span>
             <span class="c-work__meta-middot">&middot;</span>
-            <svg class="c-work__meta-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">{{ org.icon }}</svg>
+            <svg class="c-work__meta-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">{{ page.icon }}</svg>
           </div>
         </a>
         {% else %}
