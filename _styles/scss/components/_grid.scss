@@ -1,0 +1,38 @@
+.c-grid {
+
+  &__half {
+    display: grid;
+    grid-template-columns: 100%;
+    margin: $spacing-xs 0 $spacing-md;
+
+    @media (min-width: $bp-xs) {
+      margin: $spacing-xl 0 $spacing-xxl;
+    }
+
+    @media (min-width: $bp-sm) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  &__col {
+
+    &:last-child {
+      margin-top: $spacing-xxs;
+
+      @media (min-width: $bp-xs) {
+        margin-top: $spacing-sm;
+      }
+
+      @media (min-width: $bp-sm) {
+        margin-top: 0;
+      }
+    }
+  }
+
+  &__mt {
+
+    @media (min-width: $bp-sm) {
+      margin-top: $spacing-half;
+    }
+  }
+}

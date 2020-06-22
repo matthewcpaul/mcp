@@ -1,4 +1,4 @@
-h1, h2, h3, h4 {
+h1, h2, h3 {
   @include themify($themes) {
     color: themed('textColor');
   }
@@ -6,12 +6,22 @@ h1, h2, h3, h4 {
 
 h1 {
   @include font-1;
-  margin-bottom: $spacing-xxs;
 }
 
 h2 {
   @include font-2;
   margin-bottom: $spacing-tiny;
+}
+
+h3 {
+  @include font-3;
+}
+
+h4 {
+  @include themify($themes) {
+    color: themed('textLighter');
+  }
+  @include font-3;
 }
 
 p,
@@ -20,8 +30,12 @@ ul {
   @include font-3;
 }
 
-h4 {
-  @include font-4;
+h4 + p {
+  margin-top: $spacing-tiny;
+
+  @media (min-width: $bp-xs) {
+    margin-top: $spacing-xxs;
+  }
 }
 
 p + ul {
@@ -69,12 +83,14 @@ ul + h2 {
 
 a {
   @include themify($themes) {
-    color: themed('primaryColor');
+    color: themed('textColor');
 	}
-  text-decoration: none;
+  text-decoration: underline;
 
   &:hover {
-    border-bottom: $spacing-border solid;
+    @include themify($themes) {
+      color: themed('textLighter');
+    }
   }
 }
 
@@ -85,12 +101,8 @@ figcaption {
   @include font-4;
   margin-top: $spacing-half;
 
-  @media (min-width: $bp-sm) {
+  @media (min-width: $bp-xs) {
 		margin-top: $spacing-tiny;
-	}
-
-  @media (min-width: $bp-row) {
-		padding: 0 $spacing-xs;
 	}
 }
 

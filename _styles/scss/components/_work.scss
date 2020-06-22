@@ -6,19 +6,27 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
+  &__m-strip {
+    margin: 0;
+  }
+
   &__image {
-    max-width: 12rem;
-    border-radius: 0.25rem;
-    margin-top: 12px;
+    max-width: 16rem;
+    margin-top: 8px;
     margin-bottom: $spacing-xxs;
 
+    @media (min-width: $bp-xs) {
+      max-width: 18rem;
+    }
+
     @media (min-width: $bp-sm) {
-      max-width: 14rem;
+      max-width: 16rem;
       margin-bottom: 0;
     }
 
-    & img {
-      border-radius: 0.25rem;
+    @media (min-width: $bp-md) {
+      max-width: 18rem;
+      margin-bottom: 0;
     }
   }
 
@@ -28,12 +36,10 @@
   }
 
   &__description {
-    max-width: 40rem;
-    margin-bottom: $spacing-sm;
+    margin-bottom: $spacing-xs;
 
     @media (min-width: $bp-xs) {
-      max-width: 48rem;
-      margin-bottom: $spacing-xl;
+      margin-bottom: $spacing-md;
     }
   }
 
@@ -63,19 +69,38 @@
     display: flex;
   }
 
+  &__li {
+
+    &--InVision {
+      display: flex;
+      text-decoration: none;
+
+      &:hover {
+        color:  #f36 !important;
+      }
+    }
+
+    &--IBM {
+      display: flex;
+      text-decoration: none;
+
+      &:hover {
+        color:  #0064FF !important;
+      }
+    }
+  }
+
+  &__arrow {
+    margin-top: 2px;
+    margin-left: 6px;
+  }
+
   &__link {
     @include themify($themes) {
       color: themed('textColor');
     }
     display: flex;
     flex-direction: column;
-
-    & span {
-      @include font-4;
-      @include themify($themes) {
-        color: themed('textLighter');
-      }
-    }
 
     &:hover {
       @include themify($themes) {
@@ -118,20 +143,6 @@
       @include themify($themes) {
         color: themed('textLighter');
       }
-    }
-  }
-
-  &__case-study {
-    &-invision {
-      color: #f36 !important;
-    }
-
-    &-ibm {
-      color: #0064FF !important;
-    }
-
-    &-apple {
-      color: #000 !important;
     }
   }
 }

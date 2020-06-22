@@ -7,7 +7,8 @@
   }
 
   &__pad {
-    padding: $spacing-xxl $spacing-xxs $spacing-md $spacing-xxs;
+    padding-left: $spacing-xxs;
+    padding-right: $spacing-xxs;
 
     @media (min-width: $bp-tiny) {
       padding-left: $spacing-xs;
@@ -20,7 +21,8 @@
     }
   
     @media (min-width: $bp-xs) {
-      padding: $spacing-jumbo $spacing-xl $spacing-xxl $spacing-xl;
+      padding-left: $spacing-xl;
+      padding-right: $spacing-xl;
     }
   }
 }

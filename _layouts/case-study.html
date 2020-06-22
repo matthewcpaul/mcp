@@ -13,17 +13,34 @@
 	<link rel="shortcut icon" href="{{ baseurl }}/images/favicon/favicon-matthew-paul.png"/>
 
 	<body>
-		<div class="c-wrap">
-			{% include header-work.html %}
-			<main class="c-main">
-				<img src="{{ page.image }}" alt="inspect motion hero image" class="img-corners">
-				<figcaption>{{ page.caption }}</figcaption>
-				<div class="c-intro-casestudy">
-					<h1>{{ page.title }}</h1>
-				</div>
-				{{ content }}
-			</main>
-			{% include footer.html %}
+		<div class="c-wrap__pad">
+			<div class="c-wrap">
+				<header>
+					{% include header-work.html %}
+				</header>
+				<main class="c-main">
+					<section>
+						<div class="c-grid__half">
+							<div class="c-grid__col">
+								<h1>{{ page.org }}</h1>
+								<h3>{{ page.role }}</h3>
+								<h4>{{ page.tenure }}</h4>
+							</div>
+							<div class="c-grid__col">
+								<article class="c-grid__mt">
+									<p>{{ page.description }}</p>
+								</article>
+							</div>
+						</div>
+						<img src="{{ page.image }}" alt="inspect motion hero image">
+						<figcaption>{{ page.caption }}</figcaption>
+					</section>
+					<section>
+						{{ content }}
+					</section>
+				</main>
+				{% include footer.html %}
+			</div>
 		</div>
 
 		<script type="text/javascript">

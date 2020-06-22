@@ -8,29 +8,21 @@
 	justify-content: space-between;
 	padding: $spacing-md 0;
 
-	@media (min-width: $bp-sm) {
-		padding: $spacing-lg 0;
-	}
-
-	@media (min-width: $bp-md) {
-		padding: $spacing-xl 0;
-	}
-	
-	@media (min-width: $bp-row) {
-		padding: $spacing-xl $spacing-xs;
+	@media (min-width: $bp-xs) {
+		padding: $spacing-xxl 0;
 	}
 
 	&__title {
 		@include font-3;
 		@include themify($themes) {
 	    color: themed('textColor');
-	  }
+		}
+		text-decoration: none;
 
 		&:hover {
 			@include themify($themes) {
 				color: themed('textColor');
 			}
-			border-bottom: 0;
 		}
 	}
 
