@@ -29,6 +29,19 @@
     }
   }
 
+  &__thirds {
+    display: grid;
+    grid-template-columns: 100%;
+
+    @media (min-width: $bp-sm) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    &--two {
+      grid-column: span 2;
+    }
+  }
+
   &__mt {
 
     @media (min-width: $bp-sm) {

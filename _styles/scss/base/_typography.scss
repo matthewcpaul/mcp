@@ -30,6 +30,14 @@ ul {
   @include font-3;
 }
 
+h1 + .c-grid__thirds {
+  margin-top: $spacing-xxs;
+
+  @media (min-width: $bp-xs) {
+    margin-top: $spacing-xs;
+  }
+}
+
 h4 + p {
   margin-top: $spacing-tiny;
 

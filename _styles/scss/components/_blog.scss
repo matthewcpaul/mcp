@@ -9,29 +9,18 @@
     }
   }
 
-  @media (min-width: $bp-row) {
-    padding: 0 $spacing-xs;
-  }
-
   &__title {
     @include font-2;
     @include themify($themes) {
       color: themed('textColor');
     }
-    -webkit-font-smoothing: antialiased;
-	  -moz-osx-font-smoothing: grayscale;
+    text-decoration: none;
 
     &:hover {
       @include themify($themes) {
-        color: themed('primaryColor');
+        color: themed('textLighter');
       }
       border: 0;
-    }
-  }
-
-  &__date {
-    @include themify($themes) {
-      color: themed('textLight');
     }
   }
 }
