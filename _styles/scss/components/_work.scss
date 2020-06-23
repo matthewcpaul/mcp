@@ -6,8 +6,8 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  &__m-strip {
-    margin: 0;
+  &--align-center {
+    align-items: center;
   }
 
   &__image {
@@ -71,7 +71,7 @@
 
   &__li {
 
-    &--InVision {
+    &--invision {
       display: flex;
       text-decoration: none;
 
@@ -80,12 +80,21 @@
       }
     }
 
-    &--IBM {
+    &--ibm {
       display: flex;
       text-decoration: none;
 
       &:hover {
         color:  #0064FF !important;
+      }
+    }
+
+    &--makelab {
+      display: flex;
+      text-decoration: none;
+
+      &:hover {
+        color:  #00884B !important;
       }
     }
   }
@@ -144,5 +153,9 @@
         color: themed('textLighter');
       }
     }
+  }
+
+  &__m-strip {
+    margin: 0;
   }
 }

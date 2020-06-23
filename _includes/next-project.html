@@ -1,0 +1,16 @@
+<article class="c-work c-work--align-center">
+  <img class="c-work__image" src="{{ work.logo }}" alt="">
+  <div class="c-work__body">
+    <h4>Next</h4>
+    <h2>{{ work.org }}</h2>
+    <ul class="c-work__project-list">
+      <li class="c-work__project">
+        <a href="{{ work.url | prepend: site.baseurl }}" class="c-work__li--{{ work.title }}">
+          <span>View Case Study</span>
+          <div class="c-work__arrow">&#8594;</div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</article>
+<hr>

@@ -22,7 +22,7 @@ icon-video: <path fill-rule="evenodd" clip-rule="evenodd" d="M3.5 3.5H20.5V16.5H
     <ul class="c-work__project-list">
       <li class="c-work__project">
         {% if work.image %}
-        <a href="{{ work.url | prepend: site.baseurl }}" class="c-work__li--{{ work.org }}">
+        <a href="{{ work.url | prepend: site.baseurl }}" class="c-work__li--{{ work.title }}">
           <span>View case study</span>
           <div class="c-work__arrow">&#8594;</div>
         </a>

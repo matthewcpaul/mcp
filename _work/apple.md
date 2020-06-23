@@ -1,7 +1,8 @@
 ---
 layout: case-study
-order: 3
+order: 4
 logo: /images/work/apple-logo.png
+title: apple
 org: Apple
 role: Product Designer
 tenure: 2016

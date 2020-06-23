@@ -38,6 +38,14 @@ h4 + p {
   }
 }
 
+.u-mb-tiny {
+  margin-bottom: $spacing-tiny;
+
+  @media (min-width: $bp-xs) {
+    margin-bottom: $spacing-xxs;
+  }
+}
+
 p + ul {
   padding-left: $spacing-xxs;
   margin-left: $spacing-xxs;
@@ -86,6 +94,9 @@ a {
     color: themed('textColor');
 	}
   text-decoration: underline;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 
   &:hover {
     @include themify($themes) {
