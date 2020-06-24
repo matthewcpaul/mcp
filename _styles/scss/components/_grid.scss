@@ -12,6 +12,25 @@
     @media (min-width: $bp-sm) {
       grid-template-columns: repeat(2, 1fr);
     }
+
+    &-item {
+
+      &:nth-child(1) {
+        grid-row: 2;
+
+        @media (min-width: $bp-sm) {
+          grid-row: 1;
+        }
+      }
+
+      &:nth-child(2) {
+        grid-row: 1;
+      }
+    }
+  }
+
+  &__gap {
+    column-gap: $spacing-sm;
   }
 
   &__col {
@@ -26,19 +45,6 @@
       @media (min-width: $bp-sm) {
         margin-top: 0;
       }
-    }
-  }
-
-  &__thirds {
-    display: grid;
-    grid-template-columns: 100%;
-
-    @media (min-width: $bp-sm) {
-      grid-template-columns: repeat(3, 1fr);
-    }
-
-    &--two {
-      grid-column: span 2;
     }
   }
 

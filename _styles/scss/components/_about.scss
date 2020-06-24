@@ -20,9 +20,7 @@
 
     &-item {
       @include font-4;
-      @include themify($themes) {
-        color: themed('textLighter');
-      }
+      color: $textLighter;
       margin-top: $spacing-half;
 
       @media (min-width: $bp-xs) {

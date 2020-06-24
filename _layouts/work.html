@@ -30,37 +30,6 @@
 				{% include footer.html %}
 			</div>
 		</div>
-
-		<script type="text/javascript">
-
-			function applyTheme(theme) {
-				document.getElementById("appRoot").className = theme;
-				sessionStorage.setItem ("theme", theme);
-			}
-
-			function applyLightTheme() {
-				applyTheme("theme-light");
-			}
-
-			function applyDarkTheme() {
-				applyTheme("theme-dark");
-			}
-
-			function toggleTheme() {
-				if (sessionStorage.getItem("theme") === "theme-light")
-					applyDarkTheme();
-				else
-					applyLightTheme();
-			}
-
-			function initiateTheme() {
-				if (sessionStorage.getItem("theme") === null)
-					applyDarkTheme();
-				else
-					applyTheme(sessionStorage.getItem("theme"));
-			}
-
-			initiateTheme();
-		</script>
+		{% include theme-script.html %}
 	</body>
 </html>

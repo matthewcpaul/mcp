@@ -3,20 +3,22 @@ html, :root {
 }
 
 body {
-	@include themify($themes) {
-		color: themed('textLight');
-		background-color: themed('backgroundColor');
-	}
+	background: $backgroundColor;
+	color: $textLight;
 	font-family: "CalibreWeb";
-  font-weight: 400;
+	font-weight: 400;
 	font-size: 1em;
 	line-height: 1.5;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-text-size-adjust: 100%;
-  -moz-text-size-adjust: none;
-  -ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: 100%;
+
+	@media (prefers-color-scheme: dark) {
+		@include dark-mode;
+	}
 }
 
 ::selection {

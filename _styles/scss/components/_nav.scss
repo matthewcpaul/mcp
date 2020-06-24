@@ -8,7 +8,11 @@
 		@include font-3;
 
 		&:not(:last-child) {
-			margin-right: $spacing-xxs;
+			margin-right: $spacing-tiny;
+
+			@media (min-width: $bp-xxs) {
+				margin-right: $spacing-xxs;
+			}
 
 			@media (min-width: $bp-xs) {
 				margin-right: $spacing-xs;
@@ -17,22 +21,16 @@
 	}
 
 	&__link {
-		@include themify($themes) {
-			color: themed('textLighter');
-		}
+		color: $textLighter;
 		text-decoration: none;
 		cursor: pointer;
 
 		&:hover {
-			@include themify($themes) {
-				color: themed('textColor');
-			}
+			color: $textColor;
 		}
 
 		&.active {
-			@include themify($themes) {
-				color: themed('textColor');
-			}
+			color: $textColor;
 		}
 	}
 }

@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 100%;
 
-  @media (min-width: $bp-sm) {
+  @media (min-width: 45rem) {
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -11,16 +11,24 @@
   }
 
   &__image {
-    max-width: 16rem;
+    max-width: 100%;
     margin-top: 8px;
     margin-bottom: $spacing-xxs;
 
-    @media (min-width: $bp-xs) {
+    @media (min-width: $bp-xxs) {
       max-width: 18rem;
     }
 
+    @media (min-width: 45rem) {
+      max-width: 10rem;
+    }
+
+    @media (min-width: $bp-xs) {
+      max-width: 12rem;
+    }
+
     @media (min-width: $bp-sm) {
-      max-width: 16rem;
+      max-width: 14rem;
       margin-bottom: 0;
     }
 
@@ -102,57 +110,6 @@
   &__arrow {
     margin-top: 2px;
     margin-left: 6px;
-  }
-
-  &__link {
-    @include themify($themes) {
-      color: themed('textColor');
-    }
-    display: flex;
-    flex-direction: column;
-
-    &:hover {
-      @include themify($themes) {
-        color: themed('textLighter');
-      }
-      border: 0;
-    }
-  }
-
-  &__meta {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-    & span {
-      @include font-4;
-      @include themify($themes) {
-        color: themed('textLighter');
-      }
-    }
-
-    &-icon {
-      margin-left: $spacing-half;
-
-      @media (min-width: $bp-xs) {
-        margin-top: 1px;
-      }
-    }
-  }
-
-  &__item {
-    @include themify($themes) {
-      color: themed('textColor');
-    }
-    display: flex;
-    flex-direction: column;
-
-    & span {
-      @include font-4;
-      @include themify($themes) {
-        color: themed('textLighter');
-      }
-    }
   }
 
   &__m-strip {

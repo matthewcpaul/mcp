@@ -1,7 +1,4 @@
 .c-header {
-	@include themify($themes) {
-		border-color: themed('borderColor');
-	}
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -14,15 +11,11 @@
 
 	&__title {
 		@include font-3;
-		@include themify($themes) {
-	    color: themed('textColor');
-		}
+		color: $textColor;
 		text-decoration: none;
 
 		&:hover {
-			@include themify($themes) {
-				color: themed('textColor');
-			}
+			color: $textColor;
 		}
 	}
 

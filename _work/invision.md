@@ -36,7 +36,7 @@ projects:
 
 <div class="c-grid__half">
   <h2>Mobile Document Viewer</h2>
-  <article class="c-grid__mt">
+  <article class="c-grid__mt c-text-format">
     <p>{{ page.description }}</p>
   </article>
 </div>
@@ -45,7 +45,7 @@ projects:
 
 <div class="c-grid__half">
   <h2>Inspect for Studio</h2>
-  <article class="c-grid__mt">
+  <article class="c-grid__mt c-text-format">
     <p>{{ page.description }}</p>
   </article>
 </div>
@@ -54,7 +54,7 @@ projects:
 
 <div class="c-grid__half">
   <h2>Inspect Motion</h2>
-  <article class="c-grid__mt">
+  <article class="c-grid__mt c-text-format">
     <p>{{ page.description }}</p>
   </article>
 </div>
@@ -63,7 +63,7 @@ projects:
 
 <div class="c-grid__half">
   <h2>Design System</h2>
-  <article class="c-grid__mt">
+  <article class="c-grid__mt c-text-format">
     <p>{{ page.description }}</p>
   </article>
 </div>
@@ -72,7 +72,7 @@ projects:
 
 <div class="c-grid__half">
   <h2>Jira Integration</h2>
-  <article class="c-grid__mt">
+  <article class="c-grid__mt c-text-format">
     <p>{{ page.description }}</p>
   </article>
 </div>
@@ -81,7 +81,7 @@ projects:
 
 <div class="c-grid__half">
   <h2>DSM Integration</h2>
-  <article class="c-grid__mt">
+  <article class="c-grid__mt c-text-format">
     <p>{{ page.description }}</p>
   </article>
 </div>
@@ -90,7 +90,7 @@ projects:
 
 <div class="c-grid__half">
   <h2>Design Tokens</h2>
-  <article class="c-grid__mt">
+  <article class="c-grid__mt c-text-format">
     <p>{{ page.description }}</p>
   </article>
 </div>
@@ -99,7 +99,7 @@ projects:
 
 <div class="c-grid__half">
   <h2>Onwards</h2>
-  <article class="c-grid__mt">
+  <article class="c-grid__mt c-text-format">
     <p>{{ page.description }}</p>
   </article>
 </div>

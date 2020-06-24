@@ -1,0 +1,46 @@
+@mixin dark-mode {
+  background: $dark-backgroundColor;
+  color: $dark-textLight;
+  h1, h2, h3 {
+    color: $dark-textColor;
+  }
+  h4 {
+    color: $dark-textLighter;
+  }
+  a {
+    color: $dark-textColor;
+    &:hover {
+      color: $dark-textLighter;
+    }
+  }
+  figcaption {
+    color: $dark-textLighter;
+  }
+  hr {
+    border-bottom: 1px solid $dark-borderColor;
+  }
+  .c-about__list-item {
+    color: $dark-textLighter;
+  }
+  .c-blog__title {
+    color: $dark-textColor;
+    &:hover {
+      color: $dark-textLighter;
+    }
+  }
+  .c-header__title {
+		color: $dark-textColor;
+		&:hover {
+			color: $dark-textColor;
+    }
+  }
+  .c-nav__link {
+		color: $dark-textLighter;
+		&:hover {
+			color: $dark-textColor;
+		}
+		&.active {
+			color: $dark-textColor;
+		}
+	}
+}

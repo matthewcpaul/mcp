@@ -1,7 +1,5 @@
 h1, h2, h3 {
-  @include themify($themes) {
-    color: themed('textColor');
-  }
+  color: $textColor;
 }
 
 h1 {
@@ -18,10 +16,8 @@ h3 {
 }
 
 h4 {
-  @include themify($themes) {
-    color: themed('textLighter');
-  }
   @include font-3;
+  color: $textLighter;
 }
 
 p,
@@ -30,7 +26,7 @@ ul {
   @include font-3;
 }
 
-h1 + .c-grid__thirds {
+h1 + p {
   margin-top: $spacing-xxs;
 
   @media (min-width: $bp-xs) {
@@ -68,7 +64,7 @@ p + ul {
 
 p + p,
 ul + p {
-  margin-top: $spacing-xs;
+  margin-top: $spacing-xxs;
 }
 
 img + div,
@@ -98,26 +94,32 @@ ul + h2 {
 }
 
 a {
-  @include themify($themes) {
-    color: themed('textColor');
-	}
+  color: $textColor;
   text-decoration: underline;
   text-decoration-skip-ink: auto;
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
 
   &:hover {
-    @include themify($themes) {
-      color: themed('textLighter');
-    }
+    color: $textLighter;
+  }
+}
+
+figure {
+  margin-bottom: $spacing-xs;
+
+  @media (min-width: $bp-xs) {
+    margin-bottom: $spacing-md;
+  }
+
+  @media (min-width: $bp-sm) {
+    margin-bottom: 0;
   }
 }
 
 figcaption {
-  @include themify($themes) {
-    color: themed('textLighter');
-	}
   @include font-4;
+  color: $textLighter;
   margin-top: $spacing-half;
 
   @media (min-width: $bp-xs) {
@@ -126,12 +128,9 @@ figcaption {
 }
 
 hr {
-  @include themify($themes) {
-    border-color: themed('borderColor');
-  }
   height: 0;
   border: none;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid $borderColor;
   margin: $spacing-md 0;
 
   @media (min-width: $bp-xs) {

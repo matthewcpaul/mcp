@@ -1,7 +1,4 @@
 .c-main {
-  @include themify($themes) {
-    border-color: themed('borderColor');
-  }
   margin-top: $spacing-md;
 
   @media (min-width: $bp-xs) {

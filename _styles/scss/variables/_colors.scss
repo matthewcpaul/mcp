@@ -2,23 +2,18 @@
 $selection: #ffffff;
 $selection-background: rgb(0, 0, 0);
 
-$themes: (
-  light: (
-    backgroundColor: rgb(255,255,255),
-    textColor: rgba(0,0,0,0.9),
-    textLight: rgba(0,0,0,0.7),
-    textLighter: rgba(0,0,0,0.5),
-    primaryColor: rgb(0, 0, 0),
-    mediaBackground: rgba(0,0,0,0.06),
-    borderColor: rgba(0,0,0,0.2),
-  ),
-  dark: (
-    backgroundColor: rgba(0,0,0,0.93),
-    textColor: rgba(255,255,255,0.9),
-    textLight: rgba(255,255,255,0.7),
-    textLighter: rgba(255,255,255,0.5),
-    primaryColor: rgb(255,255,255),
-    mediaBackground: rgba(255,255,255,0.06),
-    borderColor: rgba(255,255,255,0.2),
-  ),
-);
+$backgroundColor: rgb(255,255,255);
+$mediaBackground: rgba(0,0,0,0.06);
+$textColor: rgba(0,0,0,0.9);
+$textLight: rgba(0,0,0,0.72);
+$textLighter: rgba(0,0,0,0.5);
+$borderColor: rgba(0,0,0,0.17);
+$primaryColor: rgb(0, 0, 0);
+
+$dark-backgroundColor: rgba(0,0,0,0.93);
+$dark-mediaBackground: rgba(255,255,255,0.06);
+$dark-textColor: rgba(255,255,255,0.9);
+$dark-textLight: rgba(255,255,255,0.73);
+$dark-textLighter: rgba(255,255,255,0.5);
+$dark-borderColor: rgba(255,255,255,0.13);
+$dark-primaryColor: rgb(255,255,255);

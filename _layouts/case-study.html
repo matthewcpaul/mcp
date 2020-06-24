@@ -27,7 +27,7 @@
 								<h4>{{ page.tenure }}</h4>
 							</div>
 							<div class="c-grid__col">
-								<article class="c-grid__mt">
+								<article class="c-grid__mt c-text-format">
 									<p>{{ page.description }}</p>
 								</article>
 							</div>
@@ -42,37 +42,6 @@
 				{% include footer.html %}
 			</div>
 		</div>
-
-		<script type="text/javascript">
-
-			function applyTheme(theme) {
-				document.getElementById("appRoot").className = theme;
-				sessionStorage.setItem ("theme", theme);
-			}
-
-			function applyLightTheme() {
-				applyTheme("theme-light");
-			}
-
-			function applyDarkTheme() {
-				applyTheme("theme-dark");
-			}
-
-			function toggleTheme() {
-				if (sessionStorage.getItem("theme") === "theme-light")
-					applyDarkTheme();
-				else
-					applyLightTheme();
-			}
-
-			function initiateTheme() {
-				if (sessionStorage.getItem("theme") === null)
-					applyLightTheme();
-				else
-					applyTheme(sessionStorage.getItem("theme"));
-			}
-
-			initiateTheme();
-		</script>
+		{% include theme-script.html %}
 	</body>
 </html>

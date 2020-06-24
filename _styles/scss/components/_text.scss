@@ -1,0 +1,10 @@
+.c-text-format {
+
+  & p {
+    max-width: 40rem;
+
+    @media (min-width: $bp-xs) {
+      max-width: 48rem;
+    }
+  }
+}

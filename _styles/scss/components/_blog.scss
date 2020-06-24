@@ -2,24 +2,20 @@
   @include list-strip;
 
   &__item:not(:last-child) {
-    margin-bottom: $spacing-xs;
+    margin-bottom: $spacing-sm;
 
     @media (min-width: $bp-sm) {
-      margin-bottom: $spacing-md;
+      margin-bottom: $spacing-xl;
     }
   }
 
   &__title {
     @include font-2;
-    @include themify($themes) {
-      color: themed('textColor');
-    }
+    color: $textColor;
     text-decoration: none;
 
     &:hover {
-      @include themify($themes) {
-        color: themed('textLighter');
-      }
+      color: $textLighter;
       border: 0;
     }
   }
