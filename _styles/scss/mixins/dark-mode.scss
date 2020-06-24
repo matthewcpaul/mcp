@@ -34,6 +34,9 @@
 			color: $dark-textColor;
     }
   }
+  .c-icon__fill {
+    fill: $dark-textLighter;
+  }
   .c-nav__link {
 		color: $dark-textLighter;
 		&:hover {

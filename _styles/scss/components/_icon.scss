@@ -1,29 +1,34 @@
 .c-icon {
+  margin-left: $spacing-half;
 
-  &__theme {
-
-    & #fill {
-      @include themify($themes) {
-  			fill: themed('textLighter') !important;
-  		}
-    }
-
-    &:hover {
-
-      & #fill {
-        @include themify($themes) {
-    			fill: themed('textColor') !important;
-    		}
-      }
-    }
-
-    &:active {
-
-      & #fill {
-        @include themify($themes) {
-    			fill: themed('textLighter') !important;
-    		}
-      }
-    }
+  &__fill {
+    fill: $textLighter;
   }
+
+  // &__theme {
+
+  //   & #fill {
+  //     @include themify($themes) {
+  // 			fill: themed('textLighter') !important;
+  // 		}
+  //   }
+
+  //   &:hover {
+
+  //     & #fill {
+  //       @include themify($themes) {
+  //   			fill: themed('textColor') !important;
+  //   		}
+  //     }
+  //   }
+
+  //   &:active {
+
+  //     & #fill {
+  //       @include themify($themes) {
+  //   			fill: themed('textLighter') !important;
+  //   		}
+  //     }
+  //   }
+  // }
 }
