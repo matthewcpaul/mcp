@@ -1,5 +1,13 @@
 .c-text-format {
 
+  & h1 {
+    max-width: 38rem;
+
+    @media (min-width: $bp-xs) {
+      max-width: 62rem;
+    }
+  }
+
   & p {
     max-width: 40rem;
 

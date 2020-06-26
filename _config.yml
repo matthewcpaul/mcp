@@ -22,7 +22,7 @@ assets:
 
 # Read and Output Collections
 collections:
-  org:
+  talks:
     output: false
     permalink: /org/:path/
   work:

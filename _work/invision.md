@@ -37,10 +37,12 @@ projects:
 <div class="c-grid__half">
   <h2>Mobile Document Viewer</h2>
   <article class="c-grid__mt c-text-format">
-    <p>{{ page.description }}</p>
+    <p>The first project I worked on was a redesign of the prototype overview and previewer. The previous experience was nearly six years old, wasn’t mobile-friendly, and lacked proper navigation. Additionally, Studio introduced a wider range of appearance settings, like device skins &amp; dimensions, full-width, and auto-fit, making the viewing experience unpredictable across devices.</p>
+    <p>We started by mocking up animated GIFs for every possible scenario of how various prototypes — watch, phone, tablet, desktop — would be presented in a mobile browser, and created a survey to gather the preferences of 2,000+ customers.</p>
+    <p>The results of this research allowed us to remain objective, and led us to design the mobile browser experience they wanted — a matrix of sensible defaults, and a simple interaction pattern allowing any user to toggle between the creator-defined setting and an auto-fit override.</p>
   </article>
 </div>
-<img src="{{ page.image }}" alt="inspect motion hero image">
+<img class="c-media" src="../../images/invision/invision-mobile-dv@2x.png" alt="Mobile Document Viewer Settings">
 <figcaption>{{ page.caption }}</figcaption>
 
 <div class="c-grid__half">

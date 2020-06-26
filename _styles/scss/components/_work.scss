@@ -59,15 +59,15 @@
     row-gap: $spacing-xxs;
 
     @media (min-width: 45rem) {
-      grid-template-columns: repeat(2, 1fr);
+      // grid-template-columns: repeat(2, 1fr);
     }
 
     @media (min-width: $bp-sm) {
-      grid-template-columns: repeat(1, 1fr);
+      // grid-template-columns: repeat(1, 1fr);
     }
 
     @media (min-width: $bp-md) {
-      grid-template-columns: repeat(2, 1fr);
+      // grid-template-columns: repeat(2, 1fr);
       gap: $spacing-xs;
       row-gap: $spacing-md;
     }

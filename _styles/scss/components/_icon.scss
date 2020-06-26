@@ -1,6 +1,14 @@
 .c-icon {
   margin-left: $spacing-half;
 
+  &--lock {
+    margin-top: -2px;
+
+    @media (min-width: $bp-xs) {
+      margin-top: 0;
+    }
+  }
+
   &__fill {
     fill: $textLighter;
   }

@@ -37,6 +37,9 @@
   .c-icon__fill {
     fill: $dark-textLighter;
   }
+  .c-media {
+    background: $dark-mediaBackground;
+  }
   .c-nav__link {
 		color: $dark-textLighter;
 		&:hover {
