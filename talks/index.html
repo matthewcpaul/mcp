@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html lang=en id="appRoot">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-63847002-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-63847002-2');
+	</script>
 	<meta charset="utf-8"/>
 	<title>Matthew Paul - Talks</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
@@ -126,36 +134,5 @@
 
 			</div>
 		</div>
-		<!-- <script type="text/javascript">
-
-  function applyTheme(theme) {
-    document.getElementById("appRoot").className = theme;
-    sessionStorage.setItem ("theme", theme);
-  }
-
-  function applyLightTheme() {
-    applyTheme("theme-light");
-  }
-
-  function applyDarkTheme() {
-    applyTheme("theme-dark");
-  }
-
-  function toggleTheme() {
-    if (sessionStorage.getItem("theme") === "theme-light")
-      applyDarkTheme();
-    else
-      applyLightTheme();
-  }
-
-  function initiateTheme() {
-    if (sessionStorage.getItem("theme") === null)
-      applyDarkTheme();
-    else
-      applyTheme(sessionStorage.getItem("theme"));
-  }
-
-  initiateTheme();
-</script> -->
 	</body>
 </html>
