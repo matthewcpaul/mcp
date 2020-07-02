@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html lang=en id="appRoot">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-63847002-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-63847002-2');
+	</script>
 	<meta charset="utf-8"/>
 	<title>{{ site.name }}{% if page.title %} - {{ page.title }}{% endif %}</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
@@ -30,6 +38,5 @@
 				{% include footer.html %}
 			</div>
 		</div>
-		{% include theme-script.html %}
 	</body>
 </html>
