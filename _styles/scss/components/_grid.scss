@@ -30,7 +30,7 @@
   }
 
   &__gap {
-    column-gap: $spacing-sm;
+    column-gap: $spacing-xxl;
   }
 
   &__col {
@@ -49,7 +49,8 @@
   }
 
   &__mt {
-
+    margin-top: $spacing-half;
+    
     @media (min-width: $bp-sm) {
       margin-top: $spacing-half;
     }

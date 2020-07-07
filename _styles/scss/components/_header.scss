@@ -3,7 +3,11 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	padding: $spacing-md 0;
+	padding: $spacing-xs 0;
+
+	@media (min-width: $bp-xxs) {
+		padding: $spacing-md 0;
+	}
 
 	@media (min-width: $bp-xs) {
 		padding: $spacing-xxl 0;
