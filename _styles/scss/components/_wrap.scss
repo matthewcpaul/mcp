@@ -7,22 +7,27 @@
   }
 
   &__pad {
-    padding-left: $spacing-half;
-    padding-right: $spacing-half;
+    padding-left: $spacing-tiny;
+    padding-right: $spacing-tiny;
 
     @media (min-width: $bp-tiny) {
-      padding-left: $spacing-tiny;
-      padding-right: $spacing-tiny;
+      padding-left: $spacing-xxs;
+      padding-right: $spacing-xxs;
     }
 
     @media (min-width: $bp-xxs) {
+      padding-left: $spacing-sm;
+      padding-right: $spacing-sm;
+    }
+
+    @media (min-width: $bp-xs) {
       padding-left: $spacing-md;
       padding-right: $spacing-md;
     }
   
-    @media (min-width: $bp-xs) {
-      padding-left: $spacing-xl;
-      padding-right: $spacing-xl;
+    @media (min-width: $bp-sm) {
+      padding-left: $spacing-xxl;
+      padding-right: $spacing-xxl;
     }
   }
 }
