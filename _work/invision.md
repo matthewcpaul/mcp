@@ -7,7 +7,7 @@ org: InVision
 role: Product Designer II
 tenure: 2018–2020
 description: How can we advance design and prototyping tools to help drive whole-team collaboration for software teams around the world? My work at InVision involved rethinking the entire developer experience, conducting research sessions with the industry’s leading software teams, evolving our design system, and prototyping new products while improving existing features.
-image: /images/inspect-motion-hero.png
+image: /images/work/invision-hero.png
 caption: Motion Inspector showing the timeline, React Native code, and list data.
 projects:
   - name: "Design tokens: variables &amp; styles"
