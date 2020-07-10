@@ -1,10 +1,10 @@
 .c-text-format {
 
   & h1 {
-    max-width: 38rem;
+    max-width: 42rem;
 
     @media (min-width: $bp-xs) {
-      max-width: 62rem;
+      max-width: 66rem;
     }
   }
 

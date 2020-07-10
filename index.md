@@ -3,7 +3,6 @@ layout: work
 title: Work
 order: 1
 heading: Hi, I’m Matthew. I’m a product designer, researcher, and front-end engineer.
-blog-description: Writing helps us make sense of the world. Whether it’s the beginning of an idea, technical documentation, or a good old fashioned story, written language is the first step towards shared understanding. I like to write about work, life, and the interesting bits in between.
 ---
 
 {% assign work = site.work | sort:"order" %}

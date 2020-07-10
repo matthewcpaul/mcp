@@ -6,7 +6,7 @@ title: ibm
 org: IBM
 role: Product Designer, Front-End Engineer
 tenure: 2014–2018
-description: IBM made a sizeable investment in design at the end of 2013 to rebuild the company’s products and services across the business. I joined during the first year of this transformation, and partnered with various organizations to define product strategy, research user needs, design enterprise software, and collaborate with engineers to continuously deliver outcomes.
+description: IBM made a sizeable investment in design at the end of 2013 to rebuild the company’s products and services across the business. I joined during the first year of this transformation, and partnered with various organizations to define product strategy, facilitate workshops, research user needs, design enterprise software, and collaborate with engineers to continuously deliver outcomes.
 image: /images/ibm-hero.png
 caption: IBM Toolbelt.
 projects:

@@ -21,11 +21,6 @@
     }
 
     @media (min-width: $bp-xs) {
-      padding-left: $spacing-md;
-      padding-right: $spacing-md;
-    }
-  
-    @media (min-width: $bp-sm) {
       padding-left: $spacing-xxl;
       padding-right: $spacing-xxl;
     }

@@ -1,11 +1,30 @@
 .c-nav {
 	@include list-strip;
+	@include font-3;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 
+	&--vert {
+		flex-direction: column;
+
+		& .c-nav__item {
+
+			&:not(:last-child) {
+				margin-bottom: $spacing-tiny;
+	
+				@media (min-width: $bp-xxs) {
+					margin-bottom: 0;
+				}
+			}
+		}
+
+		@media (min-width: $bp-xxs) {
+			flex-direction: row;
+		}
+	}
+
 	&__item {
-		@include font-3;
 
 		&:not(:last-child) {
 			margin-right: $spacing-tiny;
