@@ -7,7 +7,7 @@ org: InVision
 role: Product Designer II
 tenure: 2018–2020
 description: How can we advance design and prototyping tools to help drive whole-team collaboration for software teams around the world? My work at InVision involved rethinking the entire developer experience, conducting research sessions with the industry’s leading software teams, evolving our design system, and prototyping new products while improving existing features.
-image: /images/work/invision-hero.png
+image: /images/invision/invision-hero-brandbg.png
 caption: Motion Inspector showing the timeline, React Native code, and list data.
 projects:
   - name: "Design tokens: variables &amp; styles"
@@ -51,7 +51,10 @@ projects:
     <p>We also used this as an opportunity to design a new mobile navigation that allowed the viewer to easily move between screens in a prototype and navigate back to the screens overview at any time. It seems obvious, but neither of these options were possible on mobile before.</p>
   </article>
 </div>
-<img class="c-media" src="../../images/invision/invision-mobile-nav@2x.png" alt="Mobile Document Viewer Settings">
+<video loop autoplay preload>
+  <source src="../../images/invision/invision-movile-nav.mp4">
+</video>
+<!-- <img class="c-media" src="../../images/invision/invision-mobile-nav@2x.png" alt="Mobile Document Viewer Settings"> -->
 <figcaption>{{ page.caption }}</figcaption>
 
 <div class="c-grid__half">
@@ -60,7 +63,7 @@ projects:
     <p>{{ page.description }}</p>
   </article>
 </div>
-<img src="{{ page.image }}" alt="inspect motion hero image">
+<img class="c-media" src="{{ page.image }}" alt="inspect motion hero image">
 <figcaption>{{ page.caption }}</figcaption>
 
 <div class="c-grid__half">
