@@ -1,19 +1,19 @@
 // Global color themes
 $selection: #ffffff;
-$selection-background: rgb(0, 0, 0);
+$selection-background: #0064FF;
 
 $backgroundColor: rgb(255,255,255);
-$mediaBackground: rgba(0,0,0,0.05);
+$mediaBackground: rgba(0,0,0,0.07);
 $textColor: rgba(0,0,0,0.72);
 $textLight: rgba(0,0,0,0.72);
-$textLighter: rgba(0,0,0,0.45);
+$textLighter: rgba(0,0,0,0.4);
 $borderColor: rgba(0,0,0,0.17);
 $primaryColor: rgb(0, 0, 0);
 
 $dark-backgroundColor: rgb(0,0,0);
-$dark-mediaBackground: rgba(255,255,255,0.1);
-$dark-textColor: rgba(255,255,255,0.72);
-$dark-textLight: rgba(255,255,255,0.72);
-$dark-textLighter: rgba(255,255,255,0.4);
-$dark-borderColor: rgba(255,255,255,0.13);
+$dark-mediaBackground: rgba(255,255,255,0.12);
+$dark-textColor: rgba(255,255,255,0.74);
+$dark-textLight: rgba(255,255,255,0.75);
+$dark-textLighter: rgba(255,255,255,0.45);
+$dark-borderColor: rgba(255,255,255,0.22);
 $dark-primaryColor: rgb(255,255,255);

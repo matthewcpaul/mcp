@@ -3,10 +3,10 @@
   &__half {
     display: grid;
     grid-template-columns: 100%;
-    margin: $spacing-xs 0 $spacing-md;
+    margin: $spacing-md 0 $spacing-md;
 
     @media (min-width: $bp-xs) {
-      margin: $spacing-xl 0 $spacing-xxl;
+      margin: $spacing-xxl 0 $spacing-xxl;
     }
 
     @media (min-width: $bp-sm) {
