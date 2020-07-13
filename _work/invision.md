@@ -20,7 +20,7 @@ intro: The lines between engineering, product, and design are ever more blurred,
   </article>
 </div>
 <img class="c-media" src="../../images/invision/invision-mobile-dv@2x.png" alt="Mobile Prototype Viewer Settings">
-<figcaption>The mobile browser default viewing and override options: device size with a shadow, auto scale, and a device skin.</figcaption>
+<figcaption>A few prototype viewing and override options: device size with a shadow, auto scale, and a device skin.</figcaption>
 
 <div class="c-grid__half">
   <div></div>
@@ -39,7 +39,7 @@ intro: The lines between engineering, product, and design are ever more blurred,
 <div class="c-grid__half">
   <h2>Inspect for Studio</h2>
   <article class="c-grid__mt c-text-format">
-    <p>{{ page.description }}</p>
+    <p>Next, we began surfacing more of the Studio design file on the web by rethinking the Inspect product from the ground up. InVision already had an Inspect feature for Sketch &amp; Craft users, but it struggled to meet the growing demands of developers and was brimming with bugs. This was an exercise in listening to both what data they needed and what was getting in the way. We rearchitected the display of infomration and interaction design to allow them to spend less time in our app, and more time building theirs. </p>
   </article>
 </div>
 <img class="c-media" src="{{ page.image }}" alt="inspect motion hero image">
