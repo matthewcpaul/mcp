@@ -33,17 +33,22 @@ intro: The lines between engineering, product, and design are ever more blurred,
     <source media="(min-width: 32em)" srcset="../../images/invision/invision-mobile-nav@2x.png"/>
     <img class="c-media" src="../../images/invision/invision-mobile-nav.png" alt="Mobile Prototype Viewer Navigation"/>
   </picture>
-  <figcaption>The navigation arrows are handy for those stakeholders not familiarized with each clickable prototype just yet.</figcaption>
+  <figcaption>The navigation arrows are handy for stakeholders that are not familiarized with each clickable prototype just yet.</figcaption>
 </figure>
 
 <div class="c-grid__half">
   <h2>Inspect for Studio</h2>
   <article class="c-grid__mt c-text-format">
-    <p>Next, we began surfacing more of the Studio design file on the web by rethinking the Inspect product from the ground up. InVision already had an Inspect feature for Sketch &amp; Craft users, but it struggled to meet the growing demands of developers and was brimming with bugs. This was an exercise in listening to both what data they needed and what was getting in the way. We rearchitected the display of infomration and interaction design to allow them to spend less time in our app, and more time building theirs. </p>
+    <p>Next, we surfaced more of the Studio design file on the web by rethinking the Inspect product from the ground up. InVision already had an Inspect feature for Sketch &amp; Craft users, but it struggled to meet the growing demands of developers and was brimming with bugs. This was an exercise in listening to both what data they needed and what was getting in the way. We rearchitected the infomration design and interactions to allow them to spend less time in our app, and more time building theirs. </p>
   </article>
 </div>
-<img class="c-media" src="{{ page.image }}" alt="inspect motion hero image">
-<figcaption>{{ page.caption }}</figcaption>
+<figure>
+  <picture>
+    <source media="(min-width: 32em)" srcset="../../images/invision/inspect-studio@2x.png"/>
+    <img class="c-media" src="../../images/invision/inspect-studio.png" alt="Mobile Prototype Viewer Navigation"/>
+  </picture>
+  <figcaption>The navigation arrows are handy for stakeholders that are not familiarized with each clickable prototype just yet.</figcaption>
+</figure>
 
 <div class="c-grid__half">
   <h2>Inspect Motion</h2>
