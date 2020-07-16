@@ -105,28 +105,28 @@ intro: The lines between engineering, product, and design are ever more blurred,
 <div class="c-grid__half">
   <h2>Jira Integration</h2>
   <article class="c-grid__mt c-text-format">
-    <p>Coming soon...</p>
+    <p>Coming soon&hellip;</p>
   </article>
 </div>
 
 <div class="c-grid__half">
   <h2>DSM Integration</h2>
   <article class="c-grid__mt c-text-format">
-    <p>Coming soon...</p>
+    <p>Coming soon&hellip;</p>
   </article>
 </div>
 
 <div class="c-grid__half">
   <h2>Design Tokens</h2>
   <article class="c-grid__mt c-text-format">
-    <p>Coming soon...</p>
+    <p>Coming soon&hellip;</p>
   </article>
 </div>
 
 <div class="c-grid__half">
   <h2>Onwards and upwards</h2>
   <article class="c-grid__mt c-text-format">
-    <p>Coming soon...</p>
+    <p>Coming soon&hellip;</p>
   </article>
 </div>
 
