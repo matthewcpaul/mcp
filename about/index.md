@@ -9,7 +9,7 @@ description: Building products and services is a team sport. It requires healthy
 <div class="c-grid__half c-grid__gap">
   <article class="c-grid__half-item c-text-format">
     <h2>Think in systems</h2>
-    <p>Everything we make is a system, whether in-and-of itself or as a part of a larger model. Understanding this allows us to think more critically about our work, be responsible &amp; accountable in our execution, and examine how it fits into the the greatest model of all — the world.</p>
+    <p>Everything we make is a system, whether in-and-of itself or as a part of a larger model. Acknowledging this allows us to think more openly about our work, be responsible &amp; accountable in our execution, and examine how it all fits into the the greatest model of all — the world.</p>
     <h2>Listen &amp; ask questions</h2>
     <p>I’m an experienced product designer, responsible for leading the design process on product teams, defining product direction, prioritizing cross-company efforts, and shaping new practices within design organizations.</p>
     <p>As a design generalist, I use a breadth of skills to contribute to the entire product lifecycle — research, ideation, journey mapping, visual &amp; interaction design, prototyping, measuring success, brand design, and product marketing.</p>
