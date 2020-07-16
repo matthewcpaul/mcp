@@ -44,8 +44,8 @@ intro: The lines between engineering, product, and design are ever more blurred,
 </div>
 <figure>
   <picture>
-    <source media="(min-width: 32em)" srcset="../../images/invision/inspect-studio@2x.png"/>
-    <img class="c-media" src="../../images/invision/inspect-studio.png" alt="Redesigned Inspect web app"/>
+    <source media="(min-width: 32em)" srcset="../../images/invision/inspect-studio@2x.gif"/>
+    <img class="c-media c-media--padding" src="../../images/invision/inspect-studio.gif" alt="Redesigned Inspect web app"/>
   </picture>
   <figcaption>The Inspect web app, redesigned for InVision Studio and v7 of InVision Cloud.</figcaption>
 </figure>
