@@ -20,12 +20,12 @@ intro: The lines between engineering, product, and design are ever more blurred,
   </article>
 </div>
 <img class="c-media" src="../../images/invision/invision-mobile-dv@2x.png" alt="Mobile Prototype Viewer Settings">
-<figcaption>A few prototype viewing and override options: device size with a shadow, auto scale, and a device skin.</figcaption>
+<figcaption>Prototypes viewed in a mobile browser with different appearance settings — device size with a shadow, auto scale, and a device skin.</figcaption>
 
 <div class="c-grid__half">
   <div></div>
   <article class="c-grid__mt c-text-format">
-    <p>We also used this as an opportunity to design a new mobile navigation that allowed the viewer to move between screens in a prototype and navigate back to the screens overview at any time. It seems obvious, but neither of these options previously existed on mobile.</p>
+    <p>We also used this as an opportunity to design a new mobile navigation that allowed the viewer to move between screens in a prototype and navigate back to the screens overview at any time. It seems obvious, but neither of these options previously existed on mobile. The navigation is a handy way for stakeholders that are not yet familiarized with the clickable prototype.</p>
   </article>
 </div>
 <figure>
@@ -33,31 +33,65 @@ intro: The lines between engineering, product, and design are ever more blurred,
     <source media="(min-width: 32em)" srcset="../../images/invision/invision-mobile-nav@2x.png"/>
     <img class="c-media" src="../../images/invision/invision-mobile-nav.png" alt="Mobile Prototype Viewer Navigation"/>
   </picture>
-  <figcaption>The navigation arrows are handy for stakeholders that are not familiarized with each clickable prototype just yet.</figcaption>
+  <figcaption>Prototype viewer navigation and overview in a mobile browser.</figcaption>
 </figure>
 
 <div class="c-grid__half">
   <h2>Inspect for Studio</h2>
   <article class="c-grid__mt c-text-format">
-    <p>Next, we surfaced more of the Studio design file on the web by rethinking the Inspect product from the ground up. InVision already had an Inspect feature for Sketch &amp; Craft users, but it struggled to meet the growing demands of developers and was brimming with bugs. This was an exercise in listening to both what data they needed and what was getting in the way. We rearchitected the infomration design and interactions to allow them to spend less time in our app, and more time building theirs. </p>
+    <p>Next, we surfaced more of the Studio design file on the web by rethinking the Inspect product from the ground up. InVision already had an Inspect feature for Sketch &amp; Craft users, but it struggled to meet the growing demands of developers and was brimming with bugs. This was an exercise in listening to both what data they needed and what features were getting in the way. We rearchitected the information design to account for any future properties that might be added to Studio, and redesigned the product to allow developers to spend less time in our app, and more time building theirs.</p>
   </article>
 </div>
 <figure>
   <picture>
     <source media="(min-width: 32em)" srcset="../../images/invision/inspect-studio@2x.png"/>
-    <img class="c-media" src="../../images/invision/inspect-studio.png" alt="Mobile Prototype Viewer Navigation"/>
+    <img class="c-media" src="../../images/invision/inspect-studio.png" alt="Redesigned Inspect web app"/>
   </picture>
-  <figcaption>The navigation arrows are handy for stakeholders that are not familiarized with each clickable prototype just yet.</figcaption>
+  <figcaption>The Inspect web app, redesigned for InVision Studio and v7 of InVision Cloud.</figcaption>
 </figure>
 
 <div class="c-grid__half">
   <h2>Inspect Motion</h2>
   <article class="c-grid__mt c-text-format">
-    <p>{{ page.description }}</p>
+    <p>With the advent of <a href="https://www.invisionapp.com/studio" target="_blank">InVision Studio</a>, designers and other creatives were given the ability to create complex UI animations with granular control over every property. They can even customize duration, delay, and easing for any property as well. The result was some of the most beautiful and thoughtful animated prototypes our industry had seen—one’s that you could actually click or tap through on any device (not just watch a movie of something created in After Effects).</p>
+    <p>Working with the Inspect team, we were challenged with creating a tool that allowed developers to collaborate with designers on these animated prototypes; they needed to inspect each and every motion detail so they could bring it to life in code. We identified an opportunity to build a developer tool that hadn’t ever existed before. This allowed me to contribute to the entire product lifecycle — the product strategy, generative research, ideation, prototyping, refining of the design, user story mapping, building the tool along the way, usability testing, and eventually release the large feature.</p>
   </article>
 </div>
-<img src="{{ page.image }}" alt="inspect motion hero image">
-<figcaption>{{ page.caption }}</figcaption>
+<figure>
+  <picture>
+    <source media="(min-width: 32em)" srcset="../../images/invision/inspect-motion-timeline@2x.gif"/>
+    <img class="c-media c-media--padding" src="../../images/invision/inspect-motion-timeline.gif" alt="Inspect Motion timeline"/>
+  </picture>
+  <figcaption>Inspect Motion playback and timeline controls.</figcaption>
+</figure>
+
+<div class="c-grid__half">
+  <div></div>
+  <article class="c-grid__mt c-text-format">
+    <p>We continued to iterate on this feature after running usability tests with customers in which we had them use a beta release of the app to program some motion into a CodePen demo that we pre-coded to exactly match the Studio prototype. Through these sessions, we quickly learned that developers wanted code snippets as a starting place, and not just the data-list view. Inspect Motion provides starter motion code for most properties in CSS, Objective-C, Swift, Anroid, or React Native.</p>
+  </article>
+</div>
+<figure>
+  <picture>
+    <source media="(min-width: 32em)" srcset="../../images/invision/inspect-motion-code@2x.gif"/>
+    <img class="c-media c-media--padding" src="../../images/invision/inspect-motion-code.gif" alt="Inspect Motion code view"/>
+  </picture>
+  <figcaption>The code view in Inspect Motion, showing React Native code for animating each property.</figcaption>
+</figure>
+
+<div class="c-grid__half">
+  <div></div>
+  <article class="c-grid__mt c-text-format">
+    <p>From the beginning, we knew that we needed to build this tool with keyboard-only users in mind. Inspect Motion is optimized for efficiency with keyboard shortcuts for navigation, canvas selection, traversing the timeline, and motion playback.</p>
+  </article>
+</div>
+<figure>
+  <picture>
+    <source media="(min-width: 32em)" srcset="../../images/invision/inspect-motion-keyboardshortcuts@2x.gif"/>
+    <img class="c-media c-media--padding" src="../../images/invision/inspect-motion-keyboardshortcuts.gif" alt="Inspect Motion code view"/>
+  </picture>
+  <figcaption>Using Inspect Motion with only keyboard shortcuts.</figcaption>
+</figure>
 
 <div class="c-grid__half">
   <h2>Design System</h2>
@@ -65,8 +99,8 @@ intro: The lines between engineering, product, and design are ever more blurred,
     <p>{{ page.description }}</p>
   </article>
 </div>
-<img src="{{ page.image }}" alt="inspect motion hero image">
-<figcaption>{{ page.caption }}</figcaption>
+<img class="c-media" src="../../images/invision/inspect-components@2x.png" alt="Mobile Prototype Viewer Settings">
+<figcaption>A sample of components, icons, and colors that I contributed to InVision’s design system, maintained in Studio and Storybook.</figcaption>
 
 <div class="c-grid__half">
   <h2>Jira Integration</h2>
@@ -74,8 +108,6 @@ intro: The lines between engineering, product, and design are ever more blurred,
     <p>{{ page.description }}</p>
   </article>
 </div>
-<img src="{{ page.image }}" alt="inspect motion hero image">
-<figcaption>{{ page.caption }}</figcaption>
 
 <div class="c-grid__half">
   <h2>DSM Integration</h2>
@@ -83,8 +115,6 @@ intro: The lines between engineering, product, and design are ever more blurred,
     <p>{{ page.description }}</p>
   </article>
 </div>
-<img src="{{ page.image }}" alt="inspect motion hero image">
-<figcaption>{{ page.caption }}</figcaption>
 
 <div class="c-grid__half">
   <h2>Design Tokens</h2>
@@ -92,8 +122,6 @@ intro: The lines between engineering, product, and design are ever more blurred,
     <p>{{ page.description }}</p>
   </article>
 </div>
-<img src="{{ page.image }}" alt="inspect motion hero image">
-<figcaption>{{ page.caption }}</figcaption>
 
 <div class="c-grid__half">
   <h2>Onwards</h2>
