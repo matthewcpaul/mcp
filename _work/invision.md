@@ -96,7 +96,7 @@ intro: The lines between engineering, product, and design are ever more blurred,
 <div class="c-grid__half">
   <h2>Design System</h2>
   <article class="c-grid__mt c-text-format">
-    <p>{{ page.description }}</p>
+    <p>After a few feature and product launches, I was asked to take on extra responsibility and be the design system partner for all of InVision’s web properties to help make sure each team’s needs were being met. We began having “Helios Office Hours” every other week, and I eventually led an extensive audit and refactor of the system’s typography, spacing units, and common component sizes. I also contributed many new icons to the system and helped build a Studio library and corresponding React Storybook of UI elements for my specific product area.</p>
   </article>
 </div>
 <img class="c-media" src="../../images/invision/inspect-components@2x.png" alt="Mobile Prototype Viewer Settings">
@@ -105,28 +105,28 @@ intro: The lines between engineering, product, and design are ever more blurred,
 <div class="c-grid__half">
   <h2>Jira Integration</h2>
   <article class="c-grid__mt c-text-format">
-    <p>{{ page.description }}</p>
+    <p>Coming soon...</p>
   </article>
 </div>
 
 <div class="c-grid__half">
   <h2>DSM Integration</h2>
   <article class="c-grid__mt c-text-format">
-    <p>{{ page.description }}</p>
+    <p>Coming soon...</p>
   </article>
 </div>
 
 <div class="c-grid__half">
   <h2>Design Tokens</h2>
   <article class="c-grid__mt c-text-format">
-    <p>{{ page.description }}</p>
+    <p>Coming soon...</p>
   </article>
 </div>
 
 <div class="c-grid__half">
-  <h2>Onwards</h2>
+  <h2>Onwards and upwards</h2>
   <article class="c-grid__mt c-text-format">
-    <p>{{ page.description }}</p>
+    <p>Coming soon...</p>
   </article>
 </div>
 
