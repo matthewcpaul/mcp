@@ -5,19 +5,19 @@
     padding: $spacing-xxs;
 
     @media (min-width: $bp-xxs) {
-      padding: $spacing-xxs $spacing-xs;
+      padding: $spacing-xs;
     }
 
     @media (min-width: $bp-xs) {
-      padding: $spacing-sm $spacing-lg;
+      padding: $spacing-lg;
     }
 
     @media (min-width: $bp-sm) {
-      padding: $spacing-md $spacing-xl;
+      padding: $spacing-xl;
     }
 
     @media (min-width: $bp-md) {
-      padding: $spacing-lg $spacing-xxl;
+      padding: $spacing-xxl;
     }
   }
 }
