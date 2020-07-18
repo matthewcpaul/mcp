@@ -134,7 +134,7 @@ intro: The lines between engineering, product, and design are ever more blurred,
 </div>
 
 <div class="c-grid__half">
-  <h2>Onwards and upwards</h2>
+  <h2>Onwards and Upwards</h2>
   <article class="c-grid__mt c-text-format">
     <p>Coming soon&hellip;</p>
   </article>
