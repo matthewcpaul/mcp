@@ -116,6 +116,8 @@ intro: The lines between engineering, product, and design are ever more blurred,
     <p>Coming soon&hellip;</p>
   </article>
 </div>
+<img class="c-media" src="../../images/invision/jira-integration-sprint.jpg" alt="Mobile Prototype Viewer Settings">
+<figcaption>Day 2 of our 5 day sprint with the Jira and Trello design team.</figcaption>
 
 <div class="c-grid__half">
   <h2>DSM Integration</h2>
