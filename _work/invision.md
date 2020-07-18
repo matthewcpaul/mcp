@@ -90,7 +90,7 @@ intro: The lines between engineering, product, and design are ever more blurred,
     <source media="(min-width: 32em)" srcset="../../images/invision/inspect-motion-keyboardshortcuts@2x.gif"/>
     <img class="c-media c-media--padding" src="../../images/invision/inspect-motion-keyboardshortcuts.gif" alt="Inspect Motion code view"/>
   </picture>
-  <figcaption>Using Inspect Motion with only keyboard shortcuts.</figcaption>
+  <figcaption>Using Inspect Motion with keyboard shortcuts.</figcaption>
 </figure>
 
 <div class="c-grid__half">
@@ -101,6 +101,14 @@ intro: The lines between engineering, product, and design are ever more blurred,
 </div>
 <img class="c-media" src="../../images/invision/inspect-components@2x.png" alt="Mobile Prototype Viewer Settings">
 <figcaption>A sample of components, icons, and colors that I contributed to InVision’s design system, maintained in Studio and Storybook.</figcaption>
+<figure>
+  <picture>
+    <source media="(min-width: 32em)" srcset="../../images/invision/storybook-icon-button-tooltip@2x.gif"/>
+    <img class="c-media c-media--padding" src="../../images/invision/storybook-icon-button-tooltipstorybook-icon-button-tooltip.gif" alt="Inspect Motion code view"/>
+  </picture>
+  <figcaption>Our product-specific components in storybook, with various props, themed to be light or dark.</figcaption>
+</figure>
+
 
 <div class="c-grid__half">
   <h2>Jira Integration</h2>
