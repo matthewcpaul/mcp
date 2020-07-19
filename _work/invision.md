@@ -88,7 +88,7 @@ intro: The lines between engineering, product, and design are ever more blurred,
 <figure>
   <picture>
     <source media="(min-width: 32em)" srcset="../../images/invision/inspect-motion-keyboardshortcuts@2x.gif"/>
-    <img class="c-media c-media--padding" src="../../images/invision/inspect-motion-keyboardshortcuts.gif" alt="Inspect Motion code view"/>
+    <img class="c-media c-media--padding" src="../../images/invision/inspect-motion-keyboardshortcuts.gif" alt="Inspect Motion keyboard shortcuts"/>
   </picture>
   <figcaption>Using Inspect Motion with keyboard shortcuts.</figcaption>
 </figure>
@@ -99,7 +99,7 @@ intro: The lines between engineering, product, and design are ever more blurred,
     <p>After a few feature and product launches, I was asked to take on extra responsibility and be the design system partner for all of InVision’s web properties to help make sure each team’s needs were being met. We began having “Helios Office Hours” every other week, and I eventually led an extensive audit and refactor of the system’s typography, spacing units, and common component sizes. I also contributed many new icons to the system and helped build a Studio library and corresponding React Storybook of UI elements for my specific product area.</p>
   </article>
 </div>
-<img class="c-media" src="../../images/invision/inspect-components@2x.png" alt="Mobile Prototype Viewer Settings">
+<img class="c-media" src="../../images/invision/inspect-components@2x.png" alt="Components, icons, and colors from InVision’s design system">
 <figcaption>A sample of components, icons, and colors that I contributed to InVision’s design system, maintained in Studio and Storybook.</figcaption>
 <figure>
   <picture>
@@ -116,8 +116,8 @@ intro: The lines between engineering, product, and design are ever more blurred,
     <p>Coming soon&hellip;</p>
   </article>
 </div>
-<img class="c-media" src="../../images/invision/jira-integration-sprint.jpg" alt="Mobile Prototype Viewer Settings">
-<figcaption>Day 2 of our 5 day sprint with the Jira and Trello design team.</figcaption>
+<img class="c-media" src="../../images/invision/jira-integration-sprint.jpg" alt="Design sprint with Atlassian">
+<figcaption>Day 2 of our 5 day sprint with the Jira and Trello design teams.</figcaption>
 
 <div class="c-grid__half">
   <h2>DSM Integration</h2>
