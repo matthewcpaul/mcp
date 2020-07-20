@@ -7,8 +7,8 @@ org: InVision
 role: Product Designer II
 tenure: 2018–2020
 description: How can we advance design and prototyping tools to help drive whole-team collaboration for software teams around the world? My work at InVision involved rethinking the entire developer experience, conducting research sessions with the industry’s leading software teams, evolving our design system, and prototyping new products while improving existing features.
+intro: The lines between engineering, product, and design are ever more blurred, and every product org operates uniquely. The most valuable part of working at InVision was talking with all of these various design teams, learning what was and wasn’t working for them, and challenging ourselves to build systems and tools to push the software industry forward.
 image: /images/invision/invision-hero-brandbg.png
-intro: The lines between engineering, product, and design are ever more blurred, and every product org operates uniquely. The best part of working at InVision was talking with all of these various design teams, learning what was and wasn’t working for them, and challenging ourselves to build systems and tools to push the software industry forward.
 ---
 
 <div class="c-grid__half">
@@ -39,7 +39,7 @@ intro: The lines between engineering, product, and design are ever more blurred,
 <div class="c-grid__half">
   <h2>Inspect for Studio</h2>
   <article class="c-grid__mt c-text-format">
-    <p>Next, we surfaced more of the Studio design file on the web by rethinking the Inspect product from the ground up. InVision already had an Inspect feature for Sketch &amp; Craft users, but it struggled to meet the growing demands of developers and was brimming with bugs. This was an exercise in listening to both what data they needed and what features were getting in the way. We rearchitected the information design to account for any future properties that might be added to Studio, and redesigned the product to allow developers to spend less time in our app, and more time building theirs.</p>
+    <p>Next, we surfaced more of the Studio design file on the web by rethinking the Inspect product from the ground up. InVision already had an Inspect feature for Sketch &amp; Craft users, but it struggled to meet the growing demands of developers changing landscape of how they collaborated with designers. This was an exercise in listening to both what data they needed and what features were getting in the way. We rearchitected the information design to bring what they needed front and cneter, and to account for any future properties that might be added to the design tools. We monitored our instrumented metrics, gained in-app feedback, and made continuous improvememnts for each release of the product, always with the goal to have developers spend less time in our app, and more time building theirs.</p>
   </article>
 </div>
 <figure>
@@ -54,7 +54,7 @@ intro: The lines between engineering, product, and design are ever more blurred,
   <h2>Inspect Motion</h2>
   <article class="c-grid__mt c-text-format">
     <p>With the advent of <a href="https://www.invisionapp.com/studio" target="_blank">InVision Studio</a>, designers and other creatives were given the ability to create complex UI animations with granular control over every property. They can even customize duration, delay, and easing for any property as well. The result was some of the most beautiful and thoughtful animated prototypes our industry had seen—one’s that you could actually click or tap through on any device (not just watch a movie of something created in After Effects).</p>
-    <p>Working with the Inspect team, we were challenged with creating a tool that allowed developers to collaborate with designers on these animated prototypes; they needed to inspect each and every motion detail so they could bring it to life in code. We identified an opportunity to build a developer tool that hadn’t ever existed before. This allowed me to contribute to the entire product lifecycle — the product strategy, generative research, ideation, prototyping, refining of the design, user story mapping, building the tool along the way, usability testing, and eventually release the large feature.</p>
+    <p>Working with the Inspect team, we were challenged with creating a tool that allowed developers to collaborate with designers on these animated prototypes; they needed to inspect each and every motion detail so they could bring it to life in code. We identified an opportunity to build a developer tool that hadn’t ever existed before, which allowed me to contribute to all parts of the product lifecycle — product strategy, generative research, ideation, prototyping, refining of the design, user story mapping, building the tool along with the engineers, usability testing, and eventually release the large feature.</p>
   </article>
 </div>
 <figure>
@@ -96,7 +96,7 @@ intro: The lines between engineering, product, and design are ever more blurred,
 <div class="c-grid__half">
   <h2>Design System</h2>
   <article class="c-grid__mt c-text-format">
-    <p>After a few feature and product launches, I was asked to take on extra responsibility and be the design system partner for all of InVision’s web properties to help make sure each team’s needs were being met. We began having “Helios Office Hours” every other week, and I eventually led an extensive audit and refactor of the system’s typography, spacing units, and common component sizes. I also contributed many new icons to the system and helped build a Studio library and corresponding React Storybook of UI elements for my specific product area.</p>
+    <p>After a few feature and product launches, I was asked to take on extra responsibility and be the design system partner for all of InVision’s web properties to help make sure each team’s needs were being met. We began having “<a href="http://invision-helios.herokuapp.com/" target="_blank">Helios</a> Office Hours” every other week, and I eventually led an extensive audit and refactor of the system’s typography, spacing units, and common component sizes. I also contributed many new icons to the system and helped build a Studio library and corresponding React Storybook of UI elements for my specific product area.</p>
   </article>
 </div>
 <img class="c-media" src="../../images/invision/inspect-components@2x.png" alt="Components, icons, and colors from InVision’s design system">
@@ -109,15 +109,45 @@ intro: The lines between engineering, product, and design are ever more blurred,
   <figcaption>Our product-specific components in storybook, with various props, themed to be light or dark.</figcaption>
 </figure>
 
-
 <div class="c-grid__half">
   <h2>Jira Integration</h2>
   <article class="c-grid__mt c-text-format">
-    <p>Coming soon&hellip;</p>
+    <p>In early 2019, InVision and Atlassian came together to develop new tools and integrations that bring designers and developers closer than ever before. I was selected among two other designers and a product manager from InVision to go work with the Jira and Trello teams at their San Fransisco Headquarters. Being experienced in facilitation, I helped the product manager plan the schedule for the 5 day sprint.</p>
   </article>
 </div>
-<img class="c-media" src="../../images/invision/jira-integration-sprint.jpg" alt="Design sprint with Atlassian">
-<figcaption>Day 2 of our 5 day sprint with the Jira and Trello design teams.</figcaption>
+<img class="c-media c-media--padding" src="../../images/invision/jira-integration-sprint.jpg" alt="Design sprint with Atlassian">
+<figcaption>Day 2 of our 5 day sprint with the Jira and Trello design teams. That’s me in the mustard hat.</figcaption>
+
+<div class="c-grid__half">
+  <div></div>
+  <article class="c-grid__mt c-text-format">
+    <p>While our ideas were varried, and the problem space huge, we had to come out of the week with a few tangible designs that each company could implement relatively quickly.</p>
+    <p>With the Jira app for InVision Studio​, designers can now view and act on Jira issues from within their design tool, allowing them to stay in the flow and avoid having to hop back and forth between different environments.</p>
+  </article>
+</div>
+<figure>
+  <picture>
+    <source media="(min-width: 32em)" srcset="../../images/invision/studio-jira-integration-issue-list@2x.gif"/>
+    <img class="c-media c-media--padding" src="../../images/invision/studio-jira-integration-issue-list.gif" alt="InVision Studio Jira integration"/>
+  </picture>
+  <figcaption>Desginers can view and interact with their project’s list of Jira issues right inside their design tool.</figcaption>
+</figure>
+<figure>
+  <picture>
+    <source media="(min-width: 32em)" srcset="../../images/invision/studio-jira-integration-flow@2x.gif"/>
+    <img class="c-media c-media--padding" src="../../images/invision/studio-jira-integration-flow.gif" alt="InVision Studio Jira integration"/>
+  </picture>
+  <figcaption>Selecting frames in the design tool and syncing them to the relevant Jira issue.</figcaption>
+</figure>
+
+<div class="c-grid__half">
+  <div></div>
+  <article class="c-grid__mt c-text-format">
+    <p>But what if most of your workflow is in Jira, not a design tool? After all, many other members of product teams spend much of their time in Jira documenting work, discussing details, and managing issues. Having to jump into a design tool to see the details of a particular interaction introduces unnecessary friction. To solve this, ​we worked with Atlassian to build enhanced prototypes within Jira — developers can now interact with, comment, and inspect the prototype without ever leaving the tool they were already in.</p>
+  </article>
+</div>
+<img class="c-media c-media--padding" src="../../images/invision/jira-invision-integration.png" alt="Design sprint with Atlassian">
+<figcaption></figcaption>
 
 <div class="c-grid__half">
   <h2>DSM Integration</h2>
