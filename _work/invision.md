@@ -146,8 +146,8 @@ image: /images/invision/invision-hero-brandbg.png
     <p>But what if most of your workflow is in Jira, not a design tool? After all, many other members of product teams spend much of their time in Jira documenting work, discussing details, and managing issues. Having to jump into a design tool to see the details of a particular interaction introduces unnecessary friction. To solve this, ​we worked with Atlassian to build enhanced prototypes within Jira — developers can now interact with, comment, and inspect the prototype without ever leaving the tool they were already in.</p>
   </article>
 </div>
-<img class="c-media c-media--padding" src="../../images/invision/jira-invision-integration.png" alt="Design sprint with Atlassian">
-<figcaption></figcaption>
+<img class="c-media c-media--padding" src="../../images/invision/jira-invision-integration.png" alt="Jira issue with InVision Studio prototype">
+<figcaption>A jira issue with a live view of an Invision Studio prototype, which can be expanded to play, comment, or inspect.</figcaption>
 
 <div class="c-grid__half">
   <h2>DSM Integration</h2>
@@ -158,13 +158,6 @@ image: /images/invision/invision-hero-brandbg.png
 
 <div class="c-grid__half">
   <h2>Design Tokens</h2>
-  <article class="c-grid__mt c-text-format">
-    <p>Coming soon&hellip;</p>
-  </article>
-</div>
-
-<div class="c-grid__half">
-  <h2>Onwards and Upwards</h2>
   <article class="c-grid__mt c-text-format">
     <p>Coming soon&hellip;</p>
   </article>
