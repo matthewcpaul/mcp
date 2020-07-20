@@ -64,7 +64,7 @@ image: /images/ibm/ibm-hero.png
   </div>
   <article class="c-grid__mt c-text-format">
     <p>As a first step towards the larger goal of getting teams to adopt the modern agile and CI/CD practices that could transform IBM, we set out to find and deploy best-of-breed tools to support whole team collaboration and continuous product delivery.</p>
-    <p>At the time, Organization Leaders and Financial Analysts across different business units at IBM didn’t have a favorable way to discover, pay for, and provision the software tools that their teams needed to operate.</p>
+    <p>At the time, organization leaders and financial analysts across different business units at IBM didn’t have a favorable way to discover, pay for, and provision the software tools that their teams needed to operate.</p>
   </article>
 </div>
 <img class="c-media" src="../../images/ibm/ibm-toolbelt-hero.png" alt="IBM Toolbelt web app">
