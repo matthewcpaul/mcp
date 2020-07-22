@@ -11,6 +11,8 @@ intro: The lines between engineering, product, and design are ever more blurred,
 image: /images/invision/invision-hero-brandbg.png
 ---
 
+<hr>
+
 <div class="c-grid__half">
   <h2>Mobile Prototype Viewer</h2>
   <article class="c-grid__mt c-text-format">
@@ -36,10 +38,12 @@ image: /images/invision/invision-hero-brandbg.png
   <figcaption>Prototype viewer navigation and overview in a mobile browser.</figcaption>
 </figure>
 
+<hr>
+
 <div class="c-grid__half">
   <h2>Inspect for Studio</h2>
   <article class="c-grid__mt c-text-format">
-    <p>Next, we surfaced more of the Studio design file on the web by rethinking the Inspect product from the ground up. InVision already had an Inspect feature for Sketch &amp; Craft users, but it struggled to meet the growing demands of developers changing landscape of how they collaborated with designers. This was an exercise in listening to both what data they needed and what features were getting in the way. We rearchitected the information design to bring what they needed front and cneter, and to account for any future properties that might be added to the design tools. We monitored our instrumented metrics, gained in-app feedback, and made continuous improvememnts for each release of the product, always with the goal to have developers spend less time in our app, and more time building theirs.</p>
+    <p>Next, we surfaced more of the Studio design file on the web by rethinking the <a href="https://www.invisionapp.com/feature/inspect" target="_blank">InVision Inspect</a> product from the ground up. We already had this feature for Sketch &amp; Craft users, but it struggled to meet the growing demands of developers changing landscape of how they collaborated with designers. This was an exercise in listening to both what data they needed and what features were getting in the way. We rearchitected the information design to bring what they needed front and cneter, and to account for any future properties that might be added to the design tools. We monitored our instrumented metrics, gained in-app feedback, and made continuous improvememnts for each release of the product, always with the goal to have developers spend less time in our app, and more time building theirs.</p>
   </article>
 </div>
 <figure>
@@ -49,6 +53,8 @@ image: /images/invision/invision-hero-brandbg.png
   </picture>
   <figcaption>The Inspect web app, redesigned for InVision Studio and v7 of InVision Cloud.</figcaption>
 </figure>
+
+<hr>
 
 <div class="c-grid__half">
   <h2>Inspect Motion</h2>
@@ -93,6 +99,8 @@ image: /images/invision/invision-hero-brandbg.png
   <figcaption>Using Inspect Motion with keyboard shortcuts.</figcaption>
 </figure>
 
+<hr>
+
 <div class="c-grid__half">
   <h2>Design System</h2>
   <article class="c-grid__mt c-text-format">
@@ -108,6 +116,8 @@ image: /images/invision/invision-hero-brandbg.png
   </picture>
   <figcaption>Our product-specific components in storybook, with various props, themed to be light or dark.</figcaption>
 </figure>
+
+<hr>
 
 <div class="c-grid__half">
   <h2>Jira Integration</h2>
@@ -149,12 +159,16 @@ image: /images/invision/invision-hero-brandbg.png
 <img class="c-media c-media--padding" src="../../images/invision/jira-invision-integration.png" alt="Jira issue with InVision Studio prototype">
 <figcaption>A jira issue with a live view of an Invision Studio prototype, which can be expanded to play, comment, or inspect.</figcaption>
 
+<hr>
+
 <div class="c-grid__half">
   <h2>DSM Integration</h2>
   <article class="c-grid__mt c-text-format">
     <p>Coming soon&hellip;</p>
   </article>
 </div>
+
+<hr>
 
 <div class="c-grid__half">
   <h2>Design Tokens</h2>

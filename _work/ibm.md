@@ -11,17 +11,151 @@ intro:
 image: /images/ibm/ibm-hero.png
 ---
 
+<hr>
+
 <div class="c-grid__half">
   <div class="u-mb-tiny">
     <h2 class="c-work__m-strip">Watson Chatbot</h2>
     <h4>Product Design, Front-End Engineering</h4>
   </div>
   <article class="c-grid__mt c-text-format">
-    <p></p>
+    <p>Coming soon&hellip;</p>
   </article>
 </div>
 <img class="c-media" src="" alt="">
 <figcaption></figcaption>
+
+<hr>
+
+<div class="c-grid__half">
+  <div class="u-mb-tiny">
+    <h2 class="c-work__m-strip">IBM Toolbelt</h2>
+    <h4>Product Design</h4>
+  </div>
+  <article class="c-grid__mt c-text-format">
+    <p>As a first step towards the larger goal of getting teams to adopt the modern agile and CI/CD practices that could transform IBM, we set out to find and deploy best-of-breed tools to support whole team collaboration and continuous product delivery.</p>
+    <p>At the time, organization leaders and financial analysts across different business units at IBM didn’t have a favorable way to discover, pay for, and provision the software tools that their teams needed to operate.</p>
+  </article>
+</div>
+<img class="c-media" src="../../images/ibm/ibm-toolbelt-hero.png" alt="IBM Toolbelt web app">
+<figcaption>The IBM Toolbelt web app, showing the browse, individual tool, and manage views.</figcaption>
+
+<div class="c-grid__half">
+  <div></div>
+  <article class="c-grid__mt c-text-format">
+    <p>After just a few months of launching the tool, organizations like IBM security were using it to add tools and manage hundreds of software licenses.</p>
+    <p>At a glance, the organization leaders and financial analysts can see the total number of tools & licenses, as well as the (estimated) monthly cost.</p>
+  </article>
+</div>
+<img class="c-media" src="../../images/ibm/ibm-toolbelt-manage.png" alt="IBM Toolbelt tools and services view">
+<figcaption>The manage tools &amp; services view, where organization leaders can add new tools, manage licenses, and see spending data.</figcaption>
+
+<div class="c-grid__half">
+  <div></div>
+  <article class="c-grid__mt c-text-format">
+    <p>To manage access and licenses to the tools, as well as other member settings and permissions, the user can navigate to the Members view.</p>
+    <p>If they want to give Abhay access to Safari Books, all they need to do is hit “Manage licenses” from the action menu, and then toggle it on. In the backend, this places his unique w3id into a database group that will now allow him to sign into this tool with his credentials.</p>
+  </article>
+</div>
+<img class="c-media" src="../../images/ibm/ibm-toolbelt-members.png" alt="IBM Toolbelt members view">
+<figcaption>The manage members view, where organization leaders can add, remove, and mange team members.</figcaption>
+<img class="c-media" src="../../images/ibm/ibm-toolbelt-members-access.png" alt="IBM Toolbelt license management modal">
+<figcaption>The Manage licenses modal; giving access of Safari Books to a team member.</figcaption>
+
+<div class="c-grid__half">
+  <div></div>
+  <article class="c-grid__mt c-text-format">
+    <p>Toolbelt makes use of another service at IBM—Bluepay—for billing each business unit. This shows the users which Bluepay account their team is connected to, and allows the Financial Analyst to navigate to Bluepay to find the invoice, export it as a ledger, and charge the business unit for their tool usage.</p>
+  </article>
+</div>
+<img class="c-media" src="../../images/ibm/ibm-toolbelt-account.png" alt="IBM Toolbelt account billing view">
+<figcaption>The manage account view, where financial analysts can use Bluepay to export the quarterly ledger.</figcaption>
+
+<div class="c-grid__half">
+  <div></div>
+  <article class="c-grid__mt c-text-format">
+    <p>Sometimes financial analysts or organization leaders will manage a few teams instead of just one. The team-switcher component allows them to navigate to any of their teams and to a view where they can search for all teams at IBM. The transparency of showing tools that other organizations were using was important to the overall mission of changing IBM’s culture in support of better software delivery practices.</p>
+  </article>
+</div>
+<figure>
+  <picture>
+    <source media="(min-width: 32em)" srcset="../../images/ibm/ibm-toolbelt-team-menu@2x.gif"/>
+    <img class="c-media c-media--padding" src="../../images/ibm/ibm-toolbelt-team-menu.gif" alt="IBM Toolbelt team switcher interaction"/>
+  </picture>
+  <figcaption>Interaction and motion details of the team-switcher component.</figcaption>
+</figure>
+
+<hr>
+
+<div class="c-grid__half">
+  <div class="u-mb-tiny">
+    <h2 class="c-work__m-strip">Agile Playbook</h2>
+    <h4>Product Design, Front-End Engineering</h4>
+  </div>
+  <article class="c-grid__mt c-text-format">
+    <p>At IBM, expert knowledge regarding design thinking, agile, and continuous delivery best practices wasn’t making its way through the company easily.</p>
+    <p>We were challenged with designing a new user experience that helps people understand the values, principles, and practices of agile software development and continuous delivery so that they can become advocates of the methodologies and begin implementing them within their teams.</p>
+  </article>
+</div>
+<img class="c-media" src="../../images/ibm/agile-playbook-hero.png" alt="The Agile Playbook web app Home, Courses, and Practices views">
+<figcaption>The Agile Playbook web app Home, Courses, and Practices views.</figcaption>
+
+<div class="c-grid__half">
+  <div></div>
+  <article class="c-grid__mt c-text-format">
+    <p>In the practices section, you can find the entire collection of agile, design thinking, and continuous delivery practices — from Stand-Ups to Retrospectives, Empathy Mapping to User Stories, and Social Coding to Automated Deploys.</p>
+  </article>
+</div>
+<img class="c-media" src="../../images/ibm/agile-playbook-practices.png" alt="The Practices view of the web app">
+<figcaption>The Practices view of the web app, filtered to “Working in Iterations”.</figcaption>
+
+<div class="c-grid__half">
+  <div></div>
+  <article class="c-grid__mt c-text-format">
+    <p>Each practice shares the same content model, making it easy for authors from different parts of IBM to contribute and keeping the experience consistent for the practioners and managers accessing the content ever day. The bulk of each practice is a short (and long) description, participant, time, and tool details, and step-by-step instructions.</p>
+    <p>People can tell us which practices they like, share it within the app, or put together a curated list for their small team that’s starting out on a new project.</p>
+  </article>
+</div>
+<img class="c-media" src="../../images/ibm/agile-playbook-practice.png" alt="An individual practice view">
+<figcaption>An individual practice view with details and step-by-step instructions.</figcaption>
+
+<div class="c-grid__half">
+  <div></div>
+  <article class="c-grid__mt c-text-format">
+    <p>We introduced “expertise cards” to the practices after the initial launch when we found out that people wanted to see real examples, success stories, and other additions from people in their own company. Anyone can contribute any of the three types of expertise — Methods, Stories, and Power Ups — which are tenant specific, meaning they would be unique to another company using this web app.</p>
+  </article>
+</div>
+<img class="c-media" src="../../images/ibm/agile-playbook-method.png" alt="Expertice cards contributed by users">
+<figcaption>User submitted additions to each individual practice.</figcaption>
+
+<div class="c-grid__half">
+  <div></div>
+  <article class="c-grid__mt c-text-format">
+    <p>For the more novice users who are interested in linear learning and guided structure, the Courses section offers a range of video-based course material. Each course is broken down into trackable modules, so they can pick up right where they left off.</p>
+  </article>
+</div>
+<img class="c-media" src="../../images/ibm/agile-playbook-courses.png" alt="The Courses view of the web app">
+<figcaption>The Courses view of the web app, filtered to “Beginner”.</figcaption>
+
+<div class="c-grid__half">
+  <div></div>
+  <article class="c-grid__mt c-text-format">
+    <p>Each individual course highlights the next module for the user, and the learning objectives for the entire course. In this case, that is to continue with Module 5, or to restart the Course. Ever Module is also available in this view, so the user has the option to jump to where they want to next.</p>
+  </article>
+</div>
+<img class="c-media" src="../../images/ibm/agile-playbook-course.png" alt="An individual course">
+<figcaption></figcaption>
+
+<div class="c-grid__half">
+  <div></div>
+  <article class="c-grid__mt c-text-format">
+    <p>Our content team decided on the video-based modules because it was resonating with users prior to the launch of this experience. So we helped craft the storyline for each course, and delivered a simple experience that can be iterated on in the future — watch the course module video, navigate back-and-forth, and download resources.</p>
+  </article>
+</div>
+<img class="c-media" src="../../images/ibm/agile-playbook-module.png" alt="An individual course module video">
+<figcaption></figcaption>
+
+<hr>
 
 <div class="c-grid__half">
   <div class="u-mb-tiny">
@@ -57,40 +191,7 @@ image: /images/ibm/ibm-hero.png
 <img class="c-media" src="../../images/ibm/ibm-navigator-commenting@2x.png" alt="IBM Navigator mobile app commenting">
 <figcaption>File details, action sheet, and commenting.</figcaption>
 
-<div class="c-grid__half">
-  <div class="u-mb-tiny">
-    <h2 class="c-work__m-strip">IBM Toolbelt</h2>
-    <h4>Product Design</h4>
-  </div>
-  <article class="c-grid__mt c-text-format">
-    <p>As a first step towards the larger goal of getting teams to adopt the modern agile and CI/CD practices that could transform IBM, we set out to find and deploy best-of-breed tools to support whole team collaboration and continuous product delivery.</p>
-    <p>At the time, organization leaders and financial analysts across different business units at IBM didn’t have a favorable way to discover, pay for, and provision the software tools that their teams needed to operate.</p>
-  </article>
-</div>
-<img class="c-media" src="../../images/ibm/ibm-toolbelt-hero.png" alt="IBM Toolbelt web app">
-<figcaption>The IBM Toolbelt web app, showing the browse, tool, and manage views.</figcaption>
-
-<div class="c-grid__half">
-  <div></div>
-  <article class="c-grid__mt c-text-format">
-    <p>After just a few months of launching the tool, organizations like IBM security were using it to add tools and manage hundreds of software licenses.</p>
-    <p>At a glance, the organization leaders and financial analysts can see the total number of tools & licenses, as well as the (estimated) monthly cost.</p>
-  </article>
-</div>
-<img class="c-media" src="../../images/ibm/ibm-toolbelt-manage.png" alt="IBM Toolbelt web app">
-<figcaption>The manage tools &amp; services view, where organization leaders can add new tools, manage licenses, and see spending data.</figcaption>
-
-<div class="c-grid__half">
-  <div></div>
-  <article class="c-grid__mt c-text-format">
-    <p>To manage access and licenses to the tools, as well as other member settings and permissions, the user can navigate to the Members view.</p>
-    <p>If they want to give Abhay access to Safari Books, all they need to do is hit “Manage licenses” from the action menu, and then toggle it on. In the backend, this places his unique w3id into a database group that will now allow him to sign into this tool with his credentials.</p>
-  </article>
-</div>
-<img class="c-media" src="../../images/ibm/ibm-toolbelt-members.png" alt="IBM Toolbelt web app">
-<figcaption>The manage members view, where organization leaders can add, remove, and mange team members.</figcaption>
-<img class="c-media" src="../../images/ibm/ibm-toolbelt-members-access.png" alt="IBM Toolbelt web app">
-<figcaption>The Manage licenses modal; giving access of Safari Books to a team member.</figcaption>
+<hr>
 
 <div class="c-grid__half">
   <div class="u-mb-tiny">
@@ -98,23 +199,42 @@ image: /images/ibm/ibm-hero.png
     <h4>Systems Design, Engineering, Technical Writing</h4>
   </div>
   <article class="c-grid__mt c-text-format">
-    <p></p>
+    <p>The IBM Design Language began with a few base resources: fonts, colors, and icons. Different IBM businesses built on top of this by creating and maintaining design guides specific to their needs. These systems worked well for their products, but didn’t give designers the tools to prototype vastly new interfaces.</p>
+    <p>Product Designers work in a variety of capacities in the product lifecycle at IBM, and are expected to realize and test big ideas quickly. To empower them to prototype at the pace required, a functional SCSS component library was needed, along with the means to test and deploy their work to production without help from engineers.</p>
   </article>
 </div>
-<img class="c-media" src="../../images/ibm/" alt="">
-<figcaption></figcaption>
+<img class="c-media" src="../../images/ibm/rapid-hero.png" alt="Rapid component library, documentation, and supporting tools">
+<figcaption>Rapid component library, documentation, and supporting javascript tools</figcaption>
 
 <div class="c-grid__half">
-  <div class="u-mb-tiny">
-    <h2 class="c-work__m-strip">Agile Playbook</h2>
-    <h4>Product Design, Front-End Engineering</h4>
-  </div>
+  <div></div>
   <article class="c-grid__mt c-text-format">
-    <p></p>
+    <p>The CSS architecture of Rapid is based around a combination of ITCSS, BEM name-spacing, and Atomic/Functional CSS, with the core goal of using SCSS to it’s full potential to make a tool that could strike a balance between strict consistency and flexibility.</p>
+    <p>Composability and inclusiveness were also fundamental principles of this library, meaning everything was opt-in, accessible, semantic, and responsive out of the box.</p>
   </article>
 </div>
-<img class="c-media" src="../../images/ibm/" alt="">
-<figcaption></figcaption>
+<img class="c-media" src="../../images/ibm/rapid-utilities.png" alt="The layout utilities page of Rapid’s documentation website">
+<figcaption>The layout utilities page of Rapid’s documentation website.</figcaption>
+
+<div class="c-grid__half">
+  <div></div>
+  <article class="c-grid__mt c-text-format">
+    <p>A design system, or any tool for that matter, is only as good as its documentation. We used a combination of an open source static site generator and Sass Docs to generate the documentation with as much automation as we could. This meant using comments in the SCSS code to generate portions of the documentation, and letting the component code shine.</p>
+  </article>
+</div>
+<img class="c-media" src="../../images/ibm/rapid-documentation.png" alt="Code and a component page of Rapid’s documentation website">
+<figcaption>The SCSS architecture, code for the button component, and the respective page on the documentation website.</figcaption>
+
+<div class="c-grid__half">
+  <div></div>
+  <article class="c-grid__mt c-text-format">
+    <p>In my time working with and mentoring other product designers, I learned that there’s a pretty big gap between knowing HTML/CSS and shipping a testable, interactive prototype to a production environment.</p>
+    <p>To make this tool fully usable, I created a basic project scaffold that uses Nunjucks, Armadillo static site generator, and Rapid, then wrapped that into a Yeoman Generator that also sets up a GitHub Enterprise Repository connected to Travis CI for automated testing and automated deploys.</p>
+    <p>This is all done securely behind IBM’s firewall, using the designer’s w3id login credentials at project setup. Both Rapid and the Rapid Generator are deployed to IBM’s NPM Enterprise, ready for anyone to consume.</p>
+  </article>
+</div>
+<img class="c-media" src="../../images/ibm/rapid-yeoman-generator.png" alt="Rapid yeoman generator Javascript code">
+<figcaption>Yeoman generator javascript code and a usage example in a CLI.</figcaption>
 
 <hr>
 

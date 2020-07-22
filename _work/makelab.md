@@ -11,52 +11,66 @@ intro:
 image: /images/makelab/makelab-hero.jpg
 ---
 
+<hr>
+
 <div class="c-grid__half">
   <h2>Maker Spaces</h2>
   <article class="c-grid__mt c-text-format">
-    <p></p>
+    <p>Coming soon&hellip;</p>
   </article>
 </div>
+
+<hr>
 
 <div class="c-grid__half">
   <h2>Naming</h2>
   <article class="c-grid__mt c-text-format">
-    <p></p>
+    <p>Coming soon&hellip;</p>
   </article>
 </div>
+
+<hr>
 
 <div class="c-grid__half">
   <h2>Branding</h2>
   <article class="c-grid__mt c-text-format">
-    <p></p>
+    <p>Coming soon&hellip;</p>
   </article>
 </div>
+
+<hr>
 
 <div class="c-grid__half">
   <h2>The Prints</h2>
   <article class="c-grid__mt c-text-format">
-    <p></p>
+    <p>Coming soon&hellip;</p>
   </article>
 </div>
+
+<hr>
 
 <div class="c-grid__half">
   <h2>Classes &amp; Events</h2>
   <article class="c-grid__mt c-text-format">
-    <p></p>
+    <p>Coming soon&hellip;</p>
   </article>
 </div>
+
+<hr>
 
 <div class="c-grid__half">
   <h2>Growth</h2>
   <article class="c-grid__mt c-text-format">
-    <p></p>
+    <p>Coming soon&hellip;</p>
   </article>
 </div>
+
+<hr>
 
 <div class="c-grid__half">
   <h2>The Future</h2>
   <article class="c-grid__mt c-text-format">
-    <p></p>
+    <p>Coming soon&hellip;</p>
   </article>
 </div>
 
