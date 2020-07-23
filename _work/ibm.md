@@ -15,15 +15,31 @@ image: /images/ibm/ibm-hero.png
 
 <div class="c-grid__half">
   <div class="u-mb-tiny">
-    <h2 class="c-work__m-strip">Watson Chatbot</h2>
-    <h4>Product Design, Front-End Engineering</h4>
+    <h2 class="c-work__m-strip">Watson Assistant</h2>
+    <h4>Product Design, Motion Design</h4>
   </div>
   <article class="c-grid__mt c-text-format">
-    <p>Coming soon&hellip;</p>
+    <p>Watson Assistant is a conversation AI platform that helps provide fast, straightforward and accurate answers to your customer’s questions. By addressing common customer inquiries, Watson Assistant helps support teams focus on more complex interactions, not repetitive responses.</p>
+    <p>While working with the IBM Support organization, I helped establish the initial chatbot experience by defining conversation design principles, a visual design system using the newly rolled out <a href="https://www.carbondesignsystem.com/" target="_blank">Carbon</a> component library, and motion design to provide appropriate feedback during the experience.</p>
   </article>
 </div>
-<img class="c-media" src="" alt="">
-<figcaption></figcaption>
+<img class="c-media" src="../../images/ibm/watson-assistant-hero@2x.png" alt="Watson Assistant use case for IBM Support">
+<figcaption>Watson Assistant use case for IBM Support.</figcaption>
+
+<div class="c-grid__half">
+  <div></div>
+  <article class="c-grid__mt c-text-format">
+    <p>A unique and conscious decision that we landed on was to distinctly differentiate the messages from Watson Assistant and the human interacting with it. Most chatbots try to mimic human interactions, frustrating customers when a misunderstanding arises, and we wanted to make it clear when people are chatting with the AI assistant versus an actual support staff member.</p>
+    <p>It took many iterations to arrive at this visual solution, which ultimately came out of various motion experiments for the loading state (“Watson is responding”). The vertical pulsing of the dots seamlessly transitions into the pill avatar, which works especially well when the response is fast enough that the loading state is only needed for a few milliseconds.</p>
+  </article>
+</div>
+
+<div class="c-grid__half">
+  <div></div>
+  <article class="c-grid__mt c-text-format">
+    <p>With this powerful technology, we were able to design other response types, like buttons with pre-determined data. When choosing to interact with one of these response types, the responses elegantly animates to the same location as your response would with a traditional text-input.</p>
+  </article>
+</div>
 
 <hr>
 
