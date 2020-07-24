@@ -30,9 +30,16 @@ image: /images/ibm/ibm-hero.png
   <div></div>
   <article class="c-grid__mt c-text-format">
     <p>A unique and conscious decision that we landed on was to distinctly differentiate the messages from Watson Assistant and the human interacting with it. Most chatbots try to mimic human interactions, frustrating customers when a misunderstanding arises, and we wanted to make it clear when people are chatting with the AI assistant versus an actual support staff member.</p>
-    <p>It took many iterations to arrive at this visual solution, which ultimately came out of various motion experiments for the loading state (“Watson is responding”). The vertical pulsing of the dots seamlessly transitions into the pill avatar, which works especially well when the response is fast enough that the loading state is only needed for a few milliseconds.</p>
+    <p>It took many iterations to arrive at this solution, which ultimately came out of various motion experiments for the loading state (“Watson is responding”). The vertical pulsing of the dots seamlessly transitions into the pill avatar, which works especially well when the response is fast enough that the loading state is only needed for a few milliseconds.</p>
   </article>
 </div>
+<figure>
+  <picture>
+    <source media="(min-width: 32em)" srcset="../../images/ibm/watson-dots@2x.gif"/>
+    <img class="c-media c-media--padding-lg" src="../../images/ibm/watson-dots.gif" alt="GIF of the “Watson is responding” animation"/>
+  </picture>
+  <figcaption>The AI assistant responding to a text input with a few ms delay.</figcaption>
+</figure>
 
 <div class="c-grid__half">
   <div></div>

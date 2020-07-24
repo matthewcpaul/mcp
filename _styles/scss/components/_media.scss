@@ -19,5 +19,25 @@
     @media (min-width: $bp-md) {
       padding: $spacing-xxl;
     }
+
+    &-lg {
+      padding: $spacing-xxs $spacing-lg;
+  
+      @media (min-width: $bp-xxs) {
+        padding: $spacing-xs $spacing-xxl;
+      }
+  
+      @media (min-width: $bp-xs) {
+        padding: $spacing-lg 14rem;
+      }
+  
+      @media (min-width: $bp-sm) {
+        padding: $spacing-xl 18rem;
+      }
+  
+      @media (min-width: $bp-md) {
+        padding: $spacing-xxl 22rem;
+      }
+    }
   }
 }
