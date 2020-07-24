@@ -7,7 +7,7 @@ org: IBM
 role: Product Designer, Front-End Engineer
 tenure: 2014–2018
 description: IBM made a sizeable investment in design at the end of 2013 to rebuild the company’s products and services across the business. I joined during the first year of this transformation, and partnered with various organizations to define product strategy, facilitate workshops, research user needs, design enterprise software, and collaborate with engineers to continuously deliver outcomes.
-intro: 
+intro: During my time at IBM, I had the amazing opportunity to work with a wide variety of business units and product teams. From Enterprise Content Management to internal DevOps tools, and AI chatbots to design systems, I learned what it was like to design, build, and ship highly secure software at scale.
 image: /images/ibm/ibm-hero.png
 ---
 
@@ -19,8 +19,8 @@ image: /images/ibm/ibm-hero.png
     <h4>Product Design, Motion Design</h4>
   </div>
   <article class="c-grid__mt c-text-format">
-    <p>Watson Assistant is a conversation AI platform that helps provide fast, straightforward and accurate answers to your customer’s questions. By addressing common customer inquiries, Watson Assistant helps support teams focus on more complex interactions, not repetitive responses.</p>
-    <p>While working with the IBM Support organization, I helped establish the initial chatbot experience by defining conversation design principles, a visual design system using the newly rolled out <a href="https://www.carbondesignsystem.com/" target="_blank">Carbon</a> component library, and motion design to provide appropriate feedback during the experience.</p>
+    <p>Watson Assistant is a conversation AI platform that helps provide fast, straightforward, and accurate answers to your customer’s questions by addressing common customer inquiries.</p>
+    <p>While working with the IBM Support team, I helped establish the initial chatbot experience by defining conversational design principles, a visual design system using the newly rolled out <a href="https://www.carbondesignsystem.com/" target="_blank">Carbon</a> component library, and motion design to provide appropriate feedback during the experience.</p>
   </article>
 </div>
 <img class="c-media" src="../../images/ibm/watson-assistant-hero@2x.png" alt="Watson Assistant use case for IBM Support">
@@ -29,8 +29,8 @@ image: /images/ibm/ibm-hero.png
 <div class="c-grid__half">
   <div></div>
   <article class="c-grid__mt c-text-format">
-    <p>A unique and conscious decision that we landed on was to distinctly differentiate the messages from Watson Assistant and the human interacting with it. Most chatbots try to mimic human interactions, frustrating customers when a misunderstanding arises, and we wanted to make it clear when people are chatting with the AI assistant versus an actual support staff member.</p>
-    <p>It took many iterations to arrive at this solution, which ultimately came out of various motion experiments for the loading state (“Watson is responding”). The vertical pulsing of the dots seamlessly transitions into the pill avatar, which works especially well when the response is fast enough that the loading state is only needed for a few milliseconds.</p>
+    <p>A conscious and unique decision that we landed on was to distinctly differentiate the messages from Watson Assistant and the human interacting with it. We wanted to make it clear when people are chatting with the AI assistant versus an actual support staff member.</p>
+    <p>This solution ultimately came out of various motion experiments for the loading state (“Watson is responding”). The vertical pulsing of the dots seamlessly transitions into the pill avatar.</p>
   </article>
 </div>
 <figure>
@@ -47,6 +47,13 @@ image: /images/ibm/ibm-hero.png
     <p>With this powerful technology, we were able to design other response types, like buttons with pre-determined data. When choosing to interact with one of these response types, the responses elegantly animates to the same location as your response would with a traditional text-input.</p>
   </article>
 </div>
+<figure>
+  <picture>
+    <source media="(min-width: 32em)" srcset="../../images/ibm/watson-response-button@2x.gif"/>
+    <img class="c-media c-media--padding-lg" src="../../images/ibm/watson-response-button.gif" alt="GIF of the button response type animation"/>
+  </picture>
+  <figcaption>Motion design after selecting a button response type.</figcaption>
+</figure>
 
 <hr>
 
@@ -56,7 +63,7 @@ image: /images/ibm/ibm-hero.png
     <h4>Product Design</h4>
   </div>
   <article class="c-grid__mt c-text-format">
-    <p>As a first step towards the larger goal of getting teams to adopt the modern agile and CI/CD practices that could transform IBM, we set out to find and deploy best-of-breed tools to support whole team collaboration and continuous product delivery.</p>
+    <p>As a first step towards the larger goal of getting teams to adopt the modern agile and CI/CD practices that could transform IBM, we set out to find and deploy best-in-class tools to support whole team collaboration and continuous product delivery.</p>
     <p>At the time, organization leaders and financial analysts across different business units at IBM didn’t have a favorable way to discover, pay for, and provision the software tools that their teams needed to operate.</p>
   </article>
 </div>
@@ -130,13 +137,13 @@ image: /images/ibm/ibm-hero.png
   </article>
 </div>
 <img class="c-media" src="../../images/ibm/agile-playbook-practices.png" alt="The Practices view of the web app">
-<figcaption>The Practices view of the web app, filtered to “Working in Iterations”.</figcaption>
+<figcaption>The practices view of the web app, filtered to “Working in Iterations”.</figcaption>
 
 <div class="c-grid__half">
   <div></div>
   <article class="c-grid__mt c-text-format">
-    <p>Each practice shares the same content model, making it easy for authors from different parts of IBM to contribute and keeping the experience consistent for the practioners and managers accessing the content ever day. The bulk of each practice is a short (and long) description, participant, time, and tool details, and step-by-step instructions.</p>
-    <p>People can tell us which practices they like, share it within the app, or put together a curated list for their small team that’s starting out on a new project.</p>
+    <p>Each practice shares the same content model, making it both easy for authors to contribute and for practioners and managers accessing the content ever day. The bulk of each practice is a short (and long) description, practice details, and step-by-step instructions.</p>
+    <p>People can tell us which practices they like, share it within the app, or put together a curated list for their team that’s starting out on a new project.</p>
   </article>
 </div>
 <img class="c-media" src="../../images/ibm/agile-playbook-practice.png" alt="An individual practice view">
@@ -145,7 +152,7 @@ image: /images/ibm/ibm-hero.png
 <div class="c-grid__half">
   <div></div>
   <article class="c-grid__mt c-text-format">
-    <p>We introduced “expertise cards” to the practices after the initial launch when we found out that people wanted to see real examples, success stories, and other additions from people in their own company. Anyone can contribute any of the three types of expertise — Methods, Stories, and Power Ups — which are tenant specific, meaning they would be unique to another company using this web app.</p>
+    <p>We introduced “expertise cards” to the practices after the initial launch when we learned that people wanted to see real examples, success stories, and other additions from people within their own company. Anyone can contribute any of the three types of expertise — Methods, Stories, and Power Ups — which are tenant specific, meaning they would be unique to any company using this web app.</p>
   </article>
 </div>
 <img class="c-media" src="../../images/ibm/agile-playbook-method.png" alt="Expertice cards contributed by users">
@@ -154,20 +161,20 @@ image: /images/ibm/ibm-hero.png
 <div class="c-grid__half">
   <div></div>
   <article class="c-grid__mt c-text-format">
-    <p>For the more novice users who are interested in linear learning and guided structure, the Courses section offers a range of video-based course material. Each course is broken down into trackable modules, so they can pick up right where they left off.</p>
+    <p>For the more novice users who are interested in linear learning and guided structure, the courses section offers a range of video-based course material. Each course is broken down into trackable modules, so they can pick up right where they left off.</p>
   </article>
 </div>
 <img class="c-media" src="../../images/ibm/agile-playbook-courses.png" alt="The Courses view of the web app">
-<figcaption>The Courses view of the web app, filtered to “Beginner”.</figcaption>
+<figcaption>The courses view of the web app, filtered to “Beginner”.</figcaption>
 
 <div class="c-grid__half">
   <div></div>
   <article class="c-grid__mt c-text-format">
-    <p>Each individual course highlights the next module for the user, and the learning objectives for the entire course. In this case, that is to continue with Module 5, or to restart the Course. Ever Module is also available in this view, so the user has the option to jump to where they want to next.</p>
+    <p>Each individual course highlights the next module for the user and the learning objectives for the entire course. In this case, that is to continue with Module 5, or to restart the course. Every module is also available in this view, so the user has the option to jump to wherever they want to next.</p>
   </article>
 </div>
 <img class="c-media" src="../../images/ibm/agile-playbook-course.png" alt="An individual course">
-<figcaption></figcaption>
+<figcaption>The individual course view</figcaption>
 
 <div class="c-grid__half">
   <div></div>
@@ -176,7 +183,7 @@ image: /images/ibm/ibm-hero.png
   </article>
 </div>
 <img class="c-media" src="../../images/ibm/agile-playbook-module.png" alt="An individual course module video">
-<figcaption></figcaption>
+<figcaption>A video module that’s part of a larger course, with course module navigation.</figcaption>
 
 <hr>
 
@@ -186,8 +193,8 @@ image: /images/ibm/ibm-hero.png
     <h4>UX Research, Mobile Product Design</h4>
   </div>
   <article class="c-grid__mt c-text-format">
-    <p>Early 2015, IBM didn’t have an iOS experience to match its powerful Enterprise Content Management offering used by clients like the San Diego Zoo, the U.S. Navy, and the NSA.</p>
-    <p>Furthermore, people inside IBM weren’t even using Navigator at all—it was an on-prem software product that was too hard to get access to. When I joined IBM, most teams weren’t even using a file sharing app at all. We were charged with changing that, and delivering a mobile app to our eager customers.</p>
+    <p>Early 2015, IBM didn’t have an iOS experience to match its powerful Enterprise Content Management offering used by clients like the San Diego Zoo and the U.S. Navy.</p>
+    <p>Furthermore, people inside IBM weren’t even using Navigator at all — it was an on-prem software product that was too hard to get access to. We were charged with changing that, and delivering a SaaS mobile app to our eager customers.</p>
   </article>
 </div>
 <img class="c-media" src="../../images/ibm/ibm-navigator-hero@2x.png" alt="IBM Navigator mobile app offline flow">
@@ -197,11 +204,17 @@ image: /images/ibm/ibm-hero.png
   <div></div>
   <article class="c-grid__mt c-text-format">
     <p>Our users were constantly in and out of places where Wi-Fi and cellular data weren’t options. Being able to save content for offline use or resolve sync conflicts without access to the internet meant that those weeks spent on the move weren’t wasted.</p>
-    <p>Sharing personal content with their phones wasn’t a new concept, but they had a need to share and collaborate on all types of media with control of access, permissions, and security.</p>
   </article>
 </div>
 <img class="c-media" src="../../images/ibm/ibm-navigator-offline@2x.png" alt="IBM Navigator mobile app sharing flow">
 <figcaption>The IBM Navigator iOS On Device view, failed upload action sheet, and duplicating a file while offline.</figcaption>
+
+<div class="c-grid__half">
+  <div></div>
+  <article class="c-grid__mt c-text-format">
+    <p>Sharing personal content with their phones wasn’t a new concept, but they had a need to share and collaborate on all types of media with control of access, permissions, and security.</p>
+  </article>
+</div>
 <img class="c-media" src="../../images/ibm/ibm-navigator-sharing@2x.png" alt="IBM Navigator mobile app sharing flow">
 <figcaption>Sharing a file, searching for names, and adjusting the share settings.</figcaption>
 
@@ -263,7 +276,7 @@ image: /images/ibm/ibm-hero.png
 
 {% assign work = site.work | sort:"order" %}
 {% for work in work %}
-{% if work.order == 3 %}
+{% if work.order == 1 %}
 {% include next-project.html %}
 {% endif %}
 {% endfor %}
