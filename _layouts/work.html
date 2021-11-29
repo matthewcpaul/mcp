@@ -27,13 +27,18 @@
 					{% include header.html %}
 				</header>
 				<main class="c-main">
-					<article class="c-text-format">
-						<h1>{{ page.heading }}</h1>
-					</article>
-					<hr>
-					<section>
+					<article>
+						<section class="c-text-format">
+							<!-- <h1>{{ page.heading }}</h1> -->
+							<p>{{ page.description-1 }}</p>
+							<!-- <p>{{ page.description-2 }}</p> -->
+							<p>{{ page.description-3 }}</p>
+							<p>{{ page.description-4 }}</p>
+							<p>{{ page.description-5 }}</p>
+						</section>
+						<hr>
 						{{ content }}
-					</section>
+					</article>
 				</main>
 				{% include footer.html %}
 			</div>

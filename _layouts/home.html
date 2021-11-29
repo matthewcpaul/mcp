@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang=en id="appRoot">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-63847002-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-63847002-2');
+	</script>
+	<meta charset="utf-8"/>
+	<title>{{ site.name }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+
+	<meta property="og:title" content="{{ site.name }} - {{ page.title }}"/>
+	<meta property="og:site_name" content="{{ site.name }}"/>
+	<meta property="og:description" content="{{ site.description | strip_html }}"/>
+	<meta property="og:url" content="{{ page.url }}"/>
+
+	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="shortcut icon" href="{{ baseurl }}/images/favicon/favicon-matthew-paul.png"/>
+
+	<body>
+				<div class="py-8">
+					<div class="max-width">
+						{{ content }}
+					</div>
+				</div>
+				{% include footer.html %}
+			</div>
+		</div>
+	</body>
+</html>

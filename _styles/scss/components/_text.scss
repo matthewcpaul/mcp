@@ -1,18 +1,27 @@
 .c-text-format {
 
   & h1 {
-    max-width: 42rem;
+    max-width: 30rem;
 
-    @media (min-width: $bp-xs) {
-      max-width: 66rem;
+    @media (min-width: $bp-sm) {
+      max-width: 35rem;
+      min-width: 35rem;
     }
   }
 
   & p {
-    max-width: 38rem;
+    max-width: 35rem;
+
+    @media (min-width: $bp-xxs) {
+      min-width: 32rem;
+    }
 
     @media (min-width: $bp-xs) {
-      max-width: 46rem;
+      min-width: 28rem;
+    }
+
+    @media (min-width: $bp-sm) {
+      min-width: 35rem;
     }
   }
 }

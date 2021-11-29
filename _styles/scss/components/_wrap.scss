@@ -2,8 +2,8 @@
   width: 100%;
   margin: 0 auto;
 
-  @media (min-width: $bp-md) {
-    max-width: 76rem;
+  @media (min-width: $bp-xs) {
+    max-width: 60rem;
   }
 
   &__pad {

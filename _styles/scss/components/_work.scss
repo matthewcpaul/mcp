@@ -2,8 +2,17 @@
   display: grid;
   grid-template-columns: 100%;
 
-  @media (min-width: 45rem) {
-    grid-template-columns: repeat(3, 1fr);
+  @media (min-width: $bp-xxxs) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: $bp-xxs) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: $spacing-xl;
+  }
+
+  @media (min-width: $bp-xs) {
+    grid-gap: $spacing-xxl;
   }
 
   &--align-center {
@@ -11,35 +20,31 @@
   }
 
   &__image {
-    max-width: 100%;
+    grid-column: span 1;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     margin-top: 8px;
     margin-bottom: $spacing-xxs;
 
-    @media (min-width: $bp-xxs) {
-      max-width: 18rem;
-    }
+    &--thumbnail {
+      grid-column: span 1;
 
-    @media (min-width: 45rem) {
-      max-width: 10rem;
-    }
+      @media (min-width: $bp-tiny) {
+        max-width: 18rem;
+      }
 
-    @media (min-width: $bp-xs) {
-      max-width: 12rem;
-    }
+      @media (min-width: $bp-xxxs) {
+        max-width: 90%;
+      }
 
-    @media (min-width: $bp-sm) {
-      max-width: 14rem;
-      margin-bottom: 0;
-    }
-
-    @media (min-width: $bp-md) {
-      max-width: 18rem;
-      margin-bottom: 0;
+      @media (min-width: $bp-xxs) {
+        max-width: 100%;
+      }
     }
   }
 
   &__body {
-    grid-column: span 2;
+    grid-column: span 1;
     margin-top: 0;
   }
 

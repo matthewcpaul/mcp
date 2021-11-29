@@ -28,10 +28,6 @@ ul {
 
 h1 + p {
   margin-top: $spacing-xxs;
-
-  @media (min-width: $bp-xs) {
-    margin-top: $spacing-xs;
-  }
 }
 
 h4 + p {
@@ -137,9 +133,13 @@ hr {
   height: 0;
   border: none;
   border-bottom: 1px solid $borderColor;
-  margin: $spacing-md 0;
+  margin: $spacing-xs 0;
+
+  @media (min-width: $bp-xxs) {
+    margin: $spacing-md 0;
+  }
 
   @media (min-width: $bp-xs) {
-    margin: $spacing-xxl 0;
+    margin: $spacing-xl 0;
   }
 }
