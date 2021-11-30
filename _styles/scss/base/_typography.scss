@@ -24,6 +24,7 @@ p,
 span,
 ul {
   @include font-3;
+  hyphens: manual;
 }
 
 h1 + p {
@@ -59,7 +60,8 @@ p + ul {
 }
 
 p + p,
-ul + p {
+ul + p,
+section + p {
   margin-top: $spacing-xxs;
 }
 

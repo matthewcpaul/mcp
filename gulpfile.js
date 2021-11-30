@@ -1,5 +1,5 @@
 var gulp         = require('gulp');
-var sass         = require('gulp-sass');
+var sass         = require('gulp-sass')(require('sass'));
 var scsslint     = require('gulp-scss-lint');
 var nano         = require('gulp-cssnano');
 var shell        = require('gulp-shell');
@@ -9,39 +9,41 @@ var browserSync  = require('browser-sync').create();
 var deploy       = require('gulp-gh-pages');
 
 // Build incrementally with _config.yml + _local_config.yml for local development
-gulp.task('local-build', shell.task(['bundle exec jekyll build --config _config.yml,_local_config.yml']));
+// gulp.task('local-build', shell.task(commands, options));
+gulp.task('build', shell.task(['bundle exec jekyll build --config _config.yml, _local_config.yml --trace']));
 
 // Build incrementally with _config.yml for production
 gulp.task('production-build', shell.task(['bundle exec jekyll build --config _config.yml']));
 
+// Start a local server with browser-sync + watch for changes
+gulp.task('serve', function() {
+  browserSync.init({
+      server: {
+          baseDir: "_site/"
+      }
+  });
+  gulp.watch("_styles/scss/**/*.scss", gulp.series('sass')).on('change', browserSync.reload);
+  gulp.watch(["**/*.html", "**/*.md"]).on('change', browserSync.reload);
+});
+
 // Pipe fonts to _site
 gulp.task('fonts', function() {
-  return gulp.src('fonts')
-    .pipe(gulp.dest('_site/'));
+  return gulp.src("fonts")
+    .pipe(gulp.dest("_site/"));
 });
 
 // Compile SCSS into CSS, sourcemaps, autoprefixer, cssnano + auto-inject into browsers
 gulp.task('sass', function() {
-  return gulp.src(['_styles/scss/style.scss'])
-  .pipe(sass({}))
-  .pipe(autoprefixer())
-  .pipe(nano({discardComments: {removeAll: true}}))
-  .pipe(gulp.dest('_site/assets/css'))
-  .pipe(browserSync.stream());
-});
-
-// Start a local server with browser-sync + watch for changes
-gulp.task('serve', function() {
-  browserSync.init({
-    server: { baseDir: '_site/' }
-  });
-
-  gulp.watch('_styles/scss/**/*.scss', gulp.series('local-build', 'sass')).on('change', browserSync.reload);
-  gulp.watch(['_includes/*.html', '_layouts/*.html', 'index.md', '**/*.md', 'blog/index.md', 'talks/index.md'], gulp.series('local-build', 'sass'));
+  return gulp.src(["_styles/scss/style.scss"])
+    .pipe(sass({}))
+    .pipe(autoprefixer())
+    .pipe(nano({discardComments: {removeAll: true}}))
+    .pipe(gulp.dest("_site/assets/css"))
+    .pipe(browserSync.stream());
 });
 
 // Run sass, local-build, and serve
-gulp.task('default', gulp.series('local-build', 'fonts', 'sass', 'serve'));
+gulp.task('default', gulp.series('build', 'fonts', 'sass', 'serve'));
 
 // Deploy _site to gh-pages; note: add the 'cname' task to this tasks series if you are using a custom URL
 gulp.task('deploy-gh-pages', function() {

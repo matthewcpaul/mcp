@@ -3,7 +3,7 @@ layout: blog
 title: About
 order: 2
 heading: I’m a generalist drawn to models, systems, &amp; tools we build along the way.
-description: Building products and services is a team sport. It requires healthy collaboration, persistent communication, and diversity in people and ideas. I enjoy making tools that help teams be better teams and people be better people.
+description-1: Building products and services is a team sport. It requires healthy collaboration, persistent communication, and diversity in people and ideas. I enjoy making tools that help teams be better teams and people be better people. In tandem, I’m actively interviewing and looking for my next full-time role. I work best when I’m embedded in development squads, a part of a larger product design team, and contributing to initiatives across organizational lines.
 ---
 
 <div class="c-grid__half c-grid__gap">

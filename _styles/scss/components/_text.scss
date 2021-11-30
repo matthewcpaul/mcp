@@ -1,27 +1,75 @@
 .c-text-format {
 
+  &--longform {
+
+    & h1 {
+      max-width: 100%;
+
+      @media (min-width: $bp-xxs) {
+        max-width: 36rem;
+      }
+
+      @media (min-width: $bp-xs) {
+        max-width: 50rem;
+      }
+
+      @media (min-width: $bp-sm) {
+        // max-width: 50rem;
+      }
+    }
+
+    & p {
+      max-width: 100%;
+  
+      @media (min-width: $bp-xxs) {
+        min-width: 32rem;
+        max-width: 32rem;
+      }
+  
+      @media (min-width: $bp-xs) {
+        min-width: 30rem;
+        max-width: 30rem;
+      }
+  
+      @media (min-width: $bp-sm) {
+        min-width: 42rem;
+        max-width: 42rem;
+      }
+    }
+  }
+
   & h1 {
-    max-width: 30rem;
+    max-width: 100%;
+
+    @media (min-width: $bp-xxs) {
+      max-width: 36rem;
+    }
+
+    @media (min-width: $bp-xs) {
+      max-width: 50rem;
+    }
 
     @media (min-width: $bp-sm) {
-      max-width: 35rem;
-      min-width: 35rem;
+      // max-width: 50rem;
     }
   }
 
   & p {
-    max-width: 35rem;
+    max-width: 100%;
 
     @media (min-width: $bp-xxs) {
       min-width: 32rem;
+      max-width: 32rem;
     }
 
     @media (min-width: $bp-xs) {
-      min-width: 28rem;
+      min-width: 30rem;
+      max-width: 30rem;
     }
 
     @media (min-width: $bp-sm) {
       min-width: 35rem;
+      max-width: 35rem;
     }
   }
 }
