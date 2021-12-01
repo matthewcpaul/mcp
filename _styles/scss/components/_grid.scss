@@ -3,17 +3,27 @@
   &__half {
     display: grid;
     grid-template-columns: 100%;
-    margin: $spacing-md 0 $spacing-md;
+    margin: $spacing-md 0;
 
     @media (min-width: $bp-xs) {
-      margin: $spacing-xxl 0 $spacing-xxl;
+      margin: $spacing-xxl 0;
     }
 
     @media (min-width: $bp-sm) {
       grid-template-columns: repeat(2, 1fr);
+      grid-gap: $spacing-lg;
+    }
+
+    @media (min-width: $bp-xxs) {
+      grid-gap: $spacing-xl;
+    }
+  
+    @media (min-width: $bp-xs) {
+      grid-gap: $spacing-xxl;
     }
 
     &-item {
+      grid-column: span 1;
 
       &:nth-child(1) {
         grid-row: 2;
@@ -27,10 +37,6 @@
         grid-row: 1;
       }
     }
-  }
-
-  &__gap {
-    column-gap: $spacing-xxl;
   }
 
   &__col {

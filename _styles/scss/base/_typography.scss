@@ -29,6 +29,14 @@ ul {
 
 h1 + p {
   margin-top: $spacing-xxs;
+
+  @media (min-width: $bp-sm) {
+    margin-top: $spacing-xs;
+  }
+
+  @media (min-width: $bp-md) {
+    margin-top: $spacing-sm;
+  }
 }
 
 h4 + p {

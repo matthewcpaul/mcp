@@ -2,8 +2,20 @@
   width: 100%;
   margin: 0 auto;
 
+  @media (min-width: $bp-tiny) {
+    max-width: 36rem;
+  }
+
+  @media (min-width: $bp-xxxs) {
+    max-width: 48rem;
+  }
+
   @media (min-width: $bp-xs) {
     max-width: 60rem;
+  }
+
+  @media (min-width: $bp-md) {
+    max-width: 76rem;
   }
 
   &__pad {
@@ -15,12 +27,12 @@
       padding-right: $spacing-xxs;
     }
 
-    @media (min-width: $bp-xxs) {
-      padding-left: $spacing-sm;
-      padding-right: $spacing-sm;
+    @media (min-width: $bp-xxxs) {
+      padding-left: $spacing-md;
+      padding-right: $spacing-md;
     }
 
-    @media (min-width: $bp-xs) {
+    @media (min-width: $bp-xxs) {
       padding-left: $spacing-xxl;
       padding-right: $spacing-xxl;
     }

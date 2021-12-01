@@ -3,14 +3,18 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	padding: $spacing-xs 0;
+	padding: $spacing-sm 0;
 
 	@media (min-width: $bp-xxs) {
-		padding: $spacing-sm 0;
+		padding: $spacing-lg 0;
 	}
 
-	@media (min-width: $bp-xs) {
-		padding: $spacing-md 0;
+	@media (min-width: $bp-sm) {
+		padding: $spacing-xl 0;
+	}
+
+	@media (min-width: $bp-md) {
+		padding: $spacing-xxl 0;
 	}
 
 	&__title {

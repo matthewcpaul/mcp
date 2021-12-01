@@ -4,6 +4,7 @@
 
   @media (min-width: $bp-xxxs) {
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: $spacing-lg;
   }
 
   @media (min-width: $bp-xxs) {
@@ -28,24 +29,13 @@
 
     &--thumbnail {
       grid-column: span 1;
-
-      @media (min-width: $bp-tiny) {
-        max-width: 18rem;
-      }
-
-      @media (min-width: $bp-xxxs) {
-        max-width: 90%;
-      }
-
-      @media (min-width: $bp-xxs) {
-        max-width: 100%;
-      }
     }
   }
 
   &__body {
     grid-column: span 1;
     margin-top: 0;
+    max-width: 100%;
   }
 
   &__description {
