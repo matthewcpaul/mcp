@@ -18,7 +18,7 @@ description: >
     <p>If you find yourself in NYC and would like to meet up for a tea, coffee, or snack, <a href="https://twitter.com/matthewcpaul" target="_blank">find me on Twitter</a>.</p>
     <h2>More about me</h2>
     <p>I’m an experienced product designer, responsible for leading the design process on product teams, defining product direction, prioritizing cross-company efforts, and shaping new practices within design organizations.</p>
-    <p>As a design generalist, I use a breadth of skills to contribute to the entire product lifecycle — research, ideation, journey mapping, visual &amp; interaction design, prototyping, measuring success, brand design, and product marketing.</p>
+    <p>As a design generalist, I use a breadth of skills to contribute to the entire product lifecycle — research, ideation, journey mapping, visual &amp; interaction design, prototyping, measuring success, and product marketing.</p>
     <p>I care about why we build things, and the effects of technology on society. It’s our job to consider the impact of every decision we make, and ensure that what’s built is ethical, inclusive, and accessible for anybody to use.</p>
     <h2>Principles</h2>
     <p>Building products and services is a team sport. It requires healthy collaboration, persistent communication, and diversity in people and ideas. I enjoy making tools that help teams be better teams and people be better people.</p>
