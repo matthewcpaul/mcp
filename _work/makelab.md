@@ -1,6 +1,6 @@
 ---
 layout: case-study
-order: 3
+order: 4
 logo: /images/work/makelab-logo.png
 title: makelab
 org: Make Lab

@@ -40,7 +40,7 @@ description-5: In 2014, I founded the Make Lab with a co-worker in Austin, TX.
           <span>View case study</span>
           <div class="c-work__arrow">&#8594;</div>
         </a>
-        {% elsif work.order == 3 %}
+        {% elsif work.order == 4 %}
         <h4>Coming soon&hellip;</h4>
         {% else %}
         <h4>This work is confidential</h4>
