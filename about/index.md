@@ -3,7 +3,6 @@ layout: about
 title: About
 order: 2
 heading: I’m a generalist drawn to models, systems, &amp; tools.
-description: I live in Brooklyn, NY, contracting as an senior product designer with <a href="https://www.opentable.design/" target="_blank">OpenTable</a>. <strong>I’m currently seeking a new full-time role</strong> as a senior- or staff-level product designer.
 ---
 
 <div class="c-grid__half c-grid__gap">
