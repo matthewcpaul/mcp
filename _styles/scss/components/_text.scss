@@ -3,6 +3,7 @@
   &--longform {
 
     & h1 {
+      @include font-lg;
       max-width: 100%;
 
       @media (min-width: $bp-xxs) {
@@ -10,7 +11,7 @@
       }
 
       @media (min-width: $bp-md) {
-        max-width: 62rem;
+        max-width: 56rem;
       }
     }
 
@@ -23,8 +24,8 @@
       }
 
       @media (min-width: $bp-md) {
-        min-width: 60rem;
-        max-width: 60rem;
+        min-width: 56rem;
+        max-width: 56rem;
       }
     }
   }

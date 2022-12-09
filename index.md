@@ -2,8 +2,9 @@
 layout: work
 title: Work
 order: 1
-heading: Hi, I’m Matthew. I’m a product designer, researcher, and front-end engineer.
-description-1: I’m Staff Product Designer at <a href="https://www.the.com/" target="_blank">The.com</a>, building new web tools for new web people.
+heading: Software product designer
+description: I’m a systems thinker who enjoys the process of solving complex problems with thoughtful software teams. I combine research, human-computer interaction, visual design, design systems, and prototyping to collaboratively build new product features. I like asking questions, searching for answers, sweating the details, and learning how to build new things.
+
 description-2: In tandem, I’m actively interviewing and looking for my next full-time role. I work best when I’m embedded in development squads, a part of a larger product design team, and contributing to initiatives across organizational lines.
 description-3: Previously, I built tools to improve designer & developer collaboration at InVision, working across InVision Studio, GitHub & Jira integrations, Inspect, and Inspect Motion.
 description-4: Before InVision, I got my start designing enterprise software at IBM, where I contributed to many product releases across different organizations during my 4.5 year tenure. During that time, I also had the unique opportunity to contract with Apple in Cupertino where I focused on prototyping apps for the Apple at Work program.
@@ -37,7 +38,7 @@ description-5: In 2014, I founded the Make Lab with a co-worker in Austin, TX.
       <li class="c-work__project">
         {% if work.image %}
         <a href="{{ work.url | prepend: site.baseurl }}" class="c-work__li--{{ work.title }}">
-          <span>View case study</span>
+          <span>View projects</span>
           <div class="c-work__arrow">&#8594;</div>
         </a>
         {% elsif work.order == 4 %}

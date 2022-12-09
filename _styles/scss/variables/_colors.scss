@@ -1,7 +1,7 @@
 // Global color themes
 $selection: #ffffff;
-$selection-background: #0064FF;
 
+$selection-background: rgba(0,0,0,0.4);
 $backgroundColor: rgb(255,255,255);
 $mediaBackground: rgba(0,0,0,0.07);
 $textColor: rgba(0,0,0,0.74);
@@ -10,6 +10,7 @@ $textLighter: rgba(0,0,0,0.4);
 $borderColor: rgba(0,0,0,0.1);
 $primaryColor: rgb(0, 0, 0);
 
+$dark-selection-background: rgba(255,255,255,0.45);
 $dark-backgroundColor: rgb(0,0,0);
 $dark-mediaBackground: rgba(255,255,255,0.12);
 $dark-textColor: rgba(255,255,255,0.75);

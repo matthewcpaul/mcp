@@ -137,13 +137,6 @@ image: /images/invision/invision-hero-brandbg.png
 </div>
 <figure>
   <picture>
-    <source media="(min-width: 32em)" srcset="../../images/invision/studio-jira-integration-issue-list@2x.gif"/>
-    <img class="c-media c-media--padding" src="../../images/invision/studio-jira-integration-issue-list.gif" alt="InVision Studio Jira integration"/>
-  </picture>
-  <figcaption>Desginers can view and interact with their project’s list of Jira issues right inside their design tool.</figcaption>
-</figure>
-<figure>
-  <picture>
     <source media="(min-width: 32em)" srcset="../../images/invision/studio-jira-integration-flow@2x.gif"/>
     <img class="c-media c-media--padding" src="../../images/invision/studio-jira-integration-flow.gif" alt="InVision Studio Jira integration"/>
   </picture>
@@ -158,24 +151,6 @@ image: /images/invision/invision-hero-brandbg.png
 </div>
 <img class="c-media c-media--padding" src="../../images/invision/jira-invision-integration.png" alt="Jira issue with InVision Studio prototype">
 <figcaption>A jira issue with a live view of an Invision Studio prototype, which can be expanded to play, comment, or inspect.</figcaption>
-
-<hr>
-
-<div class="c-grid__half">
-  <h2>DSM Integration</h2>
-  <article class="c-grid__mt c-text-format">
-    <p>Coming soon&hellip;</p>
-  </article>
-</div>
-
-<hr>
-
-<div class="c-grid__half">
-  <h2>Design Tokens</h2>
-  <article class="c-grid__mt c-text-format">
-    <p>Coming soon&hellip;</p>
-  </article>
-</div>
 
 <hr>
 

@@ -24,4 +24,8 @@ body {
 ::selection {
   color: $selection;
   background: $selection-background;
+
+	@media (prefers-color-scheme: dark) {
+		@include dark-mode;
+	}
 }

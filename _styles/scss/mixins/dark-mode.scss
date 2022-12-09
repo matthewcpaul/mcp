@@ -1,6 +1,12 @@
 @mixin dark-mode {
   background: $dark-backgroundColor;
   color: $dark-textLight;
+
+  ::selection {
+    color: $selection;
+    background: $dark-selection-background;
+  }
+
   h1, h2, h3 {
     color: $dark-textColor;
   }
