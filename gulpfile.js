@@ -6,7 +6,7 @@ var shell        = require('gulp-shell');
 var sourcemaps   = require('gulp-sourcemaps');
 var autoprefixer = require('gulp-autoprefixer');
 var browserSync  = require('browser-sync').create();
-var deploy       = require('gulp-gh-pages');
+var deploy       = require('gh-pages');
 
 // Build incrementally with _config.yml + _local_config.yml for local development
 // gulp.task('local-build', shell.task(commands, options));
@@ -47,8 +47,7 @@ gulp.task('default', gulp.series('build', 'fonts', 'sass', 'serve'));
 
 // Deploy _site to gh-pages; note: add the 'cname' task to this tasks series if you are using a custom URL
 gulp.task('deploy-gh-pages', function() {
-  return gulp.src('_site/**/*')
-    .pipe(deploy());
+  return deploy.publish('_site')
 });
 
 // Run production-build, and deploy-gh-pages
