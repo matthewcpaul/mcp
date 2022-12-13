@@ -16,14 +16,14 @@ h3 {
 }
 
 h4 {
-  @include font-3;
+  @include font-4;
   color: $textLighter;
 }
 
 p,
 span,
 ul {
-  @include font-3;
+  @include font-4;
   hyphens: manual;
 }
 
@@ -31,11 +31,7 @@ h1 + p {
   margin-top: $spacing-xxs;
 
   @media (min-width: $bp-sm) {
-    margin-top: $spacing-xs;
-  }
-
-  @media (min-width: $bp-md) {
-    margin-top: $spacing-sm;
+    margin-top: $spacing-md;
   }
 }
 

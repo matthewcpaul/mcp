@@ -3,7 +3,7 @@ layout: work
 title: Work
 order: 1
 heading: Software product designer
-description: I’m a systems thinker who enjoys the process of solving complex problems with thoughtful software teams. I use research, human-computer interaction, visual design, design systems, and prototyping to collaboratively build new product features. I like asking questions, searching for answers, sweating the details, and learning how to build new things.
+description: I’m a systems thinker who enjoys the process of solving complex problems with thoughtful software teams. I combine research, human-computer interaction, visual design, design systems, and prototyping to collaboratively build new product features. I like asking questions, searching for answers, sweating the details, and building new things.
 ---
 
 {% assign work = site.work | sort:"order" %}
@@ -26,7 +26,7 @@ description: I’m a systems thinker who enjoys the process of solving complex p
     {{ work.org }}
     {% endif %}
     </h2>
-    <h3>{{ work.role }}</h3>
+    <span>{{ work.role }}</span>
     <h4>{{ work.tenure }}</h4>
     <p class="c-work__description">{{ work.description }}</p>
     <ul class="c-work__project-list">

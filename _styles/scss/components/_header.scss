@@ -3,7 +3,15 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	padding: $spacing-sm 0;
+	padding: $spacing-tiny 0;
+
+	@media (min-width: $bp-tiny) {
+		padding: $spacing-xxs 0;
+	}
+
+	@media (min-width: $bp-xxxs) {
+		padding: $spacing-sm 0;
+	}
 
 	@media (min-width: $bp-xxs) {
 		padding: $spacing-lg 0;
@@ -13,12 +21,8 @@
 		padding: $spacing-xl 0;
 	}
 
-	@media (min-width: $bp-md) {
-		padding: $spacing-xxl 0;
-	}
-
 	&__title {
-		@include font-3;
+		@include font-4;
 		color: $textColor;
 		text-decoration: none;
 

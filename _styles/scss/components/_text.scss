@@ -17,11 +17,6 @@
 
     & p {
       max-width: 100%;
-  
-      @media (min-width: $bp-xs) {
-        min-width: 40rem;
-        max-width: 40rem;
-      }
 
       @media (min-width: $bp-sm) {
         min-width: 56rem;

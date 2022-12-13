@@ -3,16 +3,15 @@
   &__half {
     display: grid;
     grid-template-columns: 100%;
-    margin: $spacing-md 0;
-
-    @media (min-width: $bp-xxs) {
-      grid-gap: $spacing-lg;
-    }
+    margin: $spacing-xs 0;
 
     @media (min-width: $bp-xxs) {
       grid-template-columns: repeat(2, 1fr);
       grid-gap: $spacing-xl;
-      margin: $spacing-xxl 0;
+    }
+
+    @media (min-width: $bp-sm) {
+      margin: $spacing-xl 0;
     }
 
     &-item {
