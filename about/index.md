@@ -2,7 +2,7 @@
 layout: about
 title: About
 order: 2
-heading: I’m a generalist drawn to systems &amp; tools
+heading: Generalist drawn to systems &amp; tools
 ---
 
 <div class="c-grid__half c-grid__gap">

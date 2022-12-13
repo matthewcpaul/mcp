@@ -8,75 +8,60 @@
 }
 
 @mixin font-lg {
-  font-family: "CalibreWeb";
-  font-weight: 400;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
   font-size: 2.5rem;
-  line-height: 1.2;
+  line-height: 1.4;
 
   @media (min-width: $bp-xxs) {
     font-size: 3.5rem;
-    line-height: 1;
+    line-height: 1.15;
   }
 
   @media (min-width: $bp-sm) {
     font-size: 6rem;
-    line-height: 1;
+    line-height: 1.08;
   }
 }
 
 @mixin font-1 {
-  font-family: "CalibreWeb";
-  font-weight: 400;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
   font-size: 2.5rem;
-  line-height: 1.2;
-
-  // @media (min-width: $bp-xxs) {
-  //   font-size: 2.5rem;
-  //   line-height: 1.2;
-  // }
+  line-height: 1.4;
 
   @media (min-width: $bp-sm) {
     font-size: 4rem;
-    line-height: 1.18;
+    line-height: 1.25;
   }
 }
 
 @mixin font-2 {
-  font-family: "CalibreWeb";
-  font-weight: 400;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
   font-size: 1.75rem;
-  line-height: 1.4;
-
-  // @media (min-width: $bp-xxs) {
-  //   font-size: 1.75rem;
-  //   line-height: 1.4;
-  // }
+  line-height: 1.42;
 
   @media (min-width: $bp-sm) {
     font-size: 2.5rem;
-    line-height: 1.2;
+    line-height: 1.4;
   }
 }
 
 @mixin font-3 {
-  font-family: "CalibreWeb";
+  font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 1.6;
 
-  // @media (min-width: $bp-xxs) {
-  //   font-size: 1.25rem;
-  //   line-height: 1.6;
-  // }
-
   @media (min-width: $bp-sm) {
     font-size: 1.5rem;
-    line-height: 1.52;
+    line-height: 1.68;
   }
 }
 
 @mixin font-4 {
-  font-family: "CalibreWeb";
+  font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5;

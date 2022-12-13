@@ -2,23 +2,25 @@
 @charset "UTF-8";
 
 // Fonts
-@font-face {
-  font-family: "CalibreWeb";
-  src: url("../../fonts/CalibreWeb-Regular.eot") format("embedded-opentype");
-  src: url("../../fonts/CalibreWeb-Regular.woff2") format("woff2");
-  src: url("../../fonts/CalibreWeb-Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
+// @font-face {
+//   font-family: "CalibreWeb";
+//   src: url("../../fonts/CalibreWeb-Regular.eot") format("embedded-opentype");
+//   src: url("../../fonts/CalibreWeb-Regular.woff2") format("woff2");
+//   src: url("../../fonts/CalibreWeb-Regular.woff") format("woff");
+//   font-weight: 400;
+//   font-style: normal;
+// }
 
-@font-face {
-  font-family: "CalibreWeb";
-  src: url("../../fonts/CalibreWeb-Bold.eot") format("embedded-opentype");
-  src: url("../../fonts/CalibreWeb-Bold.woff2") format("woff2");
-  src: url("../../fonts/CalibreWeb-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-}
+// @font-face {
+//   font-family: "CalibreWeb";
+//   src: url("../../fonts/CalibreWeb-Bold.eot") format("embedded-opentype");
+//   src: url("../../fonts/CalibreWeb-Bold.woff2") format("woff2");
+//   src: url("../../fonts/CalibreWeb-Bold.woff") format("woff");
+//   font-weight: 700;
+//   font-style: normal;
+// }
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap');
 
 // Variables
 @import "variables/_all";

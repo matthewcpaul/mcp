@@ -2,18 +2,6 @@
   width: 100%;
   margin: 0 auto;
 
-  @media (min-width: $bp-tiny) {
-    max-width: 36rem;
-  }
-
-  @media (min-width: $bp-xxxs) {
-    max-width: 48rem;
-  }
-
-  @media (min-width: $bp-xs) {
-    max-width: 60rem;
-  }
-
   @media (min-width: $bp-md) {
     max-width: 76rem;
   }
