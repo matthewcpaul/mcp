@@ -7,12 +7,12 @@
   }
 
   &__pad {
-    padding-left: $spacing-tiny;
-    padding-right: $spacing-tiny;
+    padding-left: $spacing-xs;
+    padding-right: $spacing-xs;
 
     @media (min-width: $bp-tiny) {
-      padding-left: $spacing-xxs;
-      padding-right: $spacing-xxs;
+      padding-left: $spacing-sm;
+      padding-right: $spacing-sm;
     }
 
     @media (min-width: $bp-xxxs) {

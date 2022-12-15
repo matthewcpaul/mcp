@@ -24,7 +24,7 @@ heading: Generalist drawn to systems &amp; tools
       <img src="../images/about/matthew-brooklyn.png" alt="Matthew Paul in Brooklyn, NY." />
     </picture>
     <figcaption>
-      Me on a Saturday walk to the farmer’s market in the Fall.
+      On a walk to the farmer’s market in the Fall.
     </figcaption>
   </figure>
 </div>
