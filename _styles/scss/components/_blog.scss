@@ -11,11 +11,11 @@
 
   &__title {
     @include font-2;
-    color: $textColor;
+    color: $text;
     text-decoration: none;
 
     &:hover {
-      color: $textLighter;
+      color: $textLight;
       border: 0;
     }
   }

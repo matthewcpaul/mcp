@@ -40,16 +40,16 @@
 	}
 
 	&__link {
-		color: $textLighter;
+		color: $textLight;
 		text-decoration: none;
 		cursor: pointer;
 
 		&:hover {
-			color: $textColor;
+			color: $text;
 		}
 
 		&.active {
-			color: $textColor;
+			color: $text;
 		}
 	}
 }

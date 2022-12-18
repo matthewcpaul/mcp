@@ -23,11 +23,11 @@
 
 	&__title {
 		@include font-4;
-		color: $textColor;
+		color: $text;
 		text-decoration: none;
 
 		&:hover {
-			color: $textColor;
+			color: $text;
 		}
 	}
 

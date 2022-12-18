@@ -1,58 +1,58 @@
 @mixin dark-mode {
-  background: $dark-backgroundColor;
-  color: $dark-textLight;
+  background: $darkbackgroundColor;
+  color: $dark-text;
 
   ::selection {
     color: $selection;
-    background: $dark-selection-background;
+    background: $darkbackgroundColor;
   }
 
   h1, h2, h3 {
-    color: $dark-textColor;
+    color: $dark-text;
   }
   h4 {
-    color: $dark-textLighter;
+    color: $dark-textLight;
   }
   a {
-    color: $dark-textColor;
+    color: $dark-text;
     &:hover {
-      color: $dark-textLighter;
+      color: $dark-textLight;
     }
   }
   figcaption {
-    color: $dark-textLighter;
+    color: $dark-textLight;
   }
   hr {
     border-bottom: 1px solid $dark-borderColor;
   }
   .c-about__list-item {
-    color: $dark-textLighter;
+    color: $dark-textLight;
   }
   .c-blog__title {
-    color: $dark-textColor;
+    color: $dark-text;
     &:hover {
-      color: $dark-textLighter;
+      color: $dark-textLight;
     }
   }
   .c-header__title {
-		color: $dark-textColor;
+		color: $dark-text;
 		&:hover {
-			color: $dark-textColor;
+			color: $dark-text;
     }
   }
   .c-icon__fill {
-    fill: $dark-textLighter;
+    fill: $dark-textLight;
   }
   .c-media {
     background: $dark-mediaBackground;
   }
   .c-nav__link {
-		color: $dark-textLighter;
+		color: $dark-textLight;
 		&:hover {
-			color: $dark-textColor;
+			color: $dark-text;
 		}
 		&.active {
-			color: $dark-textColor;
+			color: $dark-text;
 		}
 	}
 }

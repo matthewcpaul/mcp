@@ -4,7 +4,7 @@ html, :root {
 
 body {
 	background: $backgroundColor;
-	color: $textLight;
+	color: $text;
 	font-family: "CalibreWeb";
 	font-weight: 400;
 	font-size: 1em;
@@ -16,16 +16,16 @@ body {
 	-moz-text-size-adjust: none;
 	-ms-text-size-adjust: 100%;
 
-	@media (prefers-color-scheme: dark) {
-		@include dark-mode;
-	}
+	// @media (prefers-color-scheme: dark) {
+	// 	@include dark-mode;
+	// }
 }
 
 ::selection {
   color: $selection;
   background: $selection-background;
 
-	@media (prefers-color-scheme: dark) {
-		@include dark-mode;
-	}
+	// @media (prefers-color-scheme: dark) {
+	// 	@include dark-mode;
+	// }
 }

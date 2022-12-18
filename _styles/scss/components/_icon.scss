@@ -10,33 +10,6 @@
   }
 
   &__fill {
-    fill: $textLighter;
+    fill: $textLight;
   }
-
-  // &__theme {
-
-  //   & #fill {
-  //     @include themify($themes) {
-  // 			fill: themed('textLighter') !important;
-  // 		}
-  //   }
-
-  //   &:hover {
-
-  //     & #fill {
-  //       @include themify($themes) {
-  //   			fill: themed('textColor') !important;
-  //   		}
-  //     }
-  //   }
-
-  //   &:active {
-
-  //     & #fill {
-  //       @include themify($themes) {
-  //   			fill: themed('textLighter') !important;
-  //   		}
-  //     }
-  //   }
-  // }
 }
