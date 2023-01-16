@@ -9,18 +9,17 @@ var browserSync  = require('browser-sync').create();
 var deploy       = require('gh-pages');
 
 // Build incrementally with _config.yml + _local_config.yml for local development
-
 gulp.task('build', () => {
   return gulp
     .src('*.js', { read: false })
-    .pipe(shell(['bundle exec jekyll build --config _config.yml, _local_config.yml --trace']))
+    .pipe(shell(['bundle exec jekyll build']))
 })
 
 // Build incrementally with _config.yml for production
 gulp.task('production-build', () => {
   return gulp
     .src('*.js', { read: false })
-    .pipe(shell(['bundle exec jekyll build --config _config.yml']))
+    .pipe(shell(['bundle exec jekyll build']))
 })
 
 // Start a local server with browser-sync + watch for changes
