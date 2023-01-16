@@ -9,7 +9,7 @@ var browserSync  = require('browser-sync').create();
 var deploy       = require('gh-pages');
 
 // Build incrementally with _config.yml + _local_config.yml for local development
-gulp.task('build', shell.task('jekyll build --config _config.yml'))
+gulp.task('build', shell.task('bundle exec jekyll build --config _config.yml'))
 
 // Build incrementally with _config.yml for production
 // gulp.task('production-build', shell.task('bundle exec jekyll build')) // Depracated
