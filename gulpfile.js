@@ -16,11 +16,8 @@ gulp.task('build', () => {
 })
 
 // Build incrementally with _config.yml for production
-gulp.task('production-build', () => {
-  return gulp
-    .src('*.js', { read: false })
-    .pipe(shell(['bundle exec jekyll build']))
-})
+gulp.task('production-build', shell.task('bundle exec jekyll build'))
+
 
 // Start a local server with browser-sync + watch for changes
 gulp.task('serve', function() {
