@@ -9,5 +9,4 @@ end
 gem "facets"
 gem "jekyll-assets"
 gem "kramdown"
-
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1-7"

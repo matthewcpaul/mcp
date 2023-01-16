@@ -9,11 +9,10 @@ var browserSync  = require('browser-sync').create();
 var deploy       = require('gh-pages');
 
 // Build incrementally with _config.yml + _local_config.yml for local development
-// gulp.task('local-build', shell.task(commands, options));
-gulp.task('build', shell.task(['bundle exec jekyll build --config _config.yml, _local_config.yml --trace']));
+gulp.task('build', shell.task('jekyll build --config _config.yml'))
 
 // Build incrementally with _config.yml for production
-gulp.task('production-build', shell.task(['bundle exec jekyll build --config _config.yml']));
+// gulp.task('production-build', shell.task('bundle exec jekyll build')) // Depracated
 
 // Start a local server with browser-sync + watch for changes
 gulp.task('serve', function() {
@@ -51,4 +50,4 @@ gulp.task('deploy-gh-pages', function() {
 });
 
 // Run production-build, and deploy-gh-pages
-gulp.task('deploy', gulp.series('production-build', 'fonts', 'sass', 'deploy-gh-pages'));
+gulp.task('deploy', gulp.series('build', 'fonts', 'sass', 'deploy-gh-pages'));

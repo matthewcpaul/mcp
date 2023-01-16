@@ -1,8 +1,7 @@
 # Site Config
 name: "Matthew Traul"
-description: Software product designer
-baseurl: ""
-url: https://matthewcpaul.github.io/mcp
+description: Software product designer, researcher, printmaker
+url: https://matthewctraul.com
 
 # Build Settings
 markdown: kramdown
@@ -11,7 +10,7 @@ permalink: pretty
 
 # In/ Excludes
 include: [".htaccess"]
-exclude: ["node_modules", "gulpfile.js", "Gemfile", "Gemfile.lock", ".jekyll-cache", ".jekyll-metadata", "commit-hook.sh", "package.json", "local_config.yml", "README.md"]
+exclude: ["vendor", "node_modules", "gulpfile.js", "Gemfile", "Gemfile.lock", ".jekyll-cache", ".jekyll-metadata", "commit-hook.sh", "package.json", "local_config.yml", "README.md"]
 
 # Plugins
 assets:
