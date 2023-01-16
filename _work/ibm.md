@@ -152,7 +152,7 @@ image: /images/ibm/ibm-hero.png
 <div class="c-grid__half">
   <div></div>
   <article class="c-grid__mt c-text-format">
-    <p>We introduced “expertise cards” to the practices after the initial launch. We learned that people wanted to see real examples, success stories, and other additions from people within their own company. Anyone can contribute any of the three types of expertise — Methods, Stories, and Power Ups — which are tenant-specific, meaning they would be unique to any company using this web app.</p>
+    <p>We learned that people wanted to see real examples, success stories, and other additions from people within their own company. So we introduced “expertise cards” to the practices after the initial launch. Anyone can contribute any of the three types of expertise — Methods, Stories, and Power Ups — which are tenant-specific, meaning they would be unique to any company using this web app.</p>
   </article>
 </div>
 <img class="c-media" src="../../images/ibm/agile-playbook-method.png" alt="Expertice cards contributed by users">
