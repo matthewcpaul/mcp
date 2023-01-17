@@ -18,7 +18,7 @@ gulp.task('build', shell.task('bundle exec jekyll build --config _config.yml'))
 gulp.task('serve', function() {
   browserSync.init({
       server: {
-          baseDir: "_site/"
+        baseDir: "_site/"
       }
   });
   gulp.watch("_styles/scss/**/*.scss", gulp.series('sass')).on('change', browserSync.reload);

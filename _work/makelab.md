@@ -4,9 +4,12 @@ order: 4
 logo: /images/work/makelab-logo.png
 title: makelab
 org: Make Lab
-role: Founder, Designer, Instructor
+role: Founder, Designer, Printmaker, Instructor
 tenure: 2014–2017
 description: The Make Lab is a small maker space in IBM’s Austin design studio. In an increasingly digital workplace focused on outcomes and needle-moving, the practice of working with our hands is a nice reminder of play, commitment, and independence. We built the Make Lab with the goal of creating an open space where our co-workers could explore, iterate, recharge, and learn together.
+intro: In an increasingly digital workplace focused on outcomes and needle-moving, the practice of working with our hands is a nice reminder of play, commitment, and independence. We built the Make Lab with the goal of creating an open space where our co-workers could explore, iterate, recharge, and learn together.
+image: /images/makelab/makelab-hero.jpg
+type: case
 ---
 
 <hr>

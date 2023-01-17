@@ -1,6 +1,6 @@
 .c-nav {
 	@include list-strip;
-	@include font-4;
+	@include font-5;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -27,14 +27,14 @@
 	&__item {
 
 		&:not(:last-child) {
-			margin-right: $spacing-tiny;
+			margin-right: $spacing-xxs;
 
 			@media (min-width: $bp-xxs) {
-				margin-right: $spacing-xxs;
+				margin-right: $spacing-xs;
 			}
 
 			@media (min-width: $bp-md) {
-				margin-right: $spacing-xs;
+				margin-right: $spacing-sm;
 			}
 		}
 	}

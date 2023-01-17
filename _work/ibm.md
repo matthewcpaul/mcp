@@ -9,6 +9,7 @@ tenure: 2014–2018
 description: IBM made a sizeable investment in design at the end of 2013 to rebuild the company’s products and services across the business. I joined during the first year of this transformation, and partnered with various organizations to define product strategy, facilitate workshops, research user needs, design enterprise software, and collaborate with engineers to continuously deliver outcomes.
 intro: During my time at IBM, I had the fantastic opportunity to work with a wide variety of business units and product teams. From Enterprise Content Management to internal DevOps tools, and AI chatbots to design systems, I learned what it was like to design, build, and ship highly secure software at scale.
 image: /images/ibm/ibm-hero.png
+type: project
 ---
 
 <hr>

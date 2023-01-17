@@ -5,24 +5,12 @@
 	justify-content: space-between;
 	padding: $spacing-xxs 0;
 
-	@media (min-width: $bp-tiny) {
+	@media (min-width: $bp-sm) {
 		padding: $spacing-xs 0;
 	}
 
-	@media (min-width: $bp-xxxs) {
-		padding: $spacing-sm 0;
-	}
-
-	@media (min-width: $bp-xxs) {
-		padding: $spacing-lg 0;
-	}
-
-	@media (min-width: $bp-sm) {
-		padding: $spacing-xl 0;
-	}
-
 	&__title {
-		@include font-4;
+		@include font-5;
 		color: $text;
 		text-decoration: none;
 
