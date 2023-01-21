@@ -1,8 +1,14 @@
 <article class="c-work c-work--align-center">
-  <img class="c-work__image" src="{{ work.logo }}" alt="">
+  <a href="{{ work.url | prepend: site.baseurl }}">
+    <img class="c-work__image" src="{{ work.logo }}" alt="">
+  </a>
   <div class="c-work__body">
     <h4>Next</h4>
-    <h2>{{ work.org }}</h2>
+    <h2>
+      <a href="{{ work.url | prepend: site.baseurl }}" class="c-work__li--{{ work.title }} u-inline-block">
+        {{ work.org }}
+      </a>
+    </h2>
     <ul class="c-work__project-list">
       <li class="c-work__project">
         <a href="{{ work.url | prepend: site.baseurl }}" class="c-work__li--{{ work.title }}">

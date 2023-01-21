@@ -20,11 +20,13 @@ description: I’m a systems thinker who enjoys the process of solving complex p
   </div>
   <div class="c-work__body c-text-format">
     <h2 class="c-work__m-strip">
-    {% if work.image %}
-    <a href="{{ work.url | prepend: site.baseurl }}" class="c-work__li--{{ work.title }} u-inline-block">{{ work.org }}</a>
-    {% else %}
-    {{ work.org }}
-    {% endif %}
+      {% if work.image %}
+      <a href="{{ work.url | prepend: site.baseurl }}" class="c-work__li--{{ work.title }} u-inline-block">
+        {{ work.org }}
+      </a>
+      {% else %}
+      {{ work.org }}
+      {% endif %}
     </h2>
     <span>{{ work.role }}</span>
     <h4>{{ work.tenure }}</h4>

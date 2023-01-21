@@ -28,6 +28,7 @@ ul {
 }
 
 h1 + p {
+  @include font-3;
   margin-top: $spacing-xxs;
 
   @media (min-width: $bp-sm) {
