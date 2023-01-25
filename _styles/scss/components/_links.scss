@@ -1,0 +1,11 @@
+.c-links {
+  display: block;
+  margin-bottom: $spacing-half;
+
+  &__label {
+    font-weight: 600;
+    color: $text;
+    margin-top: -1.5rem;
+    margin-bottom: $spacing-half;
+  }
+}

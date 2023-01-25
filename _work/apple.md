@@ -1,6 +1,6 @@
 ---
 layout: case-study
-order: 3
+order: 4
 logo: /images/work/apple-logo.png
 title: apple
 org: Apple

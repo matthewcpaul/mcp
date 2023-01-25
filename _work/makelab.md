@@ -1,6 +1,6 @@
 ---
 layout: case-study
-order: 4
+order: 5
 logo: /images/work/makelab-logo.png
 title: makelab
 org: Make Lab
@@ -92,7 +92,7 @@ type: case
 
 {% assign work = site.work | sort:"order" %}
 {% for work in work %}
-{% if work.order == 1 %}
+{% if work.order == 2 %}
 {% include next-project.html %}
 {% endif %}
 {% endfor %}

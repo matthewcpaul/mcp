@@ -1,6 +1,6 @@
 ---
 layout: case-study
-order: 2
+order: 3
 logo: /images/work/ibm-logo.png
 title: ibm
 org: IBM
@@ -277,7 +277,7 @@ type: project
 
 {% assign work = site.work | sort:"order" %}
 {% for work in work %}
-{% if work.order == 4 %}
+{% if work.order == 5 %}
 {% include next-project.html %}
 {% endif %}
 {% endfor %}
