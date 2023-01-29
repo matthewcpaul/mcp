@@ -3,7 +3,7 @@ layout: work
 title: Work
 order: 1
 heading: Software product designer
-description: I’m a systems thinker who enjoys the process of solving complex problems with thoughtful software teams. I combine multiple research methods, journey mapping, human-computer interaction, visual design, design systems, prototyping, and code to collaboratively build new product features. I like asking questions, searching for answers, sweating the details, and building new things.
+description: I’m a systems thinker who enjoys the process of solving complex problems with thoughtful software teams. I combine multiple research methods, journey mapping, human-computer interaction, visual design, design systems, prototyping, and code to collaboratively build new products and features. I like asking questions, searching for answers, sweating the details, and building new things.
 ---
 
 {% assign work = site.work | sort:"order" %}
