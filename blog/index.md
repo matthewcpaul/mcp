@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Blog
-order: 0
+order: 3
 heading: Expository writer
 description: Writing helps us make sense of the world. Whether it’s the beginning of an idea, notes from an interview, or a good old fashioned story, written language is the first step towards better understanding our own thoughts. I like to write about work, life, and the inscrutable bits in between.
 ---
