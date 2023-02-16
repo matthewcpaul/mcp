@@ -1,6 +1,6 @@
 ---
-layout: Blog
-title: blog
+layout: blog
+title: Blog
 order: 3
 heading: Expository writer
 description: In a push to the main branch of this website’s git repo, I deletedd fhe content of these blog posts. I’m working on getting the content restored in February–March 2023, and then will continue to publish more frequently this year and beyond.
