@@ -1,5 +1,5 @@
 ---
-layout: Talks
+layout: Blog
 title: Blog
 order: 3
 heading: Expository writer
