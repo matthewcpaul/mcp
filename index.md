@@ -40,10 +40,11 @@ description: I’m a systems thinker who enjoys the process of solving complex p
         </a>
         {% elsif work.order == 1 %}
           <h4 class="c-links__label">Figma decks</h4>
-          <a class="c-links" href="https://www.figma.com/proto/SVPpblfgoGjGybvqPxFcl3/MCT-Portfolio-2023?page-id=262%3A200&node-id=262%3A201&viewport=105%2C232%2C0.1&scaling=contain&hide-ui=1" target="_blank">The.com Automated Pages & Tour Point System</a>
-          <a class="c-links" href="https://www.figma.com/proto/KxmTImBaaMesaiDRCrNs3n/Past-Work---Open-Table?page-id=0:1&node-id=39:4&viewport=836,665,0.07&scaling=contain&starting-point-node-id=39:4&hide-ui=1" target="_blank">OpenTable Automated Guest Tags</a>
-          <a class="c-links" href="https://www.figma.com/proto/9u4sywArvYybMkVai7XJOv/Past-Work---InVision?page-id=0%3A1&node-id=6%3A20&viewport=131%2C293%2C0.03&scaling=contain&hide-ui=1" target="_blank">InVision Inspect Motion</a>
-          <a class="c-links" href="https://www.figma.com/proto/SVPpblfgoGjGybvqPxFcl3/MCT-Portfolio-2023?page-id=336%3A149&node-id=336%3A150&viewport=515%2C429%2C0.04&scaling=contain&hide-ui=1" target="_blank">Highlight Reel</a>
+          <a class="c-links" href="https://www.figma.com/proto/ITwaPTXIPOANrSM9RzUYxu/Case-Study%3A-Inspect-Motion?page-id=0%3A1&node-id=1-5&viewport=-143%2C416%2C0.02&scaling=contain&hide-ui=1" target="_blank">InVision Inspect Motion</a>
+          <a class="c-links" href="https://www.figma.com/proto/tzxAobW2TvgtcYDNG6ICYA/Case-Study%3A-The.com?page-id=0%3A1&node-id=1-343&viewport=25%2C418%2C0.02&scaling=contain&hide-ui=1" target="_blank">The.com Automated Pages & Tour Point System</a>
+          <a class="c-links" href="https://www.figma.com/proto/KxmTImBaaMesaiDRCrNs3n/Case-Study%3A-OpenTable?page-id=0%3A1&node-id=39-4&viewport=417%2C429%2C0.03&scaling=contain&hide-ui=1" target="_blank">OpenTable Automated Guest Tags</a>
+          <a class="c-links" href="https://www.figma.com/proto/twdjsLFGZlPvZJyruGWCHX/Highlight-Reel?page-id=0%3A1&node-id=1-3&viewport=25%2C410%2C0.04&scaling=contain&hide-ui=1" target="_blank">Highlight Reel</a>
+          <a class="c-links" href="https://www.figma.com/proto/RzepSmMD9ZWxmAbz1MGy4X/About-Me-%26-What-I-Excel-At?page-id=0%3A1&node-id=1-2&viewport=25%2C242%2C0.07&scaling=contain&hide-ui=1" target="_blank">About Me & What I Excel At</a>
         {% else %}
         <h4>This work is confidential <svg class="c-icon c-icon--lock" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="c-icon__fill" fill-rule="evenodd" clip-rule="evenodd" d="M8 0C5.23858 0 3 2.23858 3 5V6H2C1.44772 6 1 6.44772 1 7V15C1 15.5523 1.44772 16 2 16H14C14.5523 16 15 15.5523 15 15V7C15 6.44771 14.5523 6 14 6H13V5C13 2.23858 10.7614 0 8 0ZM11.5 6V5C11.5 3.067 9.933 1.5 8 1.5C6.067 1.5 4.5 3.067 4.5 5V6H11.5ZM10 11C10 12.1046 9.10457 13 8 13C6.89543 13 6 12.1046 6 11C6 9.89543 6.89543 9 8 9C9.10457 9 10 9.89543 10 11Z" fill="black"/></svg></h4>
         {% endif %}

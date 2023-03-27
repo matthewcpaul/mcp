@@ -1,12 +1,15 @@
-var gulp         = require('gulp');
-var sass         = require('gulp-sass')(require('sass'));
-var scsslint     = require('gulp-scss-lint');
-var nano         = require('gulp-cssnano');
-var shell        = require('gulp-shell');
-var sourcemaps   = require('gulp-sourcemaps');
+var gulp = require('gulp');
+var sass = require('gulp-sass')(require('sass'));
+var scsslint = require('gulp-scss-lint');
+var nano = require('gulp-cssnano');
+var shell = require('gulp-shell');
+var sourcemaps = require('gulp-sourcemaps');
 var autoprefixer = require('gulp-autoprefixer');
-var browserSync  = require('browser-sync').create();
-var deploy       = require('gh-pages');
+var browserSync = require('browser-sync').create();
+var deploy = require('gh-pages');
+
+// rvm use 2.7.6
+// bundle install
 
 // Build incrementally with _config.yml + _local_config.yml for local development
 gulp.task('build', shell.task('bundle exec jekyll build --config _config.yml'))
@@ -17,9 +20,9 @@ gulp.task('build', shell.task('bundle exec jekyll build --config _config.yml'))
 // Start a local server with browser-sync + watch for changes
 gulp.task('serve', function() {
   browserSync.init({
-      server: {
-        baseDir: "_site/"
-      }
+    server: {
+      baseDir: "_site/"
+    }
   });
   gulp.watch("_styles/scss/**/*.scss", gulp.series('sass')).on('change', browserSync.reload);
   gulp.watch(["**/*.html", "**/*.md"]).on('change', browserSync.reload);
@@ -36,7 +39,7 @@ gulp.task('sass', function() {
   return gulp.src(["_styles/scss/style.scss"])
     .pipe(sass({}))
     .pipe(autoprefixer())
-    .pipe(nano({discardComments: {removeAll: true}}))
+    .pipe(nano({ discardComments: { removeAll: true } }))
     .pipe(gulp.dest("_site/assets/css"))
     .pipe(browserSync.stream());
 });
