@@ -18,5 +18,16 @@
       color: $textLight;
       border: 0;
     }
+
+    &--nolink {
+      @include font-2;
+      color: $text;
+      text-decoration: none;
+
+      &:hover {
+        color: $text;
+        border: 0;
+      }
+    }
   }
 }
