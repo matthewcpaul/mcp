@@ -3,8 +3,10 @@ layout: work
 title: Work
 order: 1
 heading: Software product designer
-description: I’m a systems thinker who enjoys the process of solving complex problems with thoughtful software teams. I combine multiple research methods, journey mapping, human-computer interaction, visual design, design systems, prototyping, and code to collaboratively build new products and features. I like asking questions, searching for answers, and building new things.
+description: I’m a software product designer specializing in developer tooling and design systems. I like asking questions, searching for answers, and building new things.
 ---
+
+[comment]: <> (I’m a systems thinker who enjoys the process of solving complex problems with thoughtful software teams.)
 
 {% assign work = site.work | sort:"order" %}
 {% for work in work %}
@@ -28,7 +30,7 @@ description: I’m a systems thinker who enjoys the process of solving complex p
       {{ work.org }}
       {% endif %}
     </h2>
-    <span>{{ work.role }}</span>
+    <h3>{{ work.role }}</h3>
     <h4>{{ work.tenure }}</h4>
     <p class="c-work__description">{{ work.description }}</p>
     <ul class="c-work__project-list">
@@ -39,8 +41,7 @@ description: I’m a systems thinker who enjoys the process of solving complex p
           <div class="c-work__arrow">&#8594;</div>
         </a>
         {% elsif work.order == 1 %}
-          <h4 class="c-links__label">Figma decks</h4>
-          <a class="c-links" href="https://www.figma.com/proto/ITwaPTXIPOANrSM9RzUYxu/Case-Study%3A-Inspect-Motion?page-id=0%3A1&node-id=1-5&viewport=-143%2C416%2C0.02&scaling=contain&hide-ui=1" target="_blank">InVision Inspect Motion</a>
+          <h4 class="c-links__label">Figma presentations</h4>
           <a class="c-links" href="https://www.figma.com/proto/tzxAobW2TvgtcYDNG6ICYA/Case-Study%3A-The.com?page-id=0%3A1&node-id=1-343&viewport=25%2C418%2C0.02&scaling=contain&hide-ui=1" target="_blank">The.com Automated Pages & Tour Point System</a>
           <a class="c-links" href="https://www.figma.com/proto/KxmTImBaaMesaiDRCrNs3n/Case-Study%3A-OpenTable?page-id=0%3A1&node-id=39-4&viewport=417%2C429%2C0.03&scaling=contain&hide-ui=1" target="_blank">OpenTable Automated Guest Tags</a>
           <a class="c-links" href="https://www.figma.com/proto/twdjsLFGZlPvZJyruGWCHX/Highlight-Reel?page-id=0%3A1&node-id=1-3&viewport=25%2C410%2C0.04&scaling=contain&hide-ui=1" target="_blank">Highlight Reel</a>

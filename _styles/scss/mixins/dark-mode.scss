@@ -1,6 +1,6 @@
 @mixin dark-mode {
   background: $darkbackgroundColor;
-  color: $dark-text;
+  color: $darktext;
 
   ::selection {
     color: $selection;
@@ -8,51 +8,54 @@
   }
 
   h1, h2, h3 {
-    color: $dark-text;
+    color: $darktext;
   }
   h4 {
-    color: $dark-textLight;
+    color: $darktextLight;
   }
   a {
-    color: $dark-text;
+    color: $darktext;
     &:hover {
-      color: $dark-textLight;
+      color: $darktextLight;
     }
   }
   figcaption {
-    color: $dark-textLight;
+    color: $darktextLight;
   }
   hr {
-    border-bottom: 1px solid $dark-borderColor;
+    border-bottom: 1px solid $darkborderColor;
+  }
+  .c-links__label {
+    color: $darktext;
   }
   .c-about__list-item {
-    color: $dark-textLight;
+    color: $darktextLight;
   }
   .c-blog__title {
-    color: $dark-text;
+    color: $darktext;
     &:hover {
-      color: $dark-textLight;
+      color: $darktextLight;
     }
   }
   .c-header__title {
-		color: $dark-text;
+		color: $darktext;
 		&:hover {
-			color: $dark-text;
+			color: $darktext;
     }
   }
   .c-icon__fill {
-    fill: $dark-textLight;
+    fill: $darktextLight;
   }
   .c-media {
-    background: $dark-mediaBackground;
+    background: $darkmediaBackground;
   }
   .c-nav__link {
-		color: $dark-textLight;
+		color: $darktextLight;
 		&:hover {
-			color: $dark-text;
+			color: $darktext;
 		}
 		&.active {
-			color: $dark-text;
+			color: $darktext;
 		}
 	}
 }

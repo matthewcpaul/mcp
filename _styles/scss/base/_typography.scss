@@ -12,7 +12,7 @@ h2 {
 }
 
 h3 {
-  @include font-3;
+  @include font-4;
 }
 
 h4 {
@@ -32,7 +32,7 @@ h1 + p {
   margin-top: $spacing-xxs;
 
   @media (min-width: $bp-sm) {
-    margin-top: $spacing-md;
+    margin-top: $spacing-xxs;
   }
 }
 

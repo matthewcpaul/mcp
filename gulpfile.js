@@ -25,7 +25,7 @@ gulp.task('serve', function() {
     }
   });
   gulp.watch("_styles/scss/**/*.scss", gulp.series('sass')).on('change', browserSync.reload);
-  gulp.watch(["**/*.html", "**/*.md"]).on('change', browserSync.reload);
+  gulp.watch(["**/*.html", "**/*.md", "*.md"]).on('change', browserSync.reload);
 });
 
 // Pipe fonts to _site

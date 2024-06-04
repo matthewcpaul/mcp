@@ -4,14 +4,11 @@
 
     & h1 {
       @include font-lg;
-      max-width: 100%;
 
       @media (min-width: $bp-xxs) {
-        max-width: 40rem;
       }
 
       @media (min-width: $bp-sm) {
-        max-width: 56rem;
       }
     }
 
@@ -19,7 +16,7 @@
       max-width: 100%;
 
       @media (min-width: $bp-sm) {
-        width: 64rem;
+
       }
     }
   }

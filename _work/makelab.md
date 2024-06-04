@@ -50,15 +50,15 @@ type: case
   </article>
 </div>
 <img src="../../images/makelab/distinguished-designer.jpg" alt="IBM Studios NYC screenprint">
-<figcaption></figcaption>
+<figcaption>Distinguished Designer 7 color screen print</figcaption>
 <img src="../../images/makelab/thinking-blocks.jpg" alt="IBM Studios NYC screenprint">
-<figcaption></figcaption>
+<figcaption>Thinking Blocks 4 color screen print</figcaption>
 <img src="../../images/makelab/aiga-national.jpg" alt="IBM Studios NYC screenprint">
-<figcaption></figcaption>
+<figcaption>Revival—a 5 color screen print for the 2015 AIGA National Conference</figcaption>
 <img src="../../images/makelab/signing-aiga-national.jpg" alt="IBM Studios NYC screenprint">
-<figcaption></figcaption>
+<figcaption>Owen Hammonds and myself editioning a series of 100 screen prints</figcaption>
 <img src="../../images/makelab/design-principal.jpg" alt="IBM Studios NYC screenprint">
-<figcaption></figcaption>
+<figcaption>Design Principal 5 color screen print</figcaption>
 
 <hr>
 
@@ -95,7 +95,7 @@ type: case
 <hr>
 
 <div class="c-grid__half">
-  <h2>Growth and More Budget</h2>
+  <h2>Growth and Increased Budget</h2>
   <article class="c-grid__mt c-text-format">
     <p>Coming soon&hellip;</p>
   </article>

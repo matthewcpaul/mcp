@@ -1,16 +1,17 @@
-// Global color themes
-$selection: #E1E1E0;
-$selection-background: #3B3935;
-$backgroundColor: #fff;
-$text: #3B3935;
-$textLight: #9A968D;
-$mediaBackground: #E1E1E0;
-$borderColor: #E1E1E0;
+// Light color theme
+$backgroundColor: #FFFFFF;
+$mediaBackground: #E3E3E3;
+$borderColor: #C7C7C7;
+$text: #262626;
+$textLight: #949494;
+$selection: #DBDBDB;
+$selectionbackground: #262626;
 
-// $darkbackgroundColor: #222523;
-// $darkmediaBackground: #373938;
-// $darkborderColor: #464947;
-// $darktext: #F6F5F3;
-// $darktextLight: #868279;
-// $darkselection: #F6F5F3;
-// $darkselection-background: #F6F5F3;
+// Dark color theme
+$darkbackgroundColor: #0D0D0D;
+$darkmediaBackground: #262626;
+$darkborderColor: #3D3D3D;
+$darktext: #F0F0F0;
+$darktextLight: #808080;
+$darkselection: #262626;
+$darkselectionbackground: #DBDBDB;
