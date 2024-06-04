@@ -3,7 +3,7 @@ layout: work
 title: Work
 order: 1
 heading: Software product designer
-description: I’m a software product designer specializing in developer tooling and design systems. I like asking questions, searching for answers, and building new things.
+description: I’m a software product designer specializing in developer tooling and design systems. I like asking questions, searching for answers, and learning how to building new things.
 ---
 
 [comment]: <> (I’m a systems thinker who enjoys the process of solving complex problems with thoughtful software teams.)

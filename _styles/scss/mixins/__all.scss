@@ -7,28 +7,11 @@
 	list-style-type: none;
 }
 
-@mixin font-lg {
-  font-family: 'Geist', sans-serif;
-  font-weight: 700;
-  font-size: 2.5rem;
-  line-height: 1.2;
-
-  @media (min-width: $bp-xxs) {
-    font-size: 3.5rem;
-    line-height: 1.15;
-  }
-
-  @media (min-width: $bp-sm) {
-    font-size: 3.625rem;
-    line-height: 5rem;
-  }
-}
-
 @mixin font-1 {
   font-family: 'Geist', sans-serif;
   font-weight: 700;
-  font-size: 2.5rem;
-  line-height: 1.2;
+  font-size: 2.875rem;
+  line-height: 4rem;
 
   @media (min-width: $bp-sm) {
     font-size: 3.625rem;
@@ -38,9 +21,9 @@
 
 @mixin font-2 {
   font-family: 'Geist', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 1.75rem;
-  line-height: 1.4;
+  line-height: 2.75rem;
 
   @media (min-width: $bp-sm) {
     font-size: 2.25rem;
@@ -51,20 +34,21 @@
 @mixin font-3 {
   font-family: 'Geist', sans-serif;
   font-weight: 400;
-  font-size: 1.25rem;
-  line-height: 1.6;
+  font-size: 1.375rem;
+  line-height: 2.25rem;
 
   @media (min-width: $bp-sm) {
     font-size: 1.75rem;
     line-height: 2.75rem;
+    max-width: 55rem !important;
   }
 }
 
 @mixin font-4 {
   font-family: 'Geist', sans-serif;
   font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.75;
+  font-size: 1.125rem;
+  line-height: 2rem;
 
   @media (min-width: $bp-sm) {
     font-size: 1.375rem;
@@ -75,11 +59,11 @@
   @mixin font-5 {
     font-family: 'Geist', sans-serif;
     font-weight: 400;
-    font-size: 0.75rem;
-    line-height: 1.75;
+    font-size: 1rem;
+    line-height: 1.75rem;
 
     @media (min-width: $bp-sm) {
       font-size: 1.125rem;
-      line-height: 1.75;
+      line-height: 2rem;
     }
 }

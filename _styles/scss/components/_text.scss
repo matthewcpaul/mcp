@@ -3,21 +3,11 @@
   &--longform {
 
     & h1 {
-      @include font-lg;
-
-      @media (min-width: $bp-xxs) {
-      }
-
-      @media (min-width: $bp-sm) {
-      }
+      @include font-1;
     }
 
     & p {
       max-width: 100%;
-
-      @media (min-width: $bp-sm) {
-
-      }
     }
   }
 
