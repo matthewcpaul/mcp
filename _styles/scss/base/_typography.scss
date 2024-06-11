@@ -20,6 +20,11 @@ h4 {
   color: $textLight;
 }
 
+.h4 {
+  @include font-4;
+  color: $textLight;
+}
+
 p,
 span,
 ul {

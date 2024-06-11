@@ -3,7 +3,7 @@
     <img class="c-work__image" src="{{ work.logo }}" alt="">
   </a>
   <div class="c-work__body">
-    <h4>Next</h4>
+    <div class="h4">Next</div>
     <h2>
       <a href="{{ work.url | prepend: site.baseurl }}" class="c-work__li--{{ work.title }} u-inline-block">
         {{ work.org }}
@@ -11,7 +11,7 @@
     </h2>
     <ul class="c-work__project-list">
       <li class="c-work__project">
-        <a href="{{ work.url | prepend: site.baseurl }}" class="c-work__li--{{ work.title }}">
+        <a href="{{ work.url | prepend: site.baseurl }}" class="c-work__li--{{ work.title }}" aria-label="Next project">
           <span>View projects</span>
           <div class="c-work__arrow">&#8594;</div>
         </a>
