@@ -29,6 +29,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin-top: $spacing-half;
+    margin-bottom: $spacing-xxs;
     height: max-content;
 
     &--thumbnail {
