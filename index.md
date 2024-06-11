@@ -3,7 +3,7 @@ layout: work
 title: Work
 order: 1
 heading: Software product designer
-description: I’m a software product designer specializing in developer tooling and design systems. I like asking questions, searching for answers, and learning how to building new things.
+description: I’m a software product designer specializing in developer tooling and design systems. I like asking questions, searching for answers, and learning how to building new things on the internet.
 ---
 
 [comment]: <> (I’m a systems thinker who enjoys the process of solving complex problems with thoughtful software teams.)
@@ -37,7 +37,7 @@ description: I’m a software product designer specializing in developer tooling
       <li class="c-work__project">
         {% if work.image %}
         <a href="{{ work.url | prepend: site.baseurl }}" class="c-work__li--{{ work.title }}">
-          <span>View projects</span>
+          <span class="font-bold">View projects</span>
           <div class="c-work__arrow">&#8594;</div>
         </a>
         {% elsif work.order == 1 %}
