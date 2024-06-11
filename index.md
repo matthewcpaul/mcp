@@ -13,7 +13,7 @@ description: I’m a software product designer specializing in developer tooling
 <section class="c-work">
   <div class="c-work__image">
     {% if work.image %}
-    <a href="{{ work.url | prepend: site.baseurl }}">
+    <a class="c-work__link" href="{{ work.url | prepend: site.baseurl }}" aria-label="{{ work.org }}">
       <img class="c-work__image--thumbnail" src="..{{ work.logo }}" alt="">
     </a>
     {% else %}

@@ -20,12 +20,16 @@
     align-items: center;
   }
 
+  &__link {
+    display: grid;
+  }
+
   &__image {
     grid-column: span 1;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin-top: 8px;
-    margin-bottom: $spacing-xxs;
+    margin-top: $spacing-half;
+    height: max-content;
 
     &--thumbnail {
       grid-column: span 1;
