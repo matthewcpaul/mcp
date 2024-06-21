@@ -12,11 +12,11 @@ image: /images/ibm/ibm-hero.png
 type: project
 ---
 
-<hr>
+<hr id="watson-assistant">
 
 <div class="c-grid__half">
   <div class="u-mb-tiny">
-    <h2 class="c-work__m-strip">Watson Assistant</h2>
+    <h2 class="c-work__m-strip"><a href="#watson-assistant">Watson Assistant</a></h2>
     <h4>Product Design, Motion Design</h4>
   </div>
   <article class="c-grid__mt c-text-format">
@@ -56,11 +56,11 @@ type: project
   <figcaption>Motion design after selecting a button response type.</figcaption>
 </figure>
 
-<hr>
+<hr id="toolbelt">
 
 <div class="c-grid__half">
   <div class="u-mb-tiny">
-    <h2 class="c-work__m-strip">IBM Toolbelt</h2>
+    <h2 class="c-work__m-strip"><a href="#toolbelt">IBM Toolbelt</a></h2>
     <h4>Product Design</h4>
   </div>
   <article class="c-grid__mt c-text-format">
@@ -116,11 +116,11 @@ type: project
   <figcaption>Interaction and motion details of the team-switcher component.</figcaption>
 </figure>
 
-<hr>
+<hr id="agile-playbook">
 
 <div class="c-grid__half">
   <div class="u-mb-tiny">
-    <h2 class="c-work__m-strip">Agile Playbook</h2>
+    <h2 class="c-work__m-strip"><a href="#agile-playbook">Agile Playbook</a></h2>
     <h4>Product Design, Front-End Engineering</h4>
   </div>
   <article class="c-grid__mt c-text-format">
@@ -186,11 +186,11 @@ type: project
 <img class="c-media" src="../../images/ibm/agile-playbook-module.png" alt="An individual course module video">
 <figcaption>A video module that’s part of a larger course, with course module navigation.</figcaption>
 
-<hr>
+<hr id="navigator">
 
 <div class="c-grid__half">
   <div class="u-mb-tiny">
-    <h2 class="c-work__m-strip">IBM Navigator</h2>
+    <h2 class="c-work__m-strip"><a href="#navigator">IBM Navigator</a></h2>
     <h4>UX Research, Mobile Product Design</h4>
   </div>
   <article class="c-grid__mt c-text-format">
@@ -228,11 +228,11 @@ type: project
 <img class="c-media" src="../../images/ibm/ibm-navigator-commenting@2x.png" alt="IBM Navigator mobile app commenting">
 <figcaption>File details, action sheet, and commenting.</figcaption>
 
-<hr>
+<hr id="rapid">
 
 <div class="c-grid__half">
   <div class="u-mb-tiny">
-    <h2 class="c-work__m-strip">Rapid</h2>
+    <h2 class="c-work__m-strip"><a href="#rapid">Rapid</a></h2>
     <h4>Systems Design, Engineering, Technical Writing</h4>
   </div>
   <article class="c-grid__mt c-text-format">
