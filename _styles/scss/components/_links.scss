@@ -1,9 +1,12 @@
 .c-links {
+  @include font-4;
+  font-weight: 500;
   display: block;
   margin-bottom: $spacing-half;
 
   &__label {
-    font-weight: 600;
+    @include font-4;
+    font-weight: 700;
     color: $text;
     margin-bottom: $spacing-half;
   }

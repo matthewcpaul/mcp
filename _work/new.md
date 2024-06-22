@@ -1,7 +1,7 @@
 ---
 layout: case-study
 order: 2
-logo: /images/work/new-logo.png
+logo: /images/work/independent-logo.png
 title: newwork
 org: Independent
 role: Senior Product Designer, Founding Designer
