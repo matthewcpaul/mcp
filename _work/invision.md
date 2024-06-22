@@ -1,6 +1,6 @@
 ---
 layout: case-study
-order: 2
+order: 3
 logo: /images/work/invision-logo.png
 title: invision
 org: InVision

@@ -74,6 +74,15 @@
 
   &__li {
 
+    &--bubble {
+      display: flex;
+      text-decoration: none;
+
+      &:hover {
+        color:  #0947D7 !important;
+      }
+    }
+
     &--invision {
       display: flex;
       text-decoration: none;
