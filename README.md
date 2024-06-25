@@ -1,3 +1,3 @@
 # Portfolio
 
-There are many like it, but this one’s mine.
+this is my website. There are many like it, but this one’s mine.
