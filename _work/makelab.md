@@ -114,7 +114,7 @@ type: case
 
 {% assign work = site.work | sort:"order" %}
 {% for work in work %}
-{% if work.order == 2 %}
+{% if work.order == 3 %}
 {% include next-project.html %}
 {% endif %}
 {% endfor %}

@@ -277,7 +277,7 @@ type: project
 
 {% assign work = site.work | sort:"order" %}
 {% for work in work %}
-{% if work.order == 5 %}
+{% if work.order == 6 %}
 {% include next-project.html %}
 {% endif %}
 {% endfor %}

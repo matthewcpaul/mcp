@@ -157,7 +157,7 @@ type: project
 
 {% assign work = site.work | sort:"order" %}
 {% for work in work %}
-{% if work.order == 3 %}
+{% if work.order == 4 %}
 {% include next-project.html %}
 {% endif %}
 {% endfor %}
