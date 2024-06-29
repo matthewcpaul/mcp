@@ -12,7 +12,7 @@
   &__title {
     @include font-2;
     color: $text;
-    text-decoration: none;
+    display: inline-block;
 
     &:hover {
       color: $textLight;
@@ -23,11 +23,21 @@
       @include font-2;
       color: $text;
       text-decoration: none;
+      margin-bottom: 0;
+    }
+
+    & svg {
+      fill: $text;
 
       &:hover {
-        color: $text;
-        border: 0;
+        fill: $textLight;
       }
     }
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
   }
 }

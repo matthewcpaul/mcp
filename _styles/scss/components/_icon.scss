@@ -1,12 +1,16 @@
 .c-icon {
-  margin-left: $spacing-half;
 
-  &--lock {
+  &__lock {
     margin-top: -2px;
+    margin-left: $spacing-half;
 
     @media (min-width: $bp-xs) {
       margin-top: 0;
     }
+  }
+
+  &__link {
+    margin-left: $spacing-tiny;
   }
 
   &__fill {
