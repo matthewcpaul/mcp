@@ -2,8 +2,8 @@
 layout: work
 title: Work
 order: 1
-heading: Software Designer
-description: I’m a Software Product Designer & Design Engineer specializing in developer tooling and design systems. I like asking questions, searching for answers, and learning how to build new things on the internet.
+heading: Software Designer & Engineer
+description: I’m a Software Designer & Design Engineer specializing in designer / developer tooling and design systems. I like asking questions, searching for answers, and learning how to build new things on the internet.
 ---
 
 {% assign work = site.work | sort:"order" %}

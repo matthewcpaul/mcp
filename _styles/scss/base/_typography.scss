@@ -32,7 +32,8 @@ h4 {
 
 p,
 span,
-ul {
+ul,
+ol {
   @include font-4;
   hyphens: manual;
 }
@@ -133,6 +134,14 @@ figure {
 
   @media (min-width: $bp-sm) {
     margin-bottom: 0;
+  }
+}
+
+section + section {
+  margin-top: $spacing-xs;
+
+  @media (min-width: $bp-xxs) {
+    margin-top: 0;
   }
 }
 

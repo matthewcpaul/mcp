@@ -3,11 +3,10 @@
   grid-template-columns: 100%;
 
   @media (min-width: $bp-xxxs) {
-    grid-template-columns: repeat(2, 1fr);
     grid-gap: $spacing-lg;
   }
 
-  @media (min-width: $bp-xxs) {
+  @media (min-width: $bp-xs) {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: $spacing-xl;
   }

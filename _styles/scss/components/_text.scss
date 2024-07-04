@@ -1,6 +1,6 @@
 .c-text-format {
 
-  &--longform {
+  &--header {
 
     & h1 {
       @include font-1;
@@ -8,6 +8,10 @@
 
     & p {
       max-width: 100%;
+
+      @media (min-width: $bp-xs) {
+        max-width: 60rem;
+      }
     }
   }
 
@@ -25,11 +29,6 @@
 
   & p {
     max-width: 100%;
-
-    @media (min-width: $bp-xxs) {
-      min-width: 24rem;
-      max-width: 24rem;
-    }
 
     @media (min-width: $bp-xs) {
       min-width: 30rem;

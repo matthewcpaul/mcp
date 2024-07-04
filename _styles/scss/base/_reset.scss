@@ -7,13 +7,12 @@
 
 ul,
 ol {
-  margin-left: $spacing-xs;
-  padding-left: $spacing-xs;
+  margin-left: $spacing-xxs;
+  padding-left: 0;
 }
 
 ul {
   list-style-type: disc;
-  margin-bottom: $spacing-xs;
 }
 
 img,
