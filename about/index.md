@@ -38,10 +38,11 @@ heading: Specializing in Systems &amp; Tools
     <ul>
       <li>Figma</li>
       <li>HTML</li>
-      <li>CSS (Tailwind & SCSS)</li>
-      <li>Javascript (& Typescript)</li>
+      <li>CSS (Tailwind, CSS-in-JS, SCSS)</li>
+      <li>Javascript (Typescript)</li>
       <li>React</li>
       <li>Next.js</li>
+      <li>Sanity (headless CMS)</li>
       <li>Vercel</li>
     </ul>
   </section>
