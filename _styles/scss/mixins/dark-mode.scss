@@ -10,50 +10,78 @@
   h1, h2, h3 {
     color: $darktext;
   }
+
   h4 {
     color: $darktextLight;
   }
+
   a {
     color: $darktext;
+
     &:hover {
       color: $darktextLight;
     }
   }
+
   figcaption {
     color: $darktextLight;
   }
+
   hr {
     border-bottom: 1px solid $darkborderColor;
   }
+
   .c-links__label {
     color: $darktext;
   }
+
   .c-about__list-item {
     color: $darktextLight;
   }
+
   .c-blog__title {
     color: $darktext;
+
     &:hover {
       color: $darktextLight;
     }
+
+    &--nolink {
+      color: $darktext;
+    }
+
+    & svg {
+      fill: $darktext;
+
+      &:hover {
+        fill: $darktextLight;
+      }
+    }
   }
+
   .c-header__title {
 		color: $darktext;
+
 		&:hover {
 			color: $darktext;
     }
   }
+
   .c-icon__fill {
     fill: $darktextLight;
   }
+
   .c-media {
     background: $darkmediaBackground;
   }
+
   .c-nav__link {
 		color: $darktextLight;
+
 		&:hover {
 			color: $darktext;
 		}
+
 		&.active {
 			color: $darktext;
 		}
