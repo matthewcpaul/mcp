@@ -21,10 +21,10 @@
   &__half {
     display: grid;
     grid-template-columns: 100%;
-    margin-top: $spacing-xs;
+    margin: $spacing-xs 0;
 
     @media (min-width: $bp-xxxs) {
-      margin-top: $spacing-sm;
+      margin: $spacing-sm 0;
     }
 
     @media (min-width: $bp-xs) {
@@ -33,7 +33,7 @@
     }
 
     @media (min-width: $bp-sm) {
-      margin-top: $spacing-xl;
+      margin: $spacing-xl 0;
     }
 
     &-item {
