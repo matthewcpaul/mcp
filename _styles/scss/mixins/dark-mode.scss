@@ -3,8 +3,8 @@
   color: $darktext;
 
   ::selection {
-    color: $selection;
-    background: $darkbackgroundColor;
+    color: $darkselection;
+    background: $darkselectionbackground;
   }
 
   h1, h2, h3 {

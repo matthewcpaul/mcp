@@ -38,6 +38,19 @@ ol {
   hyphens: manual;
 }
 
+.ol--lower-alpha {
+  list-style-type: lower-alpha;
+}
+
+.ol--lower-roman {
+  list-style-type: lower-roman;
+}
+
+.ul--none {
+  margin-left: 0;
+  list-style-type: none;
+}
+
 h1 + p {
   @include font-3;
   margin-top: $spacing-xxs;

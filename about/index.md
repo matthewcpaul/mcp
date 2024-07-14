@@ -23,7 +23,7 @@ heading: Specializing in Systems &amp; Tools
 </div>
 <div class="c-grid__half-section">
   <section>
-    <h2>What I do</h2>
+    <h2>What I Do</h2>
     <ol>
       <li>Product Design</li>
       <li>Design Systems</li>
@@ -31,11 +31,12 @@ heading: Specializing in Systems &amp; Tools
       <li>UX Research</li>
       <li>Product Strategy</li>
       <li>UX Writing</li>
+      <li>Planning & Prioritization</li>
     </ol>
   </section>
   <section>
-    <h2>Tools I use</h2>
-    <ul>
+    <h2>Tools I Use</h2>
+    <ol class="ol--lower-alpha">
       <li>Figma</li>
       <li>HTML</li>
       <li>CSS (Tailwind, CSS-in-JS, SCSS)</li>
@@ -44,6 +45,34 @@ heading: Specializing in Systems &amp; Tools
       <li>Next.js</li>
       <li>Sanity (headless CMS)</li>
       <li>Vercel</li>
+    </ol>
+  </section>
+  <section>
+    <h2>Things I Enjoy</h2>
+    <ol class="ol--lower-roman">
+      <li>Cabins</li>
+      <li>Hiking & camping</li>
+      <li>Printmaking</li>
+      <li>Furniture & interior design</li>
+      <li>House plants</li>
+      <li>Cats</li>
+      <li>Quality audio</li>
+      <li>Bouldering</li>
+      <li>Golfing</li>
+      <li>Everyday oil</li>
+    </ol>
+  </section>
+  <section>
+    <h2>Connect With Me</h2>
+    <ul class="ul--none">
+      <li>mclydep@gmail.com</li>
+      <li><a href="https://x.com/matthewctraul" target="_blank">Twitter</a></li>
+      <li><a href="https://read.cv/matthewctraul" target="_blank">Read.cv</a></li>
+      <li><a href="https://www.linkedin.com/in/matthew-c-paul/" target="_blank">LinkedIn</a></li>
+      <li><a href="https://github.com/matthewcpaul" target="_blank">GitHub</a></li>
+      <li><a href="https://substack.com/@matthewctraul" target="_blank">Substack</a></li>
+      <li><a href="https://codepen.io/matthewctraul/pens/popular" target="_blank">CodePen</a></li>
+      <li><a href="https://dribbble.com/matthewctraul" target="_blank">Dribbble</a></li>
     </ul>
   </section>
 </div>

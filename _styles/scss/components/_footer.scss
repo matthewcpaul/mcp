@@ -1,3 +1,18 @@
 .c-footer {
-	margin-bottom: $spacing-md;
+  display: flex;
+  gap: $spacing-half;
+  color: $textLight;
+	margin-bottom: $spacing-xs;
+
+	@media (min-width: $bp-xxs) {
+    margin-bottom: $spacing-sm;
+  }
+
+  @media (min-width: $bp-sm) {
+    margin-bottom: $spacing-xl;
+	}
+}
+
+#date {
+  margin: 0;
 }
