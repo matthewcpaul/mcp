@@ -1,3 +1,21 @@
 .u-inline-block {
   display: inline-block;
 }
+
+.u-flex-row {
+  display: flex;
+  flex-direction: row;
+  gap: $spacing-half;
+}
+
+.u-mobile-hidden {
+  display: none;
+
+  @media (min-width: $bp-tiny) {
+    display: block;
+  }
+}
+
+.u-m-strip {
+  margin: 0;
+}

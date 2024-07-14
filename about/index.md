@@ -36,31 +36,30 @@ heading: Specializing in Systems &amp; Tools
   </section>
   <section>
     <h2>Tools I Use</h2>
-    <ol class="ol--lower-alpha">
+    <ul>
       <li>Figma</li>
       <li>HTML</li>
       <li>CSS (Tailwind, CSS-in-JS, SCSS)</li>
       <li>Javascript (Typescript)</li>
       <li>React</li>
       <li>Next.js</li>
-      <li>Sanity (headless CMS)</li>
+      <li>Sanity Studio (CMS)</li>
       <li>Vercel</li>
-    </ol>
+    </ul>
   </section>
   <section>
-    <h2>Things I Enjoy</h2>
-    <ol class="ol--lower-roman">
+    <h2>Things I Love</h2>
+    <ul>
       <li>Cabins</li>
       <li>Hiking & camping</li>
       <li>Printmaking</li>
       <li>Furniture & interior design</li>
-      <li>House plants</li>
       <li>Cats</li>
       <li>Quality audio</li>
       <li>Bouldering</li>
       <li>Golfing</li>
       <li>Everyday oil</li>
-    </ol>
+    </ul>
   </section>
   <section>
     <h2>Connect With Me</h2>

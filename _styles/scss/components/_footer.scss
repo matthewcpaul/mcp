@@ -1,8 +1,14 @@
 .c-footer {
   display: flex;
-  gap: $spacing-half;
+  flex-direction: column;
+  gap: 0;
   color: $textLight;
 	margin-bottom: $spacing-xs;
+
+  @media (min-width: $bp-tiny) {
+    flex-direction: row;
+    gap: $spacing-half;
+  }
 
 	@media (min-width: $bp-xxs) {
     margin-bottom: $spacing-sm;
@@ -11,8 +17,4 @@
   @media (min-width: $bp-sm) {
     margin-bottom: $spacing-xl;
 	}
-}
-
-#date {
-  margin: 0;
 }
