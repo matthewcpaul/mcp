@@ -137,14 +137,6 @@ figure {
   }
 }
 
-section + section {
-  margin-top: $spacing-xs;
-
-  @media (min-width: $bp-xxs) {
-    margin-top: 0;
-  }
-}
-
 figcaption {
   @include font-5;
   color: $textLight;
@@ -162,10 +154,10 @@ hr {
   margin: $spacing-xs 0;
 
   @media (min-width: $bp-xxs) {
-    margin: $spacing-md 0;
+    margin: $spacing-sm 0;
   }
 
-  @media (min-width: $bp-xs) {
+  @media (min-width: $bp-sm) {
     margin: $spacing-xl 0;
   }
 }

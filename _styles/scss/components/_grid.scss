@@ -3,22 +3,29 @@
   &__half-section {
     display: grid;
     grid-template-columns: 100%;
-    margin: $spacing-xs 0;
+    grid-gap: $spacing-xs;
+    margin-top: $spacing-xs;
 
-    @media (min-width: $bp-xxs) {
+    @media (min-width: $bp-xxxs) {
       grid-template-columns: repeat(2, 1fr);
-      grid-gap: $spacing-xl;
+      grid-gap: $spacing-sm;
+      margin-top: $spacing-sm;
     }
 
     @media (min-width: $bp-sm) {
-      margin: $spacing-xl 0;
+      grid-gap: $spacing-xl;
+      margin-top: $spacing-xl;
     }
   }
 
   &__half {
     display: grid;
     grid-template-columns: 100%;
-    margin: $spacing-xs 0;
+    margin-top: $spacing-xs;
+
+    @media (min-width: $bp-xxxs) {
+      margin-top: $spacing-sm;
+    }
 
     @media (min-width: $bp-xs) {
       grid-template-columns: repeat(2, 1fr);
@@ -26,7 +33,7 @@
     }
 
     @media (min-width: $bp-sm) {
-      margin: $spacing-xl 0;
+      margin-top: $spacing-xl;
     }
 
     &-item {
@@ -44,16 +51,6 @@
         grid-row: 1;
       }
     }
-
-    &-section {
-      grid-column: span 1;
-
-      &:nth-child(1) {
-        @media (min-width: $bp-xs) {
-          grid-row: 1;
-        }
-      }
-    }
   }
 
   &__col {
@@ -68,9 +65,8 @@
   }
 
   &__mt {
-    margin-top: $spacing-half;
     
-    @media (min-width: $bp-sm) {
+    @media (min-width: $bp-xs) {
       margin-top: $spacing-half;
     }
   }

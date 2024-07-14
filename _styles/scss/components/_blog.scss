@@ -14,16 +14,25 @@
     color: $text;
     display: inline-block;
 
-    &:hover {
-      color: $textLight;
-      border: 0;
+    &--nolink {
+      margin-bottom: 0;
+    }
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1.5px;
+
+    @media (min-width: $bp-sm) {
+      text-underline-offset: 4px;
+      text-decoration-thickness: 2px;
     }
 
-    &--nolink {
-      @include font-2;
-      color: $text;
-      text-decoration: none;
-      margin-bottom: 0;
+    & a:hover {
+      color: $textLight;
+      border: 0;
     }
 
     & svg {
@@ -33,11 +42,5 @@
         fill: $textLight;
       }
     }
-  }
-
-  &__link {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
   }
 }
