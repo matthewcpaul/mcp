@@ -50,10 +50,10 @@ gulp.task('default', gulp.series('build', 'fonts', 'sass', 'serve'));
 
 // Deploy _site to gh-pages; note: add the 'cname' task to this tasks series if you are using a custom URL
 // Depracated
-// gulp.task('deploy-gh-pages', function() {
-//   return deploy.publish('_site')
-// });
+gulp.task('deploy-gh-pages', function() {
+  return deploy.publish('_site')
+});
 
 // Run production-build, and deploy-gh-pages
 // Depracated
-// gulp.task('deploy', gulp.series('build', 'fonts', 'sass', 'deploy-gh-pages'));
+gulp.task('deploy', gulp.series('build', 'fonts', 'sass', 'deploy-gh-pages'));
