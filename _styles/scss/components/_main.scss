@@ -1,7 +1,7 @@
 .c-main {
-  margin-top: $spacing-xl;
+  margin-top: $spacing-md;
 
   @media (min-width: $bp-sm) {
-    margin-top: $spacing-xxl;
+    margin-top: $spacing-xl;
   }
 }

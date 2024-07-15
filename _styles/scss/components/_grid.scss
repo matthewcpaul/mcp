@@ -15,26 +15,59 @@
   &__work {
     display: grid;
     grid-template-columns: repeat(1fr);
-    grid-gap: $spacing-xxs;
-    margin-top: $spacing-tiny;
+    column-gap: $spacing-xxs;
+    row-gap: $spacing-xs;
+    margin-top: $spacing-xs;
 
     @media (min-width: $bp-tiny) {
       grid-template-columns: repeat(2, 1fr);
     }
 
     @media (min-width: $bp-sm) {
-      grid-gap: $spacing-sm;
-      margin-top: $spacing-xs;
-    }
-
-    @media (min-width: $bp-md) {
-      // grid-gap: $spacing-lg;
+      column-gap: $spacing-sm;
+      row-gap: $spacing-md;
+      margin-top: $spacing-sm;
     }
 
     &--image {
       grid-column: span 1;
+    }
+
+    &--link {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      text-decoration: none;
+      transition: all .2s ease-in-out;
+      transform: scale(1);
+
+      &:hover {
+        transform: scale(1.05);
+        opacity: 0.8;
+        color: $text;
+      }
+    }
+
+    &--thumbnail {
       border-radius: 1.25rem;
-      overflow: hidden;
+    }
+
+    &--title {
+      margin-top: $spacing-half;
+
+      @media (min-width: $bp-sm) {
+        margin-top: $spacing-tiny;
+      }
+    }
+
+    &--description {
+      margin-top: -0.25rem;
+      color: $textLight;
+
+      @media (min-width: $bp-sm) {
+        margin-top: 0;
+      }
     }
   }
 

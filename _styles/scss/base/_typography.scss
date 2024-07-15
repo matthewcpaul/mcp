@@ -53,7 +53,7 @@ ol {
 
 h1 + p {
   @include font-3;
-  margin-top: $spacing-half;
+  margin-top: $spacing-tiny;
 
   @media (min-width: $bp-sm) {
     margin-top: $spacing-tiny;
@@ -158,6 +158,16 @@ figcaption {
   @media (min-width: $bp-xs) {
 		margin-top: $spacing-tiny;
 	}
+}
+
+.c-eyebrow {
+  @include font-4;
+  color: $textLight;
+  margin-top: 0.25rem;
+
+  @media (min-width: $bp-sm) {
+    margin-bottom: $spacing-half;
+  }
 }
 
 hr {
