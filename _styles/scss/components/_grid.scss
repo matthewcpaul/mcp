@@ -1,5 +1,43 @@
 .c-grid {
 
+  &__section {
+    margin: $spacing-xs 0 $spacing-md 0;
+
+    @media (min-width: $bp-xxs) {
+      margin: $spacing-sm 0 $spacing-lg 0;
+    }
+
+    @media (min-width: $bp-sm) {
+      margin: $spacing-xl 0 $spacing-xxl 0;
+    }
+  }
+
+  &__work {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-gap: $spacing-xxs;
+    margin-top: $spacing-tiny;
+
+    @media (min-width: $bp-tiny) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: $bp-sm) {
+      grid-gap: $spacing-sm;
+      margin-top: $spacing-xs;
+    }
+
+    @media (min-width: $bp-md) {
+      // grid-gap: $spacing-lg;
+    }
+
+    &--image {
+      grid-column: span 1;
+      border-radius: 1.25rem;
+      overflow: hidden;
+    }
+  }
+
   &__half-section {
     display: grid;
     grid-template-columns: 100%;

@@ -1,5 +1,6 @@
 ---
 layout: case-study
+product: 'yes'
 order: 3
 logo: /images/work/invision-logo.png
 title: invision

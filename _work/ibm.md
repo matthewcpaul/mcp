@@ -1,5 +1,6 @@
 ---
 layout: case-study
+product: 'yes'
 order: 4
 logo: /images/work/ibm-logo.png
 title: ibm

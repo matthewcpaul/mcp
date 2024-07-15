@@ -12,11 +12,7 @@
   font-weight: 600;
   font-size: 2.25rem;
   line-height: 3rem;
-
-  // @media (min-width: $bp-xxs) {
-  //   font-size: 2.875rem;
-  //   line-height: 4rem;
-  // }
+  letter-spacing: -2px;
 
   @media (min-width: $bp-sm) {
     font-size: 3.625rem;
@@ -29,6 +25,7 @@
   font-weight: 600;
   font-size: 1.75rem;
   line-height: 2.75rem;
+  letter-spacing: -1px;
 
   @media (min-width: $bp-sm) {
     font-size: 2.25rem;

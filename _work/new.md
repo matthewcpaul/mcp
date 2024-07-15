@@ -1,5 +1,6 @@
 ---
 layout: case-study
+product: 'yes'
 order: 2
 logo: /images/work/independent-logo.png
 title: newwork

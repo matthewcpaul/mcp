@@ -53,10 +53,10 @@ ol {
 
 h1 + p {
   @include font-3;
-  margin-top: $spacing-xxs;
+  margin-top: $spacing-half;
 
   @media (min-width: $bp-sm) {
-    margin-top: $spacing-xxs;
+    margin-top: $spacing-tiny;
   }
 }
 
@@ -175,10 +175,6 @@ hr {
   }
 }
 
-.footer-hr {
-  margin: $spacing-md 0;
-}
-
-.project-hr {
-  margin: $spacing-md 0;
+picture img{
+  border-radius: 20px;
 }

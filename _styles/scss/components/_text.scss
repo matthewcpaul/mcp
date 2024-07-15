@@ -9,7 +9,11 @@
     & p {
       max-width: 100%;
 
-      @media (min-width: $bp-xs) {
+      @media (min-width: $bp-xxs) {
+        max-width: 46rem;
+      }
+
+      @media (min-width: $bp-sm) {
         max-width: 60rem;
       }
     }

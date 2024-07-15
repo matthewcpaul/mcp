@@ -1,5 +1,6 @@
 ---
 layout: case-study
+product: 'yes'
 order: 1
 logo: /images/work/bubble-logo.png
 title: bubble

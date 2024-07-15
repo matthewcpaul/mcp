@@ -14,11 +14,11 @@ heading: Specializing in Systems &amp; Tools
   </section>
   <figure class="c-grid__half-item c-grid__mt">
     <picture>
-      <img src="../images/about/matthew-brooklyn.png" alt="Matthew Paul in Brooklyn, NY." />
+      <img src="../images/about/matthew-brooklyn.png" alt="Matthew Paul in Brooklyn, NY, on a walk to the farmer’s market in the Fall." />
     </picture>
-    <figcaption>
+    <!-- <figcaption>
       On a walk to the farmer’s market in the Fall.
-    </figcaption>
+    </figcaption> -->
   </figure>
 </div>
 <div class="c-grid__half-section">
