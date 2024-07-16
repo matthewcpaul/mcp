@@ -3,7 +3,7 @@ layout: case-study
 product: 'yes'
 order: 1
 logo: /images/work/BubbleNativeMobileAppsEditor.png
-url: bubble-native-mobile-apps
+title: bubble-native-mobile-apps
 org: Bubble Native Mobile Apps Editor
 role: Lead Product Designer
 tenure: 2023–2024

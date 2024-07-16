@@ -3,7 +3,7 @@ layout: case-study
 product: 'yes'
 order: 3
 logo: /images/work/InVisionInspectMotion.png
-url: invision-inspect-motion
+title: invision-inspect-motion
 org: InVision Inspect Motion
 role: Senior Product Designer
 tenure: 2019–2020

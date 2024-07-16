@@ -3,9 +3,9 @@ layout: case-study
 product: 'yes'
 order: 2
 logo: /images/work/TheDotComAutomatedPages.png
-url: thedotcom-automated-pages
+title: thedotcom-automated-pages
 org: The.com Automated Pages
 role: Founding Designer
-tenure: 2021–2022
+tenure: '2022'
 description: 'I led product, design, and design systems for this 14 person startup. The.com is a no- to low-code sheet-based website builder and CMS tool. I helped them learn from their existing customers through generative and evaluative research, iterate and improve on their core product, design a completely new feature & product surface area called Page Automation, design and helped engineer a design system from scratch—typography and type scales, 0–10 color ramps for every main hue, spacing units, iconography, and complex components & patterns—in both Figma and React. My work directly led to them landing big-name customers, and finding product-market fit that is now their core business: Page Automation.'
 ---

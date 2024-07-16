@@ -16,9 +16,6 @@ heading: Specializing in Systems &amp; Tools
     <picture>
       <img src="../images/about/matthew-brooklyn.png" alt="Matthew Paul in Brooklyn, NY, on a walk to the farmer’s market in the Fall." />
     </picture>
-    <!-- <figcaption>
-      On a walk to the farmer’s market in the Fall.
-    </figcaption> -->
   </figure>
 </div>
 <div class="c-grid__half-section">
@@ -47,22 +44,25 @@ heading: Specializing in Systems &amp; Tools
       <li>Vercel</li>
     </ul>
   </section>
+
   <section>
     <h2>Things I Love</h2>
     <ul>
-      <li>Cabins</li>
-      <li>Hiking & camping</li>
-      <li>Printmaking</li>
-      <li>Furniture & interior design</li>
-      <li>Cats</li>
-      <li>Quality audio</li>
-      <li>Bouldering</li>
-      <li>Golfing</li>
-      <li>Everyday oil</li>
+      <li><a href="https://www.instagram.com/matthewctraul/saved/cabins/17945643365001334/" target="blank">Cabins</a></li>
+      <li><a href="https://www.instagram.com/p/CqMp5zGOkEy/" target="blank">Hiking & camping</a></li>
+      <li><a href="https://www.instagram.com/make.lab/" target="blank">Printmaking</a></li>
+      <li><a href="https://www.crunchyroll.com/" target="blank">Anime</a></li>
+      <li><a href="https://www.dwell.com/" target="blank">Furniture & interior design</a></li>
+      <li><a href="https://www.instagram.com/studlybudlycat/" target="blank">Cats</a></li>
+      <li><a href="https://www.eavesdrop.nyc/" target="blank">Quality audio</a></li>
+      <li><a href="https://www.instagram.com/matthewctraul/saved/skate/17875528321198879/" target="_blank">Skateboarding</a></li>
+      <li><a href="https://everydayoil.com/products/everyday-oil-mainstay-blend?variant=7540908227" target="_blank">Everyday oil</a></li>
+      <li><a href="https://www.instagram.com/matthewctraul/saved/fj80/17867890465089733/" target="_blank">80 Series Land Cruisers</a></li>
     </ul>
   </section>
+
   <section>
-    <h2>Connect With Me</h2>
+    <h2>Where I’m at</h2>
     <ul class="ul--none">
       <li>mclydep@gmail.com</li>
       <li><a href="https://x.com/matthewctraul" target="_blank">Twitter</a></li>
