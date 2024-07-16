@@ -1,5 +1,5 @@
 ---
-layout: case-study
+layout: case-study-new
 product: 'yes'
 order: 3
 logo: /images/work/OpenTableAutomatedTags.png

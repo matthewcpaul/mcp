@@ -1,5 +1,5 @@
 ---
-layout: case-study
+layout: case-study-new
 product: 'yes'
 order: 1
 logo: /images/work/BubbleNativeMobileAppsEditor.png
