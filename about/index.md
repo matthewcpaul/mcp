@@ -23,7 +23,7 @@ heading: Specializing in Systems &amp; Tools
     <h2>What I Do</h2>
     <ol>
       <li>Product Design</li>
-      <li>High Polish Visual Design</li>
+      <li>High-Polish Visual Design</li>
       <li>Design Systems</li>
       <li>Design Engineering</li>
       <li>UX Research</li>
