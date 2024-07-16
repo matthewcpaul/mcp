@@ -19,7 +19,7 @@
     row-gap: $spacing-xs;
     margin-top: $spacing-xs;
 
-    @media (min-width: $bp-tiny) {
+    @media (min-width: $bp-xxxs) {
       grid-template-columns: repeat(2, 1fr);
     }
 

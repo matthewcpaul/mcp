@@ -1,6 +1,5 @@
 ---
 layout: case-study
-product: 'yes'
 order: 4
 logo: /images/work/IBMToolbelt.png
 title: ibm-toolbelt
