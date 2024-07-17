@@ -20,8 +20,6 @@
   }
 
   &__link {
-    display: flex;
-    align-items: center;
     text-underline-offset: 3px;
     text-decoration-thickness: 1.5px;
 
@@ -36,9 +34,12 @@
     }
 
     & svg {
-      fill: $text;
+    
+      & path {
+        fill: $text;
+      }
 
-      &:hover {
+      &:hover path {
         fill: $textLight;
       }
     }
