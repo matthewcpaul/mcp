@@ -10,7 +10,15 @@
   }
 
   &__link {
+    margin-top: 0.25rem;
     margin-left: $spacing-tiny;
+    width: 1.5rem;
+      height: 1.5rem;
+
+    @media (min-width: $bp-sm) {
+      width: 2rem;
+      height: 2rem;
+    }
   }
 
   &__fill {
