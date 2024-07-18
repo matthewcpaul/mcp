@@ -20,7 +20,8 @@ heading: Specializing in Systems &amp; Tools
 </div>
 <div class="c-grid__half-section">
   <section>
-    <h2>What I Do</h2>
+    <p class="c-about__list-number">01</p>
+    <h2 class="c-about__list-header">What I Do</h2>
     <ol>
       <li>Product Design</li>
       <li>High-Polish Visual Design</li>
@@ -35,7 +36,8 @@ heading: Specializing in Systems &amp; Tools
     </ol>
   </section>
   <section>
-    <h2>Tools I Use</h2>
+    <p class="c-about__list-number">02</p>
+    <h2 class="c-about__list-header">Tools I Use</h2>
     <ul>
       <li>Figma</li>
       <li>GitHub</li>
@@ -50,10 +52,10 @@ heading: Specializing in Systems &amp; Tools
       <li>Vercel</li>
     </ul>
   </section>
-
   <section>
-    <h2>Things I Love</h2>
-    <ul>
+    <p class="c-about__list-number">03</p>
+    <h2 class="c-about__list-header">Things I Love</h2>
+    <ul class="ul--square">
       <li><a href="https://www.instagram.com/matthewctraul/saved/cabins/17945643365001334/" target="blank">Cabins</a></li>
       <li><a href="https://www.instagram.com/p/CqMp5zGOkEy/" target="blank">Hiking & camping</a></li>
       <li><a href="https://www.instagram.com/make.lab/" target="blank">Printmaking</a></li>
@@ -66,10 +68,10 @@ heading: Specializing in Systems &amp; Tools
       <li><a href="https://www.instagram.com/matthewctraul/saved/fj80/17867890465089733/" target="_blank">80 Series Land Cruisers</a></li>
     </ul>
   </section>
-
   <section>
-    <h2>Where I’m at</h2>
-    <ul class="ul--none">
+    <p class="c-about__list-number">04</p>
+    <h2 class="c-about__list-header">Where I’m at</h2>
+    <ul class="ul--circle">
       <li>mclydep@gmail.com</li>
       <li><a href="https://x.com/matthewctraul" target="_blank">Twitter</a></li>
       <li><a href="https://read.cv/matthewctraul" target="_blank">Read.cv</a></li>

@@ -11,16 +11,18 @@
   }
 
   &__list {
-    @include list-strip;
-    margin-top: 0;
 
-    &-item {
-      @include font-4;
+    &-header {
+      margin-top: 0;
+    }
+
+    &-number {
+      @include font-5;
       color: $textLight;
-      margin-top: $spacing-half;
+      margin-bottom: 0.25rem;
 
-      @media (min-width: $bp-xs) {
-        margin-top: $spacing-half;
+      @media (min-width: $bp-sm) {
+        margin-bottom: $spacing-half;
       }
     }
   }

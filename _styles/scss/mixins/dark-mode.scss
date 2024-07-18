@@ -35,12 +35,12 @@
     border-bottom: 1px solid $darkborderColor;
   }
 
-  .c-links__label {
-    color: $darktext;
+  .c-about__list-number {
+    color: $darktextLight;
   }
 
-  .c-about__list-item {
-    color: $darktextLight;
+  .c-links__label {
+    color: $darktext;
   }
 
   .c-blog__title {
@@ -49,7 +49,7 @@
 
   .c-blog__link {
 
-    &:hover {
+    & a:hover {
       color: $darktextLight;
     }
 
@@ -58,9 +58,12 @@
     }
 
     & svg {
-      fill: $darktext;
+    
+      & path {
+        fill: $darktext;
+      }
 
-      &:hover {
+      &:hover path {
         fill: $darktextLight;
       }
     }
