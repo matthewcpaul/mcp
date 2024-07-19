@@ -42,11 +42,11 @@ description-2: For example, “If a guest orders more than one bottle of wine, e
 
 ## Prototype
 - First prototype & learnings
-- Second prototype & learnings (if there were any)
+- Second prototype & learnings
 - Third prototype & learnings
 
 ## What we launched
 - Final design and prototype & what the final changes were
-- Show 2 or 3 prototype video vignettes that highlight the biggest wins (like at the end of the Amazon Headcount case study)
+- Show 2 or 3 prototype video vignettes that highlight the biggest wins
 
 ## Impact / What difference did we make?
