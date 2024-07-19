@@ -26,15 +26,26 @@
 				<header>
 					{% include header-work.html %}
 				</header>
-				<main class="c-main">
+				<main class="c-main__case-study">
 					<article>
 						<section class="c-text-format--header">
+							<img class="c-media" src="{{ page.image }}" alt="Hero image for this project">
 							<h1>{{ page.org }}</h1>
-							<!-- <p>{{ page.description }}</p> -->
-							<p>New case study is a WIP. If you made your way here, you’re on my staging environment. Content will be updated daily until I merge to main and deploy these new case studies to production.</p>
+							<p class="c-text__role">{{ page.role }}</p>
+							<div class="h4">{{ page.tenure }}</div>
+							<div class="c-grid__intro">
+								<div class="c-grid__col">
+									<p>{{ page.description-1 }}</p>
+								</div>
+								<div class="c-grid__col">
+									<p>{{ page.description-2 }}</p>
+								</div>
+							</div>
 						</section>
-						<!-- <hr> -->
-						<!-- {{ content }} -->
+						<hr>
+						<section>
+							{{ content }}
+						</section>
 					</article>
 				</main>
 				{% include footer.html %}

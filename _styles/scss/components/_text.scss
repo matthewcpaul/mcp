@@ -1,3 +1,10 @@
+.c-text {
+
+  &__role {
+    @include font-4;
+  }
+}
+
 .c-text-format {
 
   &--header {

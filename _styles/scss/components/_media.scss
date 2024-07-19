@@ -1,5 +1,18 @@
 .c-media {
   background: $mediaBackground;
+  border-radius: 1.25rem;
+
+  & + h1 {
+    margin-top: $spacing-xxs;
+
+    @media (min-width: $bp-xs) {
+      margin-top: $spacing-xs;
+    }
+
+    @media (min-width: $bp-sm) {
+      margin-top: $spacing-sm;
+    }
+  }
 
   &--padding {
     padding: $spacing-xxs;

@@ -4,4 +4,12 @@
   @media (min-width: $bp-sm) {
     margin-top: $spacing-xl;
   }
+
+  &__case-study {
+    margin-top: 0;
+
+    @media (min-width: $bp-sm) {
+      margin-top: 0;
+    }
+  }
 }
