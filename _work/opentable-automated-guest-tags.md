@@ -14,40 +14,6 @@ description-2: For example, “If a guest orders more than one bottle of wine, e
 
 ## Product Preview
 
-- single or 3 vignettes with motion & no explanation/words
-
-## What wasn’t working?
-### The Problem
-Restaurant Operators are not able to create and manage automated customer intel on their own based on visits, spending habits, and other business rules & criteria, so that they can identify all loyal guests—not just the ones they notice or remember—to provide a personalized guest experience and exceptional hospitality for everyone.
-
-## Generative Research
-- Understanding the as-is tag taxonomy
-- What are example guest tags?
-- SME Interviews
-- As-is journey mapping
-
-### Key findings; How did this make our users feel?
-
-## Opportunities
-<!-- - Impact/Importance matrix (would need to make; for OpenTable, we used the user story mapping and star stickers to kind of do this) -->
-### Hypothesis
-<!-- - HMW questions (not used in this project) -->
-What are the users expectations of how this should work? (easy enough to write something for this project—what did we know they expected at this point?)
-### To-be user story mapping
-### Define what success looks like
-
-## Explore & experiment
-- Navigation & information architecture audit & redesign
-- User flow first draft
-- Restaurant or Tag first?
-
-## Prototyping
-- First prototype & learnings
-- Second prototype & learnings
-- Third prototype & learnings
-
-## What we launched
-
 <div class="c-media c-media--border">
   <video src="../../images/opentable/OpenTableCreateTag.mp4" loop autoplay muted playsinline></video>
 </div>
@@ -68,5 +34,3 @@ Filter to any restaurant or sub-restaurant of your larger organization in the Cl
 
 ### Retire seasonal promotions or experimental deals
 Using data elsewhere in the OpenTable for Restaurants platform, you can determine if you want to keep or delete any automated tags—and the deals or extra attention to service that comes with them—any time.
-
-## Impact / What difference did we make?
