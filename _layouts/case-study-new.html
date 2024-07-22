@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang=en id="appRoot">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-63847002-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-63847002-2');
+	</script>
+	<meta charset="utf-8"/>
+	<title>{{ site.name }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<meta property="og:title" content="{{ site.name }} - {{ page.title }}"/>
+	<meta property="og:site_name" content="{{ site.name }}"/>
+	<meta property="og:description" content="{{ site.description | strip_html }}"/>
+	<meta property="og:url" content="{{ page.url }}"/>
+
+	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="shortcut icon" href="{{ baseurl }}/images/favicon/favicon-matthew-paul.png"/>
+
+	<body>
+		<div class="c-wrap__pad" tabindex="-1">
+			<div class="c-wrap">
+				<header>
+					{% include header-work.html %}
+				</header>
+				<main class="c-main__case-study">
+					<article>
+						<section class="c-text-format--header">
+							<img class="c-media c-media--border" src="{{ page.image }}" alt="Hero image for this project">
+							<h1>{{ page.org }}</h1>
+							<p class="c-text__role">{{ page.role }}</p>
+							<div class="h4">{{ page.tenure }}</div>
+							<div class="c-grid__intro">
+								<div class="c-grid__col">
+									<p>{{ page.description-1 }}</p>
+								</div>
+								<div class="c-grid__col">
+									<p>{{ page.description-2 }}</p>
+								</div>
+							</div>
+						</section>
+						<hr>
+						<section>
+							{{ content }}
+						</section>
+					</article>
+				</main>
+				{% include footer.html %}
+			</div>
+		</div>
+	</body>
+</html>

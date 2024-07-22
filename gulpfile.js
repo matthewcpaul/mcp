@@ -15,18 +15,8 @@ var deploy = require('gh-pages');
 gulp.task('build', shell.task('bundle exec jekyll build --config _config.yml'))
 
 // Build incrementally with _config.yml for production
-// gulp.task('production-build', shell.task('bundle exec jekyll build')) // Depracated
-
-// Start a local server with browser-sync + watch for changes
-gulp.task('serve', function() {
-  browserSync.init({
-    server: {
-      baseDir: "_site/"
-    }
-  });
-  gulp.watch("_styles/scss/**/*.scss", gulp.series('sass')).on('change', browserSync.reload);
-  gulp.watch(["**/*.html", "**/*.md", "*.md"]).on('change', browserSync.reload);
-});
+// Depracated
+// gulp.task('production-build', shell.task('bundle exec jekyll build'))
 
 // Pipe fonts to _site
 gulp.task('fonts', function() {
@@ -44,13 +34,27 @@ gulp.task('sass', function() {
     .pipe(browserSync.stream());
 });
 
-// Run sass, local-build, and serve
+// Start a local server with browser-sync + watch for changes
+gulp.task('serve', function() {
+  browserSync.init({
+    server: {
+      baseDir: "_site/"
+    }
+  });
+  gulp.watch(("_styles/scss/**/*.scss"), gulp.series('sass')).on('change', browserSync.reload);
+  gulp.watch(("_work/*.md"), gulp.series('build', 'fonts', 'sass')).on('change', browserSync.reload);
+  gulp.watch(("_layouts/*.html"), gulp.series('build', 'fonts', 'sass')).on('change', browserSync.reload);
+});
+
+// Run build, fonts, sass, and serve
 gulp.task('default', gulp.series('build', 'fonts', 'sass', 'serve'));
 
 // Deploy _site to gh-pages; note: add the 'cname' task to this tasks series if you are using a custom URL
+// Depracated
 gulp.task('deploy-gh-pages', function() {
   return deploy.publish('_site')
 });
 
 // Run production-build, and deploy-gh-pages
+// Depracated
 gulp.task('deploy', gulp.series('build', 'fonts', 'sass', 'deploy-gh-pages'));

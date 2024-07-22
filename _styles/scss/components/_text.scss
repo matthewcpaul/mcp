@@ -1,3 +1,10 @@
+.c-text {
+
+  &__role {
+    @include font-4;
+  }
+}
+
 .c-text-format {
 
   &--header {
@@ -9,8 +16,12 @@
     & p {
       max-width: 100%;
 
-      @media (min-width: $bp-xs) {
-        max-width: 60rem;
+      @media (min-width: $bp-xxs) {
+        max-width: 51rem;
+      }
+
+      @media (min-width: $bp-sm) {
+        max-width: 64rem;
       }
     }
   }

@@ -1,5 +1,93 @@
 .c-grid {
 
+  &__section {
+    margin: $spacing-xs 0 $spacing-md 0;
+
+    @media (min-width: $bp-xxs) {
+      margin: $spacing-sm 0 $spacing-lg 0;
+    }
+
+    @media (min-width: $bp-sm) {
+      margin: $spacing-xl 0 $spacing-xxl 0;
+    }
+  }
+
+  &__work {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    column-gap: $spacing-xxs;
+    row-gap: $spacing-xs;
+    margin-top: $spacing-xs;
+
+    @media (min-width: $bp-xxxs) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: $bp-sm) {
+      column-gap: $spacing-sm;
+      row-gap: $spacing-md;
+      margin-top: $spacing-sm;
+    }
+
+    &--image {
+      grid-column: span 1;
+    }
+
+    &--link {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      text-decoration: none;
+      transition: all .2s ease-in-out;
+      transform: scale(1);
+
+      &:hover {
+        transform: scale(1.05);
+        opacity: 0.8;
+        color: $text;
+      }
+    }
+
+    &--thumbnail {
+      border-radius: 1.25rem;
+    }
+
+    &--title {
+      margin-top: $spacing-half;
+
+      @media (min-width: $bp-sm) {
+        margin-top: $spacing-tiny;
+      }
+    }
+
+    &--description {
+      margin-top: -0.25rem;
+      color: $textLight;
+
+      @media (min-width: $bp-sm) {
+        margin-top: 0;
+      }
+    }
+  }
+
+  &__intro {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: $spacing-xxs;
+    margin-top: $spacing-tiny;
+
+    @media (min-width: $bp-xs) {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: $spacing-xl;
+    }
+
+    @media (min-width: $bp-sm) {
+      grid-gap: $spacing-xxl;
+      margin-top: $spacing-xxs;
+    }
+  }
+
   &__half-section {
     display: grid;
     grid-template-columns: 100%;
@@ -36,7 +124,7 @@
       margin: $spacing-xl 0;
     }
 
-    &-item {
+    &--item {
       grid-column: span 1;
 
       &:nth-child(1) {
@@ -51,15 +139,19 @@
         grid-row: 1;
       }
     }
+
+    &--intro {
+      margin-top: $spacing-xxs;
+    }
   }
 
   &__col {
 
     &:last-child {
-      margin-top: $spacing-xxs;
+      // margin-top: $spacing-xxs;
 
       @media (min-width: $bp-xxs) {
-        margin-top: 0;
+        // margin-top: 0;
       }
     }
   }
