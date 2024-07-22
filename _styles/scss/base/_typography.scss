@@ -8,15 +8,15 @@ h1 {
 
 h2 {
   @include font-2;
-  margin-bottom: $spacing-half;
+  margin-bottom: $spacing-tiny;
 
   @media (min-width: $bp-sm) {
-    margin-bottom: $spacing-tiny;
+    margin-bottom: $spacing-xxs;
   }
 }
 
 h3 {
-  @include font-4;
+  @include font-3;
 }
 
 h4 {
@@ -64,8 +64,16 @@ ol {
 }
 
 h1 + p {
-  @include font-3;
+  @include font-3-regular;
   margin-top: $spacing-tiny;
+
+  @media (min-width: $bp-sm) {
+    margin-top: $spacing-tiny;
+  }
+}
+
+h3 + p {
+  margin-top: $spacing-half;
 
   @media (min-width: $bp-sm) {
     margin-top: $spacing-tiny;
@@ -75,7 +83,7 @@ h1 + p {
 h4 + p {
   margin-top: $spacing-tiny;
 
-  @media (min-width: $bp-xs) {
+  @media (min-width: $bp-sm) {
     margin-top: $spacing-xxs;
   }
 }
@@ -130,7 +138,7 @@ ul + h2 {
   }
 
   @media (min-width: $bp-md) {
-    margin-top: $spacing-xl;
+    margin-top: $spacing-xxl;
   }
 }
 
