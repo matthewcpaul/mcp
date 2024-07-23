@@ -19,3 +19,11 @@
 .u-m-strip {
   margin: 0;
 }
+
+.u-mb-tiny {
+  margin-bottom: $spacing-tiny;
+
+  @media (min-width: $bp-xs) {
+    margin-bottom: $spacing-xxs;
+  }
+}

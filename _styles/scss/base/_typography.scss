@@ -88,30 +88,64 @@ h4 + p {
   }
 }
 
-.u-mb-tiny {
-  margin-bottom: $spacing-tiny;
+p + h3,
+ul + h3,
+ol + h3 {
+  margin-top: $spacing-xxs;
 
-  @media (min-width: $bp-xs) {
-    margin-bottom: $spacing-xxs;
+  @media (min-width: $bp-sm) {
+    margin-top: $spacing-xs;
   }
 }
 
-p + ul {
-  padding-left: $spacing-xxs;
-  margin-left: $spacing-xxs;
-  margin-top: $spacing-tiny;
-  margin-bottom: $spacing-tiny;
+iframe + h2 {
+  margin-top: $spacing-md;
 
   @media (min-width: $bp-sm) {
-    padding-left: $spacing-xxs;
-    margin-left: $spacing-sm;
+    margin-top: $spacing-lg;
+  }
+}
+
+iframe + h3 {
+  margin-top: $spacing-xs;
+
+  @media (min-width: $bp-sm) {
+    margin-top: $spacing-sm;
   }
 }
 
 p + p,
 ul + p,
-section + p {
-  margin-top: $spacing-xxs;
+ol + p,
+section + p{
+  margin-top: $spacing-tiny;
+
+  @media (min-width: $bp-sm) {
+    margin-top: $spacing-xxs;
+  }
+}
+
+p + iframe,
+ul + iframe,
+ol + iframe {
+  margin-top: $spacing-xs;
+
+  @media (min-width: $bp-sm) {
+    margin-top: $spacing-sm;
+  }
+}
+
+p + ol,
+p + ul {
+  padding-left: $spacing-sm;
+  margin-left: $spacing-tiny;
+  margin-top: $spacing-tiny;
+
+  @media (min-width: $bp-sm) {
+    padding-left: $spacing-md;
+    margin-left: $spacing-xxs;
+    margin-top: $spacing-xxs;
+  }
 }
 
 img + div,
@@ -128,17 +162,21 @@ video + p,
 p + p > img,
 p + img,
 p + h2,
-p + figure,
 p + video,
-ul + h2 {
+ul + h2,
+ol + h2 {
   margin-top: $spacing-md;
 
   @media (min-width: $bp-sm) {
     margin-top: $spacing-lg;
   }
+}
 
-  @media (min-width: $bp-md) {
-    margin-top: $spacing-xxl;
+p + figure {
+  margin-top: $spacing-tiny;
+
+  @media (min-width: $bp-sm) {
+    margin-top: $spacing-xxs;
   }
 }
 
@@ -156,18 +194,6 @@ a {
 
 strong {
   font-weight: 700;
-}
-
-figure {
-  margin-bottom: $spacing-xs;
-
-  @media (min-width: $bp-xs) {
-    margin-bottom: $spacing-xl;
-  }
-
-  @media (min-width: $bp-sm) {
-    margin-bottom: 0;
-  }
 }
 
 figcaption {

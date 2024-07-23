@@ -43,22 +43,3 @@ description: I’m a Software Designer & Design Engineer specializing in designe
     {% endfor %}
   </div>
 </section>
-
-<hr>
-
-<section class="c-grid__section">
-  <h4 class="c-eyebrow">Open Source Projects</h4>
-  <h2>Design Engineering</h2>
-  <div class="c-grid__work">
-    {% assign work = site.work | sort:"order" %}
-    {% for work in work %}
-    {% if work.engineering %}
-      <div class="c-grid__work--image">
-        <a class="c-grid__work--link" href="{{ work.url | prepend: site.baseurl }}" aria-label="{{ work.org }}">
-          <img class="c-grid__work----thumbnail" src="..{{ work.logo }}" alt="">
-        </a>
-      </div>
-    {% endif %}
-    {% endfor %}
-  </div>
-</section>

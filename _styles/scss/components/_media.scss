@@ -17,41 +17,17 @@
 
   &--border {
     border: 1px solid $text;
-
-    & + .c-media--border {
-      margin-top: $spacing-xxs;
-
-      @media (min-width: $bp-xxxs) {
-        margin-top: $spacing-xs;
-      }
-  
-      @media (min-width: $bp-xxs) {
-        margin-top: $spacing-lg;
-      }
-  
-      @media (min-width: $bp-xs) {
-        margin-top: $spacing-xxl;
-      }
-    }
   }
 
   &--padding {
-    padding: $spacing-xxs;
+    padding: $spacing-tiny;
 
     @media (min-width: $bp-xxs) {
-      padding: $spacing-xs;
-    }
-
-    @media (min-width: $bp-xs) {
-      padding: $spacing-lg;
+      padding: $spacing-xxs;
     }
 
     @media (min-width: $bp-sm) {
-      padding: $spacing-xl;
-    }
-
-    @media (min-width: $bp-md) {
-      padding: $spacing-xxl;
+      padding: $spacing-sm;
     }
 
     &-lg {
@@ -89,6 +65,14 @@ h2 + .c-media {
 
   @media (min-width: $bp-sm) {
     margin-top: $spacing-sm;
+  }
+}
+
+h3 + figure {
+  margin-top: $spacing-xxs;
+
+  @media (min-width: $bp-sm) {
+    margin-top: $spacing-xs;
   }
 }
 
