@@ -7,7 +7,9 @@ title: opentable-automated-guest-tags
 org: OpenTable Automated Guest Tags
 role: Senior Product Designer
 tenure: '2021'
-image: /images/opentable/OpenTableAutomatedTagsHero.png
+hero-image: /images/opentable/OpenTableAutomatedTagsHero.png
+hero-image-tablet: /images/opentable/OpenTableAutomatedTagsHeroTablet.png
+hero-image-mobile: /images/opentable/OpenTableAutomatedTagsHeroMobile.png
 description-1: In late 2021, I worked with OpenTable as an independent contractor to design a new tool for restaurant owners and operators that allowed them to create and manage automated guest tags. These tags can be configured by any kind of business rules and criteria that would then automatically be added to the restaurant guest’s profile once the criteria was met by that guest.
 description-2: For example, “If a guest orders more than one bottle of wine, each over $60.00 USD, on four consecutive visits, add the ‘Wine Connoisseur’ tag”, which the front-of-house staff will see in the guest’s profile on their next visit; along with a description to instruct the waiter to bring the guest their favorite bottle of wine free of charge.
 ---
@@ -22,7 +24,7 @@ description-2: For example, “If a guest orders more than one bottle of wine, e
   <video src="../../images/opentable/OpenTableCreateTag.mp4" loop autoplay muted playsinline></video>
 </div>
 
-<div class="c-wrap__project" markdown=1>
+<div class="c-wrap__project c-wrap__project--preview" markdown=1>
 
 ### Effortlessly create automated tags
 Choose a pre-defined tag type, configure and customize the critera based on whatever business rules you’d like, and assign the new automated tag to all of your restaurants or specific locations.
@@ -33,7 +35,7 @@ Choose a pre-defined tag type, configure and customize the critera based on what
   <video src="../../images/opentable/OpenTableFilterRestauarant.mp4" loop autoplay muted playsinline></video>
 </div>
 
-<div class="c-wrap__project" markdown=1>
+<div class="c-wrap__project c-wrap__project--preview" markdown=1>
 
 ### Get a birds-eye view of all your restaurants and tags
 Filter to any restaurant, restaurant group, or sub-restaurant of your larger organization in the Client Admin section of the platform, and manage the all of automated tags that you’ve configured.
@@ -44,7 +46,7 @@ Filter to any restaurant, restaurant group, or sub-restaurant of your larger org
   <video src="../../images/opentable/OpenTableDeleteTag.mp4" loop autoplay muted playsinline></video>
 </div>
 
-<div class="c-wrap__project" markdown=1>
+<div class="c-wrap__project c-wrap__project--preview" markdown=1>
 
 ### Easily edit or delete tags in one place
 Using data elsewhere in the OpenTable for Restaurants platform, you can determine if you want to keep, edit or delete any automated tags—and the deals or extra attention to service that comes with them.
@@ -138,7 +140,7 @@ One option I explored was to get rid of this second top navigation bar, bringing
 <figure>
   <picture>
     <source media="(min-width: 48em)" srcset="../../images/opentable/SelectComponentNavigation.png"/>
-    <img class="c-media c-media--padding c-media--border" src="../../images/opentable/SelectComponentNavigationMobile.png" alt="The exising IA and Navigation into the automated intel tool before we started the project"/>
+    <img class="c-media c-media--padding c-media--border" src="../../images/opentable/SelectComponentNavigationMobile.png" alt="One option for improving the IA and Navigation that I explored"/>
   </picture>
 </figure>
 
@@ -151,7 +153,7 @@ Then through some more iteration, and in collaboration with other designers who 
 <figure>
   <picture>
     <source media="(min-width: 48em)" srcset="../../images/opentable/NavItemInSidebar.png"/>
-    <img class="c-media c-media--padding c-media--border" src="../../images/opentable/NavItemInSidebarMobile.png" alt="The exising IA and Navigation into the automated intel tool before we started the project"/>
+    <img class="c-media c-media--padding c-media--border" src="../../images/opentable/NavItemInSidebarMobile.png" alt="A second, much better option for improving the IA and Navigation that I explored. This is the design solution we ended up building for this small part of the project."/>
   </picture>
 </figure>
 
@@ -160,9 +162,39 @@ Then through some more iteration, and in collaboration with other designers who 
 <div class="c-wrap__project" markdown=1>
 
 ## Prototyping
-- First prototype & learnings
-- Second prototype & learnings
-- Third prototype & learnings
+After figuring out the IA and navigation solution and aligning with engineering, I began mocking up and prototyping some early sketches of the primary user stories, or jobs to be done, that we needed to build.
+
+### First prototype vignette of a possible tag creation flow
+In this scene, the user has pre-selected multiple restaurants, and enters the flow of configuring an automated tag for them.
+
+</div>
+
+<div class="c-media c-media--border">
+  <video src="../../images/opentable/OpenTableEarlyUserFlowSketch.mp4" loop autoplay muted playsinline></video>
+</div>
+
+<div class="c-wrap__project" markdown=1>
+
+I learned a few things after putting this in front of our internal SMEs:
+- Restaurant IDs don’t matter at the top-level table view
+- The UI was promoting tag creation for individual restaraunts too heavily  with all of those primary buttons in every row
+- Selecting which restauants as the first step was too limiting, and would cause the user to start all over again if they needed to add another
+
+### Iterating based on feedback from the first round of prototypes
+This iteration shows a more complete journey in which the user can still edit existing tags, create a tag for an individual restaurant or multiple restaurants. I also moved the selection of multiple restaraunts into the configuring flow.
+
+</div>
+
+<div class="c-media c-media--border">
+  <video src="../../images/opentable/OpenTablePrototypeInteration2.mp4" loop autoplay muted playsinline></video>
+</div>
+
+<div class="c-wrap__project" markdown=1>
+
+At this point, I was ready to put this in front of some customers. Here’s what we learned next:
+- Editing the configuration of tag is rare, so while they’re needed to be a way to do edit, it didn’t need so much attention at the top level
+- The first step in the configurion flow felt a little bland, and it lacked guidance to help the user move through the steps
+- In step 2, the majority use case is to have all restauarants selected by default; and overall there felt like too much redundancy of information
 
 </div>
 
@@ -171,7 +203,12 @@ Then through some more iteration, and in collaboration with other designers who 
 <div class="c-wrap__project" markdown=1>
 
 ## What we launched
+After a few more smaller iterations, we landed on a solution for filtering the table of restaurants, creating and configuring the automated guest tags, and being able to manage these tags by either editing or deleting them.
 
+</div>
+
+<div class="c-media c-media--border">
+  <video src="../../images/opentable/OpenTableFullPrototype.mp4" loop autoplay muted playsinline></video>
 </div>
 
 <hr>

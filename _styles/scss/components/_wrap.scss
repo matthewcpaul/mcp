@@ -62,6 +62,16 @@
         margin-top: $spacing-sm;
       }
     }
+
+    &--preview {
+      & + .c-media {
+        margin-top: $spacing-lg;
+  
+        @media (min-width: $bp-sm) {
+          margin-top: $spacing-xxl;
+        }
+      }
+    }
   }
 }
 
@@ -78,15 +88,5 @@ figure + .c-wrap__project {
 
   @media (min-width: $bp-sm) {
     margin-top: $spacing-sm;
-  }
-}
-
-.c-media + .c-wrap__project {
-  margin-top: $spacing-xxs;
-  margin-bottom: $spacing-lg;
-
-  @media (min-width: $bp-sm) {
-    margin-top: $spacing-xs;
-    margin-bottom: $spacing-xxl;
   }
 }

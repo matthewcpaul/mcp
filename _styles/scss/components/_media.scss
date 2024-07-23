@@ -58,6 +58,14 @@
       margin-top: $spacing-xs;
     }
   }
+
+  & + .c-wrap__project {
+    margin-top: $spacing-xs;
+
+    @media (min-width: $bp-sm) {
+      margin-top: $spacing-sm;
+    }
+  }
 }
 
 h2 + .c-media {
