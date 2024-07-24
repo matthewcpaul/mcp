@@ -85,7 +85,7 @@ h1 + p {
 }
 
 h2 + h3 {
-  margin-top: $spacing-xs;
+  margin-top: $spacing-xxs;
 
   @media (min-width: $bp-sm) {
     margin-top: $spacing-sm;
