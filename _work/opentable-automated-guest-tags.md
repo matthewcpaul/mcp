@@ -11,7 +11,7 @@ hero-image: /images/opentable/OpenTableAutomatedTagsHero.png
 hero-image-tablet: /images/opentable/OpenTableAutomatedTagsHeroTablet.png
 hero-image-mobile: /images/opentable/OpenTableAutomatedTagsHeroMobile.png
 description-1: In late 2021, I worked with OpenTable as an independent contractor to design a new tool for restaurant owners and operators that allowed them to create and manage automated guest tags. These tags can be configured by any kind of business rules and criteria that are then automatically be added to a restaurant guest’s profile once the criteria was met by that guest.
-description-2: For example, “If a guest orders more than one bottle of wine, each over $60.00 USD, on four consecutive visits, add the ‘Wine Connoisseur’ tag”, which the front-of-house staff will see in the guest’s profile on their next visit; along with a description to instruct the sommelier to bring the loyal patron their favorite bottle of wine free of charge.
+description-2: For example, “If a guest orders more than one bottle of wine, each over $60.00 USD, on four consecutive visits, add the ‘Wine Connoisseur’ tag”, which the front-of-house staff will see in the guest’s profile on their next visit; along with visit notes to instruct the waiter or sommelier to bring the loyal patron their favorite bottle of wine free of charge.
 ---
 
 <div class="c-wrap__project" markdown=1>
@@ -194,6 +194,7 @@ This iteration shows a more complete journey in which the user can still edit ex
 At this point, I was ready to put this in front of some customers. Here’s what we learned through some rapid usability research:
 - Editing the configuration of tag is rare, so while there needed to be a way to do edit, it didn’t need so much attention at the top level
 - The first step in the configurion flow felt a little bland, and it lacked guidance to help the user move through the form fields
+- Out of the 7 pre-defined Tag Types (that we launched with for MVP), users didn’t know what they were or when to use which one—so I added an extra step in the configuration flow, and brought in brand elements and language to help educate the users without compromising agility
 - In step 2, the majority use case is to have all restauarants selected by default; and overall there was too much redundancy of information across the whole flow
 
 </div>
@@ -211,10 +212,10 @@ After a few more smaller iterations, we landed on a solution for filtering the t
   <video src="../../images/opentable/OpenTableFullPrototype.mp4" loop autoplay muted playsinline></video>
 </div>
 
-<hr>
+<!-- <hr>
 
 <div class="c-wrap__project" markdown=1>
 
 ## What impact did we have?
 
-</div>
+</div> -->
