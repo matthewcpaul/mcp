@@ -36,8 +36,10 @@ description: I’m a Software Designer & Design Engineer specializing in designe
     {% if work.systems %}
       <div class="c-grid__work--image">
         <a class="c-grid__work--link" href="{{ work.url | prepend: site.baseurl }}" aria-label="{{ work.org }}">
-          <img class="c-grid__work----thumbnail" src="..{{ work.logo }}" alt="">
+          <img class="c-grid__work--thumbnail" src="..{{ work.logo }}" alt="">
         </a>
+        <p class="c-grid__work--title">{{ work.org }}</p>
+        <p class="c-grid__work--description">{{ work.tenure }}</p>
       </div>
     {% endif %}
     {% endfor %}

@@ -169,7 +169,7 @@ In this scene, the user has pre-selected multiple restaurants, and enters the fl
 
 </div>
 
-<div class="c-media c-media--border">
+<div class="c-media c-media--padding c-media--border">
   <video src="../../images/opentable/OpenTableEarlyUserFlowSketch.mp4" loop autoplay muted playsinline></video>
 </div>
 
@@ -185,8 +185,8 @@ This iteration shows a more complete journey in which the user can still edit ex
 
 </div>
 
-<div class="c-media c-media--border">
-  <video src="../../images/opentable/OpenTablePrototypeInteration2.mp4" loop autoplay muted playsinline></video>
+<div class="c-media c-media--padding c-media--border">
+  <video src="../../images/opentable/OpenTablePrototypeIteration2.mp4" loop autoplay muted playsinline></video>
 </div>
 
 <div class="c-wrap__project" markdown=1>

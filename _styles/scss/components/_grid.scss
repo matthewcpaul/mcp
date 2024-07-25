@@ -54,6 +54,7 @@
     }
 
     &--title {
+      color: $text;
       margin-top: $spacing-half;
 
       @media (min-width: $bp-sm) {

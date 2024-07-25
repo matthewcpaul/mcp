@@ -29,6 +29,13 @@ h4 {
   color: $textLight;
 }
 
+p,
+ol,
+ul,
+a {
+  color: $textBody;
+}
+
 .font-bold {
   @include font-4;
   font-weight: 500
