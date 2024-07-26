@@ -89,6 +89,20 @@
     }
   }
 
+  &__two {
+    display: grid;
+    grid-template-columns: 100%;
+
+    & h2 {
+      margin: 0;
+    }
+
+    @media (min-width: $bp-xxxs) {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: $spacing-xl;
+    }
+  }
+
   &__half-section {
     display: grid;
     grid-template-columns: 100%;

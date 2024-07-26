@@ -1,6 +1,6 @@
 ---
 layout: case-study-new
-product: 'yes'
+# product: 'yes'
 order: 1
 logo: /images/work/BubbleNativeMobileAppsEditor.png
 title: Native Mobile Apps Editor

@@ -1,6 +1,6 @@
 ---
 layout: case-study-new
-product: 'yes'
+# product: 'yes'
 order: 2
 logo: /images/work/TheDotComAutomatedPages.png
 title: Aautomated Pages

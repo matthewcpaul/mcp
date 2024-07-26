@@ -1,6 +1,6 @@
 ---
 layout: case-study-new
-product: 'yes'
+# product: 'yes'
 order: 4
 logo: /images/work/InVisionInspectMotion.png
 title: Inspect Motion
