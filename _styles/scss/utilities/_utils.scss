@@ -24,6 +24,14 @@
   }
 }
 
+.u-mobile-show {
+  display: none;
+
+  @media (min-width: $bp-tiny) {
+    display: block;
+  }
+}
+
 .u-m-strip {
   margin: 0;
 }

@@ -18,7 +18,7 @@ description-2: This new and growing design system provides a comprehensive set o
 <div class="c-wrap__project" markdown=1>
 
 ## Where design and engineering intersect
-The contribution model to the Pop design system was a distributed collaboration between a few designers and some engineers on each team that I oversaw and directly contributed to. My favorite thing about design systems is the inherent way it fosters deep collaboration between designers and engineers to bring resilience and speed to the product development process.
+The contribution model to the Pop design system was a distributed collaboration between a few designers and some engineers on each team that I oversaw and directly contributed to every piece. My favorite thing about design systems is the inherent way it fosters deep collaboration between designers and engineers to bring resilience and speed to the product development process.
 
 </div>
 
@@ -32,9 +32,9 @@ The contribution model to the Pop design system was a distributed collaboration 
 <div class="c-wrap__project" markdown=1>
 
 ### Design token architecture
-Design tokens allow a company to establish its core visual language, then map the global values to brand values, and eventually map the brand values to semantic values for use in components. Design tokens also easily allows transformation at the core level as needed into color modes, such as light and dark, or entirely new brands with much less effort and cost than building each from scratch.
+Design tokens allow a company to establish its core visual language, then map the global values to brand values, and eventually map the brand values to semantic values for use in components. This also easily enables transformation at the core level as needed into color modes, such as light and dark, or entirely new brands with much less effort and cost than building each from scratch.
 
-Design tokens are created in close collaboration with engineering to ensure immutable alignment with code. We achieved this by using the Tokens Studio Figma plugin that syncs to GitHub, allowing engineers to have a shared language with design at every level of the system, and to use Style Dictionary to transform tokens into other programming languages if needed.
+Design tokens are created in close collaboration with engineering to ensure immutable alignment with code. We achieved this by using the Tokens Studio Figma plugin that syncs to GitHub, allowing engineers to have a shared language with design at every level of the system.
 
 </div>
 
@@ -48,9 +48,9 @@ Design tokens are created in close collaboration with engineering to ensure immu
 <div class="c-wrap__project" markdown=1>
 
 ### Systems within systems
-A design system made up of many sub-systems working in unison. For example, the line-height of a label when paired with padding impacts how components are sized, and component hierarchy impacts the larger larger modules that are composed into a view. It’s essential to be aware of how making one edit in one place can cause a ripple effect throughout the entire system. This is one reason why design systems are an ever evolving product that requires taste, an extremely high attention to detail, and systems thinking.
+A design system is made up of many sub-systems working in unison. For example, the line-height of a label when paired with padding impacts the size of a component, and component hierarchy impacts the larger modules that are composed together when building a view. It’s essential to be aware of how making one edit in one place can cause a ripple effect throughout the entire system. This is one reason why design systems are an ever evolving product that requires taste, an extremely high attention to detail, and strong systems thinking.
 
-All of this may seem complicated under the hood, but the end result of the end users experience is a a high-craft, intuitive interface. One method to uncomplicate the complicated is through t-shirt sizing—Small, Medium, Large. When done well, all components of the same size work together and can sometimes be intermingled to create the desired hierarchy.
+All of this may seem complicated under the hood, but the end result is a high-craft, polished, intuitive interface for the end user experience. One method to uncomplicate the complicated is through t-shirt sizing at the atomic component level—Small, Medium, Large. When done well, all components of the same size work together and can sometimes be intermingled to create a desired hierarchy.
 
 </div>
 
@@ -64,7 +64,7 @@ All of this may seem complicated under the hood, but the end result of the end u
 <div class="c-wrap__project" markdown=1>
 
 ### Component architecture
-For this system, we approached everything as a component, starting at the atomic level. This allowed for handling component sizes and variants at this level instead of trying to build every size and variant for more complex components that are composed of many other atomic components. This allowed for both consistency and flexibility when needing to design in Figma and build in code.
+For this system, we approached everything as a component, starting at the atomic level. This allowed for handling component sizes and variants at this level instead of trying to build every size and variant for more complex components that are composed of many other atomic components. This resulted in both consistency and flexibility when needing to design in Figma and build in code.
 
 </div>
 
@@ -80,7 +80,7 @@ For this system, we approached everything as a component, starting at the atomic
 ### Documentation
 Any product or design system is only as good as its documentation. For design systems, this means written documentation in Figma to give consumers a place to find out everything they need to know about a design system component, properties, or tokens. It also means healthy documentation in code, which can, at its best, be written directly in each file and automatically surfaced on a design systems documentation website.
 
-Among documentation at Bubble, I continued the system education through bi-weekly office hours, bringing topics to design critique, sitting in on design reviews with other teams, and lunch-and-learn sessions every quarter.
+Among documentation at Bubble, I continued the system education through mentoring other designers, bi-weekly office hours, bringing topics to design critique, and sitting in on design reviews with other teams.
 
 </div>
 
