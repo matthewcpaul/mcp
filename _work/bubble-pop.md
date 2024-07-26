@@ -91,7 +91,7 @@ Among documentation at Bubble, I continued the system education through mentorin
 ## Notable components that I designed
 On top of designing the foundations of a new type scale, color ramps, icon library, and design tokens for text, color, elevation, and border radius, I refreshed the few existing components and designed 20+ new components. I also helped the engineers architect the React components and was a required reviewer for each non-trivial design system PR.
 
-These are some of my favorite and the more complex components that I designed.
+These are some of my favorite and more complex components that I designed.
 
 </div>
 
@@ -111,8 +111,15 @@ These are some of my favorite and the more complex components that I designed.
 
 <figure>
   <picture>
-    <source media="(min-width: 48em)" srcset="../../images/pop/Input@2x.png"/>
-    <img class="c-media c-media--padding c-media--border" src="../../images/pop/Input.png" alt="Component architecture"/>
+    <source media="(min-width: 48em)" srcset="../../images/pop/Zoom@2x.png"/>
+    <img class="c-media c-media--padding c-media--border" src="../../images/pop/Zoom.png" alt="Component architecture"/>
+  </picture>
+</figure>
+
+<figure>
+  <picture>
+    <source media="(min-width: 48em)" srcset="../../images/pop/Select@2x.png"/>
+    <img class="c-media c-media--padding c-media--border" src="../../images/pop/Select.png" alt="Component architecture"/>
   </picture>
 </figure>
 
@@ -120,5 +127,19 @@ These are some of my favorite and the more complex components that I designed.
   <picture>
     <source media="(min-width: 48em)" srcset="../../images/pop/ListItem@2x.png"/>
     <img class="c-media c-media--padding c-media--border" src="../../images/pop/ListItem.png" alt="Component architecture"/>
+  </picture>
+</figure>
+
+<figure>
+  <picture>
+    <source media="(min-width: 48em)" srcset="../../images/pop/Input@2x.png"/>
+    <img class="c-media c-media--padding c-media--border" src="../../images/pop/Input.png" alt="Component architecture"/>
+  </picture>
+</figure>
+
+<figure>
+  <picture>
+    <source media="(min-width: 48em)" srcset="../../images/pop/DropdownMenu@2x.png"/>
+    <img class="c-media c-media--padding c-media--border" src="../../images/pop/DropdownMenu.png" alt="Component architecture"/>
   </picture>
 </figure>
