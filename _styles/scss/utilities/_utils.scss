@@ -8,14 +8,30 @@
   gap: $spacing-half;
 }
 
-.u-mobile-hidden {
+.u-hide {
+  display: block;
+
+  @media (min-width: $bp-xxxs) {
+    display: none;
+  }
+}
+
+.u-show {
   display: none;
 
-  @media (min-width: $bp-tiny) {
+  @media (min-width: $bp-xxxs) {
     display: block;
   }
 }
 
 .u-m-strip {
   margin: 0;
+}
+
+.u-mb-tiny {
+  margin-bottom: $spacing-tiny;
+
+  @media (min-width: $bp-xs) {
+    margin-bottom: $spacing-xxs;
+  }
 }

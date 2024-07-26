@@ -15,8 +15,14 @@
     color: $darktextLight;
   }
 
+  p,
+  ol,
+  ul,
   a {
-    color: $darktext;
+    color: $darktextBody;
+  }
+
+  a {
 
     &:hover {
       color: $darktextLight;
@@ -33,6 +39,10 @@
 
   hr {
     border-bottom: 1px solid $darkborderColor;
+  }
+
+  .c-grid__work--title {
+    color: $darktext;
   }
 
   .c-about__list-number {
@@ -83,6 +93,14 @@
 
   .c-media {
     background: $darkmediaBackground;
+
+    &--border {
+      border: none;
+    }
+  }
+
+  .c-embed {
+    border: none;
   }
 
   .c-nav__link {

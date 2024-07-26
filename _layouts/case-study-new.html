@@ -29,7 +29,13 @@
 				<main class="c-main__case-study">
 					<article>
 						<section class="c-text-format--header">
-							<img class="c-media c-media--border" src="{{ page.image }}" alt="Hero image for this project">
+							<figure>
+								<picture>
+									<source media="(min-width: 78rem)" srcset="{{ page.hero-image }}"/>
+									<source media="(min-width: 48rem)" srcset="{{ page.hero-image-tablet }}"/>
+									<img class="c-media c-media--border" src="{{ page.hero-image-mobile }}" alt="Hero image for this case study"/>
+								</picture>
+							</figure>
 							<h1>{{ page.org }}</h1>
 							<p class="c-text__role">{{ page.role }}</p>
 							<div class="h4">{{ page.tenure }}</div>

@@ -42,6 +42,7 @@ gulp.task('serve', function() {
     }
   });
   gulp.watch(("_styles/scss/**/*.scss"), gulp.series('sass')).on('change', browserSync.reload);
+  gulp.watch(("*.md"), gulp.series('build', 'fonts', 'sass')).on('change', browserSync.reload);
   gulp.watch(("_work/*.md"), gulp.series('build', 'fonts', 'sass')).on('change', browserSync.reload);
   gulp.watch(("_layouts/*.html"), gulp.series('build', 'fonts', 'sass')).on('change', browserSync.reload);
 });

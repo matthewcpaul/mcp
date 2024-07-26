@@ -54,6 +54,7 @@
     }
 
     &--title {
+      color: $text;
       margin-top: $spacing-half;
 
       @media (min-width: $bp-sm) {
@@ -85,6 +86,20 @@
     @media (min-width: $bp-sm) {
       grid-gap: $spacing-xxl;
       margin-top: $spacing-xxs;
+    }
+  }
+
+  &__two {
+    display: grid;
+    grid-template-columns: 100%;
+
+    & h2 {
+      margin: 0;
+    }
+
+    @media (min-width: $bp-xxxs) {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: $spacing-xl;
     }
   }
 

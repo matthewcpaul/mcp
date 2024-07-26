@@ -3,6 +3,26 @@
   border-radius: 1.25rem;
   overflow: hidden;
 
+  & video {
+    border-radius: 4px;
+
+    @media (min-width: $bp-xxs) {
+      border-radius: 5px;
+    }
+
+    @media (min-width: $bp-xs) {
+      border-radius: 6px;
+    }
+
+    @media (min-width: $bp-sm) {
+      border-radius: 7px;
+    }
+
+    @media (min-width: $bp-md) {
+      border-radius: 8px;
+    }
+  }
+
   & + h1 {
     margin-top: $spacing-xxs;
 
@@ -16,42 +36,18 @@
   }
 
   &--border {
-    border: 1px solid $text;
-
-    & + .c-media--border {
-      margin-top: $spacing-xxs;
-
-      @media (min-width: $bp-xxxs) {
-        margin-top: $spacing-xs;
-      }
-  
-      @media (min-width: $bp-xxs) {
-        margin-top: $spacing-lg;
-      }
-  
-      @media (min-width: $bp-xs) {
-        margin-top: $spacing-xxl;
-      }
-    }
+    border: 1px solid $borderColor;
   }
 
   &--padding {
-    padding: $spacing-xxs;
+    padding: $spacing-tiny;
 
     @media (min-width: $bp-xxs) {
-      padding: $spacing-xs;
-    }
-
-    @media (min-width: $bp-xs) {
-      padding: $spacing-lg;
+      padding: $spacing-xxs;
     }
 
     @media (min-width: $bp-sm) {
-      padding: $spacing-xl;
-    }
-
-    @media (min-width: $bp-md) {
-      padding: $spacing-xxl;
+      padding: $spacing-sm;
     }
 
     &-lg {
@@ -82,6 +78,14 @@
       margin-top: $spacing-xs;
     }
   }
+
+  & + .c-wrap__project {
+    margin-top: $spacing-xxs;
+
+    @media (min-width: $bp-sm) {
+      margin-top: $spacing-sm;
+    }
+  }
 }
 
 h2 + .c-media {
@@ -89,6 +93,14 @@ h2 + .c-media {
 
   @media (min-width: $bp-sm) {
     margin-top: $spacing-sm;
+  }
+}
+
+h3 + figure {
+  margin-top: $spacing-xxs;
+
+  @media (min-width: $bp-sm) {
+    margin-top: $spacing-xs;
   }
 }
 

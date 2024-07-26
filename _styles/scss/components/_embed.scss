@@ -1,0 +1,53 @@
+.c-embed {
+  border: 1px solid $borderColor;
+  border-radius: 1.25rem;
+  width: 100%;
+
+  &__as-is-journey {
+    height: 368px;
+
+    @media (min-width: $bp-xxxs) {
+      height: 432px;
+    }
+
+    @media (min-width: $bp-xxs) {
+      height: 512px;
+    }
+
+    @media (min-width: $bp-xs) {
+      height: 592px;
+    }
+
+    @media (min-width: $bp-sm) {
+      height: 640px;
+    }
+
+    @media (min-width: $bp-md) {
+      height: 720px;
+    }
+  }
+  
+  &__user-story-mapping {
+    height: 320px;
+
+    @media (min-width: $bp-xxxs) {
+      height: 368px;
+    }
+
+    @media (min-width: $bp-xxs) {
+      height: 432px;
+    }
+
+    @media (min-width: $bp-xs) {
+      height: 528px;
+    }
+
+    @media (min-width: $bp-sm) {
+      height: 560px;
+    }
+
+    @media (min-width: $bp-md) {
+      height: 640px;
+    }
+  }
+}
