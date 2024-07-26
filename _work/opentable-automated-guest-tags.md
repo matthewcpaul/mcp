@@ -62,6 +62,17 @@ Using data, you can determine if you want to keep, edit or delete any automated 
 ### The Problem
 Restaurant owners and operators of some of the best restaurants in the world were finding it difficult to provide an exceptional and personalized guest experience—that they’re known for with high profile guests, or customers they remember—to all of their patrons. They wanted a way to capture intel on guests’ visits, spending habbits, and preferences so they could more easily act on that data to deliver a world-class, unprecedented, dining experience to every guest that walks through the door.
 
+</div>
+
+<figure>
+  <picture>
+    <source media="(min-width: 48em)" srcset="../../images/opentable/ManualTagsAndManualIntelSeparate@2x.png"/>
+    <img class="c-media c-media--padding c-media--border" src="../../images/opentable/ManualTagsAndManualIntelSeparate.png" alt="The exising IA and Navigation into the automated intel tool before we started the project"/>
+  </picture>
+</figure>
+
+<div class="c-wrap__project" markdown=1>
+
 ### Discovery & Insights
 Through speaking directly with restaurant owners, general managers, and internal subject matter experts (SMEs), I uncovered a few important details that drove the strategy of this product offering.
 

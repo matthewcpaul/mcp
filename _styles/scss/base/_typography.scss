@@ -219,10 +219,6 @@ a {
   }
 }
 
-strong {
-  font-weight: 700;
-}
-
 figcaption {
   @include font-5;
   color: $textLight;
