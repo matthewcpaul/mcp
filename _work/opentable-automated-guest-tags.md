@@ -158,7 +158,7 @@ One option I explored was to eliminate this second top navigation bar altogether
 
 <div class="c-wrap__project" markdown=1>
 
-Then through some more iteration, and in collaboration with other designers who were familiar with more of the surface areas in Relationship Management, we landed on the best option of rethinking and rearranging the sections of this sidebar navigation—giving Automated Guest Tags its own home.
+Then through some more iteration, and in collaboration with other designers familiar with more of the surface areas in Relationship Management, we landed on the best option of rethinking and rearranging the sections of this sidebar navigation—giving Automated Guest Tags its own home.
 
 </div>
 
