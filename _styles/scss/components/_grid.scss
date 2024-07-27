@@ -124,9 +124,16 @@
   &__half {
     display: grid;
     grid-template-columns: 100%;
+    grid-gap: $spacing-xs;
     margin: $spacing-xs 0;
 
     @media (min-width: $bp-xxxs) {
+      grid-gap: $spacing-sm;
+      margin: $spacing-sm 0;
+    }
+
+    @media (min-width: $bp-xxs) {
+      grid-gap: $spacing-md;
       margin: $spacing-sm 0;
     }
 

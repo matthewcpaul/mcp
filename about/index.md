@@ -56,16 +56,16 @@ heading: Specializing in Systems &amp; Tools
     <p class="c-about__list-number">03</p>
     <h2 class="c-about__list-header">Things I Love</h2>
     <ul class="ul--square">
-      <li><a href="https://www.instagram.com/matthewctraul/saved/cabins/17945643365001334/" target="blank">Cabins</a></li>
-      <li><a href="https://www.instagram.com/p/CqMp5zGOkEy/" target="blank">Hiking & camping</a></li>
-      <li><a href="https://www.instagram.com/make.lab/" target="blank">Printmaking</a></li>
+      <li><a href="https://www.cosmos.so/matthewctraul/cabins" target="blank">Cabins</a></li>
+      <li><a href="https://www.cosmos.so/matthewctraul/hiking-%26-camping" target="blank">Hiking & camping</a></li>
+      <li><a href="https://www.cosmos.so/matthewctraul/printmaking" target="blank">Printmaking</a></li>
       <li><a href="https://www.crunchyroll.com/" target="blank">Anime</a></li>
       <li><a href="https://www.dwell.com/" target="blank">Furniture & interior design</a></li>
-      <li><a href="https://www.instagram.com/studlybudlycat/" target="blank">Cats</a></li>
+      <li><a href="https://www.cosmos.so/matthewctraul/cats" target="blank">Cats</a></li>
       <li><a href="https://www.eavesdrop.nyc/" target="blank">Quality audio</a></li>
-      <li><a href="https://www.instagram.com/matthewctraul/saved/skate/17875528321198879/" target="_blank">Skateboarding</a></li>
+      <li><a href="https://www.cosmos.so/matthewctraul/skateboarding" target="_blank">Skateboarding</a></li>
       <li><a href="https://everydayoil.com/products/everyday-oil-mainstay-blend?variant=7540908227" target="_blank">Everyday oil</a></li>
-      <li><a href="https://www.instagram.com/matthewctraul/saved/fj80/17867890465089733/" target="_blank">80 Series Land Cruisers</a></li>
+      <li><a href="https://www.cosmos.so/matthewctraul/80-series-land-cruisers" target="_blank">80 Series Land Cruisers</a></li>
     </ul>
   </section>
   <section>
