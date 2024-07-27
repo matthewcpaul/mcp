@@ -80,17 +80,17 @@
 }
 
 iframe + .c-wrap__project {
-  margin-top: $spacing-xs;
+  margin-top: $spacing-xl;
 
   @media (min-width: $bp-sm) {
-    margin-top: $spacing-sm;
+    margin-top: $spacing-xxl;
   }
 }
 
 figure + .c-wrap__project {
-  margin-top: $spacing-xs;
+  margin-top: $spacing-xl;
 
   @media (min-width: $bp-sm) {
-    margin-top: $spacing-sm;
+    margin-top: $spacing-xxl;
   }
 }

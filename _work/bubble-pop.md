@@ -18,7 +18,7 @@ description-2: This new and growing design system provides a comprehensive set o
 <div class="c-wrap__project" markdown=1>
 
 ## Where design and engineering intersect
-The contribution model to the Pop design system was a distributed collaboration between a few designers and some engineers on each team that I oversaw and directly contributed to every piece. My favorite thing about design systems is the inherent way it fosters deep collaboration between designers and engineers to bring resilience and speed to the product development process.
+The contribution model to the Pop design system was a distributed collaboration between a few designers and a couple engineers on each team that I oversaw and directly contributed to every piece. My favorite thing about design systems is the inherent way they foster deep collaboration between designers and engineers to bring resilience and speed to the product development process.
 
 </div>
 
@@ -32,7 +32,7 @@ The contribution model to the Pop design system was a distributed collaboration 
 <div class="c-wrap__project" markdown=1>
 
 ### Design token architecture
-Design tokens allow a company to establish its core visual language, then map the global values to brand values, and eventually map the brand values to semantic values for use in components. This also easily enables transformation at the core level as needed into color modes, such as light and dark, or entirely new brands with much less effort and cost than building each from scratch.
+Design tokens allow a company to establish its core visual language, map the global values to brand values, and eventually map the brand values to semantic values for use in components. This also easily enables transformation at the core level as needed into color modes, such as light and dark, or entirely new brands with much less effort and cost than building each from scratch.
 
 Design tokens are created in close collaboration with engineering to ensure immutable alignment with code. We achieved this by using the Tokens Studio Figma plugin that syncs to GitHub, allowing engineers to have a shared language with design at every level of the system.
 
@@ -48,9 +48,9 @@ Design tokens are created in close collaboration with engineering to ensure immu
 <div class="c-wrap__project" markdown=1>
 
 ### Systems within systems
-A design system is made up of many sub-systems working in unison. For example, the line-height of a label when paired with padding impacts the size of a component, and component hierarchy impacts the larger modules that are composed together when building a view. It’s essential to be aware of how making one edit in one place can cause a ripple effect throughout the entire system. This is one reason why design systems are an ever evolving product that requires taste, an extremely high attention to detail, and strong systems thinking.
+A design system is made up of many sub-systems working in unison. For example, the line height of a label when paired with padding impacts the size of a component, and component hierarchy impacts the larger modules that are composed together when building a view. It’s essential to be aware of how making one edit in one place can cause a ripple effect throughout the entire system. This is one reason why design systems are an ever-evolving product that requires taste, extremely high attention to detail, and strong systems thinking.
 
-All of this may seem complicated under the hood, but the end result is a high-craft, polished, intuitive interface for the end user experience. One method to uncomplicate the complicated is through t-shirt sizing at the atomic component level—Small, Medium, Large. When done well, all components of the same size work together and can sometimes be intermingled to create a desired hierarchy.
+All of this may seem complicated under the hood, but the end result is a high-craft, polished, intuitive interface for the end-user experience. One method to uncomplicate the complicated is through t-shirt sizing at the atomic component level—Small, Medium, Large. When done well, all components of the same size work together and can sometimes be intermingled to create a desired hierarchy.
 
 </div>
 
@@ -64,7 +64,7 @@ All of this may seem complicated under the hood, but the end result is a high-cr
 <div class="c-wrap__project" markdown=1>
 
 ### Component architecture
-For this system, we approached everything as a component, starting at the atomic level. This allowed for handling component sizes and variants at this level instead of trying to build every size and variant for more complex components that are composed of many other atomic components. This resulted in both consistency and flexibility when needing to design in Figma and build in code.
+For this system, we approached everything as a component, starting at the atomic level. This allowed for handling component sizes and variants at this level instead of trying to build every size and variant for more complex components composed of many other atomic components. This resulted in consistency and flexibility when needing to design in Figma and build in code.
 
 </div>
 
@@ -88,7 +88,7 @@ Among documentation at Bubble, I continued the system education through mentorin
 
 <div class="c-wrap__project" markdown=1>
 
-## Notable components that I designed
+## A selection of components that I designed
 On top of designing the foundations of a new type scale, color ramps, icon library, and design tokens for text, color, elevation, and border radius, I refreshed the few existing components and designed 20+ new components. I also helped the engineers architect the React components and was a required reviewer for each non-trivial design system PR.
 
 These are some of my favorite and more complex components that I designed.

@@ -118,7 +118,7 @@ h4 + p {
 p + h3,
 ul + h3,
 ol + h3 {
-  margin-top: $spacing-sm;
+  margin-top: $spacing-xs;
 
   @media (min-width: $bp-sm) {
     margin-top: $spacing-md;
