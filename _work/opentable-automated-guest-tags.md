@@ -11,7 +11,7 @@ tenure: '2021'
 hero-image: /images/opentable/OpenTableAutomatedTagsHero.png
 hero-image-tablet: /images/opentable/OpenTableAutomatedTagsHeroTablet.png
 hero-image-mobile: /images/opentable/OpenTableAutomatedTagsHeroMobile.png
-description-1: In late 2021, I worked with OpenTable as an independent contractor to design a new tool for restaurant owners and operators that allowed them to create and manage automated guest tags. These tags can be configured by any kind of business rules and criteria that are then automatically be added to a restaurant guest’s profile once the criteria was met by that guest.
+description-1: In late 2021, I worked with OpenTable as an independent contractor to design a new tool for restaurant owners and operators that allowed them to create and manage automated guest tags. These tags can be configured by any kind of business rules and criteria that are then automatically added to a restaurant guest’s profile once the criteria was met by that guest.
 description-2: For example, “If a guest orders more than one bottle of wine, each over $60.00 USD, on four consecutive visits, add the ‘Wine Connoisseur’ tag”, which the front-of-house staff will see in the guest’s profile on their next visit; along with visit notes to instruct the waiter or sommelier to bring the loyal patron their favorite bottle of wine free of charge.
 ---
 
