@@ -31,6 +31,47 @@ The contribution model to the Pop design system was a distributed collaboration 
 
 <div class="c-wrap__project" markdown=1>
 
+### Typography scale
+I brought my deep expertise in mathematical web typography to Bubble and the Pop design system. Earlier in my career at IBM I invented an approach and open-source tool that uses a quadratic progression formula for type scales specifically designed for screen-based media.
+
+In mathematical progressions, there are 4 primary types: arithmetic, geometric, harmonic, and quadratic. The rest of the industry was using geometric progressions such as the golden ratio, minor thirds, or major fourths, which all had underlying problems. In geometric progressions, you simply multiply the previous value by the chosen ratio (such as minor thirds). The result of this is font sizes with 10+ decimal points. These values can be rounded, but this method came from print and was attempting to be retrofitted for screens.
+
+What I discovered in the benefit of a quadratic progression is that you still get the non-linear growth you want in a type scale for proper hierarchy. The real magic is that you also get sensible whole-number integers as your font sizes. This is what that looks like in practice.
+
+</div>
+
+<div class="c-media c-media--border">
+  <video src="../../images/pop/QuadtraicProgressionTypeScale.mp4" loop autoplay muted playsinline></video>
+</div>
+
+<div class="c-wrap__project" markdown=1>
+
+### Body font system
+
+</div>
+
+<figure>
+  <picture>
+    <source media="(min-width: 48em)" srcset="../../images/pop/TypographyScaleBody@2x.png"/>
+    <img class="c-media c-media--padding c-media--border" src="../../images/pop/TypographyScaleBody.png" alt="Component code on the left and Figma design on the right for a Button"/>
+  </picture>
+</figure>
+
+<div class="c-wrap__project" markdown=1>
+
+### Headings font system
+
+</div>
+
+<figure>
+  <picture>
+    <source media="(min-width: 48em)" srcset="../../images/pop/TypographyScaleHeadings@2x.png"/>
+    <img class="c-media c-media--padding c-media--border" src="../../images/pop/TypographyScaleHeadings.png" alt="Component code on the left and Figma design on the right for a Button"/>
+  </picture>
+</figure>
+
+<div class="c-wrap__project" markdown=1>
+
 ### Design token architecture
 Design tokens allow a company to establish its core visual language, map the global values to brand values, and eventually map the brand values to semantic values for use in components. This also easily enables transformation at the core level as needed into color modes, such as light and dark, or entirely new brands with much less effort and cost than building each from scratch.
 

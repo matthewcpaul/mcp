@@ -80,10 +80,10 @@
   }
 
   & + .c-wrap__project {
-    margin-top: $spacing-xxs;
+    margin-top: $spacing-xl;
 
     @media (min-width: $bp-sm) {
-      margin-top: $spacing-sm;
+      margin-top: $spacing-xxl;
     }
   }
 }
