@@ -32,7 +32,7 @@ heading: Specializing in Systems &amp; Tools
       <li>Planning & Prioritization</li>
       <li>Lead & Mentor other Designers</li>
       <li>UX Writing</li>
-      <li>Bring a fresh perspective</li>
+      <li>Bring a lil’ magic</li>
     </ol>
   </section>
   <section>
@@ -66,6 +66,7 @@ heading: Specializing in Systems &amp; Tools
       <li><a href="https://www.cosmos.so/matthewctraul/skateboarding" target="_blank">Skateboarding</a></li>
       <li><a href="https://everydayoil.com/products/everyday-oil-mainstay-blend?variant=7540908227" target="_blank">Everyday oil</a></li>
       <li><a href="https://www.cosmos.so/matthewctraul/80-series-land-cruisers" target="_blank">80 Series Land Cruisers</a></li>
+      <li><a href="https://www.cosmos.so/matthewctraul/dragon-ball" target="_blank">Dragon Ball/Z/Super</a></li>
     </ul>
   </section>
   <section>
