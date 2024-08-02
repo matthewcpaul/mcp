@@ -4,8 +4,8 @@ product: 'yes'
 type: product
 order: 1
 logo: /images/work/OpenTableAutomatedTags.png
-title: opentable-automated-guest-tags
-org: Automated Guest Tags
+title: OpenTable Automated Guest Tags
+org: OpenTable Automated Guest Tags
 role: Senior Product Designer
 tenure: '2021'
 hero-image: /images/opentable/OpenTableAutomatedTagsHero.png
