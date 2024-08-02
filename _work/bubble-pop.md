@@ -18,7 +18,7 @@ description-2: This new and growing design system provides a comprehensive set o
 <div class="c-wrap__project" markdown=1>
 
 ## Where design and engineering intersect
-The contribution model to the Pop design system was a distributed collaboration between a few designers and a couple engineers on each team that I oversaw and directly contributed to every piece. My favorite thing about design systems is the inherent way they foster deep collaboration between designers and engineers to bring resilience and speed to the product development process.
+The contribution model to the Pop design system was a distributed collaboration between a few designers and a couple engineers on each team that I oversaw and directly contributed to every piece of. My favorite thing about design systems is the inherent way they foster deep collaboration between designers and engineers to bring resilience and speed to the product development process.
 
 </div>
 
@@ -36,7 +36,7 @@ I brought my deep expertise in mathematical web typography to Bubble and the Pop
 
 In mathematical progressions, there are 4 primary types: arithmetic, geometric, harmonic, and quadratic. The rest of the industry was using geometric progressions such as the golden ratio, minor thirds, or major fourths, which all had underlying problems. In geometric progressions, you simply multiply the previous value by the chosen ratio (such as minor thirds). The result of this is font sizes with 10+ decimal points. These values can be rounded, but this method came from print and was attempting to be retrofitted for screens.
 
-What I discovered in the benefit of a quadratic progression is that you still get the non-linear growth you want in a type scale for proper hierarchy. The real magic is that you also get sensible whole-number integers as your font sizes. This is what that looks like in practice.
+What I discovered in the benefit of using quadratic progressions is that you still get the non-linear growth you want in a type scale for proper hierarchy, and you also get sensible whole numbers as your font sizes. This is what that looks like in practice.
 
 </div>
 
@@ -73,7 +73,7 @@ What I discovered in the benefit of a quadratic progression is that you still ge
 <div class="c-wrap__project" markdown=1>
 
 ### Design token architecture
-Design tokens allow a company to establish its core visual language, map the global values to brand values, and eventually map the brand values to semantic values for use in components. This also easily enables transformation at the core level as needed into color modes, such as light and dark, or entirely new brands with much less effort and cost than building each from scratch.
+Design tokens allow a company to establish its core visual language, map the global values to brand values, and eventually map the brand values to semantic values for use in components. This also enables easy transformation at the core level as needed to switch themes, such as light and dark, or entirely new brands with much less effort and cost than building each from scratch.
 
 Design tokens are created in close collaboration with engineering to ensure immutable alignment with code. We achieved this by using the Tokens Studio Figma plugin that syncs to GitHub, allowing engineers to have a shared language with design at every level of the system.
 
@@ -105,7 +105,7 @@ All of this may seem complicated under the hood, but the end result is a high-cr
 <div class="c-wrap__project" markdown=1>
 
 ### Component architecture
-For this system, we approached everything as a component, starting at the atomic level. This allowed for handling component sizes and variants at this level instead of trying to build every size and variant for more complex components composed of many other atomic components. This resulted in consistency and flexibility when needing to design in Figma and build in code.
+For this system, we approached everything as a component, starting at the atomic level. This allowed for handling component sizes and variants at this level instead of trying to build every size and variant for more complex components composed of many other atomic components. This resulted in both consistency and flexibility when needing to design in Figma and build in code.
 
 </div>
 
