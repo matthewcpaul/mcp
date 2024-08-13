@@ -81,7 +81,9 @@ Through speaking directly with restaurant owners, general managers, and internal
 1. OpenTable had acquired this tool called Venga Automated Intel, which attempted to solve the challenge, but felt more like interacting with a backend database with duplicate ways of doing the same tasks, pitfalls that caused you to have to start over, and pre-determined categories followed by a seemingly random selection of 60 checkboxes per category (of which only 2 or 3 were usually used); furthermore, **there was only a single person at OpenTable who knew how to do this setup for restaurants**—it was a white-glove, one-off service.
 
 ### As-is journey mapping
-To complete my understanding of the problems we were working with, and to foster a shared understanding with the PM and other stakeholders involved, I led a collaborative workshop in which the SME & I mapped out the 5 as-is user journies to identify pitfalls, pain points, and begin to note opportunities for an improved experience. These user journeys included:
+To complete my understanding of the problem space, and to foster a shared understanding with the PM and other stakeholders involved, I led a collaborative workshop in which the SME & I mapped out the 5 as-is user journies to identify pitfalls, pain points, and begin to note opportunities for an improved experience.
+
+These user journeys included:
 
 - Navigating to the manual intel configuration tool
 - Editing guest tags for only a single restaurant ID (RID) at a time and undoing changes if there was a mistake made
