@@ -1,6 +1,5 @@
 ---
 layout: case-study-new
-product: 'yes'
 systems: 'yes'
 order: 2
 logo: /images/work/BubblePop.png
@@ -152,8 +151,8 @@ These are some of my favorite and more complex components that I designed.
 
 <figure>
   <picture>
-    <source media="(min-width: 48em)" srcset="../../images/pop/Zoom@2x.png"/>
-    <img class="c-media c-media--padding c-media--border" src="../../images/pop/Zoom.png" alt="Component architecture"/>
+    <source media="(min-width: 48em)" srcset="../../images/pop/Input@2x.png"/>
+    <img class="c-media c-media--padding c-media--border" src="../../images/pop/Input.png" alt="Component architecture"/>
   </picture>
 </figure>
 
@@ -173,14 +172,14 @@ These are some of my favorite and more complex components that I designed.
 
 <figure>
   <picture>
-    <source media="(min-width: 48em)" srcset="../../images/pop/Input@2x.png"/>
-    <img class="c-media c-media--padding c-media--border" src="../../images/pop/Input.png" alt="Component architecture"/>
+    <source media="(min-width: 48em)" srcset="../../images/pop/DropdownMenu@2x.png"/>
+    <img class="c-media c-media--padding c-media--border" src="../../images/pop/DropdownMenu.png" alt="Component architecture"/>
   </picture>
 </figure>
 
 <figure>
   <picture>
-    <source media="(min-width: 48em)" srcset="../../images/pop/DropdownMenu@2x.png"/>
-    <img class="c-media c-media--padding c-media--border" src="../../images/pop/DropdownMenu.png" alt="Component architecture"/>
+    <source media="(min-width: 48em)" srcset="../../images/pop/Zoom@2x.png"/>
+    <img class="c-media c-media--padding c-media--border" src="../../images/pop/Zoom.png" alt="Component architecture"/>
   </picture>
 </figure>

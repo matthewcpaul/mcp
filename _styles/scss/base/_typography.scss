@@ -8,11 +8,6 @@ h1 {
 
 h2 {
   @include font-2;
-  margin-bottom: $spacing-tiny;
-
-  @media (min-width: $bp-sm) {
-    margin-bottom: $spacing-xxs;
-  }
 }
 
 h3 {
@@ -91,6 +86,14 @@ h1 + p {
   }
 }
 
+h2 + p {
+  margin-top: $spacing-half;
+
+  @media (min-width: $bp-sm) {
+    margin-top: $spacing-tiny;
+  }
+}
+
 h2 + h3 {
   margin-top: $spacing-xxs;
 
@@ -163,9 +166,10 @@ ol + iframe {
 }
 
 p + ol,
-p + ul {
-  padding-left: $spacing-sm;
-  margin-left: $spacing-tiny;
+p + ul,
+h3 + ul {
+  padding-left: $spacing-xs;
+  margin-left: $spacing-half;
   margin-top: $spacing-tiny;
 
   @media (min-width: $bp-sm) {

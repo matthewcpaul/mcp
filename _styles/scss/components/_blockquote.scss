@@ -1,0 +1,40 @@
+.quote {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-tiny;
+  font-style: italic;
+  margin-top: $spacing-sm;
+  padding: $spacing-tiny $spacing-xs $spacing-xs $spacing-xs;
+  background-color: $mediaBackground;
+  border-left: 4px solid $borderColor;
+
+  @media (min-width: $bp-tiny) {
+    flex-direction: row;
+    gap: $spacing-xs;
+    padding-top: $spacing-xs;
+  }
+
+  @media (min-width: $bp-sm) {
+    margin-top: $spacing-lg;
+  }
+
+  &__avatar {
+    flex-shrink: 0;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    margin-top: 0.25rem;
+
+    @media (min-width: $bp-tiny) {
+      width: 4rem;
+      height: 4rem;
+    }
+  }
+}
+
+cite {
+  display: block;
+  margin-top: $spacing-half;
+  font-style: normal;
+}
