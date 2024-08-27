@@ -17,7 +17,7 @@ description-2: I also designed and helped engineer a design system from scratch�
 <div class="c-wrap__project" markdown=1>
 
 ## Product Preview
-A complete overhaul and redesign of The.com’s editor and Page Generation experience.
+A complete overhaul and redesign of The.com’s editor and the new split-view Page Generation experience.
 
 </div>
 
@@ -62,7 +62,7 @@ Whether you’re in the side-by-side or top-and-bottom view configuration, use t
 ### The Problem
 - In the previous iteration of the product, users didn’t have a way to see both the pages they were designing and the content they were creating, editing, and linking to a page in a single view. This led to a constant back-and-forth, forcing them to completely switch contexts when making edits to the design and the content.
 - When a user wanted to work on the content in the sheet, they had to navigate back to another view called the “worksheet” and then search for and open the corresponding sheet. It was a clunky user experience that needed a complete overhaul.
-- There wasn’t a way to create page templates and use the power of the spreadsheet CMS to generate multiple pages quickly. Users could only create one-off pages and duplicate them as separate pages with corresponding sheets.
+- There wasn’t a way to create page templates and use the power of the spreadsheet CMS to generate multiple pages quickly. Users could only create one-off pages with corresponding sheets.
 
 </div>
 
@@ -153,7 +153,7 @@ Ultimately, this idea didn’t resonate with users at all, so we quickly tossed 
 ###  Page previews on hover of the URL column
 An ancillary idea that I explored, which could be used in combination with whichever final solution we landed on, was showing thumbnails of a page when hovering over the URL cell for that respective row in the sheet.
 
-This direction also shows our pivot to the direction users were telling us they wanted—the selection of any cell in each row would display the corresponding page.
+This also shows our pivot to the direction users were telling us they wanted—the selection of any cell in each row would display the corresponding page.
 
 </div>
 
