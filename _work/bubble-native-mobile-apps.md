@@ -21,7 +21,7 @@ description-2: This tool enabled new and existing Bubble customers from differin
 </div>
 
 ## Product Preview
-Build fully native mobile apps with native iOS and Android navigation patterns & components, preview on the web or on your device via the Bubble Go app, and deploy to the Apple App Store & Google Play Store.
+Build fully native mobile apps with native iOS and Android navigation patterns & components, preview on the web or your device via the Bubble Go app, and deploy to the Apple App Store & Google Play Store.
 
 </div>
 
@@ -32,7 +32,7 @@ Build fully native mobile apps with native iOS and Android navigation patterns &
 <div class="c-wrap__project c-wrap__project--preview" markdown=1>
 
 ### Build the foundation of you app with the native App Bar
-Use the editor to design & build your apps with the the most common mobile native navigation pattern that is adaptive for both iOS and Android. Customize the title style, add leading and trailing actions, and style any property to fit your brand.
+Use the editor to design and build your apps with the most common mobile native navigation pattern, which is adaptive for both iOS and Android. Customize the title style, add leading and trailing actions, and style any property to fit your brand.
 
 </div>
 
@@ -54,6 +54,6 @@ Decide which views you want to be the root views in the bottom Tab Bar, customiz
 <div class="c-wrap__project c-wrap__project--preview" markdown=1>
 
 ### Publish a new version, or OTA update to both app stores
-With the current infrastructure of the Bubble platform, when you deploy a new version of your mobile app, both the web app and native mobile app is deployed at the same time. For native mobile, you can choose between an OTA (over the air) update, or a new version—in which you can choose major, minor, or patch, and Bubble handles the semantic versioning for you.
+With the current infrastructure of the Bubble platform, when you deploy a new version of your mobile app, both the web app and native mobile app are deployed at the same time. For native mobile, you can choose between an OTA (over the air) update or a new version—in which you can choose major, minor, or patch, and Bubble handles the semantic versioning for you.
 
 </div>
