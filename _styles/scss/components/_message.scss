@@ -1,0 +1,19 @@
+.c-message {
+  display: flex;
+  padding: 0.5rem 1rem;
+  background-color: $mediaBackground;
+  border: 1px solid $borderColor;
+  border-radius: 0.75rem;
+
+  & + h2 {
+    margin-top: $spacing-xxs;
+
+    @media (min-width: $bp-xxs) {
+      margin-top: $spacing-xs;
+    }
+
+    @media (min-width: $bp-sm) {
+      margin-top: $spacing-md;
+    }
+  }
+}

@@ -1,6 +1,7 @@
 ---
 layout: case-study-new
-systems: 'yes'
+# systems: 'yes'
+product: 'yes'
 order: 2
 logo: /images/work/BubblePop.png
 title: Bubble Pop Design System

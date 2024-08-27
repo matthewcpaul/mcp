@@ -2,7 +2,7 @@
 layout: case-study-new
 product: 'yes'
 type: product
-order: 3
+order: 4
 logo: /images/work/OpenTableAutomatedTags.png
 title: OpenTable Automated Guest Tags
 org: OpenTable Automated Guest Tags

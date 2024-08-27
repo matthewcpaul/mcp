@@ -7,8 +7,8 @@ description: I’m a Software Designer & Design Engineer specializing in designe
 ---
 
 <section class="c-grid__section">
-  <h4 class="c-eyebrow">Case Studies</h4>
-  <h2>Product Design</h2>
+  <!-- <h4 class="c-eyebrow">Case Studies</h4> -->
+  <h2>Case studies</h2>
   <div class="c-grid__work">
     {% assign work = site.work | sort:"order" %}
     {% for work in work %}
@@ -25,7 +25,7 @@ description: I’m a Software Designer & Design Engineer specializing in designe
   </div>
 </section>
 
-<hr>
+<!-- <hr>
 
 <section class="c-grid__section">
   <h4 class="c-eyebrow">Case Studies</h4>
@@ -44,4 +44,4 @@ description: I’m a Software Designer & Design Engineer specializing in designe
     {% endif %}
     {% endfor %}
   </div>
-</section>
+</section> -->

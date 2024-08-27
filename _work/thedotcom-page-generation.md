@@ -1,7 +1,7 @@
 ---
 layout: case-study-new
 product: 'yes'
-order: 2
+order: 3
 logo: /images/work/TheDotComAutomatedPages.png
 title: The.com Page Generation
 org: The.com Page Generation
