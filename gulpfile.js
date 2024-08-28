@@ -45,6 +45,7 @@ gulp.task('serve', function() {
   gulp.watch(("*.md"), gulp.series('build', 'fonts', 'sass')).on('change', browserSync.reload);
   gulp.watch(("_work/*.md"), gulp.series('build', 'fonts', 'sass')).on('change', browserSync.reload);
   gulp.watch(("_layouts/*.html"), gulp.series('build', 'fonts', 'sass')).on('change', browserSync.reload);
+  gulp.watch(("_includes/*.html"), gulp.series('build', 'fonts', 'sass')).on('change', browserSync.reload);
 });
 
 // Run build, fonts, sass, and serve

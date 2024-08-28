@@ -198,3 +198,16 @@ After many rapid explorations and sharing ideas with early users in our communit
 <div class="c-media c-media--padding c-media--border">
   <video src="../../images/thedotcom/TheDotComFullPrototype.mp4" loop autoplay muted playsinline></video>
 </div>
+
+<hr>
+
+<div class="c-work-nav">
+  {% assign work = site.work | sort:"order" %}
+  {% for work in work %}
+  {% if work.order == 4 %}
+  {% include next.html %}
+  {% elsif work.order == 2 %}
+  {% include previous.html %}
+  {% endif %}
+  {% endfor %}
+</div>

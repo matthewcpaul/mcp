@@ -184,3 +184,16 @@ These are some of my favorite and more complex components that I designed.
     <img class="c-media c-media--padding c-media--border" src="../../images/pop/Zoom.png" alt="Component architecture"/>
   </picture>
 </figure>
+
+<hr>
+
+<div class="c-work-nav">
+  {% assign work = site.work | sort:"order" %}
+  {% for work in work %}
+  {% if work.order == 3 %}
+  {% include next.html %}
+  {% elsif work.order == 1 %}
+  {% include previous.html %}
+  {% endif %}
+  {% endfor %}
+</div>

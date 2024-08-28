@@ -1,6 +1,6 @@
 ---
 layout: case-study
-order: 2
+# order: 2
 logo: /images/work/independent-logo.png
 title: newwork
 org: Independent

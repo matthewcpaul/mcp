@@ -1,125 +1,162 @@
 .c-work {
-  display: grid;
-  grid-template-columns: 100%;
-
-  @media (min-width: $bp-xxxs) {
-    grid-gap: $spacing-lg;
-  }
-
-  @media (min-width: $bp-xs) {
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: $spacing-xl;
-  }
-
-  @media (min-width: $bp-xs) {
-    grid-gap: $spacing-xxl;
-  }
-
-  &--align-center {
-    align-items: center;
-  }
-
-  &__link {
-    display: grid;
-  }
-
-  &__image {
-    grid-column: span 1;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    margin-top: $spacing-half;
-    margin-bottom: $spacing-xxs;
-    // height: max-content;
-
-    &--thumbnail {
-      grid-column: span 1;
-    }
-  }
-
-  &__body {
-    grid-column: span 1;
-    margin-top: 0;
-    max-width: 100%;
-  }
-
-  &__description {
-    margin-bottom: $spacing-xs;
-
-    @media (min-width: $bp-xs) {
-      margin-bottom: $spacing-md;
-    }
-  }
-
-  &__project-list {
-    @include list-strip;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: $spacing-xxs;
-    row-gap: $spacing-xxs;
-
-    @media (min-width: $bp-sm) {
-    }
-
-    @media (min-width: $bp-md) {
-      gap: $spacing-xs;
-      row-gap: $spacing-md;
-    }
-  }
-
-  &__project {
+  &-nav {
     display: flex;
     flex-direction: column;
+    gap: $spacing-xxs;
+
+    @media (min-width: $bp-xxxs) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0;
+    }
   }
 
-  &__li {
+  &-nav-first {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-xxs;
 
-    // &--bubble {
-    //   display: flex;
-    //   text-decoration: none;
+    @media (min-width: $bp-xxxs) {
+      flex-direction: row-reverse;
+      gap: 0;
+    }
+  }
 
-    //   &:hover {
-    //     color:  #0947D7 !important;
-    //   }
-    // }
+  &-nav-items {
+    display: flex;
+    align-items: center;
 
-    &--invision {
+    &__next {
       display: flex;
-      text-decoration: none;
-
-      &:hover {
-        color:  #f36 !important;
-      }
+      flex-direction: column;
     }
 
-    &--ibm {
+    &__previous {
       display: flex;
-      text-decoration: none;
-
-      &:hover {
-        color:  #0064FF !important;
-      }
+      flex-direction: column;
     }
 
-    &--makelab {
+    &__row {
       display: flex;
-      text-decoration: none;
-
-      &:hover {
-        color:  #00884B !important;
-      }
+      align-items: center;
     }
-  }
 
-  &__arrow {
-    margin-top: 2px;
-    margin-left: 6px;
-  }
-
-  &__m-strip {
-    margin: 0;
-
-    & a {
+    &__link {
       text-decoration: none;
     }
   }
+  // display: grid;
+  // grid-template-columns: 100%;
+
+  // @media (min-width: $bp-xxxs) {
+  //   grid-gap: $spacing-lg;
+  // }
+
+  // @media (min-width: $bp-xs) {
+  //   grid-template-columns: repeat(2, 1fr);
+  //   grid-gap: $spacing-xl;
+  // }
+
+  // @media (min-width: $bp-xs) {
+  //   grid-gap: $spacing-xxl;
+  // }
+
+  // &--align-center {
+  //   align-items: center;
+  // }
+
+  // &__link {
+  //   display: grid;
+  // }
+
+  // &__image {
+  //   grid-column: span 1;
+  //   display: grid;
+  //   grid-template-columns: repeat(1, 1fr);
+  //   margin-top: $spacing-half;
+  //   margin-bottom: $spacing-xxs;
+
+  //   &--thumbnail {
+  //     grid-column: span 1;
+  //   }
+  // }
+
+  // &__body {
+  //   grid-column: span 1;
+  //   margin-top: 0;
+  //   max-width: 100%;
+  // }
+
+  // &__description {
+  //   margin-bottom: $spacing-xs;
+
+  //   @media (min-width: $bp-xs) {
+  //     margin-bottom: $spacing-md;
+  //   }
+  // }
+
+  // &__project-list {
+  //   @include list-strip;
+  //   display: grid;
+  //   grid-template-columns: repeat(1, 1fr);
+  //   gap: $spacing-xxs;
+  //   row-gap: $spacing-xxs;
+
+  //   @media (min-width: $bp-sm) {
+  //   }
+
+  //   @media (min-width: $bp-md) {
+  //     gap: $spacing-xs;
+  //     row-gap: $spacing-md;
+  //   }
+  // }
+
+  // &__project {
+  //   display: flex;
+  //   flex-direction: column;
+  // }
+
+  // &__li {
+
+  //   &--invision {
+  //     display: flex;
+  //     text-decoration: none;
+
+  //     &:hover {
+  //       color:  #f36 !important;
+  //     }
+  //   }
+
+  //   &--ibm {
+  //     display: flex;
+  //     text-decoration: none;
+
+  //     &:hover {
+  //       color:  #0064FF !important;
+  //     }
+  //   }
+
+  //   &--makelab {
+  //     display: flex;
+  //     text-decoration: none;
+
+  //     &:hover {
+  //       color:  #00884B !important;
+  //     }
+  //   }
+  // }
+
+  // &__arrow {
+  //   margin-top: 2px;
+  //   margin-left: 6px;
+  // }
+
+  // &__m-strip {
+  //   margin: 0;
+
+  //   & a {
+  //     text-decoration: none;
+  //   }
+  // }
 }

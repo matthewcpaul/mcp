@@ -57,3 +57,14 @@ Decide which views you want to be the root views in the bottom Tab Bar, customiz
 With the current infrastructure of the Bubble platform, when you deploy a new version of your mobile app, both the web app and native mobile app are deployed at the same time. For native mobile, you can choose between an OTA (over the air) update or a new version—in which you can choose major, minor, or patch, and Bubble handles the semantic versioning for you.
 
 </div>
+
+<hr>
+
+<div class="c-work-nav-first">
+  {% assign work = site.work | sort:"order" %}
+  {% for work in work %}
+  {% if work.order == 2 %}
+  {% include next.html %}
+  {% endif %}
+  {% endfor %}
+</div>

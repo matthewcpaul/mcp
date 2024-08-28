@@ -226,10 +226,15 @@ After a few more smaller iterations, we landed on a solution for filtering the t
   <video src="../../images/opentable/OpenTableFullPrototype.mp4" loop autoplay muted playsinline></video>
 </div>
 
-<!-- <hr>
+<hr>
 
-<div class="c-wrap__project" markdown=1>
-
-## What impact did we have?
-
-</div> -->
+<div class="c-work-nav">
+  {% assign work = site.work | sort:"order" %}
+  {% for work in work %}
+  {% if work.order == 5 %}
+  {% include next.html %}
+  {% elsif work.order == 3 %}
+  {% include previous.html %}
+  {% endif %}
+  {% endfor %}
+</div>

@@ -1,6 +1,6 @@
 ---
 layout: case-study
-order: 4
+# order: 4
 logo: /images/work/InVisionInspectMotion.png
 title: invision
 org: InVision
@@ -158,6 +158,6 @@ type: project
 {% assign work = site.work | sort:"order" %}
 {% for work in work %}
 {% if work.order == 4 %}
-{% include next-project.html %}
+{% include next.html %}
 {% endif %}
 {% endfor %}

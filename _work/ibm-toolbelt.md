@@ -1,6 +1,6 @@
 ---
 layout: case-study
-order: 4
+order: 6
 logo: /images/work/IBMToolbelt.png
 title: ibm-toolbelt
 org: IBM Toolbet
@@ -278,6 +278,6 @@ type: project
 {% assign work = site.work | sort:"order" %}
 {% for work in work %}
 {% if work.order == 6 %}
-{% include next-project.html %}
+{% include next.html %}
 {% endif %}
 {% endfor %}

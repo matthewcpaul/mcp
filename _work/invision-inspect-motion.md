@@ -67,3 +67,16 @@ Developers live and breathe keyboard shortcuts and are always looking for ways t
 
 </div>
 
+<hr>
+
+<div class="c-work-nav">
+  {% assign work = site.work | sort:"order" %}
+  {% for work in work %}
+  {% if work.order == 0 %}
+  {% include next.html %}
+  {% elsif work.order == 4 %}
+  {% include previous.html %}
+  {% endif %}
+  {% endfor %}
+</div>
+
