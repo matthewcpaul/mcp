@@ -59,4 +59,4 @@ gulp.task('default', gulp.series('build', 'fonts', 'sass', 'serve'));
 
 // Run production-build, and deploy-gh-pages
 // Depracated
-gulp.task('deploy', gulp.series('build', 'fonts', 'sass'));
+// gulp.task('deploy', gulp.series('build', 'fonts', 'sass', 'deploy-gh-pages'));
