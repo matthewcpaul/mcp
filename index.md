@@ -2,8 +2,9 @@
 layout: work
 title: Work
 order: 1
-heading: Software Designer & Engineer
-description: I’m a Software Designer & Design Engineer with 11 years of experience specializing in designer, developer, and creative tooling. I believe that the best products are built where design and engineering blend together, and when work feels like play.
+heading: Software Product Designer & Engineer
+description1: I’m a software product designer & design engineer with 11 years of experience, specializing in designer, developer, and creative tooling.
+description2: I believe that the best products are built where design and engineering blend together, and when work feels like play.
 ---
 
 <section class="c-grid__section">
@@ -23,3 +24,91 @@ description: I’m a Software Designer & Design Engineer with 11 years of experi
     {% endfor %}
   </div>
 </section>
+
+<hr>
+
+<div class="c-grid__half-section">
+  <section>
+    <h2>Experience</h2>
+    <div>
+      <div>
+      </div>
+      <div>
+        <div>
+          <div><p class="c-grid__work--title">Bubble</p></div>
+          <div><p class="c-grid__work--description">2023–2024</p></div>
+        </div>
+        <div><p class="c-grid__work--description">Lead Product Designer</p></div>
+      </div>
+      <div>
+        <div>
+          <div><p class="c-grid__work--title">Bubble</p></div>
+          <div><p class="c-grid__work--description">2023</p></div>
+        </div>
+        <div><p class="c-grid__work--description">Senior Product Designer</p></div>
+      </div>
+    </div>
+    <div>
+      <div>
+      </div>
+      <div>
+        <div>
+          <div><p class="c-grid__work--title">The.com</p></div>
+          <div><p class="c-grid__work--description">2022–2023</p></div>
+        </div>
+        <div><p class="c-grid__work--description">Founding Designer</p></div>
+      </div>
+    </div>
+    <div>
+      <div>
+      </div>
+      <div>
+        <div>
+          <div><p class="c-grid__work--title">QA Wolf</p></div>
+          <div><p class="c-grid__work--description">2020–2021</p></div>
+        </div>
+        <div><p class="c-grid__work--description">Founding Designer</p></div>
+      </div>
+    </div>
+    <div>
+      <div>
+      </div>
+      <div>
+        <div>
+          <div><p class="c-grid__work--title">InVision</p></div>
+          <div><p class="c-grid__work--description">2018–2020</p></div>
+        </div>
+        <div><p class="c-grid__work--description">Senior Product Designer</p></div>
+      </div>
+    </div>
+    <div>
+      <div>
+      </div>
+      <div>
+        <div>
+          <div><p class="c-grid__work--title">Apple</p></div>
+          <div><p class="c-grid__work--description">2016</p></div>
+        </div>
+        <div><p class="c-grid__work--description">Prototyper</p></div>
+      </div>
+    </div>
+    <div>
+      <div>
+      </div>
+      <div>
+        <div>
+          <div><p class="c-grid__work--title">IBM</p></div>
+          <div><p class="c-grid__work--description">2016–2018</p></div>
+        </div>
+        <div><p class="c-grid__work--description">Product Designer II</p></div>
+      </div>
+      <div>
+        <div>
+          <div><p class="c-grid__work--title">IBM</p></div>
+          <div><p class="c-grid__work--description">2014–2016</p></div>
+        </div>
+        <div><p class="c-grid__work--description">Product Designer</p></div>
+      </div>
+    </div>
+  </section>
+</div>
