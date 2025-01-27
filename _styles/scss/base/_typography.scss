@@ -273,15 +273,14 @@ picture img {
 
 .u-highlight {
   @include font-3-regular;
-  color: #E6E6E6;
   background-color: rgba(35, 223, 152, 0.075);
   border: 1px solid rgba(15, 169, 10, 0.3);
   border-radius: 0.5rem;
   padding: 0.25rem 0.5rem 0.5rem 0.5rem;
   box-decoration-break: clone;
-  line-height: 3rem;
+  line-height: 2.75rem;
 
   @media (min-width: $bp-sm) {
-    line-height: 3.5rem;
+    line-height: 3.25rem;
   }
 }
