@@ -67,12 +67,20 @@
       }
     }
 
+    & + .c-wrap__project--preview {
+      margin-top: $spacing-xs;
+
+      @media (min-width: $bp-sm) {
+        margin-top: $spacing-sm;
+      }
+    }
+
     &--preview {
       & + .c-media {
         margin-top: $spacing-lg;
   
         @media (min-width: $bp-sm) {
-          margin-top: $spacing-xxl;
+          margin-top: $spacing-sm;
         }
       }
     }

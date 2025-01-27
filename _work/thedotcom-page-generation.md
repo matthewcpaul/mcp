@@ -16,13 +16,8 @@ description-2: I also designed and helped engineer a design system from scratch�
 
 <div class="c-wrap__project" markdown=1>
 
-## Product Preview
-A complete overhaul and redesign of The.com’s editor and the new split-view Page Generation experience.
+## Product Highlights
 
-</div>
-
-<div class="c-media c-media--border">
-  <video src="../../images/thedotcom/TheDotComPageMenu.mp4" loop autoplay muted playsinline></video>
 </div>
 
 <div class="c-wrap__project c-wrap__project--preview" markdown=1>
@@ -33,7 +28,7 @@ Use the pages menu to add, select, edit, or close any page of your website. This
 </div>
 
 <div class="c-media c-media--border">
-  <video src="../../images/thedotcom/TheDotComViewSwitcher.mp4" loop autoplay muted playsinline></video>
+  <video src="../../images/thedotcom/TheDotComPageMenu.mp4" loop autoplay muted playsinline></video>
 </div>
 
 <div class="c-wrap__project c-wrap__project--preview" markdown=1>
@@ -44,7 +39,7 @@ Work side-by-side, collapse the sheet to see a full view of the selected page, o
 </div>
 
 <div class="c-media c-media--border">
-  <video src="../../images/thedotcom/TheDotComDragHandle.mp4" loop autoplay muted playsinline></video>
+  <video src="../../images/thedotcom/TheDotComViewSwitcher.mp4" loop autoplay muted playsinline></video>
 </div>
 
 <div class="c-wrap__project c-wrap__project--preview" markdown=1>
@@ -52,6 +47,10 @@ Work side-by-side, collapse the sheet to see a full view of the selected page, o
 ### Drag the handle to even further personalize your view
 Whether you’re in the side-by-side or top-and-bottom view configuration, use the drag handle to optimize the view for exactly how you want it to work and preview the responsive page you’re working on.
 
+</div>
+
+<div class="c-media c-media--border">
+  <video src="../../images/thedotcom/TheDotComDragHandle.mp4" loop autoplay muted playsinline></video>
 </div>
 
 <hr>
@@ -195,7 +194,7 @@ After many rapid explorations and sharing ideas with early users in our communit
 
 </div>
 
-<div class="c-media c-media--padding c-media--border">
+<div class="c-media c-media--border">
   <video src="../../images/thedotcom/TheDotComFullPrototype.mp4" loop autoplay muted playsinline></video>
 </div>
 

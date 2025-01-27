@@ -11,8 +11,8 @@ tenure: 2023–2024
 hero-image: /images/pop/BubblePopHero.png
 hero-image-tablet: /images/pop/BubblePopHeroTablet.png
 hero-image-mobile: /images/pop/BubblePopHeroMobile.png
-description-1: When I joined Bubble, they had only just started a component library effort, and I led the design of a powerful new design system in Figma and in code. With “Editor Modernization” being one of the company’s top priorities, and with a design team that grew from 2 to 10 within a year, the team needed someone experienced in design systems both from the design and craft angle, and the technical architecture side.
-description-2: This new and growing design system provides a comprehensive set of design foundations and tokens, icons, standard and uniquely complex components, design guidelines, contribution models, PR review processes, and documentation that empowers Bubble’s software engineers and product designers to build polished and consistent interfaces that align with the company’s evolving brand and product direction.
+description-1: When I joined Bubble, they had only just started a component library effort, and I led the design of a powerful new design system in Figma and in code. With “Editor Modernization” being one of the company’s top priorities, and with a design team that grew from 2 to 10 within a year, the team needed someone experienced in both craft and technical implementation.
+description-2: This new and growing design system provides a comprehensive set of design tokens, icons, uniquely complex components, guidelines, contribution models, and documentation that empowers Bubble’s software engineers and product designers to build polished and consistent interfaces that align with the company’s evolving product direction.
 ---
 
 <div class="c-wrap__project" markdown=1>
@@ -131,8 +131,6 @@ Among documentation at Bubble, I continued the system education through mentorin
 
 ## A selection of components that I designed
 On top of designing the foundations of a new type scale, color ramps, icon library, and design tokens for text, color, elevation, and border radius, I refreshed the few existing components and designed 20+ new components. I also helped the engineers architect the React components and was a required reviewer for each non-trivial design system PR.
-
-These are some of my favorite and more complex components that I designed.
 
 </div>
 

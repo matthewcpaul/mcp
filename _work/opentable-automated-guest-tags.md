@@ -11,18 +11,14 @@ tenure: '2021'
 hero-image: /images/opentable/OpenTableAutomatedTagsHero.png
 hero-image-tablet: /images/opentable/OpenTableAutomatedTagsHeroTablet.png
 hero-image-mobile: /images/opentable/OpenTableAutomatedTagsHeroMobile.png
-description-1: In late 2021, I worked with OpenTable as an independent contractor to design a new tool for restaurant owners and operators that allows them to create and manage automated guest tags. These tags can be configured by any kind of business rules and criteria that are then automatically added to a restaurant guest’s profile once the criteria are met by that guest.
+description-1: I worked with OpenTable to design a new tool for restaurant owners and operators that allows them to create and manage automated guest tags. These tags can be configured by any kind of business rules and criteria that are then automatically added to a restaurant guest’s profile once the criteria are met by that guest.
 description-2: For example, “If a guest orders more than one bottle of wine, each over $60.00 USD, on four consecutive visits, add the ‘Wine Connoisseur’ tag”, which the front-of-house staff will see in the guest’s profile on their next visit; along with visit notes to instruct the waiter or sommelier to bring the loyal patron their favorite bottle of wine free of charge.
 ---
 
 <div class="c-wrap__project" markdown=1>
 
-## Product Preview
+## Product Highlights
 
-</div>
-
-<div class="c-media c-media--border">
-  <video src="../../images/opentable/OpenTableCreateTag.mp4" loop autoplay muted playsinline></video>
 </div>
 
 <div class="c-wrap__project c-wrap__project--preview" markdown=1>
@@ -33,7 +29,7 @@ Choose a pre-defined tag type, configure and customize the criteria based on wha
 </div>
 
 <div class="c-media c-media--border">
-  <video src="../../images/opentable/OpenTableFilterRestauarant.mp4" loop autoplay muted playsinline></video>
+  <video src="../../images/opentable/OpenTableCreateTag.mp4" loop autoplay muted playsinline></video>
 </div>
 
 <div class="c-wrap__project c-wrap__project--preview" markdown=1>
@@ -44,7 +40,7 @@ Filter to any individual restaurant or restaurant group in the Client Admin sect
 </div>
 
 <div class="c-media c-media--border">
-  <video src="../../images/opentable/OpenTableDeleteTag.mp4" loop autoplay muted playsinline></video>
+  <video src="../../images/opentable/OpenTableFilterRestauarant.mp4" loop autoplay muted playsinline></video>
 </div>
 
 <div class="c-wrap__project c-wrap__project--preview" markdown=1>
@@ -52,6 +48,10 @@ Filter to any individual restaurant or restaurant group in the Client Admin sect
 ### Edit or delete tags in one place
 Using data, you can determine if you want to keep, edit, or delete any automated tags—and the deals or extra attention to service that comes with them.
 
+</div>
+
+<div class="c-media c-media--border">
+  <video src="../../images/opentable/OpenTableDeleteTag.mp4" loop autoplay muted playsinline></video>
 </div>
 
 <hr>
