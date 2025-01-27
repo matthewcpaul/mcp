@@ -57,6 +57,5 @@ gulp.task('default', gulp.series('build', 'fonts', 'sass', 'serve'));
 //   return deploy.publish('_site')
 // });
 
-// Run production-build, and deploy-gh-pages
-// Depracated
-// gulp.task('deploy', gulp.series('build', 'fonts', 'sass', 'deploy-gh-pages'));
+// Run production-build
+gulp.task('deploy', gulp.series('build', 'fonts', 'sass'));
