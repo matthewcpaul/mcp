@@ -16,10 +16,6 @@ description-2: This tool enabled new and existing Bubble customers from differin
 
 <div class="c-wrap__project" markdown=1>
 
-<div class="c-message">
-  <p>Full case study coming soon. Below are some highlights from the Private Beta release of Bubble Native Mobile Apps.</p>
-</div>
-
 ## Product Preview
 Build fully native mobile apps with native iOS and Android navigation patterns & components, preview on the web or your device via the Bubble Go app, and deploy to the Apple App Store & Google Play Store.
 
