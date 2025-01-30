@@ -1,15 +1,15 @@
 .c-main {
   margin-top: $spacing-md;
 
-  @media (min-width: $bp-sm) {
+  @media (min-width: $bp-xs) {
     margin-top: $spacing-xl;
   }
 
   &__case-study {
     margin-top: 0;
 
-    @media (min-width: $bp-sm) {
-      margin-top: 0;
+    @media (min-width: $bp-xs) {
+      margin-top: $spacing-xxs;
     }
   }
 }

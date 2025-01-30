@@ -2,9 +2,8 @@
 layout: work
 title: Work
 order: 1
-heading: Software Product Designer & Engineer
-description1: I’m a software product designer & design engineer with 11 years of experience, specializing in designer, developer, and creative tooling.
-description2: I believe that the best products are built where design and engineering blend together, and when work feels like play.
+heading: Product Designer & Engineer
+description: I’m a software product designer & design engineer with 11 years of experience specializing in designer, developer, and creative tooling.
 ---
 
 <section class="c-grid__section">

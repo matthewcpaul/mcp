@@ -30,7 +30,7 @@
       margin-top: $spacing-xs;
     }
 
-    @media (min-width: $bp-sm) {
+    @media (min-width: $bp-xs) {
       margin-top: $spacing-sm;
     }
   }
@@ -46,7 +46,7 @@
       padding: $spacing-xxs;
     }
 
-    @media (min-width: $bp-sm) {
+    @media (min-width: $bp-xs) {
       padding: $spacing-sm;
     }
 
@@ -61,7 +61,7 @@
         padding: $spacing-lg 14rem;
       }
   
-      @media (min-width: $bp-sm) {
+      @media (min-width: $bp-xs) {
         padding: $spacing-xl 18rem;
       }
   
@@ -74,7 +74,7 @@
   & + h3 {
     margin-top: $spacing-xxs;
 
-    @media (min-width: $bp-sm) {
+    @media (min-width: $bp-xs) {
       margin-top: $spacing-xs;
     }
   }
@@ -82,7 +82,7 @@
   & + .c-wrap__project {
     margin-top: $spacing-lg;
 
-    @media (min-width: $bp-sm) {
+    @media (min-width: $bp-xs) {
       margin-top: $spacing-xxl;
     }
   }
@@ -91,7 +91,7 @@
 h2 + .c-media {
   margin-top: $spacing-xs;
 
-  @media (min-width: $bp-sm) {
+  @media (min-width: $bp-xs) {
     margin-top: $spacing-sm;
   }
 }
@@ -99,7 +99,7 @@ h2 + .c-media {
 h3 + figure {
   margin-top: $spacing-xxs;
 
-  @media (min-width: $bp-sm) {
+  @media (min-width: $bp-xs) {
     margin-top: $spacing-xs;
   }
 }
@@ -107,7 +107,7 @@ h3 + figure {
 p + .c-media {
   margin-top: $spacing-lg;
 
-  @media (min-width: $bp-sm) {
+  @media (min-width: $bp-xs) {
     margin-top: $spacing-xxl;
   }
 }

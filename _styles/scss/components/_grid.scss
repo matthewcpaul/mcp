@@ -7,7 +7,7 @@
       margin: $spacing-sm 0 $spacing-lg 0;
     }
 
-    @media (min-width: $bp-sm) {
+    @media (min-width: $bp-xs) {
       margin: $spacing-xl 0 $spacing-xxl 0;
     }
   }
@@ -23,7 +23,7 @@
       grid-template-columns: repeat(2, 1fr);
     }
 
-    @media (min-width: $bp-sm) {
+    @media (min-width: $bp-xs) {
       column-gap: $spacing-sm;
       row-gap: $spacing-md;
       margin-top: $spacing-sm;
@@ -57,7 +57,7 @@
       color: $text;
       margin-top: $spacing-half;
 
-      @media (min-width: $bp-sm) {
+      @media (min-width: $bp-xs) {
         margin-top: $spacing-tiny;
       }
     }
@@ -66,7 +66,7 @@
       margin-top: -0.25rem;
       color: $textLight;
 
-      @media (min-width: $bp-sm) {
+      @media (min-width: $bp-xs) {
         margin-top: 0;
       }
     }
@@ -83,7 +83,7 @@
       grid-gap: $spacing-xl;
     }
 
-    @media (min-width: $bp-sm) {
+    @media (min-width: $bp-xs) {
       grid-gap: $spacing-xxl;
       margin-top: $spacing-xxs;
     }
@@ -115,7 +115,7 @@
       margin-top: $spacing-sm;
     }
 
-    @media (min-width: $bp-sm) {
+    @media (min-width: $bp-xs) {
       grid-gap: $spacing-xl;
       margin-top: $spacing-xl;
     }
@@ -142,7 +142,7 @@
       grid-gap: $spacing-xl;
     }
 
-    @media (min-width: $bp-sm) {
+    @media (min-width: $bp-xs) {
       margin: $spacing-xl 0;
     }
 

@@ -15,7 +15,7 @@
     width: 1.5rem;
     height: 1.5rem;
 
-    @media (min-width: $bp-sm) {
+    @media (min-width: $bp-xs) {
       transform: translateY(0.25rem);
       margin-left: $spacing-half;
       width: 2rem;
