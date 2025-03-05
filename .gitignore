@@ -12,10 +12,3 @@ _site
 Gemfile.lock
 node_modules
 .bundle
-
-# Old Pages
-_work/apple.md
-_work/invision.md
-_work/makelab.md
-_work/new.md
-
