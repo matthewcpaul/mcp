@@ -218,7 +218,7 @@ description: I’ve worked across teams to bring big ideas from 0–1, designed 
   <section>
     <h2 class="c-about__list-header">Connect</h2>
     <ul class="c-about__list ul--circle">
-      <li>mclydep@gmail.com</li>
+      <li style="text-decoration: none">mclydep@gmail.com</li>
       <li><a href="https://x.com/matthewcpaul" target="_blank">Twitter</a></li>
       <li><a href="https://read.cv/matthewctraul" target="_blank">Read.cv</a></li>
       <li><a href="https://www.linkedin.com/in/matthew-c-paul/" target="_blank">LinkedIn</a></li>
