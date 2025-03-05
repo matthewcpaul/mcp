@@ -1,11 +1,7 @@
 .c-wrap {
   width: 100%;
-  max-width: 60rem;
+  max-width: 70rem;
   margin: 0 auto;
-
-  @media (min-width: $bp-xs) {
-    max-width: 60rem;
-  }
 
   &__pad {
     padding-left: $spacing-xxs;
