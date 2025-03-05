@@ -70,6 +70,70 @@
         margin-top: 0;
       }
     }
+
+    &--experience {
+      display: flex;
+      align-items: top;
+      gap: $spacing-tiny;
+      margin-top: $spacing-xs;
+
+      @media (min-width: $bp-xs) {
+        gap: $spacing-xxs;
+        margin-top: $spacing-sm;
+      }
+    }
+
+    &--logo {
+      height: 3.625rem;
+      width: 3.625rem;
+      border-radius: 0.75rem;
+      overflow: hidden;
+
+      @media (min-width: $bp-xs) {
+        height: 4.25rem;
+        width: 4.25rem;
+      }
+    }
+
+    &--roles {
+      display: flex;
+      flex-direction: column;
+      gap: $spacing-tiny;
+
+      @media (min-width: $bp-xs) {
+      }
+    }
+
+    &--company {
+      display: flex;
+      align-items: center;
+      gap: $spacing-half;
+
+      @media (min-width: $bp-xs) {
+        gap: $spacing-tiny;
+      }
+    }
+
+    &--name {
+      color: $text;
+
+      @media (min-width: $bp-xs) {
+      }
+    }
+
+    &--tag {
+      @include font-5;
+      line-height: 1rem;
+      color: $textLight;
+      background-color: $mediaBackground;
+      padding: 0.25rem $spacing-half;
+      border-radius: 0.25rem;
+
+      @media (min-width: $bp-xs) {
+        line-height: 1rem;
+        padding: 0.375rem $spacing-half;
+      }
+    }
   }
 
   &__intro {

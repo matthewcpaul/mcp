@@ -45,6 +45,15 @@
     color: $darktext;
   }
 
+  .c-grid__work--name {
+    color: $darktext;
+  }
+
+  .c-grid__work--tag {
+    color: $darktextLight;
+    background-color: $darkborderColor;
+  }
+
   .c-about__list-number {
     color: $darktextLight;
   }
@@ -93,10 +102,6 @@
 
   .c-media {
     background: $darkmediaBackground;
-
-    &--border {
-      border: none;
-    }
   }
 
   .c-embed {
