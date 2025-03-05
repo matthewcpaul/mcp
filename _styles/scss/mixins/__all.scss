@@ -10,14 +10,13 @@
 @mixin font-1 {
   font-family: 'Geist SemiBold', sans-serif;
   font-weight: 600;
-  font-size: 2.25rem;
-  line-height: 3rem;
-  letter-spacing: -1px;
+  font-size: 1.75rem;
+  line-height: 2.375rem;
+  letter-spacing: -0.5px;
 
   @media (min-width: $bp-xs) {
     font-size: 3.625rem;
     line-height: 4.5rem;
-    letter-spacing: -2px;
   }
 }
 
@@ -26,7 +25,7 @@
   font-weight: 600;
   font-size: 1.75rem;
   line-height: 2.5rem;
-  letter-spacing: -1px;
+  letter-spacing: -0.5px;
 
   @media (min-width: $bp-xs) {
     font-size: 2.25rem;

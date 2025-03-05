@@ -74,10 +74,11 @@ figure + h1 {
 }
 
 h1 + p {
-  @include font-3-regular;
+  @include font-4;
   margin-top: $spacing-xxs;
 
   @media (min-width: $bp-xs) {
+    @include font-3-regular;
     margin-top: $spacing-sm;
   }
 }

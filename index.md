@@ -2,7 +2,7 @@
 layout: work
 title: Work
 order: 1
-heading: Software Product Designer and Design Engineer with 11 years of experience, specializing in designer, developer, and creative tooling.
+heading: Software Product Designer and Design Engineer with 11 years of experience, specializing in designer, developer, and creative workflow tools.
 description: I’ve worked across teams to bring big ideas from 0–1, designed and shipped enterprise products at scale, built and maintained design systems, and developed a deep focus on craft, iteration, and creating experiences people love to use at work.
 ---
 
