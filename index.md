@@ -176,7 +176,7 @@ description: I’ve worked across teams to bring big ideas from 0–1, designed 
 <div class="c-grid__half-section">
   <section>
     <h2 class="c-about__list-header">What I Do</h2>
-    <ol>
+    <ol class="c-about__list">
       <li>Product Design</li>
       <li>Design Engineering</li>
       <li>Design Systems</li>
@@ -189,7 +189,7 @@ description: I’ve worked across teams to bring big ideas from 0–1, designed 
   </section>
   <section>
     <h2 class="c-about__list-header">Tech Stack</h2>
-    <ul>
+    <ul class="c-about__list">
       <li>Figma</li>
       <li>HTML</li>
       <li>CSS (Tailwind, CSS-in-JS, SCSS)</li>
@@ -203,7 +203,7 @@ description: I’ve worked across teams to bring big ideas from 0–1, designed 
   </section>
   <section>
     <h2 class="c-about__list-header">Things I Love</h2>
-    <ul class="ul--square">
+    <ul class="c-about__list ul--square">
       <li><a href="https://www.cosmos.so/matthewctraul/cabins" target="blank">Cabins</a></li>
       <li><a href="https://www.cosmos.so/matthewctraul/hiking-%26-camping" target="blank">Hiking & camping</a></li>
       <li><a href="https://www.cosmos.so/matthewctraul/printmaking" target="blank">Printmaking</a></li>
@@ -217,7 +217,7 @@ description: I’ve worked across teams to bring big ideas from 0–1, designed 
   </section>
   <section>
     <h2 class="c-about__list-header">Connect</h2>
-    <ul class="ul--circle">
+    <ul class="c-about__list ul--circle">
       <li>mclydep@gmail.com</li>
       <li><a href="https://x.com/matthewcpaul" target="_blank">Twitter</a></li>
       <li><a href="https://read.cv/matthewctraul" target="_blank">Read.cv</a></li>

@@ -11,6 +11,11 @@
   }
 
   &__list {
+    margin-top: $spacing-xxs;
+
+    @media (min-width: $bp-xs) {
+      margin-top: $spacing-xs;
+    }
 
     &-header {
       margin-top: 0;
