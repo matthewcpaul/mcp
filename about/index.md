@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-order: 2
+order: 0
 heading: Specializing in Systems &amp; Tools
 ---
 

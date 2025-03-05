@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Talks
-order: 3
+order: 0
 heading: Talks & Interviews
 ---
 

@@ -25,6 +25,7 @@
 	}
 
 	&__item {
+		color: $textLight;
 
 		&:not(:last-child) {
 			margin-right: $spacing-xxs;

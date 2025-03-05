@@ -1,8 +1,8 @@
 ---
 layout: work
 title: Work
-order: 1
-heading: Software Product Designer and Design Engineer with 11 years of experience, specializing in designer, developer, and creative workflow tools.
+order: 0
+heading: Software Designer and Design Engineer with 11 years of experience, specializing in designer, developer, and creative workflow tools.
 description: I’ve worked across teams to bring big ideas from 0–1, designed and shipped enterprise products at scale, built and maintained design systems, and developed a deep focus on craft, iteration, and creating experiences people love to use at work.
 ---
 
@@ -168,5 +168,64 @@ description: I’ve worked across teams to bring big ideas from 0–1, designed 
         </div>
       </div>
     </div>
+  </section>
+</div>
+
+<hr>
+
+<div class="c-grid__half-section">
+  <section>
+    <h2 class="c-about__list-header">What I Do</h2>
+    <ol>
+      <li>Product Design</li>
+      <li>Design Engineering</li>
+      <li>Design Systems</li>
+      <li>UX Research</li>
+      <li>Product Strategy</li>
+      <li>Planning & Prioritization</li>
+      <li>UX Writing</li>
+      <li>Lead & mentor other designers</li>
+    </ol>
+  </section>
+  <section>
+    <h2 class="c-about__list-header">Tech Stack</h2>
+    <ul>
+      <li>Figma</li>
+      <li>HTML</li>
+      <li>CSS (Tailwind, CSS-in-JS, SCSS)</li>
+      <li>Javascript / Typescript</li>
+      <li>React</li>
+      <li>Next.js</li>
+      <li>Storybook</li>
+      <li>Sanity Studio</li>
+      <li>Vercel</li>
+    </ul>
+  </section>
+  <section>
+    <h2 class="c-about__list-header">Things I Love</h2>
+    <ul class="ul--square">
+      <li><a href="https://www.cosmos.so/matthewctraul/cabins" target="blank">Cabins</a></li>
+      <li><a href="https://www.cosmos.so/matthewctraul/hiking-%26-camping" target="blank">Hiking & camping</a></li>
+      <li><a href="https://www.cosmos.so/matthewctraul/printmaking" target="blank">Printmaking</a></li>
+      <li><a href="https://www.cosmos.so/matthewctraul/dragon-ball" target="_blank">Dragon Ball/Z/Super</a></li>
+      <li><a href="https://www.cosmos.so/matthewctraul/furniture-design" target="blank">Furniture & interior design</a></li>
+      <li><a href="https://www.cosmos.so/matthewctraul/cats" target="blank">Cats</a></li>
+      <li><a href="https://www.cosmos.so/matthewctraul/skateboarding" target="_blank">Skateboarding</a></li>
+      <li><a href="https://everydayoil.com/products/everyday-oil-mainstay-blend?variant=7540908227" target="_blank">Everyday oil</a></li>
+      <li><a href="https://www.cosmos.so/matthewctraul/80-series-land-cruisers" target="_blank">80 Series Land Cruisers</a></li>
+    </ul>
+  </section>
+  <section>
+    <h2 class="c-about__list-header">Connect</h2>
+    <ul class="ul--circle">
+      <li>mclydep@gmail.com</li>
+      <li><a href="https://x.com/matthewcpaul" target="_blank">Twitter</a></li>
+      <li><a href="https://read.cv/matthewctraul" target="_blank">Read.cv</a></li>
+      <li><a href="https://www.linkedin.com/in/matthew-c-paul/" target="_blank">LinkedIn</a></li>
+      <li><a href="https://github.com/matthewcpaul" target="_blank">GitHub</a></li>
+      <li><a href="https://substack.com/@matthewcpaul" target="_blank">Substack</a></li>
+      <li><a href="https://codepen.io/matthewcpaul/pens/popular" target="_blank">CodePen</a></li>
+      <li><a href="https://dribbble.com/matthewcpaul" target="_blank">Dribbble</a></li>
+    </ul>
   </section>
 </div>
