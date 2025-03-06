@@ -1,9 +1,9 @@
 ---
 layout: work
 title: Work
-order: 0
-heading: Software Designer and Design Engineer with 11 years of experience, specializing in designer, developer, and creative workflow tools.
-description: I’ve worked across teams to bring big ideas from 0–1, designed and shipped enterprise products at scale, built and maintained design systems, and developed a deep focus on craft, iteration, and creating experiences people love to use at work.
+order: 1
+heading: Software Designer and Design Engineer specializing in designer, developer, and collaborative workflow tools.
+description: I have 10+ years of experience collaborating across teams to take new ideas from 0 to 1, designing and shipping enterprise products at scale, and building and maintaining design systems. I believe the best teams and products emerge at the intersection of design and engineering.
 ---
 
 <section class="c-grid__section">

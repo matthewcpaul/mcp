@@ -1,12 +1,10 @@
 .c-header {
 	display: flex;
-	flex-direction: column;
+	justify-content: space-between;
+		align-items: center;
 	padding: $spacing-xxs 0;
 
 	@media (min-width: $bp-xxxs) {
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: center;
 		padding: $spacing-xs 0;
 	}
 

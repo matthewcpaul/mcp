@@ -16,11 +16,19 @@ description-2: This tool enables new and existing Bubble customers from differin
 
 <div class="c-wrap__project" markdown=1>
 
-## Product Highlights
+## Key Outcomes
+
+## Problem
+
+## Solution
 <!-- 1. Build fully native mobile apps with iOS and Android navigation patterns and components
 2. Preview on the web or your mobile device via the Bubble Go app
 3. Publish to the Apple App Store & Google Play Store. -->
 
+</div>
+
+<div class="c-media c-media--border">
+  <video src="../../images/bubble/BubbleNativeAppsAppBar.mp4" loop autoplay muted playsinline></video>
 </div>
 
 <div class="c-wrap__project c-wrap__project--preview" markdown=1>
@@ -31,7 +39,7 @@ Use the editor to design and build your apps with the most common mobile native 
 </div>
 
 <div class="c-media c-media--border">
-  <video src="../../images/bubble/BubbleNativeAppsAppBar.mp4" loop autoplay muted playsinline></video>
+  <video src="../../images/bubble/BubbleNativeAppsTabBar.mp4" loop autoplay muted playsinline></video>
 </div>
 
 <div class="c-wrap__project c-wrap__project--preview" markdown=1>
@@ -42,7 +50,7 @@ Decide which views you want to be the root views in the bottom Tab Bar, customiz
 </div>
 
 <div class="c-media c-media--border">
-  <video src="../../images/bubble/BubbleNativeAppsTabBar.mp4" loop autoplay muted playsinline></video>
+  <video src="../../images/bubble/BubbleNativeAppsDeploy.mp4" loop autoplay muted playsinline></video>
 </div>
 
 <div class="c-wrap__project c-wrap__project--preview" markdown=1>
@@ -50,10 +58,6 @@ Decide which views you want to be the root views in the bottom Tab Bar, customiz
 ### Publish a new version, or OTA update to both app stores
 With the current infrastructure of the Bubble platform, when you deploy a new version of your mobile app, both the web app and native mobile app are deployed at the same time. For native mobile, you can choose between an OTA (over the air) update or a new version—in which you can choose major, minor, or patch, and Bubble handles the semantic versioning for you.
 
-</div>
-
-<div class="c-media c-media--border">
-  <video src="../../images/bubble/BubbleNativeAppsDeploy.mp4" loop autoplay muted playsinline></video>
 </div>
 
 <hr>

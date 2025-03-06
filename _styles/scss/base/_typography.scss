@@ -24,6 +24,14 @@ h4 {
   color: $textLight;
 }
 
+.heading-max-width {
+  max-width: 23rem;
+
+  @media (min-width: $bp-mobile) {
+    max-width: none;
+  }
+}
+
 p,
 ol,
 ul,
@@ -66,10 +74,10 @@ ol {
 }
 
 figure + h1 {
-  margin-top: $spacing-xxs;
+  margin-top: $spacing-xs;
 
   @media (min-width: $bp-xs) {
-    margin-top: $spacing-sm;
+    margin-top: $spacing-md;
   }
 }
 
@@ -79,7 +87,7 @@ h1 + p {
 
   @media (min-width: $bp-xs) {
     @include font-3-regular;
-    margin-top: $spacing-sm;
+    margin-top: $spacing-xs;
   }
 }
 
