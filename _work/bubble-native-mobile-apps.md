@@ -8,8 +8,8 @@ org: Bubble Native Mobile Apps Editor
 role: Lead Product Designer
 tenure: 2023–2024
 hero-image: /images/bubble/BubbleNativeMobileAppsEditorHero.png
-hero-image-tablet: /images/bubble/BubbleNativeMobileAppsEditorHeroTablet.png
-hero-image-mobile: /images/bubble/BubbleNativeMobileAppsEditorHeroMobile.png
+hero-image-tablet: /images/bubble/BubbleNativeMobileAppsEditorHero.png
+hero-image-mobile: /images/bubble/BubbleNativeMobileAppsEditorHero.png
 description-1: I led design for this 0–1 product offering within the existing no-code Bubble platform. I researched native iOS, Android, and React Native app development, designed the largest product expansion & UI redesign in Bubble’s history, and collaborated with engineering to build and launch the private Beta release.
 description-2: This tool enables new and existing Bubble customers from differing user profiles to build fully functioning native mobile apps. We gave users the tools to build with real native mobile patterns, and a worflow to publish their apps to the Apple App Store & Google Play Store; all without writing a single line of code.
 ---
@@ -55,7 +55,7 @@ Decide which views you want to be the root views in the bottom Tab Bar, customiz
 
 <div class="c-wrap__project c-wrap__project--preview" markdown=1>
 
-### Publish a new version, or OTA update to both app stores
+### Publish a new version or OTA update to both app stores
 With the current infrastructure of the Bubble platform, when you deploy a new version of your mobile app, both the web app and native mobile app are deployed at the same time. For native mobile, you can choose between an OTA (over the air) update or a new version—in which you can choose major, minor, or patch, and Bubble handles the semantic versioning for you.
 
 </div>
