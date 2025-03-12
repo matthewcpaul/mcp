@@ -7,7 +7,7 @@ description: I have 10+ years of experience collaborating across teams to take n
 ---
 
 <section class="c-grid__section">
-  <h2>Featured Work</h2>
+  <h2>Selected Work</h2>
   <div class="c-grid__work">
     {% assign work = site.work | sort:"order" %}
     {% for work in work %}
