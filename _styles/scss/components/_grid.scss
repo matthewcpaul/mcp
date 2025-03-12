@@ -14,7 +14,7 @@
 
   &__work {
     display: grid;
-    grid-template-columns: repeat(1fr);
+    grid-template-columns: 1fr;
     column-gap: $spacing-xxs;
     row-gap: $spacing-xs;
     margin-top: $spacing-xxs;
@@ -63,17 +63,13 @@
     }
 
     &--description {
-      margin-top: -0.25rem;
+      margin-top: 0;
       color: $textLight;
-
-      @media (min-width: $bp-xs) {
-        margin-top: 0;
-      }
     }
 
     &--experience {
       display: flex;
-      align-items: top;
+      align-items: flex-start;
       gap: $spacing-tiny;
       margin-top: $spacing-xxs;
 
@@ -84,23 +80,24 @@
     }
 
     &--logo {
-      height: 3.625rem;
-      width: 3.625rem;
+      height: 3.25rem;
+      width: 3.25rem;
       border-radius: 0.75rem;
       overflow: hidden;
 
       @media (min-width: $bp-xs) {
-        height: 4.25rem;
-        width: 4.25rem;
+        height: 4rem;
+        width: 4rem;
       }
     }
 
     &--roles {
       display: flex;
       flex-direction: column;
-      gap: $spacing-xs;
+      gap: $spacing-xxs;
 
-      @media (min-width: $bp-sm) {
+      @media (min-width: $bp-xs) {
+        gap: $spacing-sm;
       }
     }
 

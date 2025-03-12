@@ -10,9 +10,15 @@
 @mixin font-1 {
   font-family: 'Geist SemiBold', sans-serif;
   font-weight: 600;
-  font-size: 2.25rem;
-  line-height: 2.625rem;
-  letter-spacing: -1.25px;
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  letter-spacing: -1px;
+
+  @media (min-width: $bp-mobile) {
+    font-size: 2.25rem;
+    line-height: 2.625rem;
+    letter-spacing: -1.25px;
+  }
 
   @media (min-width: $bp-xs) {
     font-size: 3.5rem;
@@ -24,9 +30,15 @@
 @mixin font-2 {
   font-family: 'Geist SemiBold', sans-serif;
   font-weight: 600;
-  font-size: 1.75rem;
-  line-height: 2.375rem;
-  letter-spacing: -1px;
+  font-size: 1.375rem;
+  line-height: 2rem;
+  letter-spacing: -0.5px;
+
+  @media (min-width: $bp-mobile) {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    letter-spacing: -1px;
+  }
 
   @media (min-width: $bp-xs) {
     font-size: 2.5rem;
@@ -38,9 +50,15 @@
 @mixin font-3 {
   font-family: 'Geist SemiBold', sans-serif;
   font-weight: 600;
-  font-size: 1.375rem;
-  line-height: 2rem;
-  letter-spacing: -0.5px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  letter-spacing: -0.25px;
+
+  @media (min-width: $bp-mobile) {
+    font-size: 1.375rem;
+    line-height: 2rem;
+    letter-spacing: -0.5px;
+  }
 
   @media (min-width: $bp-xs) {
     font-size: 1.75rem;
@@ -52,8 +70,13 @@
 @mixin font-3-regular {
   font-family: 'Geist', sans-serif;
   font-weight: 400;
-  font-size: 1.375rem;
-  line-height: 2.125rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+
+  @media (min-width: $bp-mobile) {
+    font-size: 1.375rem;
+    line-height: 2.125rem;
+  }
 
   @media (min-width: $bp-xs) {
     font-size: 1.75rem;
@@ -64,8 +87,13 @@
 @mixin font-4 {
   font-family: 'Geist', sans-serif;
   font-weight: 400;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+  font-size: 1rem;
+  line-height: 1.625rem;
+
+  @media (min-width: $bp-mobile) {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
 
   @media (min-width: $bp-xs) {
     font-size: 1.25rem;
@@ -76,8 +104,13 @@
   @mixin font-5 {
     font-family: 'Geist', sans-serif;
     font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.75rem;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+
+    @media (min-width: $bp-mobile) {
+      font-size: 1rem;
+      line-height: 1.75rem;
+    }
 
     @media (min-width: $bp-xs) {
       font-size: 1rem;
