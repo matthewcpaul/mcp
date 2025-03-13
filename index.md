@@ -3,7 +3,7 @@ layout: work
 title: Work
 order: 1
 heading: Software Designer and Design Engineer specializing in designer, developer, and collaborative workflow tools.
-description: I have 10+ years of experience collaborating across teams to take new ideas from 0 to 1, designing and shipping enterprise products at scale, and building and maintaining design systems. I believe the best teams and products emerge at the intersection of design and engineering.
+description: Matthew Paul has 10+ years of designing 0–1 products, shipping enterprise software at scale, and building and maintaining design systems.
 ---
 
 <section class="c-grid__section">
