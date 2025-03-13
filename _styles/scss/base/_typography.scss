@@ -83,7 +83,11 @@ figure + h1 {
 
 h1 + p {
   @include font-3-regular;
-  margin-top: $spacing-xxs;
+  margin-top: $spacing-tiny;
+
+  @media (min-width: $bp-mobile) {
+    margin-top: $spacing-xxs;
+  }
 
   @media (min-width: $bp-xs) {
     @include font-3-regular;
