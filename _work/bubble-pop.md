@@ -1,8 +1,5 @@
 ---
 layout: case-study-new
-# systems: 'yes'
-product: 'yes'
-order: 2
 logo: /images/work/BubblePop.png
 title: Bubble Pop Design System
 org: Bubble Pop Design System
@@ -25,7 +22,7 @@ The contribution model to the Pop design system was a distributed collaboration 
 <figure>
   <picture>
     <source media="(min-width: 48em)" srcset="../../images/pop/PopButtonCodeAndDesign@2x.png"/>
-    <img class="c-media c-media--padding c-media--border" src="../../images/pop/PopButtonCodeAndDesign.png" alt="Component code on the left and Figma design on the right for a Button"/>
+    <img class="c-media c-media--padding" src="../../images/pop/PopButtonCodeAndDesign.png" alt="Component code on the left and Figma design on the right for a Button"/>
   </picture>
 </figure>
 
@@ -40,7 +37,7 @@ What I discovered in the benefit of using quadratic progressions is that you sti
 
 </div>
 
-<div class="c-media c-media--border">
+<div class="c-media">
   <video src="../../images/pop/QuadtraicProgressionTypeScale.mp4" loop autoplay muted playsinline></video>
 </div>
 
@@ -53,7 +50,7 @@ What I discovered in the benefit of using quadratic progressions is that you sti
 <figure>
   <picture>
     <source media="(min-width: 48em)" srcset="../../images/pop/TypographyScaleBody@2x.png"/>
-    <img class="c-media c-media--padding c-media--border" src="../../images/pop/TypographyScaleBody.png" alt="Component code on the left and Figma design on the right for a Button"/>
+    <img class="c-media c-media--padding" src="../../images/pop/TypographyScaleBody.png" alt="Component code on the left and Figma design on the right for a Button"/>
   </picture>
 </figure>
 
@@ -66,7 +63,7 @@ What I discovered in the benefit of using quadratic progressions is that you sti
 <figure>
   <picture>
     <source media="(min-width: 48em)" srcset="../../images/pop/TypographyScaleHeadings@2x.png"/>
-    <img class="c-media c-media--padding c-media--border" src="../../images/pop/TypographyScaleHeadings.png" alt="Component code on the left and Figma design on the right for a Button"/>
+    <img class="c-media c-media--padding" src="../../images/pop/TypographyScaleHeadings.png" alt="Component code on the left and Figma design on the right for a Button"/>
   </picture>
 </figure>
 
@@ -82,7 +79,7 @@ Design tokens are created in close collaboration with engineering to ensure immu
 <figure>
   <picture>
     <source media="(min-width: 48em)" srcset="../../images/pop/DesignTokenArchitecture@2x.png"/>
-    <img class="c-media c-media--padding c-media--border" src="../../images/pop/DesignTokenArchitecture.png" alt="Design token architecture"/>
+    <img class="c-media c-media--padding" src="../../images/pop/DesignTokenArchitecture.png" alt="Design token architecture"/>
   </picture>
 </figure>
 
@@ -98,7 +95,7 @@ All of this may seem complicated under the hood, but the end result is a high-cr
 <figure>
   <picture>
     <source media="(min-width: 48em)" srcset="../../images/pop/SystemsWithinSystems@2x.png"/>
-    <img class="c-media c-media--padding c-media--border" src="../../images/pop/SystemsWithinSystems.png" alt="Component architecture"/>
+    <img class="c-media c-media--padding" src="../../images/pop/SystemsWithinSystems.png" alt="Component architecture"/>
   </picture>
 </figure>
 
@@ -112,7 +109,7 @@ For this system, we approached everything as a component, starting at the atomic
 <figure>
   <picture>
     <source media="(min-width: 48em)" srcset="../../images/pop/PopComponentArchitecture@2x.png"/>
-    <img class="c-media c-media--padding c-media--border" src="../../images/pop/PopComponentArchitecture.png" alt="Component architecture"/>
+    <img class="c-media c-media--padding" src="../../images/pop/PopComponentArchitecture.png" alt="Component architecture"/>
   </picture>
 </figure>
 
@@ -137,49 +134,49 @@ On top of designing the foundations of a new type scale, color ramps, icon libra
 <figure>
   <picture>
     <source media="(min-width: 48em)" srcset="../../images/pop/Dialog@2x.png"/>
-    <img class="c-media c-media--padding c-media--border" src="../../images/pop/Dialog.png" alt="Component architecture"/>
+    <img class="c-media c-media--padding" src="../../images/pop/Dialog.png" alt="Component architecture"/>
   </picture>
 </figure>
 
 <figure>
   <picture>
     <source media="(min-width: 48em)" srcset="../../images/pop/ToggleButton@2x.png"/>
-    <img class="c-media c-media--padding c-media--border" src="../../images/pop/ToggleButton.png" alt="Component architecture"/>
+    <img class="c-media c-media--padding" src="../../images/pop/ToggleButton.png" alt="Component architecture"/>
   </picture>
 </figure>
 
 <figure>
   <picture>
     <source media="(min-width: 48em)" srcset="../../images/pop/Input@2x.png"/>
-    <img class="c-media c-media--padding c-media--border" src="../../images/pop/Input.png" alt="Component architecture"/>
+    <img class="c-media c-media--padding" src="../../images/pop/Input.png" alt="Component architecture"/>
   </picture>
 </figure>
 
 <figure>
   <picture>
     <source media="(min-width: 48em)" srcset="../../images/pop/Select@2x.png"/>
-    <img class="c-media c-media--padding c-media--border" src="../../images/pop/Select.png" alt="Component architecture"/>
+    <img class="c-media c-media--padding" src="../../images/pop/Select.png" alt="Component architecture"/>
   </picture>
 </figure>
 
 <figure>
   <picture>
     <source media="(min-width: 48em)" srcset="../../images/pop/ListItem@2x.png"/>
-    <img class="c-media c-media--padding c-media--border" src="../../images/pop/ListItem.png" alt="Component architecture"/>
+    <img class="c-media c-media--padding" src="../../images/pop/ListItem.png" alt="Component architecture"/>
   </picture>
 </figure>
 
 <figure>
   <picture>
     <source media="(min-width: 48em)" srcset="../../images/pop/DropdownMenu@2x.png"/>
-    <img class="c-media c-media--padding c-media--border" src="../../images/pop/DropdownMenu.png" alt="Component architecture"/>
+    <img class="c-media c-media--padding" src="../../images/pop/DropdownMenu.png" alt="Component architecture"/>
   </picture>
 </figure>
 
 <figure>
   <picture>
     <source media="(min-width: 48em)" srcset="../../images/pop/Zoom@2x.png"/>
-    <img class="c-media c-media--padding c-media--border" src="../../images/pop/Zoom.png" alt="Component architecture"/>
+    <img class="c-media c-media--padding" src="../../images/pop/Zoom.png" alt="Component architecture"/>
   </picture>
 </figure>
 

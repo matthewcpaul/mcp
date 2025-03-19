@@ -82,25 +82,12 @@ figure + h1 {
 }
 
 h1 + p {
-  @include font-3-regular;
-  margin-top: $spacing-tiny;
-
-  @media (min-width: $bp-mobile) {
-    margin-top: $spacing-xxs;
-  }
+  @include font-4;
+  margin-top: $spacing-xxs;
 
   @media (min-width: $bp-xs) {
     @include font-3-regular;
     margin-top: $spacing-xs;
-  }
-}
-
-h1 + p + p {
-  @include font-3-regular;
-  margin-top: $spacing-xxs;
-
-  @media (min-width: $bp-xs) {
-    margin-top: $spacing-xxs;
   }
 }
 
@@ -230,7 +217,6 @@ p + figure {
 }
 
 a {
-  color: $text;
   text-decoration: underline;
   text-decoration-skip-ink: auto;
   text-decoration-thickness: 1px;
@@ -265,17 +251,13 @@ hr {
   height: 0;
   border: none;
   border-bottom: 1px solid $borderColor;
-  margin: $spacing-xs 0;
+  margin: $spacing-sm 0;
 
-  @media (min-width: $bp-xxs) {
-    margin: $spacing-sm 0;
+  @media (min-width: $bp-mobile) {
+    margin: $spacing-md 0;
   }
 
   @media (min-width: $bp-xs) {
     margin: $spacing-xl 0;
   }
-}
-
-picture img {
-  border-radius: 20px;
 }

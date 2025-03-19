@@ -3,7 +3,7 @@ layout: work
 title: Work
 order: 1
 heading: Software Designer and Design Engineer specializing in designer, developer, and collaborative workflow tools.
-description: Matthew Paul has 10+ years of experience designing 0–1 products, shipping enterprise software at scale, and building and maintaining design systems.
+description: Matthew Paul has 12&plus; years of experience designing 0 → 1 products, shipping enterprise software at scale, and building and maintaining design systems.
 ---
 
 <section class="c-grid__section">
@@ -14,10 +14,14 @@ description: Matthew Paul has 10+ years of experience designing 0–1 products, 
     {% if work.product %}
       <div class="c-grid__work--image">
         <a class="c-grid__work--link" href="{{ work.url | prepend: site.baseurl }}" aria-label="{{ work.org }}">
-          <img class="c-grid__work--thumbnail" src="..{{ work.logo }}" alt="">
+          <!-- <img class="c-media c-media--padding" src="..{{ work.logo }}" alt=""> -->
+          <div class="c-media">
+            <video src="..{{ work.hero }}" loop autoplay muted playsinline></video>
+          </div>
         </a>
-        <p class="c-grid__work--title">{{ work.org }}</p>
-        <p class="c-grid__work--description">{{ work.tenure }}</p>
+        <h3 class="c-grid__work--title">{{ work.org }}</h3>
+        <p class="c-grid__work--tenure">{{ work.tenure }}</p>
+        <p class="c-grid__work--description">{{ work.description-1 }}</p>
       </div>
     {% endif %}
     {% endfor %}
@@ -50,14 +54,14 @@ description: Matthew Paul has 10+ years of experience designing 0–1 products, 
             <div><p class="c-grid__work--name">Bubble</p></div>
             <div><p class="c-grid__work--tag">2024</p></div>
           </div>
-          <div><p class="c-grid__work--description">Lead Product Designer</p></div>
+          <div><p class="c-grid__work--role">Lead Product Designer</p></div>
         </div>
         <div>
           <div class="c-grid__work--company">
             <div><p class="c-grid__work--name">Bubble</p></div>
             <div><p class="c-grid__work--tag">2023–2024</p></div>
           </div>
-          <div><p class="c-grid__work--description">Senior Product Designer</p></div>
+          <div><p class="c-grid__work--role">Senior Product Designer</p></div>
         </div>
       </div>
     </div>
@@ -74,7 +78,7 @@ description: Matthew Paul has 10+ years of experience designing 0–1 products, 
             <div><p class="c-grid__work--name">The.com</p></div>
             <div><p class="c-grid__work--tag">2022–2023</p></div>
           </div>
-          <div><p class="c-grid__work--description">Staff Product Designer</p></div>
+          <div><p class="c-grid__work--role">Staff Product Designer</p></div>
         </div>
       </div>
     </div>
@@ -91,7 +95,7 @@ description: Matthew Paul has 10+ years of experience designing 0–1 products, 
             <div><p class="c-grid__work--name">QA Wolf</p></div>
             <div><p class="c-grid__work--tag">2020–2021</p></div>
           </div>
-          <div><p class="c-grid__work--description">Founding Designer</p></div>
+          <div><p class="c-grid__work--role">Founding Designer</p></div>
         </div>
       </div>
     </div>
@@ -109,7 +113,7 @@ description: Matthew Paul has 10+ years of experience designing 0–1 products, 
             <div><p class="c-grid__work--name">InVision</p></div>
             <div><p class="c-grid__work--tag">2018–2020</p></div>
           </div>
-          <div><p class="c-grid__work--description">Senior Product Designer</p></div>
+          <div><p class="c-grid__work--role">Senior Product Designer</p></div>
         </div>
       </div>
     </div>
@@ -133,7 +137,7 @@ description: Matthew Paul has 10+ years of experience designing 0–1 products, 
             <div><p class="c-grid__work--name">Apple</p></div>
             <div><p class="c-grid__work--tag">2016</p></div>
           </div>
-          <div><p class="c-grid__work--description">Prototyper</p></div>
+          <div><p class="c-grid__work--role">Prototyper</p></div>
         </div>
       </div>
     </div>
@@ -157,14 +161,14 @@ description: Matthew Paul has 10+ years of experience designing 0–1 products, 
             <div><p class="c-grid__work--name">IBM</p></div>
             <div><p class="c-grid__work--tag">2016–2018</p></div>
           </div>
-          <div><p class="c-grid__work--description">Product Designer II</p></div>
+          <div><p class="c-grid__work--role">Product Designer II</p></div>
         </div>
         <div>
           <div class="c-grid__work--company">
             <div><p class="c-grid__work--name">IBM</p></div>
             <div><p class="c-grid__work--tag">2014–2016</p></div>
           </div>
-          <div><p class="c-grid__work--description">Product Designer</p></div>
+          <div><p class="c-grid__work--role">Product Designer</p></div>
         </div>
       </div>
     </div>
@@ -202,16 +206,16 @@ description: Matthew Paul has 10+ years of experience designing 0–1 products, 
     </ul>
   </section>
   <section>
-    <h2 class="c-about__list-header">Things I Love</h2>
+    <h2 class="c-about__list-header">Favorite Things</h2>
     <ul class="c-about__list ul--square">
+      <li><a href="https://www.cosmos.so/matthewctraul/skateboarding" target="_blank">Snowboarding</a></li>
+      <li><a href="https://everydayoil.com/products/everyday-oil-mainstay-blend?variant=7540908227" target="_blank">Everyday oil</a></li>
       <li><a href="https://www.cosmos.so/matthewctraul/cabins" target="blank">Cabins</a></li>
       <li><a href="https://www.cosmos.so/matthewctraul/hiking-%26-camping" target="blank">Hiking & camping</a></li>
       <li><a href="https://www.cosmos.so/matthewctraul/printmaking" target="blank">Printmaking</a></li>
       <li><a href="https://www.cosmos.so/matthewctraul/dragon-ball" target="_blank">Dragon Ball/Z/Super</a></li>
       <li><a href="https://www.cosmos.so/matthewctraul/furniture-design" target="blank">Furniture & interior design</a></li>
       <li><a href="https://www.cosmos.so/matthewctraul/cats" target="blank">Cats</a></li>
-      <li><a href="https://www.cosmos.so/matthewctraul/skateboarding" target="_blank">Skateboarding</a></li>
-      <li><a href="https://everydayoil.com/products/everyday-oil-mainstay-blend?variant=7540908227" target="_blank">Everyday oil</a></li>
       <li><a href="https://www.cosmos.so/matthewctraul/80-series-land-cruisers" target="_blank">80 Series Land Cruisers</a></li>
     </ul>
   </section>

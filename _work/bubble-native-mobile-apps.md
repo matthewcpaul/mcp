@@ -7,10 +7,11 @@ title: Native Mobile Apps Editor
 org: Bubble Native Mobile Apps Editor
 role: Lead Product Designer
 tenure: 2023–2024
+hero: /images/bubble/BubbleNativeAppsAppBar.mp4
 hero-image: /images/bubble/BubbleNativeMobileAppsEditorHero.png
 hero-image-tablet: /images/bubble/BubbleNativeMobileAppsEditorHeroTablet.png
 hero-image-mobile: /images/bubble/BubbleNativeMobileAppsEditorHeroMobile.png
-description-1: I led design for this 0–1 product offering within the existing no-code Bubble platform. I researched native iOS, Android, and React Native app development, designed the largest product expansion & UI redesign in Bubble’s history, and collaborated with engineering to build and launch the private Beta release.
+description-1: I led design for this 0–1 product offering within the existing Bubble platform. I researched native iOS, Android, and React Native app development, designed the largest product expansion & UI redesign in Bubble’s history, and collaborated with engineering to build and launch the private Beta release.
 description-2: This tool enables new and existing Bubble customers from differing user profiles to build fully functioning native mobile apps. We gave users the tools to build with real native mobile patterns, and a worflow to publish their apps to the Apple App Store & Google Play Store; all without writing a single line of code.
 ---
 
@@ -27,7 +28,7 @@ description-2: This tool enables new and existing Bubble customers from differin
 
 </div>
 
-<div class="c-media c-media--border">
+<div class="c-media">
   <video src="../../images/bubble/BubbleNativeAppsAppBar.mp4" loop autoplay muted playsinline></video>
 </div>
 
@@ -38,7 +39,7 @@ Use the editor to design and build your apps with the most common mobile native 
 
 </div>
 
-<div class="c-media c-media--border">
+<div class="c-media">
   <video src="../../images/bubble/BubbleNativeAppsTabBar.mp4" loop autoplay muted playsinline></video>
 </div>
 
@@ -49,7 +50,7 @@ Decide which views you want to be the root views in the bottom Tab Bar, customiz
 
 </div>
 
-<div class="c-media c-media--border">
+<div class="c-media">
   <video src="../../images/bubble/BubbleNativeAppsDeploy.mp4" loop autoplay muted playsinline></video>
 </div>
 

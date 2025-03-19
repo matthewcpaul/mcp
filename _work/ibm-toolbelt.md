@@ -1,6 +1,5 @@
 ---
 layout: case-study
-order: 6
 logo: /images/work/IBMToolbelt.png
 title: ibm-toolbelt
 org: IBM Toolbet

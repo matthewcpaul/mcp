@@ -1,11 +1,11 @@
 .c-header {
 	display: flex;
 	justify-content: space-between;
-		align-items: center;
-	padding: $spacing-xxs 0;
+	align-items: center;
+	padding: $spacing-xs 0;
 
-	@media (min-width: $bp-xxxs) {
-		padding: $spacing-xs 0;
+	@media (min-width: $bp-xs) {
+		padding: $spacing-sm 0;
 	}
 
 	&__title {

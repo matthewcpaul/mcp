@@ -1,12 +1,13 @@
 ---
 layout: case-study-new
 product: 'yes'
-order: 5
+order: 3
 logo: /images/work/InVisionInspectMotion.png
 title: Inspect Motion
 org: InVision Inspect Motion
 role: Senior Product Designer
 tenure: 2019–2020
+hero: /images/invision/inspect-motion-timeline@2x.gif
 hero-image: /images/inspectmotion/InVisionInspectMotionHero.png
 hero-image-tablet: /images/inspectmotion/InVisionInspectMotionHeroTablet.png
 hero-image-mobile: /images/inspectmotion/InVisionInspectMotionHeroMobile.png
@@ -27,7 +28,7 @@ This redesign of the IA and refreshed UI brought what developers needed front an
 
 </div>
 
-<figure class="c-media c-media--border">
+<figure class="c-media">
   <picture>
     <source media="(min-width: 32em)" srcset="../../images/invision/inspect-studio@2x.gif"/>
     <img class="c-media c-media--padding" src="../../images/invision/inspect-studio.gif" alt="Redesigned Inspect web app"/>
@@ -41,7 +42,7 @@ Inspect Motion enables developers to dive deep into any animation from a designe
 
 </div>
 
-<figure class="c-media c-media--border">
+<figure class="c-media">
   <picture>
     <source media="(min-width: 32em)" srcset="../../images/invision/inspect-motion-timeline@2x.gif"/>
     <img class="c-media c-media--padding" src="../../images/invision/inspect-motion-timeline.gif" alt="Inspect Motion timeline"/>
@@ -55,7 +56,7 @@ Developers live and breathe keyboard shortcuts and are always looking for ways t
 
 </div>
 
-<figure class="c-media c-media--border">
+<figure class="c-media">
   <picture>
     <source media="(min-width: 32em)" srcset="../../images/invision/inspect-motion-keyboardshortcuts@2x.gif"/>
     <img class="c-media c-media--padding" src="../../images/invision/inspect-motion-keyboardshortcuts.gif" alt="Inspect Motion keyboard shortcuts"/>

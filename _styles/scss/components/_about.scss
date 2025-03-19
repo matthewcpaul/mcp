@@ -11,6 +11,7 @@
   }
 
   &__list {
+    color: $textBody;
     margin-top: $spacing-tiny;
 
     @media (min-width: $bp-xs) {

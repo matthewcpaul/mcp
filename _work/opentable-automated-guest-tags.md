@@ -1,13 +1,13 @@
 ---
 layout: case-study-new
 product: 'yes'
-type: product
 order: 4
 logo: /images/work/OpenTableAutomatedTags.png
 title: OpenTable Automated Guest Tags
 org: OpenTable Automated Guest Tags
 role: Senior Product Designer
 tenure: '2021'
+hero: /images/opentable/OpenTableCreateTag.mp4
 hero-image: /images/opentable/OpenTableAutomatedTagsHero.png
 hero-image-tablet: /images/opentable/OpenTableAutomatedTagsHeroTablet.png
 hero-image-mobile: /images/opentable/OpenTableAutomatedTagsHeroMobile.png

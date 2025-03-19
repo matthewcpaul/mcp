@@ -1,12 +1,13 @@
 ---
 layout: case-study-new
 product: 'yes'
-order: 3
+order: 2
 logo: /images/work/TheDotComAutomatedPages.png
 title: The.com Page Generation
 org: The.com Page Generation
 role: Founding Designer
 tenure: '2022'
+hero: /images/thedotcom/TheDotComViewSwitcher.mp4
 hero-image: /images/thedotcom/TheDotComAutomatedPagesHero.png
 hero-image-tablet: /images/thedotcom/TheDotComAutomatedPagesHeroTablet.png
 hero-image-mobile: /images/thedotcom/TheDotComAutomatedPagesHeroMobile.png

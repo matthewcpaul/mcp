@@ -15,21 +15,23 @@
   &__work {
     display: grid;
     grid-template-columns: 1fr;
-    column-gap: $spacing-xxs;
-    row-gap: $spacing-xs;
+    // column-gap: $spacing-xxs;
+    row-gap: $spacing-md;
     margin-top: $spacing-xxs;
 
-    @media (min-width: $bp-xxxs) {
-      grid-template-columns: repeat(2, 1fr);
-    }
+    // @media (min-width: $bp-xxxs) {
+    //   grid-template-columns: repeat(2, 1fr);
+    // }
 
     @media (min-width: $bp-xs) {
-      column-gap: $spacing-sm;
-      row-gap: $spacing-md;
+      // column-gap: $spacing-sm;
+      row-gap: $spacing-xxl;
       margin-top: $spacing-sm;
     }
 
     &--image {
+      display: flex;
+      flex-direction: column;
       grid-column: span 1;
     }
 
@@ -43,28 +45,49 @@
       transform: scale(1);
 
       &:hover {
-        transform: scale(1.05);
+        transform: scale(1.025);
         opacity: 0.8;
         color: $text;
       }
     }
 
-    &--thumbnail {
-      border-radius: 1.25rem;
-    }
-
     &--title {
       color: $text;
-      margin-top: $spacing-half;
+      margin-top: $spacing-tiny;
+
+      @media (min-width: $bp-mobile) {
+        margin-top: $spacing-xs;
+      }
 
       @media (min-width: $bp-xs) {
-        margin-top: $spacing-tiny;
+        margin-top: $spacing-xs;
+      }
+    }
+
+    &--tenure {
+      color: $textLight;
+      margin-top: 0.25rem;
+
+      @media (min-width: $bp-mobile) {
+        margin-top: 0.75rem;
+      }
+
+      @media (min-width: $bp-xs) {
+        // margin-top: 0.75rem;
       }
     }
 
     &--description {
-      margin-top: 0;
-      color: $textLight;
+      color: $textBody;
+      margin-top: $spacing-half;
+
+      @media (min-width: $bp-mobile) {
+        margin-top: 0.75rem;
+      }
+
+      @media (min-width: $bp-xs) {
+        // margin-top: 0.75rem;
+      }
     }
 
     &--experience {
@@ -80,8 +103,8 @@
     }
 
     &--logo {
-      height: 3.25rem;
-      width: 3.25rem;
+      height: 3.5rem;
+      width: 3.5rem;
       border-radius: 0.75rem;
       overflow: hidden;
 
@@ -107,7 +130,7 @@
       gap: $spacing-half;
 
       @media (min-width: $bp-xs) {
-        gap: $spacing-tiny;
+        gap: 0.75rem;
       }
     }
 
@@ -123,13 +146,18 @@
       line-height: 1rem;
       color: $textLight;
       background-color: $mediaBackground;
-      padding: 0.25rem $spacing-half;
-      border-radius: 0.25rem;
+      padding: 0.25rem 0.625rem;
+      border-radius: 0.875rem;
 
       @media (min-width: $bp-xs) {
         line-height: 1rem;
-        padding: 0.375rem $spacing-half;
+        padding: 0.375rem 0.75rem;
       }
+    }
+
+    &--role {
+      color: $textLight;
+      margin-top: 0;
     }
   }
 
