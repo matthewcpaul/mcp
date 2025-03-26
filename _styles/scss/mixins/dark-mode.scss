@@ -15,6 +15,10 @@
     color: $darktextLight;
   }
 
+  .h4 {
+    color: $darktextLight;
+  }
+
   p,
   ol,
   ul,
@@ -49,13 +53,21 @@
     color: $darktext;
   }
 
+  .c-grid__work--tenure {
+    color: $darktextLight;
+  }
+
+  .c-grid__work--role {
+    color: $darktextBody;
+  }
+
   .c-grid__work--tag {
     color: $darktextLight;
     background-color: $darkmediaBackground;
   }
 
-  .c-about__list-number {
-    color: $darktextLight;
+  .c-about__list {
+    color: $darktextBody;
   }
 
   .c-links__label {
@@ -88,6 +100,10 @@
     }
   }
 
+  .c-text__role {
+    color: $darktextBody;
+  }
+
   .c-header__title {
 		color: $darktext;
 
@@ -112,7 +128,7 @@
 		color: $darktextLight;
 
 		&:hover {
-			color: $darktext;
+			color: $darktextBody;
 		}
 
 		&.active {

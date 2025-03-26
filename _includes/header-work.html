@@ -4,9 +4,13 @@
 		<ul class="c-nav">
 			{% assign pages = site.pages | sort:"order" %}
 			{% for p in pages %}
-			{% if p.order >= 1 %}
+			{% if p.order == 1 %}
 			<li class="c-nav__item">
 				<a {% if p.title == "Work" %}class="c-nav__link active"{% else %}class="c-nav__link"{% endif %} href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+			</li>
+			{% else p.order == 2 %}
+			<li class="c-nav__item">
+				<a class="c-nav__link" href="{{ p.url | prepend: site.baseurl }}" target="_blank">{{ p.title }}</a>
 			</li>
 			{% endif %}
 			{% endfor %}

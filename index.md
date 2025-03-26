@@ -3,7 +3,7 @@ layout: work
 title: Work
 order: 1
 heading: Software Designer and Design Engineer specializing in designer, developer, and collaborative workflow tools.
-description: Matthew Paul has 12&plus; years of experience designing 0 → 1 products, shipping enterprise software at scale, and building and maintaining design systems.
+description: I have 12&plus; years of experience designing 0 → 1 products, shipping software at scale, and building and maintaining design systems.
 ---
 
 <section class="c-grid__section">
@@ -195,20 +195,21 @@ description: Matthew Paul has 12&plus; years of experience designing 0 → 1 pro
     <h2 class="c-about__list-header">Tech Stack</h2>
     <ul class="c-about__list">
       <li>Figma</li>
+      <li>Cursor</li>
       <li>HTML</li>
       <li>CSS (Tailwind, CSS-in-JS, SCSS)</li>
       <li>Javascript / Typescript</li>
       <li>React</li>
       <li>Next.js</li>
-      <li>Storybook</li>
-      <li>Sanity Studio</li>
       <li>Vercel</li>
+      <li>Storybook</li>
+      <li>Sanity</li>
     </ul>
   </section>
   <section>
     <h2 class="c-about__list-header">Favorite Things</h2>
     <ul class="c-about__list ul--square">
-      <li><a href="https://www.cosmos.so/matthewctraul/skateboarding" target="_blank">Snowboarding</a></li>
+      <li><a href="https://www.cosmos.so/matthewctraul/skateboarding" target="_blank">Skateboarding</a></li>
       <li><a href="https://everydayoil.com/products/everyday-oil-mainstay-blend?variant=7540908227" target="_blank">Everyday oil</a></li>
       <li><a href="https://www.cosmos.so/matthewctraul/cabins" target="blank">Cabins</a></li>
       <li><a href="https://www.cosmos.so/matthewctraul/hiking-%26-camping" target="blank">Hiking & camping</a></li>
@@ -222,14 +223,14 @@ description: Matthew Paul has 12&plus; years of experience designing 0 → 1 pro
   <section>
     <h2 class="c-about__list-header">Connect</h2>
     <ul class="c-about__list ul--circle">
-      <li style="text-decoration: none">mclydep@gmail.com</li>
+      <li style="text-decoration: none !important">mclydep@gmail.com</li>
       <li><a href="https://x.com/matthewcpaul" target="_blank">Twitter</a></li>
-      <li><a href="https://read.cv/matthewctraul" target="_blank">Read.cv</a></li>
       <li><a href="https://www.linkedin.com/in/matthew-c-paul/" target="_blank">LinkedIn</a></li>
+      <li><a href="https://read.cv/matthewctraul" target="_blank">Read.cv</a></li>
       <li><a href="https://github.com/matthewcpaul" target="_blank">GitHub</a></li>
-      <li><a href="https://substack.com/@matthewcpaul" target="_blank">Substack</a></li>
       <li><a href="https://codepen.io/matthewcpaul/pens/popular" target="_blank">CodePen</a></li>
       <li><a href="https://dribbble.com/matthewcpaul" target="_blank">Dribbble</a></li>
+      <li><a href="https://substack.com/@matthewcpaul" target="_blank">Substack</a></li>
     </ul>
   </section>
 </div>

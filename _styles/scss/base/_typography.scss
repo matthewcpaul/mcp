@@ -30,6 +30,38 @@ h4 {
   @media (min-width: $bp-mobile) {
     max-width: none;
   }
+
+  @media (min-width: $bp-heading-1120) {
+    max-width: 60rem;
+  }
+
+  @media (min-width: $bp-heading-1160) {
+    max-width: none;
+  }
+}
+
+.description-max-width {
+  @media (min-width: $bp-description-976) {
+    max-width: 51rem;
+  }
+
+  @media (min-width: $bp-description-988) {
+    max-width: 61rem;
+  }
+
+  @media (min-width: $bp-heading-1160) {
+    max-width: none;
+  }
+}
+
+h1 + p {
+  @include font-4;
+  margin-top: $spacing-xxs;
+
+  @media (min-width: $bp-xs) {
+    @include font-3-regular;
+    margin-top: $spacing-xs;
+  }
 }
 
 p,
@@ -78,16 +110,6 @@ figure + h1 {
 
   @media (min-width: $bp-xs) {
     margin-top: $spacing-md;
-  }
-}
-
-h1 + p {
-  @include font-4;
-  margin-top: $spacing-xxs;
-
-  @media (min-width: $bp-xs) {
-    @include font-3-regular;
-    margin-top: $spacing-xs;
   }
 }
 

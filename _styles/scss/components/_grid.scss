@@ -71,22 +71,13 @@
       @media (min-width: $bp-mobile) {
         margin-top: 0.75rem;
       }
-
-      @media (min-width: $bp-xs) {
-        // margin-top: 0.75rem;
-      }
     }
 
     &--description {
-      color: $textBody;
       margin-top: $spacing-half;
 
       @media (min-width: $bp-mobile) {
         margin-top: 0.75rem;
-      }
-
-      @media (min-width: $bp-xs) {
-        // margin-top: 0.75rem;
       }
     }
 
@@ -156,7 +147,7 @@
     }
 
     &--role {
-      color: $textLight;
+      color: $textBody;
       margin-top: 0;
     }
   }
