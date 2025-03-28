@@ -14,14 +14,20 @@ description: I have 12&plus; years of experience designing 0 → 1 products, shi
     {% if work.product %}
       <div class="c-grid__work--image">
         <!-- <a class="c-grid__work--link" href="{{ work.url | prepend: site.baseurl }}" aria-label="{{ work.org }}"> -->
-          <!-- <img class="c-media c-media--padding" src="..{{ work.logo }}" alt=""> -->
-          <div class="c-media">
+          <img class="c-media c-media--padding" src="..{{ work.thumbnail }}" alt="">
+          <!-- <div class="c-media c-media--padding">
             <video src="..{{ work.hero }}" loop autoplay muted playsinline></video>
-          </div>
+          </div> -->
         <!-- </a> -->
-        <h3 class="c-grid__work--title">{{ work.org }}</h3>
-        <p class="c-grid__work--tenure">{{ work.tenure }}</p>
-        <p class="c-grid__work--description">{{ work.description-1 }}</p>
+        <h3 class="c-grid__work--title">{{ work.title }}</h3>
+        <div class="c-grid__work--tags">
+          {% for work in work.tags %}
+            <div class="c-grid__work--tag">{{ work.tag }}</div>
+          {% endfor %}
+        </div>
+        {% for work in work.descriptions %}
+          <p class="c-grid__work--description">{{ work.description }}</p>
+        {% endfor %}
       </div>
     {% endif %}
     {% endfor %}

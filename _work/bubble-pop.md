@@ -2,7 +2,6 @@
 layout: case-study-new
 logo: /images/work/BubblePop.png
 title: Bubble Pop Design System
-org: Bubble Pop Design System
 role: Lead Product Designer
 tenure: 2023–2024
 hero-image: /images/pop/BubblePopHero.png

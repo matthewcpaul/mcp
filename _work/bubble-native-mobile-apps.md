@@ -2,17 +2,25 @@
 layout: case-study-new
 product: 'yes'
 order: 1
-logo: /images/work/BubbleNativeMobileAppsEditor.png
-title: Native Mobile Apps Editor
-org: Bubble Native Mobile Apps Editor
-role: Lead Product Designer
+thumbnail: /images/bubble/BubbleNativeMobileAppsEditorHero.png
+title: Bubble Native Mobile Apps Editor
+tags:
+  - tag: [Product Design]
+  - tag: [0 → 1]
+  - tag: [Design Tool]
+  - tag: [Dev Tool]
+  - tag: [Web]
+  - tag: [Mobile App]
+descriptions:
+  - description: "Drove the direction, led the design, and executed on the details for the launch of Bubble Native Mobile Apps—the largest product expansion in Bubble’s history."
+  - description: "I designed the core concepts for how to design, build, and publish native mobile apps for iOS and Android in a new no-code editor: views, native components, navigation, interactions, gestures, hardware integrations, and all of the other mobile-specific capabilities."
 tenure: 2023–2024
 hero: /images/bubble/BubbleNativeAppsAppBar.mp4
 hero-image: /images/bubble/BubbleNativeMobileAppsEditorHero.png
 hero-image-tablet: /images/bubble/BubbleNativeMobileAppsEditorHeroTablet.png
 hero-image-mobile: /images/bubble/BubbleNativeMobileAppsEditorHeroMobile.png
 description-1: I led design for this 0–1 product offering within the existing Bubble platform. I researched native iOS, Android, and React Native app development, designed the largest product expansion & UI redesign in Bubble’s history, and collaborated with engineering to build and launch the private Beta release.
-description-2: This tool enables new and existing Bubble customers from differing user profiles to build fully functioning native mobile apps. We gave users the tools to build with real native mobile patterns, and a worflow to publish their apps to the Apple App Store & Google Play Store; all without writing a single line of code.
+description-2: This tool enables new and existing Bubble customers from differing user profiles to build fully functioning native mobile apps. We gave users the tools to build with real native mobile patterns, and a workflow to publish their apps to the Apple App Store & Google Play Store; all without writing a single line of code.
 ---
 
 <div class="c-wrap__project" markdown=1>

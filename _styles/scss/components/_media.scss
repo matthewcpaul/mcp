@@ -1,6 +1,5 @@
 .c-media {
   background: $mediaBackground;
-  // border-radius: 1.25rem;
   overflow: hidden;
 
   // & video {
@@ -38,12 +37,8 @@
   &--padding {
     padding: $spacing-tiny;
 
-    @media (min-width: $bp-xxs) {
-      padding: $spacing-xxs;
-    }
-
     @media (min-width: $bp-xs) {
-      padding: $spacing-sm;
+      padding: $spacing-xxs;
     }
 
     &-lg {

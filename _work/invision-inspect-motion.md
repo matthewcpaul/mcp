@@ -2,10 +2,17 @@
 layout: case-study-new
 product: 'yes'
 order: 3
-logo: /images/work/InVisionInspectMotion.png
-title: Inspect Motion
-org: InVision Inspect Motion
-role: Senior Product Designer
+thumbnail: /images/inspectmotion/InVisionInspectMotionHero.png
+title: InVision Inspect Motion
+tags:
+  - tag: [Product Design]
+  - tag: [0 → 1]
+  - tag: [Dev Tool]
+  - tag: [Web]
+  - tag: [Desktop]
+descriptions:
+  - description: "Led the design of a new developer tool call Inspect Motion—a first of its kind collaboration product that pioneered better designer and developer collaboration for UI motion design."
+  - description: "Inspect Motion gave developers a tool to find every attribute—design properties, start and end values, duration, delay, and easing curves—for any animating property on any element from a designer’s prototype. This enabled developers to precisely match the designer’s intent and craft of of fine-tuned motion details."
 tenure: 2019–2020
 hero: /images/invision/inspect-motion-timeline@2x.gif
 hero-image: /images/inspectmotion/InVisionInspectMotionHero.png
