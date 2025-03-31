@@ -35,7 +35,11 @@
   }
 
   &--padding {
-    padding: $spacing-tiny;
+    padding: $spacing-half;
+
+    @media (min-width: 520px) {
+      padding: $spacing-tiny;
+    }
 
     @media (min-width: $bp-xs) {
       padding: $spacing-xxs;
@@ -63,7 +67,7 @@
   }
 
   & + h3 {
-    margin-top: $spacing-xxs;
+    margin-top: $spacing-tiny;
 
     @media (min-width: $bp-xs) {
       margin-top: $spacing-xs;

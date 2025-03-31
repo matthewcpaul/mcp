@@ -8,6 +8,35 @@
 		padding: $spacing-sm 0;
 	}
 
+	&__name {
+		display: flex;
+		align-items: center;
+		gap: 0.75rem;
+
+		@media (min-width: $bp-xs) {
+			gap: $spacing-tiny;
+		}
+	}
+
+	&__avatar {
+		width: 1.75rem;
+		height: 1.75rem;
+		border-radius: 0.875rem;
+		overflow: hidden;
+
+		@media (min-width: 520px) {
+      width: 2rem;
+			height: 2rem;
+			border-radius: 1rem;
+    }
+
+		@media (min-width: $bp-xs) {
+			width: 2.5rem;
+			height: 2.5rem;
+			border-radius: 1.25rem;
+		}
+	}
+
 	&__title {
 		@include font-4;
 		color: $text;
@@ -23,29 +52,29 @@
 		align-items: center;
 	}
 
-	&__button {
-		display: none;
-    background: transparent;
-    width: 1.5rem;
-    height: 1.5rem;
-		border: 0;
-		margin-top: 1px;
-		margin-left: $spacing-xxs;
+	// &__button {
+	// 	display: none;
+  //   background: transparent;
+  //   width: 1.5rem;
+  //   height: 1.5rem;
+	// 	border: 0;
+	// 	margin-top: 1px;
+	// 	margin-left: $spacing-xxs;
 
-		@media (min-width: $bp-xs) {
-			margin-left: $spacing-xs;
-		}
+	// 	@media (min-width: $bp-xxs) {
+	// 		display: block;
+	// 	}
 
-		@media (min-width: $bp-xxs) {
-			display: block;
-		}
+	// 	@media (min-width: $bp-xs) {
+	// 		margin-left: $spacing-xs;
+	// 	}
 	
-    &:hover {
-      cursor: pointer;
-    }
+  //   &:hover {
+  //     cursor: pointer;
+  //   }
 	
-    &:focus {
-      outline: 0;
-		}
-	}
+  //   &:focus {
+  //     outline: 0;
+	// 	}
+	// }
 }

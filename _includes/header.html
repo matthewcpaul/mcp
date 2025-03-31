@@ -1,5 +1,10 @@
 <header class="c-header">
-	<a class="c-header__title" href="{{ "/" | prepend: site.baseurl }}">{{ site.name }}</a>
+	<div class="c-header__name">
+		<div class="c-header__avatar">
+			<img src="../images/about/avatar.jpg" alt="Avatar of Matthew Paul">
+		</div>
+		<a class="c-header__title" href="{{ "/" | prepend: site.baseurl }}">{{ site.name }}</a>
+	</div>
 	<nav class="c-header__nav" role="navigation">
 		<ul class="c-nav">
 			{% assign pages = site.pages | sort:"order" %}

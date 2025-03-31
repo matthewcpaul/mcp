@@ -65,10 +65,10 @@
     }
 
     &--description {
-      margin-top: $spacing-half;
+      // margin-top: $spacing-half;
 
       @media (min-width: $bp-mobile) {
-        margin-top: 0.75rem;
+        // margin-top: 0.75rem;
       }
     }
 
@@ -128,21 +128,21 @@
       flex-wrap: wrap;
       gap: $spacing-half;
       color: $textLight;
-      margin-top: 0.625rem;
-      margin-bottom: 0.125rem;
+      margin-top: 0.75rem;
+      margin-bottom: 1.375rem;
 
-      @media (min-width: $bp-mobile) {
-        margin-top: 1.375rem;
-        margin-bottom: 0.5rem;
+      @media (min-width: $bp-xs) {
+        margin-top: 1.25rem;
+        margin-bottom: $spacing-xs;
       }
     }
 
     &--tag {
       @include font-5;
       line-height: 1rem;
-      color: $textLight;
+      color: $textTag;
       background-color: $mediaBackground;
-      padding: 0.25rem 0.625rem;
+      padding: 3.5px 0.625rem 4.5px 0.625rem;
       border-radius: 0.875rem;
 
       @media (min-width: $bp-xs) {
