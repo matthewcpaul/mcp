@@ -11,7 +11,7 @@ tags:
   - tag: [Dev Tool]
   - tag: [Web]
 descriptions:
-  - description: "Led product, design, and design systems for The.com’s no-code sheet-based website builder and CMS tool. I helped them learn from early customers through generative and evaluative research, iterated and improved on their core product, and designed a new product surface area called Page Generation."
+  - description: "Led product, design, and design systems for The.com’s no-code sheet-based website builder and CMS tool. I helped them learn from early customers through generative and evaluative research, iterated and improved on the core product, and designed a new product surface area called Page Generation."
   - description: "Page Generation enables customers to create page templates, use a split-screen view to link sheet columns to any CSS property or piece of content, and automatically generate sheet rows with AI. Every new row creates a new page based on the template."
 tenure: '2022'
 hero: /images/thedotcom/TheDotComViewSwitcher.mp4
