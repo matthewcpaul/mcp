@@ -10,8 +10,8 @@ tags:
   - tag: [Web]
   - tag: [Tablet]
 descriptions:
-  - description: "I worked with OpenTable to design a new tool for restaurant owners and operators that allows them to create and manage automated guest tags."
-  - description: "These tags can be configured by any business rules and criteria that are then automatically added to a restaurant guest’s profile once the criteria are met by that guest. These tags are then surfaced in guest’s profiles for the front-of-house staff."
+  - description: "I worked with OpenTable to design a new tool for restaurant owners and operators which allows them to create and manage automated guest tags."
+  - description: "These tags can be configured by any business rules and criteria, and are then automatically added to a restaurant guest’s profile once that criteria is met by the guest. These tags are then surfaced in guest’s profiles in the tablet app for the front-of-house staff."
 tenure: '2021'
 hero: /images/opentable/OpenTableCreateTag.mp4
 hero-image: /images/opentable/OpenTableAutomatedTagsHero.png
