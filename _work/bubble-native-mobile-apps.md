@@ -13,7 +13,7 @@ tags:
   - tag: [Mobile App]
 descriptions:
   - description: "Drove the direction, led the design, and executed on the details for the launch of Bubble Native Mobile Apps—the largest product expansion in Bubble’s history."
-  - description: "I designed the core concepts for how to design, build, preview, and publish native mobile apps for iOS and Android in a brand new no-code editor: views, navigation, native components, interactions, gestures, hardware integrations, and all the other mobile-specific capabilities."
+  - description: "I designed the core concepts for how to design, build, preview, and publish native mobile apps for iOS and Android in a brand new no-code editor: views, navigation, lists, native components, interactions, gestures, hardware integrations, and all the other mobile-specific capabilities."
 tenure: 2023–2024
 hero: /images/bubble/BubbleNativeAppsAppBar.mp4
 hero-image: /images/bubble/BubbleNativeMobileAppsEditorHero.png
