@@ -217,16 +217,16 @@ description: I have 12&plus; years of experience designing 0 → 1 products, shi
   <section>
     <h2 class="c-about__list-header">Favorite Things</h2>
     <ul class="c-about__list ul--square">
-      <li><a href="https://www.cosmos.so/matthewctraul/skateboarding" target="_blank">Skateboarding</a></li>
-      <li><a href="https://www.cosmos.so/matthewctraul/snowboarding" target="_blank">Snowboarding</a></li>
+      <li><a href="https://www.cosmos.so/matthewcpaul/skateboarding" target="_blank">Skateboarding</a></li>
+      <li><a href="https://www.cosmos.so/matthewcpaul/snowboarding" target="_blank">Snowboarding</a></li>
       <li><a href="https://everydayoil.com/products/everyday-oil-mainstay-blend?variant=7540908227" target="_blank">Everyday Oil</a></li>
-      <li><a href="https://www.cosmos.so/matthewctraul/cabins" target="blank">Cabins</a></li>
-      <li><a href="https://www.cosmos.so/matthewctraul/hiking-%26-camping" target="blank">Hiking & camping</a></li>
-      <li><a href="https://www.cosmos.so/matthewctraul/printmaking" target="blank">Printmaking</a></li>
-      <li><a href="https://www.cosmos.so/matthewctraul/dragon-ball" target="_blank">Dragon Ball/Z/Super</a></li>
-      <li><a href="https://www.cosmos.so/matthewctraul/furniture-design" target="blank">Furniture & interior design</a></li>
-      <li><a href="https://www.cosmos.so/matthewctraul/cats" target="blank">Cats</a></li>
-      <li><a href="https://www.cosmos.so/matthewctraul/80-series-land-cruisers" target="_blank">80 Series Land Cruisers</a></li>
+      <li><a href="https://www.cosmos.so/matthewcpaul/cabins" target="blank">Cabins</a></li>
+      <li><a href="https://www.cosmos.so/matthewcpaul/hiking-%26-camping" target="blank">Hiking & camping</a></li>
+      <li><a href="https://www.cosmos.so/matthewcpaul/printmaking" target="blank">Printmaking</a></li>
+      <li><a href="https://www.cosmos.so/matthewcpaul/dragon-ball" target="_blank">Dragon Ball/Z/Super</a></li>
+      <li><a href="https://www.cosmos.so/matthewcpaul/furniture-design" target="blank">Furniture & interior design</a></li>
+      <li><a href="https://www.cosmos.so/matthewcpaul/cats" target="blank">Cats</a></li>
+      <li><a href="https://www.cosmos.so/matthewcpaul/80-series-land-cruisers" target="_blank">80 Series Land Cruisers</a></li>
     </ul>
   </section>
   <section>
