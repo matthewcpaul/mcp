@@ -191,6 +191,7 @@ description: I have 12&plus; years of experience designing 0 → 1 products, shi
       <li>Design Engineering</li>
       <li>Design Systems</li>
       <li>UX Research</li>
+      <li>Design Vision</li>
       <li>Product Strategy</li>
       <li>Planning & Prioritization</li>
       <li>UX Writing</li>
@@ -210,13 +211,15 @@ description: I have 12&plus; years of experience designing 0 → 1 products, shi
       <li>Vercel</li>
       <li>Storybook</li>
       <li>Sanity</li>
+      <li>SwiftUI</li>
     </ul>
   </section>
   <section>
     <h2 class="c-about__list-header">Favorite Things</h2>
     <ul class="c-about__list ul--square">
       <li><a href="https://www.cosmos.so/matthewctraul/skateboarding" target="_blank">Skateboarding</a></li>
-      <li><a href="https://everydayoil.com/products/everyday-oil-mainstay-blend?variant=7540908227" target="_blank">Everyday oil</a></li>
+      <li><a href="https://www.cosmos.so/matthewctraul/snowboarding" target="_blank">Snowboarding</a></li>
+      <li><a href="https://everydayoil.com/products/everyday-oil-mainstay-blend?variant=7540908227" target="_blank">Everyday Oil</a></li>
       <li><a href="https://www.cosmos.so/matthewctraul/cabins" target="blank">Cabins</a></li>
       <li><a href="https://www.cosmos.so/matthewctraul/hiking-%26-camping" target="blank">Hiking & camping</a></li>
       <li><a href="https://www.cosmos.so/matthewctraul/printmaking" target="blank">Printmaking</a></li>
@@ -232,7 +235,6 @@ description: I have 12&plus; years of experience designing 0 → 1 products, shi
       <li style="text-decoration: none !important">mclydep@gmail.com</li>
       <li><a href="https://x.com/matthewcpaul" target="_blank">Twitter</a></li>
       <li><a href="https://www.linkedin.com/in/matthew-c-paul/" target="_blank">LinkedIn</a></li>
-      <li><a href="https://read.cv/matthewctraul" target="_blank">Read.cv</a></li>
       <li><a href="https://github.com/matthewcpaul" target="_blank">GitHub</a></li>
       <li><a href="https://codepen.io/matthewcpaul/pens/popular" target="_blank">CodePen</a></li>
       <li><a href="https://dribbble.com/matthewcpaul" target="_blank">Dribbble</a></li>
