@@ -56,7 +56,7 @@ h4 {
 
 h1 + p {
   @include font-4;
-  margin-top: $spacing-xxs;
+  margin-top: $spacing-tiny;
 
   @media (min-width: $bp-xs) {
     @include font-3-regular;
