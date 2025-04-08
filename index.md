@@ -20,11 +20,11 @@ description: I have 12&plus; years of experience designing 0 → 1 products, shi
           </div> -->
         <!-- </a> -->
         <h3 class="c-grid__work--title">{{ work.title }}</h3>
-        <div class="c-grid__work--tags">
+        <!-- <div class="c-grid__work--tags">
           {% for work in work.tags %}
             <div class="c-grid__work--tag">{{ work.tag }}</div>
           {% endfor %}
-        </div>
+        </div> -->
         {% for work in work.descriptions %}
           <p class="c-grid__work--description">{{ work.description }}</p>
         {% endfor %}
