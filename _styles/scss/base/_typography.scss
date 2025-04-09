@@ -130,10 +130,10 @@ h2 + h3 {
 }
 
 h3 + p {
-  margin-top: $spacing-tiny;
+  margin-top: $spacing-half;
 
   @media (min-width: $bp-xs) {
-    margin-top: $spacing-xxs;
+    margin-top: $spacing-tiny;
   }
 }
 
@@ -178,7 +178,7 @@ section + p{
   margin-top: $spacing-tiny;
 
   @media (min-width: $bp-xs) {
-    margin-top: $spacing-xxs;
+    margin-top: 1.25rem;
   }
 }
 
