@@ -26,7 +26,7 @@ description: I have 12&plus; years of experience designing 0 → 1 products, shi
           {% endfor %}
         </div> -->
         {% for work in work.descriptions %}
-          <p class="c-grid__work--description">{{ work.description }}</p>
+          <p>{{ work.description }}</p>
         {% endfor %}
       </div>
     {% endif %}

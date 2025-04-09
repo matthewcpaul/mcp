@@ -2,26 +2,6 @@
   background: $mediaBackground;
   overflow: hidden;
 
-  // & video {
-  //   border-radius: 4px;
-
-  //   @media (min-width: $bp-xxs) {
-  //     border-radius: 5px;
-  //   }
-
-  //   @media (min-width: $bp-xs) {
-  //     border-radius: 6px;
-  //   }
-
-  //   @media (min-width: $bp-sm) {
-  //     border-radius: 7px;
-  //   }
-
-  //   @media (min-width: $bp-md) {
-  //     border-radius: 8px;
-  //   }
-  // }
-
   & + h1 {
     margin-top: $spacing-xxs;
 
@@ -37,7 +17,7 @@
   &--padding {
     padding: $spacing-half;
 
-    @media (min-width: 520px) {
+    @media (min-width: $bp-tiny) {
       padding: $spacing-tiny;
     }
 
@@ -68,6 +48,14 @@
 
   & + h3 {
     margin-top: $spacing-tiny;
+
+    @media (min-width: $bp-tiny) {
+      margin-top: $spacing-xxs;
+    }
+
+    @media (min-width: $bp-xxs) {
+      margin-top: 1.75rem;
+    }
 
     @media (min-width: $bp-xs) {
       margin-top: $spacing-xs;

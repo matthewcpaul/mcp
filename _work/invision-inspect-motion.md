@@ -1,5 +1,5 @@
 ---
-layout: case-study-new
+layout: case-study
 product: 'yes'
 order: 3
 thumbnail: /images/inspectmotion/InVisionInspectMotionHero.png

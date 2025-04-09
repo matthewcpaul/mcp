@@ -130,7 +130,7 @@ h2 + h3 {
 }
 
 h3 + p {
-  margin-top: $spacing-half;
+  margin-top: 0.75rem;
 
   @media (min-width: $bp-xs) {
     margin-top: $spacing-tiny;
@@ -273,13 +273,9 @@ hr {
   height: 0;
   border: none;
   border-bottom: 1px solid $borderColor;
-  margin: $spacing-sm 0;
-
-  @media (min-width: $bp-mobile) {
-    margin: $spacing-md 0;
-  }
+  margin: $spacing-md 0;
 
   @media (min-width: $bp-xs) {
-    margin: $spacing-xl 0;
+    margin: $spacing-xxl 0;
   }
 }

@@ -1,5 +1,5 @@
 ---
-layout: case-study-new
+layout: case-study
 product: 'yes'
 order: 2
 thumbnail: /images/thedotcom/TheDotComAutomatedPagesHero.png

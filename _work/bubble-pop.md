@@ -1,5 +1,5 @@
 ---
-layout: case-study-new
+layout: case-study
 logo: /images/work/BubblePop.png
 title: Bubble Pop Design System
 role: Lead Product Designer
