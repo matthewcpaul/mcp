@@ -2,7 +2,7 @@
 layout: work
 title: Work
 order: 1
-heading: Product Designer and Design Engineer specializing in designer, developer, and collaborative workflow tools
+heading: Product Designer and Design Engineer specializing in designer, developer, and collaboration tools
 description: I have 12&plus; years of experience designing 0 → 1 products, shipping software at scale, and building and maintaining design systems.
 ---
 
